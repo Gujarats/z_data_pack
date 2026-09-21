@@ -1,0 +1,2 @@
+# Witcher 2 XML files are UTF-16; force Git diffs without changing their encoding.
+*.xml diff
