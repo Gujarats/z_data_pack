@@ -2,51 +2,51 @@
 <definitions>
   <abilities>
     <ability name="Endriag Claws _Stats">
-      <damage_min mult="false" always_random="false" min="1" max="1" />
-      <damage_max mult="false" always_random="false" min="2" max="2" />
-    </ability>
-    <ability name="Endriag Default">
-      <level mult="false" always_random="false" min="9" max="9" />
-      <experience mult="false" always_random="false" min="140" max="140" />
-      <vitality mult="false" always_random="false" min="140" max="140" />
-      <vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
-      <vitality_combat_regen mult="false" always_random="false" min="2.8" max="2.8" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="5" max="5" />
-      <damage_reduction_block mult="false" always_random="false" min="20" max="20" />
-      <res_poision mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_blind mult="false" always_random="false" min="0.3" max="0.3" />
-      <damage_min mult="false" always_random="false" min="20" max="20" />
-      <damage_max mult="false" always_random="false" min="40" max="40" />
-    </ability>
-    <ability name="Greater Endriag">
-      <level mult="false" always_random="false" min="10" max="10" />
-      <experience mult="false" always_random="false" min="300" max="300" />
-      <vitality mult="false" always_random="false" min="450" max="450" />
-      <vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
-      <vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="30" max="30" />
-      <damage_reduction_block mult="false" always_random="false" min="25" max="25" />
-      <res_poision mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_falter mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_stun mult="false" always_random="false" min="0.5" max="0.5" />
-      <res_burn mult="false" always_random="false" min="0.2" max="0.2" />
-      <res_blind mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_fear mult="false" always_random="false" min="1" max="1" />
-      <res_laming mult="false" always_random="false" min="0.9" max="0.9" />
-      <damage_min mult="false" always_random="false" min="25" max="25" />
-      <damage_max mult="false" always_random="false" min="50" max="50" />
-    </ability>
-  </abilities>
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+		</ability>  
+
+		<ability name="Endriag Default">
+			<level mult="false" always_random="false" min="9" max="9" />
+			<experience mult="false" always_random="false" min="140" max="140" />
+			<vitality mult="false" always_random="false" min="140" max="140" />
+			<vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
+			<damage_reduction mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="41" max="41" />
+			<res_poision mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_blind mult="false" always_random="false" min="0.3" max="0.3" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
+		</ability>  
+
+		<ability name="Greater Endriag">
+			<level mult="false" always_random="false" min="10" max="10" />
+			<experience mult="false" always_random="false" min="300" max="300" />
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
+			<damage_reduction mult="false" always_random="false" min="30" max="30" />
+			<damage_reduction_block mult="false" always_random="false" min="51" max="51" />
+			<res_poision mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_falter mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_burn mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_blind mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_fear mult="false" always_random="false" min="1" max="1" />
+			<res_laming mult="false" always_random="false" min="0.9" max="0.9" />
+			<damage_min mult="false" always_random="false" min="25" max="25" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+		</ability>  	
+
+	</abilities>
   <items>
     <item name="Endriag claws" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="None" weapon="true" lethal="true">
-      <tags>NoDrop,NoShow</tags>
-      <base_abilities>
-        <a>Endriag Claws _Stats</a>
-      </base_abilities>
-    </item>
-  </items>
+			<tags>NoDrop,NoShow</tags>
+			<base_abilities>
+				<a>Endriag Claws _Stats</a>
+			</base_abilities>
+		</item>    
+
+	</items>
 </definitions>

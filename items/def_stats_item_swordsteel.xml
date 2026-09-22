@@ -8,617 +8,545 @@
 ########## IMPORTED ########## 
 
 		<ability name="Ardaenye _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="12" max="12" />
-            <vitality mult="false" always_random="false" min="30" max="30" type="critical" />
-            <crt_freeze display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-            <damage_reduction_block mult="false" always_random="false" min="6" max="6" /> 
-		</ability>
-
-		<ability name="Dyaebl _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="6" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-            <vitality mult="false" always_random="false" min="20" max="20" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
-            <crt_stun display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="critical" />
-		</ability>
-
-		<ability name="Gwalhir _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.13" max="0.13" type="critical" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.13" max="0.13" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="5" max="5" />
-		</ability>
-	
-		<ability name="ImportedMahakamRuneSihil _Stats">
-			<damage_min mult="false" always_random="false" min="9" max="9" />
-			<damage_max mult="false" always_random="false" min="13" max="13" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-            <damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-		</ability>
-
-
-#-------------------------- AKT 1 (i prolog)
-
-		<ability name="Rusty Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="9" max="9" />
-			<damage_max mult="false" always_random="false" min="13" max="13" />
-		</ability>
-
-
-		<ability name="Long Steel Sword _Stats">
 			<damage_min mult="false" always_random="false" min="7" max="7" />
 			<damage_max mult="false" always_random="false" min="15" max="15" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />			
+		</ability>
+
+		#Q2
+		<ability name="Dyaebl _Stats">
+			<damage_min mult="false" always_random="false" min="9" max="9" />
+			<damage_max mult="false" always_random="false" min="13" max="13" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" />
+		</ability>
+		#Q2
+		<ability name="Gwalhir _Stats">
+			<damage_min mult="false" always_random="false" min="9" max="9" />
+			<damage_max mult="false" always_random="false" min="13" max="13" />
+		</ability>
+
+		#Q2
+		<ability name="ImportedMahakamRuneSihil _Stats">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="12" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" />
+		</ability>
+		#Q1
+		<ability name="Rusty Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="6" max="6" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+		</ability>
+
+		#Q2
+		<ability name="Long Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="11" max="11" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
 			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
 		</ability>
 
-
-
+		#Q3
 		<ability name="High Quality Long Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />			
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-		</ability>
-
-
-		<ability name="Short Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="11" max="11" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
-                        <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" />
-		</ability>
-
-		<ability name="High Quality Short Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="13" max="13" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-                        <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" />
-		</ability>
-
-
-		<ability name="Hunting Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="11" max="11" />
-			<damage_max mult="false" always_random="false" min="14" max="14" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-		</ability>		
-
-		<ability name="High Quality Hunting Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="12" max="12" />
-			<damage_max mult="false" always_random="false" min="15" max="15" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="critical" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-		</ability>
-
-
-		<ability name="Elven Sword of Blue Mountains _Stats">
-			<damage_min mult="false" always_random="false" min="11" max="11" />
-			<damage_max mult="false" always_random="false" min="14" max="14" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="6" max="6" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="bonus" />		
-		</ability>	
-
-
-		<ability name="Creydenian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="12" max="12" />
-			<damage_max mult="false" always_random="false" min="16" max="16" />                        
-                        <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.09" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.08" type="critical" />
-                        <damage_reduction_block mult="false" always_random="false" min="3" max="3" />
-		</ability>
-
-		<ability name="Rusty Nilfgaardian Sword _Stats">
-			<damage_min mult="false" always_random="false" min="13" max="13" />
-			<damage_max mult="false" always_random="false" min="17" max="17" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-		</ability>
-		
-		<ability name="Caingornian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="12" max="12" />
-			<damage_max mult="false" always_random="false" min="16" max="16" />
-                        <crt_stun display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
-		</ability>
-		
-		<ability name="Yspadenian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="13" max="13" />
-			<damage_max mult="false" always_random="false" min="18" max="18" />
-                        <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-                        <damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-		</ability>
-
-
-		<ability name="Temerian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="12" max="12" />
-			<damage_max mult="false" always_random="false" min="17" max="17" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="critical" />
-	                <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="critical" />	
-		</ability>
-
-		<ability name="Temerian Elite Sword _Stats">
 			<damage_min mult="false" always_random="false" min="14" max="14" />
 			<damage_max mult="false" always_random="false" min="20" max="20" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-	                <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
+			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
 		</ability>
-		
 
-		<ability name="Jagged Blade _Stats">
-			<damage_min mult="false" always_random="false" min="14" max="14" />
-			<damage_max mult="false" always_random="false" min="21" max="21" />
+		#Q6
+		<ability name="Short Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+		</ability>
+
+		#Q2
+		<ability name="High Quality Short Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="11" max="11" />
+			<damage_max mult="false" always_random="false" min="14" max="14" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>
+
+		#Q4
+		<ability name="Hunting Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="17" max="17" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>
+
+		#Q6
+		<ability name="High Quality Hunting Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="16" max="16" />
+			<damage_max mult="false" always_random="false" min="22" max="22" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
 		</ability>
 
+		#Q8
+		<ability name="Elven Sword of Blue Mountains _Stats">
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
+		</ability>
 
-#-------------------------- AKT 2
-		
 		#Q2
-		<ability name="Aedirnian Short Sword _Stats">
+		<ability name="Creydenian Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="13" max="13" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
+		</ability>
+
+		#Q3
+		<ability name="Rusty Nilfgaardian Sword _Stats">
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+		</ability>
+
+		#Q4
+		<ability name="Caingornian Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="13" max="13" />
+			<damage_max mult="false" always_random="false" min="17" max="17" />
+		</ability>
+
+		<ability name="Yspadenian Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>
+
+		#Q4
+		<ability name="Temerian Steel Sword _Stats">
+			<damage_min mult="false" always_random="false" min="11" max="11" />
+			<damage_max mult="false" always_random="false" min="14" max="14" />
+			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+		</ability>
+
+		#Q3
+		<ability name="Temerian Elite Sword _Stats">
 			<damage_min mult="false" always_random="false" min="15" max="15" />
 			<damage_max mult="false" always_random="false" min="22" max="22" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-                        <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
 		</ability>
-		
+
+		#Q7
+		<ability name="Jagged Blade _Stats">
+			<damage_min mult="false" always_random="false" min="19" max="19" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+		</ability>
+
+		#Q9
+		<ability name="Aedirnian Short Sword _Stats">
+			<damage_min mult="false" always_random="false" min="17" max="17" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+		</ability>
+
 		#Q2
 		<ability name="Aedirnian Light Sword _Stats">
 			<damage_min mult="false" always_random="false" min="16" max="16" />
-			<damage_max mult="false" always_random="false" min="22" max="22" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.14" max="0.14" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="26" max="26" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
 		</ability>
-		
+
 		#Q3
 		<ability name="Aedirnian Red Sword _Stats">
 			<damage_min mult="false" always_random="false" min="19" max="19" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
-		</ability>
+			<damage_max mult="false" always_random="false" min="28" max="28" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>	
 
-		
 		#Q4
 		<ability name="Kaedwenian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="21" max="21" />
+			<damage_min mult="false" always_random="false" min="23" max="23" />
 			<damage_max mult="false" always_random="false" min="28" max="28" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
 		</ability>
 
 		#Q5
 		<ability name="Quality Kaedwenian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="27" max="27" />
-                        <damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.14" max="0.14" type="critical" />
-		</ability>
-
-		#Q7
-		<ability name="Kaedwenian Black Sword _Stats">
-			<damage_min mult="false" always_random="false" min="21" max="21" />
-			<damage_max mult="false" always_random="false" min="27" max="27" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.13" type="critical" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="critical" />
-		</ability>
-
-		#Q3
-		<ability name="Elven Short Sihil _Stats">
-			<damage_min mult="false" always_random="false" min="17" max="17" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="bonus" />
-		</ability>
-		
-		#Q3
-		<ability name="Elven Sword _Stats">
-			<damage_min mult="false" always_random="false" min="16" max="16" />
-			<damage_max mult="false" always_random="false" min="26" max="26" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
-            <damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-		</ability>
-
-		#Q7
-		<ability name="Dol Blathanna High Quality Steel Blade _Stats">
-			<damage_min mult="false" always_random="false" min="19" max="19" />
-			<damage_max mult="false" always_random="false" min="28" max="28" />		
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.14" max="0.14" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="8" max="8" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />	
-		</ability>
-
-
-		#Q4
-		<ability name="Temerian Essenced Sword _Stats">
-			<damage_min mult="false" always_random="false" min="22" max="22" />
-			<damage_max mult="false" always_random="false" min="29" max="29" />
-	                <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.06" max="0.08" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.06" max="0.08" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
-		</ability>
-
-			
-		#Q5
-		<ability name="Angivare _Stats">
-			<damage_min mult="false" always_random="false" min="23" max="23" />
-			<damage_max mult="false" always_random="false" min="28" max="28" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.13" type="critical" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.06" type="critical" />
-		</ability>
-
-		
-		#Q6
-		<ability name="Deireadh _Stats">
-			<damage_min mult="false" always_random="false" min="24" max="24" />
-			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.13" type="critical" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="5" max="5" />
-		</ability>
-		
-		#Q6
-		<ability name="Arena Steel Sword _Stats">
 			<damage_min mult="false" always_random="false" min="25" max="25" />
 			<damage_max mult="false" always_random="false" min="31" max="31" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="7" max="7" />
 		</ability>
-		
+
 		#Q6
-		<ability name="Peacemaker _Stats">
+		<ability name="Kaedwenian Black Sword _Stats">
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="33" max="33" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="critical" />
+		</ability>
+
+		#Q7
+		<ability name="Elven Short Sihil _Stats">
+			<damage_min mult="false" always_random="false" min="39" max="39" />
+			<damage_max mult="false" always_random="false" min="43" max="43" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="critical" />
+		</ability>
+
+		#Q3
+		<ability name="Elven Sword _Stats">
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="42" max="42" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.26" max="0.26" type="critical" />
+		</ability>
+
+		#Q4
+		<ability name="Dol Blathanna High Quality Steel Blade _Stats">
+			<damage_min mult="false" always_random="false" min="29" max="29" />
+			<damage_max mult="false" always_random="false" min="34" max="34" />
+			<hit_back_bonus mult="false" always_random="false" min="10.0" max="10.0" type="bonus" />			
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="critical" />
+		</ability>
+
+		#Q7
+		<ability name="Temerian Essenced Sword _Stats">
+			<damage_min mult="false" always_random="false" min="22" max="22" />
+			<damage_max mult="false" always_random="false" min="29" max="29" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" />
+		</ability>	
+
+		#Q4
+		<ability name="Angivare _Stats">
+			<damage_min mult="false" always_random="false" min="24" max="24" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
+		</ability>
+
+		#Q5
+		<ability name="Deireadh _Stats">
 			<damage_min mult="false" always_random="false" min="25" max="25" />
 			<damage_max mult="false" always_random="false" min="32" max="32" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.06" type="critical" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.07" max="0.10" type="critical" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
 		</ability>
 
-		
-		#Q7
-		<ability name="Zerrikan Steel Sabre _Stats">
+		#Q6
+		<ability name="Arena Steel Sword _Stats">
 			<damage_min mult="false" always_random="false" min="27" max="27" />
 			<damage_max mult="false" always_random="false" min="32" max="32" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
 		</ability>
-		
+
+		#Q6
+		<ability name="Peacemaker _Stats">
+			<damage_min mult="false" always_random="false" min="28" max="28" />
+			<damage_max mult="false" always_random="false" min="33" max="33" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
+		</ability>
+
+		#Q6
+		<ability name="Zerrikan Steel Sabre _Stats">
+			<damage_min mult="false" always_random="false" min="28" max="28" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" />
+		</ability>
+
 		#Q7
 		<ability name="Zerrikan Poisoned Steel Sabre _Stats">
-			<damage_min mult="false" always_random="false" min="28" max="28" />
-			<damage_max mult="false" always_random="false" min="33" max="33" />
-                        <crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="34" max="34" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="critical" />
+			<vitality_toxbonus mult="false" always_random="false" min="10" max="10" type="bonus" />
 		</ability>
 
-		
 		#Q8
 		<ability name="Mahakaman Steel Sihil _Stats">
-			<damage_min mult="false" always_random="false" min="28" max="28" />
-			<damage_max mult="false" always_random="false" min="34" max="34" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-                        <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" />
-                        <damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-		</ability>
-		
-		<ability name="Dun Banner Sword _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="33" max="33" />
-            <crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-		</ability>		
-		
-		#Q4
-		<ability name="Stennis Sword _Stats">
 			<damage_min mult="false" always_random="false" min="29" max="29" />
- 			<damage_max mult="false" always_random="false" min="34" max="34" />
-                        <vitality mult="false" always_random="false" min="30" max="30" type="critical" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="critical" />
-                        <damage_reduction_block mult="false" always_random="false" min="6" max="6" />
-		</ability>
-		
-		#Q9
-		<ability name="Gwyhyr _Stats">
-			<damage_min mult="false" always_random="false" min="28" max="28" />
 			<damage_max mult="false" always_random="false" min="35" max="35" />
-			<vitality mult="false" always_random="false" min="20" max="20" type="critical" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.12" type="critical" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.06" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-		</ability>
-
-		#Q13
-		<ability name="Princess Xenthia Sword _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="34" max="34" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="critical" />
 			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="bonus" />	
+			<damage_reduction_block mult="false" always_random="false" min="20" max="20" />
+			<vitality_toxbonus mult="false" always_random="false" min="50" max="50" type="bonus" />
 		</ability>
 
-		#Q1
-		<ability name="Quality Dueling Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="29" max="29" />
-			<damage_max mult="false" always_random="false" min="35" max="35" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
-		</ability>
-		
-		#Q2
-		<ability name="High Quality Dueling Steel Sword _Stats">
+		<ability name="Dun Banner Sword _Stats">
 			<damage_min mult="false" always_random="false" min="26" max="26" />
 			<damage_max mult="false" always_random="false" min="33" max="33" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
+			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.08" type="critical" />
+			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="20" max="20" />
 		</ability>
 
 
-# ------------- Akt3
-		
 		#Q4
-		<ability name="Ceremonial Steel Sword of Deithwen _Stats">
+		<ability name="Stennis Sword _Stats">
 			<damage_min mult="false" always_random="false" min="22" max="22" />
 			<damage_max mult="false" always_random="false" min="28" max="28" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="9" max="9" />
 		</ability>
 
-		
-		#Q5
-		<ability name="Nilfgaardian Sword _Stats">
+		#Q9
+		<ability name="Gwyhyr _Stats">
 			<damage_min mult="false" always_random="false" min="30" max="30" />
 			<damage_max mult="false" always_random="false" min="40" max="40" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="critical" />
-            <damage_reduction_block mult="false" always_random="false" min="7" max="7" />			
-		</ability>
-		
-		#Q6
-		<ability name="Nilfgaardian Harphy Sword _Stats">
-			<damage_min mult="false" always_random="false" min="35" max="35" />
-			<damage_max mult="false" always_random="false" min="42" max="42" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-		</ability>
-		
-		#Q7
-		<ability name="Nilfgaardian Essenced Sword _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="37" max="37" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" />
+			<vitality mult="false" always_random="false" min="20" max="20" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="30" max="30" />
 		</ability>
 
-		
-		#Q8
-		<ability name="Harvall _Stats">
-			<damage_min mult="false" always_random="false" min="32" max="32" />
-			<damage_max mult="false" always_random="false" min="38" max="38" />
-            <vitality mult="false" always_random="false" min="30" max="30" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="7" max="7" />
-			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
-            <crt_stun display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
-		</ability>
-		
-		#Q9
-		<ability name="Caerme _Stats">
+		#Q10
+		<ability name="Princess Xenthia Sword _Stats">
 			<damage_min mult="false" always_random="false" min="31" max="31" />
 			<damage_max mult="false" always_random="false" min="35" max="35" />
-            <vitality mult="false" always_random="false" min="50" max="50" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
-            <vitality_combat_regen mult="false" always_random="false" min="1" max="1" />
-			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
 		</ability>
-		
-		#Q10
-		<ability name="Forgotten Sword of Vrans _Stats">
+
+		# ------------- Akt3
+
+		#Q1
+		<ability name="Quality Dueling Steel Sword _Stats">
 			<damage_min mult="false" always_random="false" min="34" max="34" />
 			<damage_max mult="false" always_random="false" min="38" max="38" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="8" max="8" />
-            <crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.11" type="critical" />
-            <crt_poison display_perc="true" mult="false" always_random="false" min="0.11" max="0.15" type="critical" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.09" max="0.13" type="critical" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.09" max="0.12" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" />
 		</ability>
 
-
-
-########## ENHANCED ########## 
-
-		# SQ307 High Quality Nilfgaardian Essenced Sword
-		<ability name="High Quality Nilfgaardian Essenced Sword _Stats">
+		#Q2
+		<ability name="High Quality Dueling Steel Sword _Stats">
 			<damage_min mult="false" always_random="false" min="35" max="35" />
 			<damage_max mult="false" always_random="false" min="40" max="40" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
-		</ability>
-		
-		# SQ307 Ceremonial Ellanderen Longsword
-		<ability name="Ceremonial Ellanderen Longsword _Stats">
-			<damage_min mult="false" always_random="false" min="39" max="39" />
-			<damage_max mult="false" always_random="false" min="43" max="43" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="bonus" />	
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
+			<damage_reduction_block mult="false" always_random="false" min="50" max="50" />
 		</ability>
 
-
-
-########## ENHANCED / UNFINISHED ########## 
-
-                #A1
-		<ability name="Assassins Blade _Stats">
-			<damage_min mult="false" always_random="false" min="40" max="40" />
-			<damage_max mult="false" always_random="false" min="42" max="42" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="bonus" />	
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="critical" />
-		</ability>
-
-                #A1
-		<ability name="Surger _Stats">
+		#Q3
+		<ability name="Ceremonial Steel Sword of Deithwen _Stats">
 			<damage_min mult="false" always_random="false" min="36" max="36" />
 			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="critical" />
+		</ability>
+
+		#Q5
+		<ability name="Nilfgaardian Sword _Stats">
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+
+		</ability>
+
+		#Q6
+		<ability name="Nilfgaardian Harphy Sword _Stats">
+			<damage_min mult="false" always_random="false" min="42" max="42" />
+			<damage_max mult="false" always_random="false" min="46" max="46" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="50" max="50" />
+		</ability>
+
+		#Q7
+		<ability name="Nilfgaardian Essenced Sword _Stats">
+			<damage_min mult="false" always_random="false" min="44" max="44" />
+			<damage_max mult="false" always_random="false" min="46" max="46" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="60" max="60" />
+		</ability>
+
+		#Q8
+		<ability name="Harvall _Stats">
+			<damage_min mult="false" always_random="false" min="44" max="44" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<endurance_on_block_mult mult="true" always_random="false" min="0.8" max="0.8" type="critical" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+		</ability>
+
+		#Q9
+		<ability name="Caerme _Stats">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="58" max="58" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
+			<oils_time_bonus mult="false" always_random="false" min="4.0" max="4.0" type="bonus" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" />
+		</ability>
+
+		#Q10
+		<ability name="Forgotten Sword of Vrans _Stats">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="55" max="55" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
+		</ability>
+
+		#Q11
+		<ability name="High Quality Nilfgaardian Essenced Sword _Stats">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="55" max="55" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.35" max="0.35" type="critical" />
+			<damage_reduction_block mult="false" always_random="false" min="75" max="75" />
+		</ability>
+
+		# SQ307 Ceremonial Ellanderen Longsword
+		<ability name="Ceremonial Ellanderen Longsword _Stats">
+			<damage_min mult="false" always_random="false" min="48" max="48" />
+			<damage_max mult="false" always_random="false" min="55" max="55" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+		</ability>
+
+		# ---- Miecze nie znalezione w steelsword
+		<ability name="Assassins Blade _Stats">
+			<damage_min mult="false" always_random="false" min="21" max="21" />
+			<damage_max mult="false" always_random="false" min="28" max="28" />
+			<hit_back_bonus mult="false" always_random="false" min="10.0" max="10.0" type="bonus" />	
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="critical" />
+		</ability>
+
+		#Q10
+		<ability name="Surger _Stats">
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="27" max="27" />
 			<damage_signsbonus mult="false" always_random="false" min="8" max="8" />
 			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
 		</ability>
 
-                #A1
+		#Q11
 		<ability name="Viroleda Longsword _Stats">
-			<damage_min mult="false" always_random="false" min="40" max="40" />
-			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<damage_min mult="false" always_random="false" min="21" max="21" />
+			<damage_max mult="false" always_random="false" min="27" max="27" />
 			<oils_time_bonus mult="false" always_random="false" min="2.0" max="2.0" type="bonus" />
 			<vitality_toxbonus mult="false" always_random="false" min="25" max="25" type="bonus" />
 		</ability>
 
+		#-------------------------- AKT 2
 
-		#A2
+		#Q2
 		<ability name="Decapitator _Stats">
-			<damage_min mult="false" always_random="false" min="42" max="42" />
-			<damage_max mult="false" always_random="false" min="46" max="46" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="42" max="42" />
 			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" />
-			<damage_reduction_block mult="false" always_random="false" min="50" max="50" />
+			<damage_reduction_block mult="false" always_random="false" min="35" max="35" />
 		</ability>        
-        
-		#A2
+
+		#Q11
 		<ability name="Guardian _Stats">
-			<damage_min mult="false" always_random="false" min="44" max="44" />
-			<damage_max mult="false" always_random="false" min="46" max="46" />
-			<damage_reduction_block mult="false" always_random="false" min="15" max="15" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="37" max="37" />
+			<damage_reduction_block mult="false" always_random="false" min="45" max="45" />
+			<endurance_on_block_mult mult="true" always_random="false" min="0.5" max="0.5" type="critical" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
 		</ability>
 
-		#A2
+		#Q12
 		<ability name="Basilisk _Stats">
-			<damage_min mult="false" always_random="false" min="44" max="44" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="critical" />
+			<damage_min mult="false" always_random="false" min="32" max="32" />
+			<damage_max mult="false" always_random="false" min="38" max="38" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
 		</ability>
 
-
-		#A3
+		#Q13
 		<ability name="Dancing Blade _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="58" max="58" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="critical" />
-			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" />
-		</ability>
-
-		#A3
-		<ability name="Archeus _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="55" max="55" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-			<damage_signsbonus mult="false" always_random="false" min="12" max="12" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-		</ability>
-
-		#A3
-		<ability name="Beannshie _Stats">
 			<damage_min mult="false" always_random="false" min="55" max="55" />
 			<damage_max mult="false" always_random="false" min="62" max="62" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />		
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="critical" />
 			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
+			<endurance_on_block_mult mult="true" always_random="false" min="0.7" max="0.7" type="critical" />
 		</ability>
 
-		
-		# Dark difficulty steelsword A1
-		<ability name="Dark difficulty steelsword A1 _Stats">
+		#Q12
+		<ability name="Archeus _Stats">
 			<damage_min mult="false" always_random="false" min="52" max="52" />
 			<damage_max mult="false" always_random="false" min="56" max="56" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
+			<damage_signsbonus mult="false" always_random="false" min="15" max="15" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
 		</ability>
-		
-		# Dark difficulty steelsword A2
-		<ability name="Dark difficulty steelsword A2 _Stats">
+
+		#Q13
+		<ability name="Beannshie _Stats">
 			<damage_min mult="false" always_random="false" min="56" max="56" />
 			<damage_max mult="false" always_random="false" min="62" max="62" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />	
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="critical" />
+			<hit_back_bonus mult="false" always_random="false" min="25.0" max="25.0" type="bonus" />	
+			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1" />
+			<vitality_toxbonus mult="false" always_random="false" min="65" max="65" type="bonus" />
 		</ability>
-		
-		# Dark difficulty steelsword A3
-		<ability name="Dark difficulty steelsword A3 _Stats">
+
+		# Dark difficulty steelsword A1
+		<ability name="Dark difficulty steelsword A1 _Stats">
 			<damage_min mult="false" always_random="false" min="22" max="22" />
 			<damage_max mult="false" always_random="false" min="28" max="28" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="critical" />
 			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
 		</ability>
 
-
-
-		
-# ---- Miecze nie znalezione w steelsword
-		<ability name="Kaedwenian Steel Long Sword _Stats">
+		# Dark difficulty steelsword A2
+		<ability name="Dark difficulty steelsword A2 _Stats">
 			<damage_min mult="false" always_random="false" min="32" max="32" />
 			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />	
+		</ability>
+
+		# Dark difficulty steelsword A3
+		<ability name="Dark difficulty steelsword A3 _Stats">
+			<damage_min mult="false" always_random="false" min="52" max="52" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.4" max="0.4" type="critical" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+		</ability>
+
+		# SQ307 High Quality Nilfgaardian Essenced Sword
+		<ability name="Kaedwenian Steel Long Sword _Stats">
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
 			<crt_knockdown display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="critical" />
 		</ability>
 
 		<ability name="High Quality Kaedwenian Steel Sword _Stats">
-			<damage_min mult="false" always_random="false" min="52" max="52" />
-			<damage_max mult="false" always_random="false" min="60" max="60" />
-		</ability>
-
-		<ability name="Dol Blathanna Steel Blade _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="55" max="55" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="critical" />
-		</ability>
-        			
-		<ability name="Iron shard _Stats">
-			<damage_min mult="false" always_random="false" min="48" max="48" />
-			<damage_max mult="false" always_random="false" min="55" max="55" />
-		</ability>
-	
-		<ability name="Steel Sabre _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
-		</ability>
-	
-		<ability name="Henselt Mace _Stats">
 			<damage_min mult="false" always_random="false" min="15" max="15" />
 			<damage_max mult="false" always_random="false" min="26" max="26" />
 		</ability>
 
-
-# replacer sword stats
-		<ability name="Replacer Stennis Sword _Stats">
+		<ability name="Dol Blathanna Steel Blade _Stats">
 			<damage_min mult="false" always_random="false" min="27" max="27" />
 			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="critical" />
+		</ability>
+
+		<ability name="Iron shard _Stats">
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+		</ability>
+
+		<ability name="Steel Sabre _Stats">
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+		</ability>
+
+		<ability name="Henselt Mace _Stats">
+			<damage_min mult="false" always_random="false" min="24" max="24" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+		</ability>
+		# replacer sword stats
+		<ability name="Replacer Stennis Sword _Stats">
+			<damage_min mult="false" always_random="false" min="24" max="24" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
 			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
 			<max_weight mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 		<ability name="Replacer Henselt Sword _Stats">
-			<damage_min mult="false" always_random="false" min="15" max="15" />
-			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<damage_min mult="false" always_random="false" min="24" max="24" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
 			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
 			<max_weight mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 		<ability name="Replacer Egan Sword _Stats">
-			<damage_min mult="false" always_random="false" min="15" max="15" />
-			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<damage_min mult="false" always_random="false" min="24" max="24" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
 			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
@@ -626,7 +554,7 @@
 		</ability>
 		<ability name="Replacer Seltkirk Sword _Stats">
 			<damage_min mult="false" always_random="false" min="24" max="24" />
-			<damage_max mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="5" max="5" />
 			<vitality_combat_regen mult="false" always_random="false" min="3" max="3" type="bonus" />
@@ -634,23 +562,23 @@
 		</ability>
 		<ability name="Replacer Aedirn Sword _Stats">
 			<damage_min mult="false" always_random="false" min="24" max="24" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" type="bonus" />
 			<max_weight mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 		<ability name="Replacer Kaedwen Sword _Stats">
 			<damage_min mult="false" always_random="false" min="24" max="24" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" type="bonus" />
 			<max_weight mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 		<ability name="Replacer Priest Staff _Stats">
 			<damage_min mult="false" always_random="false" min="24" max="24" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="3" max="3" />
 			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />

@@ -4,219 +4,219 @@
 
 	# ------------------------------------------------------------------------------------
 		<ability name="Level1" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />	
-		</ability>   
-	# ------------------------------------------------------------------------------------
+		</ability>   		
+		# ------------------------------------------------------------------------------------
 		<ability name="Level2" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level3" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />
-			
+
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level4" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level5" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />	
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level6" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level7" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level8" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level9" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level10" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />	
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level11" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level12" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level13" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level14" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level15" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level16" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level17" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level18" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level19" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level20" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />		
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level21" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level22" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level23" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level24" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level25" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />		
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level26" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level27" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level28" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level29" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level30" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level31" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level32" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level33" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level34" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />				
 		</ability>   		
-	# ------------------------------------------------------------------------------------
+		# ------------------------------------------------------------------------------------
 		<ability name="Level35" on_added="" on_ended="">
-         			<vitality mult="false" always_random="false" min="5" max="5" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 			<ff_damage_min mult="false" always_random="false" min="3" max="3" />
 			<ff_damage_max mult="false" always_random="false" min="5" max="5" />			
 		</ability>   		
 
-		
+
 	</abilities>
     
 	<items>

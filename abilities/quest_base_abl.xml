@@ -17,10 +17,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -57,10 +55,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="30" max="30" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -97,10 +93,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.3" max="0.3" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -137,10 +131,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="100" max="100" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.3" max="0.3" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -177,10 +169,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="120" max="120" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.4" max="2.4" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.3" max="0.3" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -217,10 +207,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="320" max="320" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.4" max="6.4" />
 			<damage_reduction mult="false" always_random="false" min="14" max="14" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -230,7 +218,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.4" max="0.4" />
 			<res_yrden mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_quen mult="false" always_random="false" min="0.8" max="0.8" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.8" max="0.8" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
@@ -242,7 +230,7 @@
 			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
-		</ability>
+		</ability>		
 		<ability name="Q001_Sword_Roche">
 			#exp
 			<level mult="false" always_random="false" min="2" max="2" />
@@ -257,10 +245,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -272,8 +258,8 @@
 			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_axii mult="false" always_random="false" min="0.05" max="0.05" />
-			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
-			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
 			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
@@ -297,10 +283,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="30" max="30" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -312,8 +296,8 @@
 			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_axii mult="false" always_random="false" min="0.05" max="0.05" />
-			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
-			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
 			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
@@ -337,10 +321,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="40" max="40" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="30.0" max="30.0" />
@@ -352,8 +334,8 @@
 			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_axii mult="false" always_random="false" min="0.05" max="0.05" />
-			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
-			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
 			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
 			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
@@ -390,10 +372,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="100" max="100" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -405,8 +385,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -415,7 +395,7 @@
 			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
-		</ability>
+		</ability>		
 		<ability name="Q109_Sword_LoredoTeam">
 			#exp
 			<level mult="false" always_random="false" min="9" max="9" />
@@ -430,10 +410,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="80" max="80" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -445,8 +423,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -470,10 +448,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="200" max="200" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -510,15 +486,13 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="1000" max="1000" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
-			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			<shot_accuracy mult="false" always_random="false" min="80" max="80" />
 			#odpornosci
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
@@ -563,10 +537,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="90" max="90" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.8" max="1.8" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -578,8 +550,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -603,10 +575,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="90" max="90" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.8" max="1.8" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -618,8 +588,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -643,10 +613,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -658,8 +626,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -683,10 +651,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -698,8 +664,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -723,29 +689,27 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="1000" max="1000" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="5.2" max="5.2" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			<shot_accuracy mult="false" always_random="false" min="80" max="80" />
 			#odpornosci
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
-			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
-			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
-			<res_poison mult="false" always_random="false" min="0.3" max="0.3" />
-			<res_burn mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_stun mult="false" always_random="false" min="5.0" max="5.0" />
+			<res_knockdown mult="false" always_random="false" min="5.0" max="5.0" />
+			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
 		</ability>
@@ -763,10 +727,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="110" max="110" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.2" max="2.2" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -778,8 +740,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -803,10 +765,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="220" max="220" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -816,7 +776,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.8" max="0.8" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
@@ -856,10 +816,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="80" max="80" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -896,10 +854,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -909,12 +865,12 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.8" max="0.8" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
 			<res_bleed mult="false" always_random="false" min="0.7" max="0.7" />
-			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_poison mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_burn mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
@@ -1053,10 +1009,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="315" max="315" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.3" max="6.3" />
 			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1068,8 +1022,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_stun mult="false" always_random="false" min="0.45" max="0.45" />
-			<res_knockdown mult="false" always_random="false" min="0.45" max="0.45" />
+			<res_stun mult="false" always_random="false" min="0.25" max="0.25" />
+			<res_knockdown mult="false" always_random="false" min="0.25" max="0.25" />
 			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_poison mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -1093,10 +1047,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="700" max="700" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<aard_dmg_min mult="false" always_random="false" min="10" max="10" />
 			<aard_dmg_max mult="false" always_random="false" min="20" max="20" />
@@ -1119,7 +1071,7 @@
 			<res_igni mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_yrden mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_quen mult="false" always_random="false" min="0.8" max="0.8" />
-			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_axii mult="false" always_random="false" min="300.0" max="300.0" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_bleed mult="false" always_random="false" min="0.8" max="0.8" />
@@ -1140,11 +1092,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			<back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="20.0" max="20.0" />
@@ -1154,7 +1103,7 @@
 			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_stun mult="false" always_random="false" min="5.0" max="5.0" />
 			<res_knockdown mult="false" always_random="false" min="5.0" max="5.0" />
@@ -1181,10 +1130,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1221,10 +1168,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="170" max="170" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.4" max="3.4" />
 			<damage_reduction mult="false" always_random="false" min="17" max="17" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1261,10 +1206,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="18" max="18" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1301,10 +1244,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="2" max="2" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1341,10 +1282,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="360" max="360" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="7.2" max="7.2" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1381,10 +1320,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1421,10 +1358,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1461,10 +1396,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1501,10 +1434,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1514,7 +1445,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
@@ -1541,7 +1472,6 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
@@ -1580,10 +1510,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="160" max="160" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.2" max="3.2" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1595,8 +1523,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_poison mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -1620,10 +1548,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="530" max="530" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1657,11 +1583,9 @@
 			<damage_npc_max mult="false" always_random="false" min="2" max="2" />
 			<ranged_damage_min mult="false" always_random="false" min="80" max="80" />
 			<ranged_damage_max mult="false" always_random="false" min="100" max="100" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="495" max="495" />
-			<vitality_regen mult="false" always_random="false" min="6.6" max="6.6" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.6" max="6.6" />
+			<vitality mult="false" always_random="false" min="330" max="330" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
@@ -1700,10 +1624,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1740,11 +1662,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			<back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1754,7 +1673,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
@@ -1766,7 +1685,7 @@
 			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
-		</ability>
+		</ability>		
 		<ability name="SQ208_BigSister">
 			#exp
 			<level mult="false" always_random="false" min="28" max="28" />
@@ -1781,11 +1700,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="450" max="450" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			<back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1795,7 +1711,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="5.7" max="5.7" />
 			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
@@ -1822,10 +1738,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="520" max="520" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="30.0" max="30.0" />
@@ -1835,7 +1749,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_knockdown mult="false" always_random="false" min="0.6" max="0.6" />
@@ -1862,11 +1776,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			<back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1876,7 +1787,7 @@
 			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.8" max="0.8" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
@@ -1903,10 +1814,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="450" max="450" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="20.0" max="20.0" />
@@ -1916,7 +1825,7 @@
 			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.6" max="0.6" />
-			<res_quen mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
@@ -1943,10 +1852,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="220" max="220" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.4" max="4.4" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -1983,10 +1890,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="180" max="180" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.6" max="3.6" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2023,10 +1928,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="80" max="80" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2063,10 +1966,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="200" max="200" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2103,10 +2004,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="100" max="100" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2143,10 +2042,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2183,10 +2080,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2223,10 +2118,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2263,10 +2156,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2303,10 +2194,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2343,10 +2232,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2383,10 +2270,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="18" max="18" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2423,10 +2308,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2438,8 +2321,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_stun mult="false" always_random="false" min="0.3" max="0.3" />
-			<res_knockdown mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -2463,10 +2346,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2478,8 +2359,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -2503,10 +2384,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="200" max="200" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2518,8 +2397,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -2543,10 +2422,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="17" max="17" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2583,10 +2460,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2596,7 +2471,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
@@ -2623,10 +2498,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="550" max="550" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2636,7 +2509,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
@@ -2663,10 +2536,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2678,8 +2549,8 @@
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_stun mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_knockdown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
 			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_poison mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
@@ -2820,10 +2691,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="200" max="200" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2860,10 +2729,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="650" max="650" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
-			<damage_reduction_block mult="false" always_random="false" min="100" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="200" max="200" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2900,10 +2767,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="650" max="650" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" />
+			<damage_reduction_block mult="false" always_random="false" min="200" max="200" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -2940,10 +2805,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="320" max="320" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="6.4" max="6.4" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="30.0" max="30.0" />
@@ -2980,10 +2843,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.2" max="0.2" />
 			<heal_spell mult="false" always_random="false" min="30.0" max="30.0" />
@@ -3015,10 +2876,8 @@
 			<experience mult="false" always_random="false" min="10" max="10" />
 			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 		</ability>
 		<ability name="SQ306_Fistfight_Bigerhorn">
@@ -3061,10 +2920,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="1400" max="1400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<aard_dmg_min mult="false" always_random="false" min="40" max="40" />
 			<aard_dmg_max mult="false" always_random="false" min="70" max="70" />
@@ -3087,7 +2944,7 @@
 			<res_igni mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_yrden mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_quen mult="false" always_random="false" min="0.5" max="0.5" />
-			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_axii mult="false" always_random="false" min="300.0" max="300.0" />
 			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_bleed mult="false" always_random="false" min="0.7" max="0.7" />
@@ -3108,11 +2965,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="480" max="480" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
 			<damage_reduction mult="false" always_random="false" min="22" max="22" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			<back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
@@ -3122,7 +2976,7 @@
 			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_quen mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
 			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
 			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
@@ -3134,7 +2988,7 @@
 			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
-		</ability>
+		</ability> 
 		<ability name="Q215_Detmold">
 			#exp
 			<level mult="false" always_random="false" min="28" max="28" />
@@ -3149,10 +3003,8 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
 			<block mult="false" always_random="false" min="0.4" max="0.4" />
 			<heal_spell mult="false" always_random="false" min="30.0" max="30.0" />
@@ -3162,7 +3014,7 @@
 			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
 			<res_igni mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_yrden mult="false" always_random="false" min="0.4" max="0.4" />
-			<res_quen mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
 			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
 			<res_stun mult="false" always_random="false" min="0.5" max="0.5" />
 			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
@@ -3174,7 +3026,7 @@
 			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.8" max="0.8" />
-		</ability>
+		</ability> 
 		<ability name="SQ308_Mages">
 			#exp
 			<level mult="false" always_random="false" min="29" max="29" />
@@ -3189,7 +3041,6 @@
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="450" max="450" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
@@ -3214,21 +3065,22 @@
 			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
 			<crt_burn mult="false" always_random="false" min="0.9" max="0.9" />
 		</ability>
+
 		<ability name="SQ307_Brygida">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="8" max="8" />
 			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="10" max="10" />
-			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="11" max="11" />
+			<damage_min mult="false" always_random="false" min="0" max="1" />
+			<damage_max mult="false" always_random="false" min="0" max="1" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_block mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
 			<res_burn mult="false" always_random="false" min="0.8" max="0.8" />
 			<res_bleed mult="false" always_random="false" min="0.8" max="0.8" />
 			<res_poison mult="false" always_random="false" min="0.8" max="0.8" />
-		</ability>
+		</ability> 
+
 	</abilities>
 	<items>
 	</items>

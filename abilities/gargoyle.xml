@@ -2,43 +2,41 @@
 <definitions>
   <abilities>
     <ability name="Gargoyle Claws _Stats">
-      <damage_min mult="false" always_random="false" min="1" max="1" />
-      <damage_max mult="false" always_random="false" min="2" max="2" />
-    </ability>
-    <ability name="Gargoyle Default">
-      <level mult="false" always_random="false" min="4" max="4" />
-      <experience mult="false" always_random="false" min="15" max="15" />
-      <vitality mult="false" always_random="false" min="80" max="80" />
-      <vitality_regen mult="false" always_random="false" min="0.0" max="0.0" />
-      <vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="3" max="3" />
-      <damage_reduction_block mult="false" always_random="false" min="8" max="8" />
-      <res_poision mult="false" always_random="false" min="0.3" max="0.3" />
-      <crt_poision mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="10" max="10" />
-      <damage_max mult="false" always_random="false" min="25" max="25" />
-    </ability>
-    <ability name="Gargoyle Akt 2">
-      <level mult="false" always_random="false" min="8" max="8" />
-      <experience mult="false" always_random="false" min="20" max="20" />
-      <vitality mult="false" always_random="false" min="100" max="100" />
-      <vitality_regen mult="false" always_random="false" min="0.0" max="0.0" />
-      <vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="5" max="5" />
-      <damage_reduction_block mult="false" always_random="false" min="12" max="12" />
-      <res_poision mult="false" always_random="false" min="0.6" max="0.6" />
-      <damage_min mult="false" always_random="false" min="20" max="20" />
-      <damage_max mult="false" always_random="false" min="35" max="35" />
-    </ability>
-  </abilities>
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+		</ability>  
+
+		<ability name="Gargoyle Default">
+			<level mult="false" always_random="false" min="4" max="4" />
+			<experience mult="false" always_random="false" min="15" max="15" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="15" max="15" />
+			<res_poision mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_poision mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
+		</ability>  
+
+		<ability name="Gargoyle Akt 2">
+			<level mult="false" always_random="false" min="8" max="8" />
+			<experience mult="false" always_random="false" min="20" max="20" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<damage_reduction mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="25" max="25" />
+			<res_poision mult="false" always_random="false" min="0.6" max="0.6" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+		</ability>  
+
+	</abilities>
   <items>
     <item name="Gargoyle claws" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="None" weapon="true" lethal="true" ability_mode="OnMount">
-      <tags>NoDrop,NoShow</tags>
-      <base_abilities>
-        <a>Gargoyle Claws _Stats</a>
-      </base_abilities>
-    </item>
-  </items>
+			<tags>NoDrop,NoShow</tags>
+			<base_abilities>
+				<a>Gargoyle Claws _Stats</a>
+			</base_abilities>
+		</item>    
+
+	</items>
 </definitions>

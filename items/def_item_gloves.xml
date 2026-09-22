@@ -7,344 +7,337 @@
         #		Definicje rekawic
 
         <item name="geralt_ties1" category="gloves_special" stackable="true" enhancement_slots="0" equip_template="geralt_ties1" attachment_type="skinning" ability_mode="OnMount">
-	<tags>NoShow</tags>
-            <base_abilities>
-            </base_abilities>
-        </item>
-	
-        <item name="geralt_shackles1" category="gloves_special" stackable="true" enhancement_slots="0" equip_template="geralt_shackles1" attachment_type="skinning" ability_mode="OnMount">
-	<tags>NoShow</tags>
-            <base_abilities>
-            </base_abilities>
-        </item>
-	
+			<tags>NoShow</tags>
+			<base_abilities>
+			</base_abilities>
+		</item>
 
-        <item name="default_geralt_gloves" category="gloves" stackable="true" enhancement_slots="0" equip_template="00_naked_hands" attachment_type="skinning" ability_mode="OnMount">
-	<tags>NoShow</tags>
-            <base_abilities>
-            </base_abilities>
-        </item>
-        
-    ##########################################################################################################################################    
-    # AKT 1
-    
-        #Q1
-       <item name="Worn Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="01_worn_short_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Worn Leather Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        #Q2
-        <item name="Short Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="02_short_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Short Leather Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        #Q3
-        <item name="Worn Long Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="04_worn_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Worn Long Leather Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        #Q4
-        <item name="Long Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="05_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Long Leather Gloves _Stats</a>
-                <a>Weight_05</a>
-                <a>Price_10</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-    
-	
-        #Q5, QUEST SCHEMAT W A3
-        <item name="Quality Long Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="07_quality_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Quality Long Gloves _Stats</a>
-                <a>Weight_1</a>
-                <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-
-        #Q2
-        <item name="Short Studded Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="13_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Short Studded Leather Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        #Q3
-        <item name="Long Studded Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="03_studded_short_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Long Studded Leather Gloves _Stats</a>
-                <a>Weight_1</a>
-                <a>Price_40</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-        
-
-    
-    ##########################################################################################################################################    
-    # AKT 2    
-
-        
-        #Q5
-        <item name="Sorccerer Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="10_studded_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Sorccerer Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
-        
-	    #Q5
-        <item name="Elven Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="08_soccerer_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Elven Gloves _Stats</a>
-                <a>Weight_05</a>
-                <a>Price_50</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>	
+		<item name="geralt_shackles1" category="gloves_special" stackable="true" enhancement_slots="0" equip_template="geralt_shackles1" attachment_type="skinning" ability_mode="OnMount">
+			<tags>NoShow</tags>
+			<base_abilities>
+			</base_abilities>
+		</item>
 
 
-        
-    ##########################################################################################################################################
-    # AKT 3
+		<item name="default_geralt_gloves" category="gloves" stackable="true" enhancement_slots="0" equip_template="00_naked_hands" attachment_type="skinning" ability_mode="OnMount">
+			<tags>NoShow</tags>
+			<base_abilities>
+			</base_abilities>
+		</item>
 
-        #Q6
-        <item name="High Quality Kaedwenian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="09_elven_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>High Quality Kaedwenian Unique Leather Gloves _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
+		##########################################################################################################################################    
+		# AKT 1
 
-	#Q8
-        <item name="High Quality Nilfgaardian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>High Quality Nilfgaardian Unique Leather Gloves _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
-    
-       #Q4
-        <item name="High Quality Temerian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="14_medium_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>High Quality Temerian Unique Leather Gloves _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>		
+		#Q1
+		<item name="Worn Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="01_worn_short_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Worn Leather Gloves _Stats</a>
+				<a>Weight_05</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
 
+		#Q2
+		<item name="Short Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="02_short_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Short Leather Gloves _Stats</a>
+				<a>Weight_05</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
-                
-        #Q10
-        <item name="Unique Leather Gloves of Elder Blood" category="gloves" stackable="false" enhancement_slots="0" equip_template="04_worn_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Unique Leather Gloves of Elder Blood _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q3
+		<item name="Worn Long Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="04_worn_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Worn Long Leather Gloves _Stats</a>
+				<a>Weight_05</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
+		#Q4
+		<item name="Long Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="05_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Long Leather Gloves _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_10</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="2">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
 
-########## DARK ##########
+		#Q5, QUEST SCHEMAT W A3
+		<item name="Quality Long Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="07_quality_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Quality Long Gloves _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q11
-        <item name="Master Dualist Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="05_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Master Dualist Gloves _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q9 Dark Difficulty Gloves A1
+		<item name="Short Studded Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="03_studded_short_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Short Studded Leather Gloves _Stats</a>
+				<a>Weight_05</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q12
-        <item name="Gloves of the Monk" category="gloves" stackable="false" enhancement_slots="0" equip_template="07_quality_long_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Gloves of the Monk _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q3
+		<item name="Long Studded Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="10_studded_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Long Studded Leather Gloves _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q13
-        <item name="Mongoose Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Mongoose Gloves _Stats</a>
-	      <a>Weight_2</a>		
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q5
+		<item name="Sorccerer Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="08_soccerer_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Sorccerer Gloves _Stats</a>
+				<a>Weight_05</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
 
-	    #Q6
-        <item name="Wild Hunt Clutches" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
-            <base_abilities>
-                <a>Wild Hunt Clutches _Stats</a>
-                <a>Weight_2</a>
-                <a>Price_50</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>	
+		#Q5
+		<item name="Elven Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="09_elven_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Elven Gloves _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>	
 
-        #Q9 Dark Difficulty Gloves A1
-        <item name="DarkDifficultyGlovesA1" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA1</tags>
-            <base_abilities>
-                <a>DarkDifficultyGlovesA1 _Stats</a>
-                <a>Weight_1</a>
-                <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q6
+		<item name="High Quality Kaedwenian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="05_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>High Quality Kaedwenian Unique Leather Gloves _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q9 Dark Difficulty Gloves A2
-        <item name="DarkDifficultyGlovesA2" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA2</tags>
-            <base_abilities>
-                <a>DarkDifficultyGlovesA2 _Stats</a>
-                <a>Weight_1</a>
-                <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q8
+		<item name="High Quality Nilfgaardian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="07_quality_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>High Quality Nilfgaardian Unique Leather Gloves _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q10 Dark Difficulty Gloves A3
-        <item name="DarkDifficultyGlovesA3" category="gloves" stackable="false" enhancement_slots="0" equip_template="15_heavy_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA3</tags>
-            <base_abilities>
-                <a>DarkDifficultyGlovesA3 _Stats</a>
-                <a>Weight_1</a>
-                <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q10
+		<item name="High Quality Temerian Unique Leather Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="04_worn_long_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>High Quality Temerian Unique Leather Gloves _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>		
+
+		#Q6
+		<item name="Unique Leather Gloves of Elder Blood" category="gloves" stackable="false" enhancement_slots="0" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Unique Leather Gloves of Elder Blood _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		#Q11
+		<item name="Master Dualist Gloves" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Master Dualist Gloves _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		#Q12
+		<item name="Gloves of the Monk" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Gloves of the Monk _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		#Q13
+		<item name="Mongoose Gloves" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Mongoose Gloves _Stats</a>
+				<a>Weight_2</a>		
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
+			</ingredients_list>
+		</item>
 
 
-########## DLC ##########
+		#Q10 Dark Difficulty Gloves A3
+		<item name="Wild Hunt Clutches" category="gloves" stackable="false" enhancement_slots="1" equip_template="12_elder_blood_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves</tags>
+			<base_abilities>
+				<a>Wild Hunt Clutches _Stats</a>
+				<a>Weight_2</a>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>	
 
-    #Q10
-    <item name="Herbalist Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="11_dlc_herbalist_gloves" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle</tags>
-            <base_abilities>
-                <a>Herbalist Gloves _Stats</a>
-                <a>Weight_05</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="2">Leather</ingredient>
-		<ingredient quantity="2">Studded leather</ingredient>
-		<ingredient quantity="3">Cloth</ingredient>
-	  </ingredients_list>
-        </item>	
 
-    
-    </items>
+		#Q9 Dark Difficulty Gloves A2
+		<item name="DarkDifficultyGlovesA1" category="gloves" stackable="false" enhancement_slots="0" equip_template="13_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA1</tags>
+			<base_abilities>
+				<a>DarkDifficultyGlovesA1 _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
+
+		##########################################################################################################################################    
+		# AKT 2
+
+		#Q2
+		<item name="DarkDifficultyGlovesA2" category="gloves" stackable="false" enhancement_slots="0" equip_template="14_medium_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA2</tags>
+			<base_abilities>
+				<a>DarkDifficultyGlovesA2 _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
+
+		##########################################################################################################################################
+		# AKT 3
+
+		#Q4
+		<item name="DarkDifficultyGlovesA3" category="gloves" stackable="false" enhancement_slots="0" equip_template="15_heavy_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA3</tags>
+			<base_abilities>
+				<a>DarkDifficultyGlovesA3 _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
+		#####################
+		##########################################################################################################################################
+
+
+	<item name="Herbalist Gloves" category="gloves" stackable="false" enhancement_slots="0" equip_template="15_heavy_dark_gloves" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeRare,Dismantle,Gloves,DarkDiffA3</tags>
+			<base_abilities>
+				<a>DarkDifficultyGlovesA3 _Stats</a>
+				<a>Weight_1</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Cloth</ingredient>
+			</ingredients_list>
+		</item>
+		#####################
+		##########################################################################################################################################
+
+
+	</items>
 </definitions>

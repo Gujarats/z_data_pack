@@ -7,490 +7,486 @@
 			<item_price mult="false" always_random="false" min="5" max="5" />
 		</ability>
 
-                <ability name="Price_2">
+		<ability name="Price_2">
 			<item_price mult="false" always_random="false" min="7" max="7" />
 		</ability>
-        
-                <ability name="Price_3">
+
+		<ability name="Price_3">
 			<item_price mult="false" always_random="false" min="8" max="8" />
 		</ability>
-        
-                <ability name="Price_4">
+
+		<ability name="Price_4">
 			<item_price mult="false" always_random="false" min="9" max="9" />
 		</ability>
 
-		        <ability name="Price_5">
-			<item_price mult="false" always_random="false" min="10" max="10" />
+		<ability name="Price_5">
+			<item_price mult="false" always_random="false" min="5" max="5" />
 		</ability>
 
-	            <ability name="Price_6">
+		<ability name="Price_6">
 			<item_price mult="false" always_random="false" min="11" max="11" />
 		</ability>
 
-                <ability name="Price_7">
+		<ability name="Price_7">
+			<item_price mult="false" always_random="false" min="7" max="7" />
+		</ability>
+
+		<ability name="Price_8">
+			<item_price mult="false" always_random="false" min="8" max="8" />
+		</ability>
+
+		<ability name="Price_9">
+			<item_price mult="false" always_random="false" min="9" max="9" />
+		</ability>
+
+		<ability name="Price_10">
+			<item_price mult="false" always_random="false" min="10" max="10" />
+		</ability>
+
+		<ability name="Price_11">
+			<item_price mult="false" always_random="false" min="11" max="11" />
+		</ability>
+
+		<ability name="Price_12">
 			<item_price mult="false" always_random="false" min="12" max="12" />
-		</ability>
-        
-                <ability name="Price_8">
-			<item_price mult="false" always_random="false" min="18" max="18" />
-		</ability>
-        
-                <ability name="Price_9">
-			<item_price mult="false" always_random="false" min="15" max="15" />
-		</ability>
-        
-                <ability name="Price_10">
-	 		<item_price mult="false" always_random="false" min="20" max="20" />
-		</ability>
-        
-                <ability name="Price_11">
-			<item_price mult="false" always_random="false" min="25" max="25" />
-		</ability>
-        
-                <ability name="Price_12">
-			<item_price mult="false" always_random="false" min="30" max="30" />
 		</ability>  
 
-                <ability name="Price_13">
-	 		<item_price mult="false" always_random="false" min="35" max="35" />
-		</ability>
-        
-                <ability name="Price_14">
+		<ability name="Price_13">
+			<item_price mult="false" always_random="false" min="35" max="35" />
+		</ability>	
+
+		<ability name="Price_14">
 			<item_price mult="false" always_random="false" min="40" max="40" />
 		</ability>
-        
-                <ability name="Price_15">
-			<item_price mult="false" always_random="false" min="45" max="45" />
-		</ability>  
-        
 
-		        <ability name="Price_16">
+		<ability name="Price_15">
+			<item_price mult="false" always_random="false" min="15" max="15" />
+		</ability>
+
+		<ability name="Price_16">
 			<item_price mult="false" always_random="false" min="50" max="50" />
 		</ability>
 
-		        <ability name="Price_17">
+		<ability name="Price_17">
 			<item_price mult="false" always_random="false" min="55" max="55" />
+		</ability>  
+
+		<ability name="Price_18">
+			<item_price mult="false" always_random="false" min="18" max="18" />
 		</ability>
 
-        
-                <ability name="Price_18">
+		<ability name="Price_19">
+			<item_price mult="false" always_random="false" min="65" max="65" />
+		</ability> 
+
+		<ability name="Price_20">
+			<item_price mult="false" always_random="false" min="20" max="20" />
+		</ability>
+
+		<ability name="Price_25">
+			<item_price mult="false" always_random="false" min="25" max="25" />
+		</ability>
+
+		<ability name="Price_30">
+			<item_price mult="false" always_random="false" min="30" max="30" />
+		</ability>
+
+		<ability name="Price_35">
+			<item_price mult="false" always_random="false" min="35" max="35" />
+		</ability>	
+
+		<ability name="Price_40">
+			<item_price mult="false" always_random="false" min="40" max="40" />
+		</ability>
+
+		<ability name="Price_45">
+			<item_price mult="false" always_random="false" min="45" max="45" />
+		</ability>
+
+		<ability name="Price_50">
+			<item_price mult="false" always_random="false" min="50" max="50" />
+		</ability>
+
+		<ability name="Price_55">
+			<item_price mult="false" always_random="false" min="55" max="55" />
+		</ability>  
+
+		<ability name="Price_60">
 			<item_price mult="false" always_random="false" min="60" max="60" />
 		</ability>
 
-        
-                <ability name="Price_19">
+		<ability name="Price_65">
 			<item_price mult="false" always_random="false" min="65" max="65" />
-		</ability>
+		</ability> 
 
-	
-		<ability name="Price_20">
+		<ability name="Price_70">
 			<item_price mult="false" always_random="false" min="70" max="70" />
 		</ability>
-        
-		<ability name="Price_25">
+
+		<ability name="Price_75">
 			<item_price mult="false" always_random="false" min="75" max="75" />
-		</ability>
-        
-		<ability name="Price_30">
+		</ability> 
+
+		<ability name="Price_80">
 			<item_price mult="false" always_random="false" min="80" max="80" />
 		</ability>
-        
-		<ability name="Price_35">
+
+		<ability name="Price_85">
 			<item_price mult="false" always_random="false" min="85" max="85" />
-		</ability>	
-        
-		<ability name="Price_40">
+		</ability> 
+
+		<ability name="Price_90">
 			<item_price mult="false" always_random="false" min="90" max="90" />
 		</ability>
-        
-		<ability name="Price_45">
+
+		<ability name="Price_95">
 			<item_price mult="false" always_random="false" min="95" max="95" />
 		</ability>
-        
-		<ability name="Price_50">
+
+		<ability name="Price_100">
 			<item_price mult="false" always_random="false" min="100" max="100" />
 		</ability>
-        
-		<ability name="Price_55">
+
+		<ability name="Price_105">
 			<item_price mult="false" always_random="false" min="105" max="105" />
-		</ability>  
-        
-                <ability name="Price_60">
-			<item_price mult="false" always_random="false" min="110" max="110" />
 		</ability>
-        
-                <ability name="Price_65">
-			<item_price mult="false" always_random="false" min="115" max="115" />
+
+		<ability name="Price_110">
+			<item_price mult="false" always_random="false" min="110" max="110" />
 		</ability> 
-        
-                <ability name="Price_70">
+
+		<ability name="Price_115">
+			<item_price mult="false" always_random="false" min="115" max="115" />
+		</ability>  
+
+		<ability name="Price_120">
 			<item_price mult="false" always_random="false" min="120" max="120" />
 		</ability>
-        
-                <ability name="Price_75">
+
+		<ability name="Price_125">
 			<item_price mult="false" always_random="false" min="125" max="125" />
-		</ability> 
-        
-                <ability name="Price_80">
+		</ability>  
+
+		<ability name="Price_130">
+			<item_price mult="false" always_random="false" min="250" max="250" />
+		</ability>     
+
+		<ability name="Price_135">
 			<item_price mult="false" always_random="false" min="135" max="135" />
-		</ability>
- 
-                <ability name="Price_85">
+		</ability>  
+
+		<ability name="Price_140">
 			<item_price mult="false" always_random="false" min="135" max="135" />
-		</ability> 
-        
-                <ability name="Price_90">
+		</ability>    
+
+		<ability name="Price_145">
+			<item_price mult="false" always_random="false" min="325" max="325" />
+		</ability>  
+
+		<ability name="Price_150">
 			<item_price mult="false" always_random="false" min="150" max="150" />
 		</ability>
-        
-                <ability name="Price_95">
-			<item_price mult="false" always_random="false" min="175" max="175" />
-		</ability>
-        
-		<ability name="Price_100">
-			<item_price mult="false" always_random="false" min="200" max="200" />
-		</ability>
-        
-		<ability name="Price_105">
-			<item_price mult="false" always_random="false" min="205" max="205" />
-		</ability>
-        
-		<ability name="Price_110">
-			<item_price mult="false" always_random="false" min="210" max="210" />
-		</ability> 
-        
-		<ability name="Price_115">
-			<item_price mult="false" always_random="false" min="220" max="220" />
-		</ability>  
-        
-                <ability name="Price_120">
-			<item_price mult="false" always_random="false" min="225" max="225" />
-		</ability>
-        
-                <ability name="Price_125">
-			<item_price mult="false" always_random="false" min="250" max="250" />
-		</ability>  
-                
-                <ability name="Price_130">
-			<item_price mult="false" always_random="false" min="250" max="250" />
-		</ability>  
-        
-                <ability name="Price_135">
-			<item_price mult="false" always_random="false" min="275" max="275" />
-		</ability>  
-        
-                <ability name="Price_140">
-			<item_price mult="false" always_random="false" min="315" max="315" />
-		</ability>    
-                
-                <ability name="Price_145">
-			<item_price mult="false" always_random="false" min="325" max="325" />
-		</ability>  
-        
-                <ability name="Price_150">
-			<item_price mult="false" always_random="false" min="350" max="350" />
-		</ability>
-                
-                <ability name="Price_155">
+
+		<ability name="Price_155">
 			<item_price mult="false" always_random="false" min="375" max="375" />
-		</ability>
-                
-                <ability name="Price_160">
+		</ability>  
+
+		<ability name="Price_160">
 			<item_price mult="false" always_random="false" min="400" max="400" />
 		</ability>
-                
-                <ability name="Price_165">
+
+		<ability name="Price_165">
 			<item_price mult="false" always_random="false" min="400" max="400" />
 		</ability>
-                
-                <ability name="Price_170">
+
+		<ability name="Price_170">
 			<item_price mult="false" always_random="false" min="450" max="450" />
 		</ability>
-        
+
 		<ability name="Price_175">
-			<item_price mult="false" always_random="false" min="500" max="500" />
+			<item_price mult="false" always_random="false" min="175" max="175" />
 		</ability>
-                
-                <ability name="Price_180">
+
+		<ability name="Price_180">
 			<item_price mult="false" always_random="false" min="600" max="600" />
 		</ability>
-                
-                <ability name="Price_185">
+
+		<ability name="Price_185">
 			<item_price mult="false" always_random="false" min="625" max="625" />
 		</ability>
-                
-                <ability name="Price_190">
+
+		<ability name="Price_190">
 			<item_price mult="false" always_random="false" min="650" max="650" />
-		</ability>
-                
-                <ability name="Price_195">
+		</ability>   
+
+		<ability name="Price_195">
 			<item_price mult="false" always_random="false" min="700" max="700" />
 		</ability>
-        
+
 		<ability name="Price_200">
-			<item_price mult="false" always_random="false" min="750" max="750" />
+			<item_price mult="false" always_random="false" min="200" max="200" />
 		</ability>
-        
+
 		<ability name="Price_205">
-			<item_price mult="false" always_random="false" min="800" max="800" />
+			<item_price mult="false" always_random="false" min="205" max="205" />
 		</ability>
-        
-                <ability name="Price_210">
-			<item_price mult="false" always_random="false" min="850" max="850" />
+
+		<ability name="Price_210">
+			<item_price mult="false" always_random="false" min="210" max="210" />
 		</ability>
-                
-                <ability name="Price_215">
+
+		<ability name="Price_215">
 			<item_price mult="false" always_random="false" min="900" max="900" />
 		</ability>
-        
-                <ability name="Price_220">
-			<item_price mult="false" always_random="false" min="1000" max="1000" />
+
+		<ability name="Price_220">
+			<item_price mult="false" always_random="false" min="220" max="220" />
 		</ability>
-        
-                <ability name="Price_225">
-			<item_price mult="false" always_random="false" min="1250" max="1250" />
+
+		<ability name="Price_225">
+			<item_price mult="false" always_random="false" min="225" max="225" />
 		</ability>  
 
-                <ability name="Price_230">
+		<ability name="Price_230">
 			<item_price mult="false" always_random="false" min="1500" max="1500" />
-		</ability>  
+		</ability>
 
-                <ability name="Price_235">
+		<ability name="Price_235">
 			<item_price mult="false" always_random="false" min="1750" max="1750" />
-		</ability>  
+		</ability>
 
-                <ability name="Price_240">
+		<ability name="Price_240">
 			<item_price mult="false" always_random="false" min="2000" max="2000" />
-		</ability>  
+		</ability>
 
-                <ability name="Price_245">
+		<ability name="Price_245">
 			<item_price mult="false" always_random="false" min="2000" max="2000" />
-		</ability>  
-        
-                <ability name="Price_250">
-			<item_price mult="false" always_random="false" min="3000" max="3000" />
+		</ability>
+
+		<ability name="Price_250">
+			<item_price mult="false" always_random="false" min="250" max="250" />
 		</ability>   
 
-                <ability name="Price_255">
+		<ability name="Price_255">
 			<item_price mult="false" always_random="false" min="4000" max="4000" />
-		</ability>   
-                
-                <ability name="Price_260">
+		</ability>
+
+		<ability name="Price_260">
+			<item_price mult="false" always_random="false" min="250" max="250" />
+		</ability>     
+
+		<ability name="Price_265">
 			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-                <ability name="Price_265">
-			<item_price mult="false" always_random="false" min="265" max="265" />
-		</ability>     
-               
-                <ability name="Price_270">
-			<item_price mult="false" always_random="false" min="270" max="270" />
+
+	<ability name="Price_270">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-         
-                <ability name="Price_275">
+
+	<ability name="Price_275">
 			<item_price mult="false" always_random="false" min="275" max="275" />
 		</ability> 
-        
-                <ability name="Price_280">
-			<item_price mult="false" always_random="false" min="280" max="280" />
-		</ability>
-                
-                <ability name="Price_285">
-			<item_price mult="false" always_random="false" min="285" max="285" />
-		</ability>
-        
-                <ability name="Price_290">
-			<item_price mult="false" always_random="false" min="290" max="290" />
-		</ability>     
 
-                <ability name="Price_295">
-			<item_price mult="false" always_random="false" min="295" max="295" />
+		<ability name="Price_280">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_300">
-			<item_price mult="false" always_random="false" min="300" max="300" />
+	<ability name="Price_285">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                
-                <ability name="Price_305">
-			<item_price mult="false" always_random="false" min="305" max="305" />
+
+	<ability name="Price_290">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                
-                <ability name="Price_310">
-			<item_price mult="false" always_random="false" min="310" max="310" />
+
+	<ability name="Price_295">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-                <ability name="Price_315">
+
+	<ability name="Price_300">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
+		</ability>
+
+	<ability name="Price_305">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
+		</ability>
+
+	<ability name="Price_310">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
+		</ability>
+
+	<ability name="Price_315">
 			<item_price mult="false" always_random="false" min="315" max="315" />
 		</ability>
-             
-                <ability name="Price_320">
-			<item_price mult="false" always_random="false" min="320" max="320" />
+
+		<ability name="Price_320">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-           
-                <ability name="Price_325">
+
+	<ability name="Price_325">
 			<item_price mult="false" always_random="false" min="325" max="325" />
 		</ability>  
-        
-                <ability name="Price_330">
-			<item_price mult="false" always_random="false" min="330" max="330" />
+
+		<ability name="Price_330">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                
-                <ability name="Price_335">
-			<item_price mult="false" always_random="false" min="335" max="335" />
+
+	<ability name="Price_335">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                 
-                <ability name="Price_340">
-			<item_price mult="false" always_random="false" min="340" max="340" />
+
+	<ability name="Price_340">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                       
-                <ability name="Price_345">
-			<item_price mult="false" always_random="false" min="345" max="345" />
+
+	<ability name="Price_345">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-                <ability name="Price_350">
+
+	<ability name="Price_350">
 			<item_price mult="false" always_random="false" min="350" max="350" />
 		</ability> 
 
-                <ability name="Price_355">
-			<item_price mult="false" always_random="false" min="355" max="355" />
+		<ability name="Price_355">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_360">
-			<item_price mult="false" always_random="false" min="360" max="360" />
+	<ability name="Price_360">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_365">
-			<item_price mult="false" always_random="false" min="365" max="365" />
+	<ability name="Price_365">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_370">
-			<item_price mult="false" always_random="false" min="370" max="370" />
+	<ability name="Price_370">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-                <ability name="Price_375">
+
+	<ability name="Price_375">
 			<item_price mult="false" always_random="false" min="375" max="375" />
 		</ability>  
 
-                <ability name="Price_380">
-			<item_price mult="false" always_random="false" min="380" max="380" />
+		<ability name="Price_380">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_385">
-			<item_price mult="false" always_random="false" min="385" max="385" />
+	<ability name="Price_385">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_390">
-			<item_price mult="false" always_random="false" min="390" max="390" />
+	<ability name="Price_390">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-                <ability name="Price_395">
-			<item_price mult="false" always_random="false" min="395" max="395" />
+	<ability name="Price_395">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-		<ability name="Price_400">
+
+	<ability name="Price_400">
 			<item_price mult="false" always_random="false" min="400" max="400" />
 		</ability>
 
-                <ability name="Price_425">
-			<item_price mult="false" always_random="false" min="425" max="425" />
-		</ability>  
-        
-		<ability name="Price_450">
+		<ability name="Price_425">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
+		</ability>
+
+	<ability name="Price_450">
 			<item_price mult="false" always_random="false" min="450" max="450" />
 		</ability>
 
 		<ability name="Price_475">
-			<item_price mult="false" always_random="false" min="475" max="475" />
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-		<ability name="Price_500">
+
+	<ability name="Price_500">
 			<item_price mult="false" always_random="false" min="500" max="500" />
 		</ability>
 
 		<ability name="Price_505">
-			<item_price mult="false" always_random="false" min="505" max="505" />
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_510">
-			<item_price mult="false" always_random="false" min="510" max="510" />
+	<ability name="Price_510">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_515">
-			<item_price mult="false" always_random="false" min="515" max="515" />
+	<ability name="Price_515">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_520">
-			<item_price mult="false" always_random="false" min="520" max="520" />
+	<ability name="Price_520">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_525">
-			<item_price mult="false" always_random="false" min="525" max="525" />
+	<ability name="Price_525">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_550">
-			<item_price mult="false" always_random="false" min="550" max="550" />
+	<ability name="Price_550">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
-		<ability name="Price_575">
-			<item_price mult="false" always_random="false" min="575" max="575" />
+	<ability name="Price_575">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-		
-		<ability name="Price_600">
+
+	<ability name="Price_600">
 			<item_price mult="false" always_random="false" min="600" max="600" />
 		</ability>
-        
+
 		<ability name="Price_625">
 			<item_price mult="false" always_random="false" min="625" max="625" />
 		</ability>
-        
+
 		<ability name="Price_650">
 			<item_price mult="false" always_random="false" min="650" max="650" />
 		</ability>   
-        
+
 		<ability name="Price_700">
 			<item_price mult="false" always_random="false" min="700" max="700" />
 		</ability>
-                
+
 		<ability name="Price_725">
-			<item_price mult="false" always_random="false" min="725" max="725" />
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-                
-		<ability name="Price_750">
+
+	<ability name="Price_750">
 			<item_price mult="false" always_random="false" min="750" max="750" />
-		</ability>
-        
-		<ability name="Price_775">
-			<item_price mult="false" always_random="false" min="775" max="775" />
 		</ability>	
-        
-		<ability name="Price_800">
+
+		<ability name="Price_775">
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
+		</ability>
+
+	<ability name="Price_800">
 			<item_price mult="false" always_random="false" min="800" max="800" />
 		</ability>
-                
+
 		<ability name="Price_825">
-			<item_price mult="false" always_random="false" min="825" max="825" />
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-		<ability name="Price_850">
+
+	<ability name="Price_850">
 			<item_price mult="false" always_random="false" min="850" max="850" />
 		</ability>	
-                
+
 		<ability name="Price_875">
-			<item_price mult="false" always_random="false" min="875" max="875" />
+			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-        
-		<ability name="Price_900">
+
+	<ability name="Price_900">
 			<item_price mult="false" always_random="false" min="900" max="900" />
 		</ability>
 
 		<ability name="Price_1000">
 			<item_price mult="false" always_random="false" min="1000" max="1000" />
 		</ability>
-		
+
 		<ability name="Price_1250">
 			<item_price mult="false" always_random="false" min="1250" max="1250" />
 		</ability>
-		
+
 		<ability name="Price_1500">
 			<item_price mult="false" always_random="false" min="1500" max="1500" />
 		</ability>
@@ -502,11 +498,11 @@
 		<ability name="Price_2000">
 			<item_price mult="false" always_random="false" min="2000" max="2000" />
 		</ability>
-		
+
 		<ability name="Price_3000">
 			<item_price mult="false" always_random="false" min="3000" max="3000" />
 		</ability>		
-		
+
 		<ability name="Price_4000">
 			<item_price mult="false" always_random="false" min="4000" max="4000" />
 		</ability>
@@ -514,7 +510,7 @@
 		<ability name="Price_5000">
 			<item_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
-		
+
 	</abilities>
    
 	<items>

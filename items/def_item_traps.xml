@@ -10,182 +10,159 @@
 		# Standard Traps used by player / allys
 	
         <item name="Explosive Trap" category="trap" ability_slots="0" stackable="true" hold_template="explosive_trap" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Explosive Trap _Stats</a>
-		<a>Explosive Trap _Stats2</a>
-		<a>Explosive Trap _Stats3</a>
-		<a>Explosive Trap _Stats4</a>
-		<a>Explosive Trap _Stats5</a>
-		<a>Explosive Trap _Stats6</a>
-		<a>Explosive Trap _Stats7</a>
-		<a>Price_60</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Explosive Trap _Stats</a>
+				<a>Explosive Trap _Stats2</a>
+				<a>Explosive Trap _Stats3</a>
+				<a>Price_30</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
 
-        <item name="Crippling Trap" category="trap" ability_slots="0" stackable="true" hold_template="crippling_trap" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Crippling Trap _Stats</a>
-		<a>Crippling Trap _Stats2</a>
-		<a>Crippling Trap _Stats3</a>
-		<a>Crippling Trap _Stats4</a>
-		<a>Crippling Trap _Stats5</a>
-		<a>Crippling Trap _Stats6</a>
-		<a>Crippling Trap _Stats7</a>
-		<a>Price_50</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
+		<item name="Crippling Trap" category="trap" ability_slots="0" stackable="true" hold_template="crippling_trap" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Crippling Trap _Stats</a>
+				<a>Crippling Trap _Stats2</a>
+				<a>Crippling Trap _Stats3</a>
+				<a>Price_20</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
 
-        <item name="Freezing Trap" category="trap" ability_slots="0" stackable="true" hold_template="freezing_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Freezing Trap _Stats</a>
-		<a>Freezing Trap _Stats2</a>
-		<a>Freezing Trap _Stats3</a>
-		<a>Freezing Trap _Stats4</a>
-		<a>Freezing Trap _Stats5</a>
-		<a>Freezing Trap _Stats6</a>
-		<a>Freezing Trap _Stats7</a>
-		<a>Price_60</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
+		<item name="Freezing Trap" category="trap" ability_slots="0" stackable="true" hold_template="freezing_trap" equip_template="" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Freezing Trap _Stats</a>
+				<a>Freezing Trap _Stats2</a>
+				<a>Freezing Trap _Stats3</a>
+				<a>Price_30</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
 
-        <item name="Rage Trap" category="trap" ability_slots="0" stackable="true" hold_template="rage_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Rage Trap _Stats</a>
-		<a>Rage Trap _Stats2</a>
-		<a>Rage Trap _Stats3</a>
-		<a>Rage Trap _Stats4</a>
-		<a>Rage Trap _Stats5</a>
-		<a>Rage Trap _Stats6</a>
-		<a>Rage Trap _Stats7</a>
-		<a>Price_70</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
-		
+		<item name="Rage Trap" category="trap" ability_slots="0" stackable="true" hold_template="rage_trap" equip_template="" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Rage Trap _Stats</a>
+				<a>Rage Trap _Stats2</a>
+				<a>Rage Trap _Stats3</a>
+				<a>Price_20</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
+
 		# Probably will not be used
-        #<item name="Grappling Trap" category="trap" ability_slots="0" stackable="true" hold_template="grappling_trap" equip_template="" equip_slot="" hold_slot="">
-        #	<tags>SortTypeTrap,Trap,QuickSlot</tags>
-        #	<base_abilities>
-        #		<a>Grappling Trap _Stats</a>
-        #		<a>Price_60</a>
-        #		<a>Weight_1</a>
-        #	</base_abilities>
-        #</item>
-		
-		# Special Traps used to destroy harpy nests
-		
-        <item name="Harpy Bait Trap" category="trap" ability_slots="0" stackable="true" hold_template="harpy_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Harpy Bait Trap _Stats</a>
-		<a>Price_50</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
+		#<item name="Grappling Trap" category="trap" ability_slots="0" stackable="true" hold_template="grappling_trap" equip_template="" equip_slot="" hold_slot="">
+			#	<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			#	<base_abilities>
+				#		<a>Grappling Trap _Stats</a>
+				#		<a>Price_20</a>
+				#		<a>Weight_1</a>
+				#	</base_abilities>
+			#</item>
 
-		
+		# Special Traps used to destroy harpy nests
+
+		<item name="Harpy Bait Trap" category="trap" ability_slots="0" stackable="true" hold_template="harpy_trap" equip_template="" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Harpy Bait Trap _Stats</a>
+				<a>Price_50</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
+
+
 		# Special Traps used against bosses
-		
-        #<item name="Tentadrake Trap" category="quest" ability_slots="0" stackable="true" hold_template="tentadrake_trap" equip_template="" equip_slot="" hold_slot="">
-            #<tags>SortTypeTrap,SortTypeQuest,Quest</tags>
-            #<base_abilities>
-	#	<a>Tentadrake Trap _Stats</a>
-	#	<a>Price_100</a>
-            #    <a>Weight_1</a>
-            #</base_abilities>
-        #</item>
-		
-        #<item name="Draug Trap" category="trap" ability_slots="0" stackable="true" hold_template="draug_trap" equip_template="" equip_slot="" hold_slot="">
-         #   <tags>SortTypeTrap,Trap,QuickSlot</tags>
-           # <base_abilities>
-	#	<a>Draug Trap _Stats</a>
-	#	<a>Price_100</a>
-            #    <a>Weight_1</a>
-           # </base_abilities>
-        #</item>
-        
-	#	<item name="Dragon Trap" category="trap" ability_slots="0" stackable="true" hold_template="dragon_trap" equip_template="" equip_slot="" hold_slot="">
-           # <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            #<base_abilities>
-	#	<a>Dragon Trap _Stats</a>
-#		<a>Price_100</a>
- #               <a>Weight_1</a>
-   #         </base_abilities>
-     #   </item>
-        
+
+		#<item name="Tentadrake Trap" category="quest" ability_slots="0" stackable="true" hold_template="tentadrake_trap" equip_template="" equip_slot="" hold_slot="">
+			#<tags>SortTypeTrap,SortTypeQuest,Quest</tags>
+			#<base_abilities>
+				#	<a>Tentadrake Trap _Stats</a>
+				#	<a>Price_100</a>
+				#    <a>Weight_1</a>
+				#</base_abilities>
+			#</item>
+
+		#<item name="Draug Trap" category="trap" ability_slots="0" stackable="true" hold_template="draug_trap" equip_template="" equip_slot="" hold_slot="">
+			#   <tags>SortTypeTrap,Trap,QuickSlot</tags>
+			# <base_abilities>
+				#	<a>Draug Trap _Stats</a>
+				#	<a>Price_100</a>
+				#    <a>Weight_1</a>
+				# </base_abilities>
+			#</item>
+
+		#	<item name="Dragon Trap" category="trap" ability_slots="0" stackable="true" hold_template="dragon_trap" equip_template="" equip_slot="" hold_slot="">
+			# <tags>SortTypeTrap,Trap,QuickSlot</tags>
+			#<base_abilities>
+				#	<a>Dragon Trap _Stats</a>
+				#		<a>Price_100</a>
+				#               <a>Weight_1</a>
+				#         </base_abilities>
+			#   </item>
+
 		<item name="Arachas Trap" category="trap" ability_slots="0" stackable="true" hold_template="arachas_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
-            <base_abilities>
-		<a>Arachas Trap _Stats</a>
-		<a>Price_100</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
-        
+			<tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>Arachas Trap _Stats</a>
+				<a>Price_100</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
+
 		<item name="Magic Trap" category="trap" ability_slots="0" stackable="true" hold_template="magic_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
-            <base_abilities>
-		<a>Magic Trap _Stats</a>
-		<a>Price_100</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
+			<tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>Magic Trap _Stats</a>
+				<a>Price_100</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
 
 		# Anti Witcher Traps used by enemies  
-        
-        <item name="Arachas Smoke Trap" category="trap" ability_slots="0" stackable="true" hold_template="arachas_smoke_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
-            <base_abilities>
-		<a>Arachas Smoke Trap _Stats</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
 
-		
+		<item name="Arachas Smoke Trap" category="trap" ability_slots="0" stackable="true" hold_template="arachas_smoke_trap" equip_template="" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>Arachas Smoke Trap _Stats</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
+
 		# Anti witcher traps used on location
-		
-		<item name="Animal Trap" category="trap" ability_slots="0" stackable="true" hold_template="animal_trap" equip_template="" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot</tags>
-            <base_abilities>
-		<a>Animal Trap _Stats</a>
-		<a>Animal Trap _Stats2</a>
-		<a>Animal Trap _Stats3</a>
-		<a>Animal Trap _Stats4</a>
-		<a>Animal Trap _Stats5</a>
-		<a>Animal Trap _Stats6</a>
-		<a>Animal Trap _Stats7</a>
-		<a>Price_50</a>
-                <a>Weight_1</a>
-            </base_abilities>
-        </item>
-	<item name="Mage Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
-        </item>
 
-	<item name="Detmold Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
-            <tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
-        </item>
+		<item name="Animal Trap" category="trap" ability_slots="0" stackable="true" hold_template="animal_trap" equip_template="" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot</tags>
+			<base_abilities>
+				<a>Animal Trap _Stats</a>
+				<a>Animal Trap _Stats2</a>
+				<a>Animal Trap _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_1</a>
+			</base_abilities>
+		</item>
+		<item name="Mage Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
+		</item>
+
+		<item name="Detmold Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
+			<tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
+		</item>
 
 	<item name="Used Trap" category="other" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
-            <tags>SortTypeOther,Dismantle</tags>
+            <tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
             <base_abilities>
-		<a>Price_20</a>
-                <a>Weight_05</a>
+		<a>Price_10</a>
+		<a>CraftPrice_05</a>
             </base_abilities>
-        	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Wood lumber</ingredient>
-		<ingredient quantity="1">Threads</ingredient>
-		<ingredient quantity="1">Iron Ore</ingredient>
-	    </ingredients_list>
+	  <ingredients_list crafted_item="">
+		<ingredient quantity="1">Used Trap</ingredient>
+	  </ingredients_list>
 	</item>
 
-		
-    </items>
+
+	</items>
 </definitions>

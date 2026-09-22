@@ -8,113 +8,104 @@
     # Smarowidla i oselki
 
         <item name="Brown Oil" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
-	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Brown Oil _Stats</a>
 				<a>Brown Oil _Stats2</a>
 				<a>Brown Oil _Stats3</a>
-				<a>Brown Oil _Stats4</a>
-				<a>Price_60</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-        <item name="Hangman Venom" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_02" equip_slot="" hold_slot="">
-	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Hangman Venom" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_02" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Hangman Venom _Stats</a>
 				<a>Hangman Venom _Stats2</a>
 				<a>Hangman Venom _Stats3</a>
-				<a>Hangman Venom _Stats4</a>
-				<a>Price_60</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-        <item name="Crinfrid Oil" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_04" equip_slot="" hold_slot="">
-	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Crinfrid Oil" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_04" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Cinfrid Oil _Stats</a>
 				<a>Cinfrid Oil _Stats2</a>
 				<a>Cinfrid Oil _Stats3</a>
-				<a>Cinfrid Oil _Stats4</a>
-				<a>Price_60</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-        <item name="Specter Grease" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
-	  <tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Specter Grease" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Specter Grease _Stats</a>
 				<a>Specter Grease _Stats2</a>
 				<a>Specter Grease _Stats3</a>
-				<a>Specter Grease _Stats4</a>
-				<a>Price_60</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	<item name="Caelm" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
-	  <tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Caelm" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Caelm _Stats</a>
 				<a>Caelm _Stats2</a>
 				<a>Caelm _Stats3</a>
-				<a>Caelm _Stats4</a>
 				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	<item name="Cerbin Blath" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
-	  <tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Cerbin Blath" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Cerbin Blath _Stats</a>
 				<a>Cerbin Blath _Stats2</a>
 				<a>Cerbin Blath _Stats3</a>
-				<a>Cerbin Blath _Stats4</a>
-				<a>Price_70</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-	<item name="Argentia" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
-	  <tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Argentia" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_05" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Argentia _Stats</a>
 				<a>Argentia _Stats2</a>
 				<a>Argentia _Stats3</a>
-				<a>Argentia _Stats4</a>
-				<a>Price_60</a>
+				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-        <item name="Surge" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_07" equip_slot="" hold_slot="">
-	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
+			</base_abilities>
+		</item>
+
+		<item name="Surge" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_07" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
 				<a>Surge _Stats</a>
 				<a>Surge _Stats2</a>
 				<a>Surge _Stats3</a>
-				<a>Surge _Stats4</a>
 				<a>Price_50</a>
 				<a>Weight_02</a>
-            </base_abilities>
-        </item>
+			</base_abilities>
+		</item>
 
+	<item name="Unique Whetstone" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_07" equip_slot="" hold_slot="">
+			<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
+			<base_abilities>
+				<a>Surge _Stats</a>
+				<a>Surge _Stats2</a>
+				<a>Surge _Stats3</a>
+				<a>Price_50</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
 
-######### DLC #########
-
-        <item name="Unique Whetstone" category="weaponupgrade" ability_slots="0" stackable="true" template="enh_grs_07" equip_slot="" hold_slot="">
-	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,Oil</tags>
-            <base_abilities>
-				<a>Unique Whetstone _Stats</a>
-				<a>Price_500</a>
-				<a>Weight_1</a>
-            </base_abilities>
-        </item>
-        
-    </items>
+	</items>
     
 </definitions>

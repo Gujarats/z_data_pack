@@ -3,365 +3,925 @@
   <abilities>
     <ability name="Mon_Warewolf">
 			#exp
-			<level mult="false" always_random="false" min="15" max="15" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="24" max="24" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="25" max="25" /><damage_max mult="false" always_random="false" min="45" max="45" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_npc_min mult="false" always_random="false" min="40" max="40" />
+			<damage_npc_max mult="false" always_random="false" min="60" max="60" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="400" max="400" /><vitality_regen mult="false" always_random="false" min="2" max="2" /><vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="0.7" max="0.7" /><res_poison mult="false" always_random="false" min="0.7" max="0.7" /><res_burn mult="false" always_random="false" min="0.4" max="0.4" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_poison mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_burn mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Arachas">
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+	<ability name="Mon_Arachas">
 			#exp
-			<level mult="false" always_random="false" min="15" max="15" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="15" max="15" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="25" max="25" /><damage_max mult="false" always_random="false" min="45" max="45" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="25" max="25" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="400" max="400" /><vitality_regen mult="false" always_random="false" min="2" max="2" /><vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" /><damage_reduction mult="false" always_random="false" min="10" max="10" /><damage_reduction_block mult="false" always_random="false" min="300" max="300" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="10" max="10" />
+			<damage_reduction_block mult="false" always_random="false" min="300" max="300" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.5" max="0.5" /><res_quen mult="false" always_random="false" min="0.9" max="0.9" /><res_axii mult="false" always_random="false" min="100.0" max="100.0" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="0.9" max="0.9" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="0.6" max="0.6" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.9" max="0.9" />
+			<res_poison mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_burn mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.3" max="0.3" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_EndriagaQueen">
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_EndriagaQueen">
 			#exp
-			<level mult="false" always_random="false" min="15" max="15" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="15" max="15" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="26" max="26" /><damage_max mult="false" always_random="false" min="40" max="40" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="25" max="25" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="250" max="250" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" /><damage_reduction mult="false" always_random="false" min="10" max="10" /><damage_reduction_block mult="false" always_random="false" min="300" max="300" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="10" max="10" />
+			<damage_reduction_block mult="false" always_random="false" min="300" max="300" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.6" max="0.6" /><res_quen mult="false" always_random="false" min="0.9" max="0.9" /><res_axii mult="false" always_random="false" min="100.0" max="100.0" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="0.6" max="0.6" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="0.6" max="0.6" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_poison mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_burn mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.3" max="0.3" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Bruxa">
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Bruxa">
 			#exp
-			<level mult="false" always_random="false" min="28" max="28" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="15" max="15" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="40" max="40" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_min mult="false" always_random="false" min="26" max="26" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="0.9" max="0.9" /><res_knockdown mult="false" always_random="false" min="0.3" max="0.3" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="0.3" max="0.3" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Bullvore">
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Bullvore">
 			#exp
-			<level mult="false" always_random="false" min="11" max="11" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="28" max="28" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="15" max="15" /><damage_max mult="false" always_random="false" min="20" max="20" /><damage_npc_min mult="false" always_random="false" min="5" max="5" /><damage_npc_max mult="false" always_random="false" min="5" max="5" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="70" max="70" /><vitality_regen mult="false" always_random="false" min="1" max="1" /><vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" /><damage_reduction mult="false" always_random="false" min="5" max="5" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.4" max="0.4" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.4" max="0.4" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.6" max="0.6" /><res_stun mult="false" always_random="false" min="0.90" max="0.90" /><res_knockdown mult="false" always_random="false" min="1.7" max="1.7" /><res_bleed mult="false" always_random="false" min="0.7" max="0.7" /><res_poison mult="false" always_random="false" min="0.7" max="0.7" /><res_burn mult="false" always_random="false" min="0.6" max="0.6" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
+			<res_bleed mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_poison mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_burn mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" /><crt_poison mult="false" always_random="false" min="0.3" max="0.3" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Drowner">
+			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_poison mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Drowner">
 			#exp
-			<level mult="false" always_random="false" min="13" max="13" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="11" max="11" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="15" max="15" /><damage_max mult="false" always_random="false" min="30" max="30" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<damage_npc_min mult="false" always_random="false" min="5" max="5" />
+			<damage_npc_max mult="false" always_random="false" min="5" max="5" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="150" max="150" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="1.4" max="1.4" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="15" max="15" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="70" max="70" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="0.4" max="0.4" /><res_knockdown mult="false" always_random="false" min="0.1" max="0.1" /><res_bleed mult="false" always_random="false" min="2.0" max="2.0" /><res_poison mult="false" always_random="false" min="2.0" max="2.0" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_bleed mult="false" always_random="false" min="2.0" max="2.0" />
+			<res_poison mult="false" always_random="false" min="2.0" max="2.0" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" /><crt_poison mult="false" always_random="false" min="0.15" max="0.15" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_DrowDead">
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_poison mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_DrowDead">
 			#exp
-			<level mult="false" always_random="false" min="33" max="33" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="13" max="13" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="80" max="80" /><damage_max mult="false" always_random="false" min="100" max="100" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="1000" max="1000" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="0.4" max="0.4" /><res_knockdown mult="false" always_random="false" min="0.1" max="0.1" /><res_bleed mult="false" always_random="false" min="2.0" max="2.0" /><res_poison mult="false" always_random="false" min="2.0" max="2.0" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_knockdown mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_bleed mult="false" always_random="false" min="2.0" max="2.0" />
+			<res_poison mult="false" always_random="false" min="2.0" max="2.0" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="0.2" max="0.2" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" /><crt_poison mult="false" always_random="false" min="0.6" max="0.6" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Elemental">
+			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_poison mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+
+		<ability name="Mon_Elemental">
 			#exp
-			<level mult="false" always_random="false" min="9" max="9" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="33" max="33" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="10" max="10" /><damage_max mult="false" always_random="false" min="16" max="16" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="80" max="80" />
+			<damage_max mult="false" always_random="false" min="100" max="100" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="60" max="60" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="30" max="30" /><damage_reduction_block mult="false" always_random="false" min="30" max="30" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="1000" max="1000" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="30" max="30" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.4" max="0.4" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.4" max="0.4" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.7" max="0.7" /><res_yrden mult="false" always_random="false" min="0.6" max="0.6" /><res_quen mult="false" always_random="false" min="0.8" max="0.8" /><res_axii mult="false" always_random="false" min="100.0" max="100.0" /><res_stun mult="false" always_random="false" min="0.95" max="0.95" /><res_knockdown mult="false" always_random="false" min="1.7" max="1.7" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="100.0" max="100.0" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_yrden mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_quen mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="0.95" max="0.95" />
+			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Endriag">
+			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Endriag">
 			#exp
-			<level mult="false" always_random="false" min="11" max="11" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="9" max="9" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="10" max="10" /><damage_max mult="false" always_random="false" min="20" max="20" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="130" max="130" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" /><damage_reduction mult="false" always_random="false" min="2" max="2" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="0.1" max="0.1" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_poison mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" /><crt_poison mult="false" always_random="false" min="0.4" max="0.4" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Endriag_Warrior">
+			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_poison mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Endriag_Warrior">
 			#exp
-			<level mult="false" always_random="false" min="10" max="10" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="11" max="11" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="10" max="10" /><damage_max mult="false" always_random="false" min="18" max="18" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="80" max="80" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="2.6" max="2.6" /><damage_reduction mult="false" always_random="false" min="3" max="3" /><damage_reduction_block mult="false" always_random="false" min="25" max="25" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="130" max="130" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.3" max="0.3" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="0.1" max="0.1" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_poison mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" /><crt_poison mult="false" always_random="false" min="0.6" max="0.6" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Endriag_Guardian">
+			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_poison mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Endriag_Guardian">
 			#exp
-			<level mult="false" always_random="false" min="30" max="30" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="10" max="10" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="50" max="50" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_npc_min mult="false" always_random="false" min="20" max="20" /><damage_npc_max mult="false" always_random="false" min="20" max="20" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="80" max="80" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="120" max="120" /><vitality_regen mult="false" always_random="false" min="1.6" max="1.6" /><vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" /><damage_reduction mult="false" always_random="false" min="2" max="2" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.5" max="0.5" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.6" max="0.6" /><res_stun mult="false" always_random="false" min="0.7" max="0.7" /><res_knockdown mult="false" always_random="false" min="0.7" max="0.7" /><res_bleed mult="false" always_random="false" min="0.6" max="0.6" /><res_poison mult="false" always_random="false" min="0.6" max="0.6" /><res_burn mult="false" always_random="false" min="0.5" max="0.5" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.9" max="0.9" /></ability>
-    <ability name="Mon_Gargoyle">
-			#exp
-			<level mult="false" always_random="false" min="28" max="28" /><experience mult="false" always_random="false" min="10" max="10" />
-			#damage
-			<damage_min mult="false" always_random="false" min="40" max="40" /><damage_max mult="false" always_random="false" min="70" max="70" /><damage_npc_min mult="false" always_random="false" min="20" max="20" /><damage_npc_max mult="false" always_random="false" min="20" max="20" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" /><explosion_damage mult="false" always_random="false" min="60" max="70" /><explosion_range mult="false" always_random="false" min="3" max="3" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" /><vitality_regen mult="false" always_random="false" min="0.0" max="0.0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="15" max="15" /><damage_reduction_block mult="false" always_random="false" min="30" max="30" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.2" max="0.2" /><res_igni mult="false" always_random="false" min="0.5" max="0.5" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.3" max="0.3" /><res_axii mult="false" always_random="false" min="0.3" max="0.3" /><res_stun mult="false" always_random="false" min="0.95" max="0.95" /><res_knockdown mult="false" always_random="false" min="0.95" max="0.95" /><res_bleed mult="false" always_random="false" min="1.0" max="1.0" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="1.0" max="1.0" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.9" max="0.9" /></ability>
-    <ability name="Mon_Golem">
-			#exp
-			<level mult="false" always_random="false" min="20" max="20" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="20" max="20" /><damage_max mult="false" always_random="false" min="35" max="35" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="150" max="150" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="15" max="15" /><damage_reduction_block mult="false" always_random="false" min="30" max="30" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.4" max="0.4" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.7" max="0.7" /><res_yrden mult="false" always_random="false" min="0.6" max="0.6" /><res_quen mult="false" always_random="false" min="0.6" max="0.6" /><res_axii mult="false" always_random="false" min="100.0" max="100.0" /><res_stun mult="false" always_random="false" min="100.0" max="100.0" /><res_knockdown mult="false" always_random="false" min="100.0" max="100.0" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="100.0" max="100.0" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Harpy">
-			#exp
-			<level mult="false" always_random="false" min="24" max="24" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="30" max="30" /><damage_max mult="false" always_random="false" min="50" max="50" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="350" max="350" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="0.4" max="0.4" /><res_knockdown mult="false" always_random="false" min="0.2" max="0.2" /><res_bleed mult="false" always_random="false" min="0.2" max="0.2" /><res_poison mult="false" always_random="false" min="0.2" max="0.2" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Eyrnie">
-			#exp
-			<level mult="false" always_random="false" min="16" max="16" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="30" max="30" /><damage_max mult="false" always_random="false" min="50" max="50" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="400" max="400" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="7.0" max="7.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="0.6" max="0.6" /><res_knockdown mult="false" always_random="false" min="0.2" max="0.2" /><res_bleed mult="false" always_random="false" min="0.2" max="0.2" /><res_poison mult="false" always_random="false" min="0.2" max="0.2" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_HarpyQueen">
-			#exp
-			<level mult="false" always_random="false" min="26" max="26" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="45" max="45" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="300" max="300" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="40" max="40" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.9" max="0.9" /><res_axii mult="false" always_random="false" min="100.0" max="100.0" /><res_stun mult="false" always_random="false" min="2.2" max="2.2" /><res_knockdown mult="false" always_random="false" min="2.2" max="2.2" /><res_bleed mult="false" always_random="false" min="0.2" max="0.2" /><res_poison mult="false" always_random="false" min="0.2" max="0.2" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_KnightWraith">
-			#exp
-			<level mult="false" always_random="false" min="9" max="9" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="10" max="10" /><damage_max mult="false" always_random="false" min="18" max="18" /><damage_npc_min mult="false" always_random="false" min="5" max="5" /><damage_npc_max mult="false" always_random="false" min="5" max="5" /><ranged_damage_min mult="false" always_random="false" min="8" max="8" /><ranged_damage_max mult="false" always_random="false" min="10" max="10" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="30" max="30" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="15" max="15" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
-			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
-			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.5" max="0.5" /><res_igni mult="false" always_random="false" min="0.5" max="0.5" /><res_yrden mult="false" always_random="false" min="0.4" max="0.4" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.3" max="0.3" /><res_stun mult="false" always_random="false" min="0.8" max="0.8" /><res_knockdown mult="false" always_random="false" min="0.8" max="0.8" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="0.2" max="0.2" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Nekker">
-			#exp
-			<level mult="false" always_random="false" min="12" max="12" /><experience mult="false" always_random="false" min="5" max="5" />
-			#damage
-			<damage_min mult="false" always_random="false" min="15" max="15" /><damage_max mult="false" always_random="false" min="30" max="30" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="8" max="8" /><ranged_damage_max mult="false" always_random="false" min="10" max="10" />
-			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="80" max="80" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="10" max="10" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.0" max="0.0" /><res_yrden mult="false" always_random="false" min="0.05" max="0.05" /><res_quen mult="false" always_random="false" min="0.0" max="0.0" /><res_axii mult="false" always_random="false" min="0.05" max="0.05" /><res_stun mult="false" always_random="false" min="0.3" max="0.3" /><res_knockdown mult="false" always_random="false" min="0.05" max="0.05" /><res_bleed mult="false" always_random="false" min="0.02" max="0.02" /><res_poison mult="false" always_random="false" min="0.0" max="0.0" /><res_burn mult="false" always_random="false" min="0.0" max="0.0" /><res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_poison mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.2" max="0.2" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_NekkerWarrior">
+			<crt_bleed mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_poison mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Gargoyle">
 			#exp
-			<level mult="false" always_random="false" min="23" max="23" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="30" max="30" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="20" max="20" /><damage_max mult="false" always_random="false" min="30" max="30" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_npc_min mult="false" always_random="false" min="20" max="20" />
+			<damage_npc_max mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="80" max="80" />
+			<explosion_damage mult="false" always_random="false" min="60" max="70" />
+			<explosion_range mult="false" always_random="false" min="3" max="3" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="120" max="120" /><vitality_regen mult="false" always_random="false" min="1.6" max="1.6" /><vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction_block mult="false" always_random="false" min="150" max="150" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="0.2" max="0.2" /><res_knockdown mult="false" always_random="false" min="0.2" max="0.2" /><res_bleed mult="false" always_random="false" min="0.3" max="0.3" /><res_poison mult="false" always_random="false" min="0.3" max="0.3" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_poison mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_burn mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.4" max="0.4" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Rotfiend">
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.9" max="0.9" />
+		</ability> 
+		<ability name="Mon_Golem">
 			#exp
-			<level mult="false" always_random="false" min="26" max="26" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="28" max="28" />
+			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="25" max="25" /><damage_max mult="false" always_random="false" min="45" max="45" /><damage_npc_min mult="false" always_random="false" min="20" max="20" /><damage_npc_max mult="false" always_random="false" min="20" max="20" /><ranged_damage_min mult="false" always_random="false" min="50" max="50" /><ranged_damage_max mult="false" always_random="false" min="70" max="70" /><explosion_damage mult="false" always_random="false" min="60" max="70" /><explosion_range mult="false" always_random="false" min="3" max="3" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_npc_min mult="false" always_random="false" min="20" max="20" />
+			<damage_npc_max mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="250" max="250" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="10" max="10" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.4" max="0.4" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="0.4" max="0.4" /><res_knockdown mult="false" always_random="false" min="0.2" max="0.2" /><res_bleed mult="false" always_random="false" min="0.9" max="0.9" /><res_poison mult="false" always_random="false" min="1.0" max="1.0" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_yrden mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_quen mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="0.95" max="0.95" />
+			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.4" max="0.4" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Devourer">
+			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+
+		<ability name="Mon_Harpy">
 			#exp
-			<level mult="false" always_random="false" min="28" max="28" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="20" max="20" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="40" max="40" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="30" max="30" /><ranged_damage_max mult="false" always_random="false" min="50" max="50" /><explosion_damage mult="false" always_random="false" min="60" max="70" /><explosion_range mult="false" always_random="false" min="3" max="3" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="375" max="375" /><vitality_regen mult="false" always_random="false" min="5.0" max="5.0" /><vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.3" max="0.3" /><res_axii mult="false" always_random="false" min="0.2" max="0.2" /><res_stun mult="false" always_random="false" min="0.4" max="0.4" /><res_knockdown mult="false" always_random="false" min="0.2" max="0.2" /><res_bleed mult="false" always_random="false" min="0.3" max="0.3" /><res_poison mult="false" always_random="false" min="0.3" max="0.3" /><res_burn mult="false" always_random="false" min="0.1" max="0.1" /><res_falldown mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.6" max="0.6" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Troll">
+			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Eyrnie">
 			#exp
-			<level mult="false" always_random="false" min="15" max="15" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="24" max="24" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="26" max="26" /><damage_max mult="false" always_random="false" min="35" max="35" /><damage_npc_min mult="false" always_random="false" min="15" max="15" /><damage_npc_max mult="false" always_random="false" min="15" max="15" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="60" max="60" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="40" max="40" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<vitality mult="false" always_random="false" min="350" max="350" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.4" max="0.4" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.5" max="0.5" /><res_axii mult="false" always_random="false" min="0.6" max="0.6" /><res_stun mult="false" always_random="false" min="0.95" max="0.95" /><res_knockdown mult="false" always_random="false" min="1.7" max="1.7" /><res_bleed mult="false" always_random="false" min="0.7" max="0.7" /><res_poison mult="false" always_random="false" min="0.1" max="0.1" /><res_burn mult="false" always_random="false" min="0.6" max="0.6" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Q201_Wraith">
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_HarpyQueen">
 			#exp
-			<level mult="false" always_random="false" min="15" max="15" /><experience mult="false" always_random="false" min="10" max="10" />
+			<level mult="false" always_random="false" min="16" max="16" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="26" max="26" /><damage_max mult="false" always_random="false" min="35" max="35" /><damage_npc_min mult="false" always_random="false" min="10" max="10" /><damage_npc_max mult="false" always_random="false" min="10" max="10" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="200" max="200" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="2.2" max="2.2" />
+			<res_knockdown mult="false" always_random="false" min="2.2" max="2.2" />
+			<res_bleed mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_poison mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_KnightWraith">
+			#exp
+			<level mult="false" always_random="false" min="26" max="26" />
+			<experience mult="false" always_random="false" min="5" max="5" />
+			#damage
+			<damage_min mult="false" always_random="false" min="45" max="45" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.9" max="0.9" />
+			<res_igni mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_yrden mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_stun mult="false" always_random="false" min="0.75" max="0.75" />
+			<res_knockdown mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Nekker">
+			#exp
+			<level mult="false" always_random="false" min="9" max="9" />
+			<experience mult="false" always_random="false" min="5" max="5" />
+			#damage
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<damage_npc_min mult="false" always_random="false" min="5" max="5" />
+			<damage_npc_max mult="false" always_random="false" min="5" max="5" />
+			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
+			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.5" max="0.5" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="0.7" max="0.7" /><res_knockdown mult="false" always_random="false" min="0.7" max="0.7" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="0.3" max="0.3" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_axii mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
+			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-    <ability name="Mon_Wraith">
+			<crt_bleed mult="false" always_random="false" min="0.2" max="0.2" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_NekkerWarrior">
 			#exp
-			<level mult="false" always_random="false" min="24" max="24" /><experience mult="false" always_random="false" min="5" max="5" />
+			<level mult="false" always_random="false" min="12" max="12" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="50" max="50" /><damage_max mult="false" always_random="false" min="70" max="70" /><damage_npc_min mult="false" always_random="false" min="40" max="40" /><damage_npc_max mult="false" always_random="false" min="60" max="60" /><ranged_damage_min mult="false" always_random="false" min="20" max="20" /><ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
+			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="550" max="550" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" /><damage_reduction mult="false" always_random="false" min="0" max="0" /><damage_reduction_block mult="false" always_random="false" min="20" max="20" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2" /><heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
 			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.1" max="0.1" /><res_igni mult="false" always_random="false" min="0.1" max="0.1" /><res_yrden mult="false" always_random="false" min="0.1" max="0.1" /><res_quen mult="false" always_random="false" min="0.1" max="0.1" /><res_axii mult="false" always_random="false" min="0.1" max="0.1" /><res_stun mult="false" always_random="false" min="0.7" max="0.7" /><res_knockdown mult="false" always_random="false" min="0.7" max="0.7" /><res_bleed mult="false" always_random="false" min="100.0" max="100.0" /><res_poison mult="false" always_random="false" min="100.0" max="100.0" /><res_burn mult="false" always_random="false" min="0.3" max="0.3" /><res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_axii mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
+			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_falldown mult="false" always_random="false" min="0.1" max="0.1" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" /><crt_poison mult="false" always_random="false" min="0.0" max="0.0" /><crt_burn mult="false" always_random="false" min="0.0" max="0.0" /></ability>
-  </abilities>
+			<crt_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Rotfiend">
+			#exp
+			<level mult="false" always_random="false" min="23" max="23" />
+			<experience mult="false" always_random="false" min="5" max="5" />
+			#damage
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			<explosion_damage mult="false" always_random="false" min="50" max="50" />
+			<explosion_range mult="false" always_random="false" min="3" max="3" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_poison mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Devourer">
+			#exp
+			<level mult="false" always_random="false" min="26" max="26" />
+			<experience mult="false" always_random="false" min="5" max="5" />
+			#damage
+			<damage_min mult="false" always_random="false" min="25" max="25" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<damage_npc_min mult="false" always_random="false" min="20" max="20" />
+			<damage_npc_max mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
+			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
+			<explosion_damage mult="false" always_random="false" min="60" max="70" />
+			<explosion_range mult="false" always_random="false" min="3" max="3" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_stun mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_knockdown mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_bleed mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_poison mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_burn mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_falldown mult="false" always_random="false" min="0.4" max="0.4" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Troll">
+			#exp
+			<level mult="false" always_random="false" min="28" max="28" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			#damage
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
+			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.4" max="0.4" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="30" max="30" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="1.7" max="1.7" />
+			<res_bleed mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_poison mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_burn mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.6" max="0.6" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Q201_Wraith">
+			#exp
+			<level mult="false" always_random="false" min="15" max="15" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			#damage
+			<damage_min mult="false" always_random="false" min="26" max="26" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+			<damage_npc_min mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_max mult="false" always_random="false" min="15" max="15" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		<ability name="Mon_Wraith">
+			#exp
+			<level mult="false" always_random="false" min="15" max="15" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			#damage
+			<damage_min mult="false" always_random="false" min="26" max="26" />
+			<damage_max mult="false" always_random="false" min="35" max="35" />
+			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
+			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			#vitality i pancerz
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			#zdolnosci specjalne
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
+			#celnosc pociskow
+			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			#odpornosci
+			<res_aard mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_igni mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_yrden mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_quen mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_axii mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_stun mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_knockdown mult="false" always_random="false" min="0.7" max="0.7" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			#efekty krytyczne
+			<crt_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
+		</ability> 
+		</abilities>
   <items>
   </items>
 </definitions>

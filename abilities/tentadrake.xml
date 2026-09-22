@@ -2,26 +2,27 @@
 <definitions>
   <abilities>
     <ability name="Tentadrake Default">
-      <damage_min mult="false" always_random="false" min="40" max="40" />
-      <damage_max mult="false" always_random="false" min="70" max="70" />
-      <vitality mult="false" always_random="false" min="100" max="100" />
-      <level mult="false" always_random="false" min="8" max="8" />
-      <experience mult="false" always_random="false" min="500" max="500" />
-      <damage_reduction mult="false" always_random="false" min="999" max="999" />
-      <damage_reduction_block mult="false" always_random="false" min="999" max="999" />
-      <TentacleYrdenDelay mult="false" always_random="false" min="12.00" max="12.00" />
-      <crt_poison mult="false" always_random="false" min="100.0" max="100.0" />
-      <poison_duration mult="false" always_random="false" min="8" max="8" />
-    </ability>
-    <ability name="Tentacle Default">
-      <vitality mult="false" always_random="false" min="100" max="100" />
-      <level mult="false" always_random="false" min="8" max="8" />
-      <experience mult="false" always_random="false" min="0" max="0" />
-      <damage_reduction mult="false" always_random="false" min="1" max="1" />
-      <damage_reduction_block mult="false" always_random="false" min="0" max="0" />
-      <res_poison mult="false" always_random="false" min="100.0" max="100.0" />
-    </ability>
-  </abilities>
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<level mult="false" always_random="false" min="8" max="8" />
+			<experience mult="false" always_random="false" min="500" max="500" />
+			<damage_reduction mult="false" always_random="false" min="999" max="999" />
+			<damage_reduction_block mult="false" always_random="false" min="999" max="999" />
+			<TentacleYrdenDelay mult="false" always_random="false" min="12.00" max="12.00" />
+			<crt_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<poison_duration mult="false" always_random="false" min="8" max="8" />
+		</ability>   
+
+		<ability name="Tentacle Default">
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<level mult="false" always_random="false" min="8" max="8" />
+			<experience mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
+		</ability>
+
+	</abilities>
   <items>
   </items>
 </definitions>

@@ -3,13 +3,19 @@
   <abilities>
 
 # fog spectre base ability
-		<ability name="fog spectre base ability"><vitality mult="false" always_random="false" min="40" max="40" />
-			
-			#odpornosci 
-			<res_axii mult="false" always_random="false" min="400" max="400" /></ability>   
+		<ability name="fog spectre base ability">
+			<vitality mult="false" always_random="false" min="40" max="40" />
 
-# fog hostile spectre base ability
-		<ability name="fog hostile spectre base ability"><vitality mult="false" always_random="false" min="100" max="100" /></ability></abilities>
+			#odpornosci 
+			<res_axii mult="false" always_random="false" min="400" max="400" /> 
+		</ability>   
+
+		# fog hostile spectre base ability
+		<ability name="fog hostile spectre base ability">
+			<vitality mult="false" always_random="false" min="100" max="100" />
+		</ability> 
+
+	</abilities>
   <items>
   </items>
 </definitions>

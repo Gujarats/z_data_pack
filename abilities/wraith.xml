@@ -2,75 +2,80 @@
 <definitions>
   <abilities>
     <ability name="Wraith Claws _Stats">
-      <damage_min>
-        <modifier mult="false" always_random="false" min="1" max="1" />
-      </damage_min>
-      <damage_max>
-        <modifier mult="false" always_random="false" min="2" max="2" />
-      </damage_max>
-    </ability>
-    <ability name="Wraith Default">
-      <level>
-        <modifier mult="false" always_random="false" min="4" max="4" />
-      </level>
-      <experience>
-        <modifier mult="false" always_random="false" min="15" max="15" />
-      </experience>
-      <vitality>
-        <modifier mult="false" always_random="false" min="65" max="65" />
-      </vitality>
-      <damage_reduction>
-        <modifier mult="false" always_random="false" min="7" max="7" />
-      </damage_reduction>
-      <damage_reduction_block>
-        <modifier mult="false" always_random="false" min="15" max="15" />
-      </damage_reduction_block>
-      <res_poision>
-        <modifier mult="false" always_random="false" min="0.3" max="0.3" />
-      </res_poision>
-      <crt_poision>
-        <modifier mult="false" always_random="false" min="0.5" max="0.5" />
-      </crt_poision>
-      <damage_min>
-        <modifier mult="false" always_random="false" min="10" max="10" />
-      </damage_min>
-      <damage_max>
-        <modifier mult="false" always_random="false" min="25" max="25" />
-      </damage_max>
-    </ability>
-    <ability name="Wraith Akt 2">
-      <level>
-        <modifier mult="false" always_random="false" min="8" max="8" />
-      </level>
-      <experience>
-        <modifier mult="false" always_random="false" min="20" max="20" />
-      </experience>
-      <vitality>
-        <modifier mult="false" always_random="false" min="160" max="160" />
-      </vitality>
-      <damage_reduction>
-        <modifier mult="false" always_random="false" min="20" max="20" />
-      </damage_reduction>
-      <damage_reduction_block>
-        <modifier mult="false" always_random="false" min="25" max="25" />
-      </damage_reduction_block>
-      <res_poision>
-        <modifier mult="false" always_random="false" min="0.6" max="0.6" />
-      </res_poision>
-      <damage_min>
-        <modifier mult="false" always_random="false" min="20" max="20" />
-      </damage_min>
-      <damage_max>
-        <modifier mult="false" always_random="false" min="35" max="35" />
-      </damage_max>
-    </ability>
-  </abilities>
+			<damage_min>
+				<modifier mult="false" always_random="false" min="1" max="1" />
+			</damage_min>
+			<damage_max>
+				<modifier mult="false" always_random="false" min="2" max="2" />
+			</damage_max>
+		</ability>  
+
+		<ability name="Wraith Default">
+			<level>
+				<modifier mult="false" always_random="false" min="4" max="4" />
+			</level>       
+			<experience>
+				<modifier mult="false" always_random="false" min="15" max="15" />
+			</experience>
+			<vitality>
+				<modifier mult="false" always_random="false" min="65" max="65" />
+			</vitality>       
+			<damage_reduction>
+				<modifier mult="false" always_random="false" min="7" max="7" />
+			</damage_reduction>
+			<damage_reduction_block>
+				<modifier mult="false" always_random="false" min="15" max="15" />
+			</damage_reduction_block>
+			<res_poision>
+				<modifier mult="false" always_random="false" min="0.3" max="0.3" />
+			</res_poision>
+			<crt_poision>
+				<modifier mult="false" always_random="false" min="0.5" max="0.5" />
+			</crt_poision>
+			<damage_min>
+				<modifier mult="false" always_random="false" min="10" max="10" />
+			</damage_min>
+			<damage_max>
+				<modifier mult="false" always_random="false" min="25" max="25" />
+			</damage_max>
+		</ability>  
+
+		<ability name="Wraith Akt 2">
+			<level>
+				<modifier mult="false" always_random="false" min="8" max="8" />
+			</level>       
+			<experience>
+				<modifier mult="false" always_random="false" min="20" max="20" />
+			</experience>
+			<vitality>
+				<modifier mult="false" always_random="false" min="160" max="160" />
+			</vitality>       
+			<damage_reduction>
+				<modifier mult="false" always_random="false" min="20" max="20" />
+			</damage_reduction>
+			<damage_reduction_block>
+				<modifier mult="false" always_random="false" min="25" max="25" />
+			</damage_reduction_block>
+			<res_poision>
+				<modifier mult="false" always_random="false" min="0.6" max="0.6" />
+			</res_poision>
+			<damage_min>
+				<modifier mult="false" always_random="false" min="20" max="20" />
+			</damage_min>
+			<damage_max>
+				<modifier mult="false" always_random="false" min="35" max="35" />
+			</damage_max>
+		</ability>  
+
+
+	</abilities>
   <items>
     <item name="Wraith claws" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="None" weapon="true" lethal="true" ability_mode="OnMount">
-      <tags>NoDrop,NoShow</tags>
-      <base_abilities>
-        <a>Wraith Claws _Stats</a>
-      </base_abilities>
-    </item>
-  </items>
+			<tags>NoDrop,NoShow</tags>
+			<base_abilities>
+				<a>Wraith Claws _Stats</a>
+			</base_abilities>
+		</item>    
+
+	</items>
 </definitions>

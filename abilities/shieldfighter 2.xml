@@ -2,33 +2,33 @@
 <definitions>
   <abilities>
     <ability name="Shieldfighter2 Default">
-      <vitality mult="false" always_random="false" min="50" max="50" />
-      <vitality_regen mult="false" always_random="false" min="1" max="1" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <endurance mult="false" always_random="false" min="1" max="1" />
-      <endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
-      <endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
-      <damage_reduction mult="false" always_random="false" min="1" max="1" />
-      <damage_reduction_block mult="false" always_random="false" min="1000" max="1000" />
-      <crt_disorientation mult="false" always_random="false" min="1" max="1" />
-      <res_poision mult="false" always_random="false" min="1" max="1" />
-      <res_bleed mult="false" always_random="false" min="1" max="1" />
-      <res_res_knockdown mult="false" always_random="false" min="1" max="1" />
-      <res_stun mult="false" always_random="false" min="1" max="1" />
-      <res_burn mult="false" always_random="false" min="1" max="1" />
-      <res_blind mult="false" always_random="false" min="1" max="1" />
-      <res_fear mult="false" always_random="false" min="1" max="1" />
-      <res_falter mult="false" always_random="false" min="1" max="1" />
-      <res_disarm mult="false" always_random="false" min="1" max="1" />
-      <res_laming mult="false" always_random="false" min="1" max="1" />
-      <res_shieldshatter mult="false" always_random="false" min="1" max="1" />
-      <res_disorientation mult="false" always_random="false" min="1" max="1" />
-      <damage_min mult="false" always_random="false" min="1" max="1" />
-      <damage_max mult="false" always_random="false" min="1" max="1" />
-      <evade mult="false" always_random="false" min="1" max="1" />
-      <block mult="false" always_random="false" min="1" max="1" />
-    </ability>
-  </abilities>
+			<vitality mult="false" always_random="false" min="50" max="50" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="1000" max="1000" />
+			<crt_disorientation mult="false" always_random="false" min="1" max="1" />
+			<res_poision mult="false" always_random="false" min="1" max="1" />
+			<res_bleed mult="false" always_random="false" min="1" max="1" />
+			<res_res_knockdown mult="false" always_random="false" min="1" max="1" />
+			<res_stun mult="false" always_random="false" min="1" max="1" />
+			<res_burn mult="false" always_random="false" min="1" max="1" />
+			<res_blind mult="false" always_random="false" min="1" max="1" />
+			<res_fear mult="false" always_random="false" min="1" max="1" />
+			<res_falter mult="false" always_random="false" min="1" max="1" />
+			<res_disarm mult="false" always_random="false" min="1" max="1" />
+			<res_laming mult="false" always_random="false" min="1" max="1" />
+			<res_shieldshatter mult="false" always_random="false" min="1" max="1" />
+			<res_disorientation mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
+			<evade mult="false" always_random="false" min="1" max="1" />
+			<block mult="false" always_random="false" min="1" max="1" />
+		</ability>   
+
+	</abilities>
   <items>
   </items>
 </definitions>

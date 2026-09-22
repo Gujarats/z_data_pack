@@ -13,11 +13,10 @@
         #######################################################################################################################################################
         # AKT 1
 		<item name="Schematic Leather Jacket" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_15</a>
+				<a>Price_50</a>
 				<a>CraftPrice_50</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Leather Jacket">
 				<ingredient quantity="4">Cloth</ingredient>
@@ -25,45 +24,40 @@
 				<ingredient quantity="4">Threads</ingredient>
 			</ingredients_list>
 		</item>
-	
+
 		<item name="Schematic Heavy Leather Jacket" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_25</a>
-				<a>CraftPrice_75</a>
-				<a>Weight_00</a>
+				<a>Price_110</a>
+				<a>CraftPrice_100</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Heavy Leather Jacket">
 				<ingredient quantity="8">Cloth</ingredient>
 				<ingredient quantity="10">Leather</ingredient>
-				<ingredient quantity="4">Hardened leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+				<ingredient quantity="1">Hardened leather</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Quality Leather Jacket" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_40</a>
+				<a>Price_125</a>
 				<a>CraftPrice_125</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Quality Leather Jacket">
 				<ingredient quantity="12">Cloth</ingredient>
-				<ingredient quantity="15">Quality cloth</ingredient>
-				<ingredient quantity="4">Leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="15">Leather</ingredient>
+				<ingredient quantity="4">Endriag skin</ingredient>
+				<ingredient quantity="1">Oil</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Light Leather Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_30</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_100</a>
+				<a>CraftPrice_40</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Light Leather Armor">
 				<ingredient quantity="10">Cloth</ingredient>
@@ -73,2215 +67,2050 @@
 		</item>
 
 		<item name="Schematic Heavy Elven Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_130</a>
-				<a>CraftPrice_250</a>
-				<a>Weight_00</a>
+				<a>Price_275</a>
+				<a>CraftPrice_275</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Heavy Elven Armor">
-				<ingredient quantity="12">Quality cloth</ingredient>
-				<ingredient quantity="14">Hardened leather</ingredient>
+				<ingredient quantity="12">Cloth</ingredient>
+				<ingredient quantity="14">Leather</ingredient>
 				<ingredient quantity="8">Endriag skin</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		<item name="Schematic Ravens Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_220</a>
-				<a>CraftPrice_325</a>
-				<a>Weight_00</a>
+				<a>Price_225</a>
+				<a>CraftPrice_225</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Ravens Armor">
-				<ingredient quantity="14">Quality cloth</ingredient>
-				<ingredient quantity="16">Hardened leather</ingredient>
-				<ingredient quantity="6">Crab spider shell</ingredient>
-				<ingredient quantity="8">Threads</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="14">Cloth</ingredient>
+				<ingredient quantity="16">Leather</ingredient>
+				<ingredient quantity="6">Threads</ingredient>
 			</ingredients_list>
 		</item>		
-		
+
 		<item name="Schematic Tentadrake Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_220</a>
-				<a>CraftPrice_325</a>
-				<a>Weight_00</a>
+				<a>Price_325</a>
+				<a>CraftPrice_375</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Tentadrake Armor">
 				<ingredient quantity="14">Quality cloth</ingredient>
-				<ingredient quantity="6">Studded leather</ingredient>
+				<ingredient quantity="6">Hardened leather</ingredient>
 				<ingredient quantity="1">Tentadrake skin</ingredient>
 				<ingredient quantity="8">Threads</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
 			</ingredients_list>
 		</item>			
-		
-        
-        ##########################################################################################################################################
-        # AKT 2
+
+
+		##########################################################################################################################################
+		# AKT 2
 		<item name="Schematic Draug Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_505</a>
-				<a>CraftPrice_500</a>
-				<a>Weight_00</a>
+				<a>Price_650</a>
+				<a>CraftPrice_750</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Draug Armor">
 				<ingredient quantity="18">Quality cloth</ingredient>
-				<ingredient quantity="8">Studded leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="8">Draug essence</ingredient>
+				<ingredient quantity="8">Hardened leather</ingredient>
+				<ingredient quantity="1">Draug essence</ingredient>
+				<ingredient quantity="8">Threads</ingredient>
 				<ingredient quantity="1">Piece of Draug armor</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        ##########################################################################################################################################
-        # AKT 3
+
+		##########################################################################################################################################
+		# AKT 3
 
 		<item name="Schematic Dearg Ruadhri" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_525</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
+				<a>Price_700</a>
+				<a>CraftPrice_800</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dearg Ruadhri">
 				<ingredient quantity="20">Quality cloth</ingredient>
 				<ingredient quantity="12">Hardened leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="8">Death essence</ingredient>
-				<ingredient quantity="1">Piece of Wraith Knight armor</ingredient>
+				<ingredient quantity="1">Crab spider shell</ingredient>
+				<ingredient quantity="8">Threads</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		<item name="Schematic Armor of Tir" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_525</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
+				<a>Price_500</a>
+				<a>CraftPrice_500</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Armor of Tir">
 				<ingredient quantity="24">Quality cloth</ingredient>
 				<ingredient quantity="16">Hardened leather</ingredient>
-				<ingredient quantity="5">Threads</ingredient>
-				<ingredient quantity="6">Death essence</ingredient>
-				<ingredient quantity="1">Crab Spider shell</ingredient>
+				<ingredient quantity="5">Harphy feathers</ingredient>
+				<ingredient quantity="6">Threads</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic Ysgith Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_525</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
+				<a>Price_625</a>
+				<a>CraftPrice_625</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Ysgith Armor">
 				<ingredient quantity="24">Quality cloth</ingredient>
 				<ingredient quantity="8">Hardened leather</ingredient>
-				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="1">Piece of Wraith Knight armor</ingredient>
 				<ingredient quantity="6">Threads</ingredient>
-				<ingredient quantity="1">Wraith Knight claws</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Armor of Ys" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_525</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
+				<a>Price_750</a>
+				<a>CraftPrice_825</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Armor of Ys">
 				<ingredient quantity="30">Quality cloth</ingredient>
-				<ingredient quantity="12">Hardened leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="5">Gargoyle dust</ingredient>
-				<ingredient quantity="10">Troll skin</ingredient>
+				<ingredient quantity="12">Studded leather</ingredient>
+				<ingredient quantity="1">Troll skin</ingredient>
+				<ingredient quantity="5">Nekker claws</ingredient>
+				<ingredient quantity="10">Threads</ingredient>
 			</ingredients_list>
 		</item>
-        
-                <item name="Schematic Vran Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Vran Armor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_525</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
+				<a>Price_2050</a>
+				<a>CraftPrice_2000</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Vran Armor">
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Studded leather</ingredient>
-				<ingredient quantity="4">Threads</ingredient>
-				<ingredient quantity="6">Vrans Armor Enhancement</ingredient>
-				<ingredient quantity="7">Ysgith Armor</ingredient>
+				<ingredient quantity="1">Ysgith Armor</ingredient>
+				<ingredient quantity="1">Vrans Armor Enhancement</ingredient>
+				<ingredient quantity="4">Studded leather</ingredient>
+				<ingredient quantity="6">Cloth</ingredient>
+				<ingredient quantity="7">Threads</ingredient>
 			</ingredients_list>
-		</item>        
+		</item>
 
-        ##########################################################################################################################################
-        # AKT 1
 		<item name="Schematic Reinforced Leather Boots" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_15</a>
-				<a>CraftPrice_40</a>
-				<a>Weight_00</a>
+				<a>Price_12</a>
+				<a>CraftPrice_10</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Reinforced Leather Boots">
-				<ingredient quantity="20">Cloth</ingredient>
-				<ingredient quantity="18">Leather</ingredient>
-				<ingredient quantity="9">Threads</ingredient>
+				<ingredient quantity="2">Cloth</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        <item name="Schematic Long Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_20</a>
-				<a>CraftPrice_40</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Long Leather Gloves">
-				<ingredient quantity="16">Cloth</ingredient>
-				<ingredient quantity="20">Leather</ingredient>
-				<ingredient quantity="20">Threads</ingredient>
-			</ingredients_list>
-		</item>	
-        
-        <item name="Schematic Long Studded Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_25</a>
-				<a>CraftPrice_60</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Long Studded Leather Gloves">
-				<ingredient quantity="22">Cloth</ingredient>
-				<ingredient quantity="18">Studded leather</ingredient>
-				<ingredient quantity="12">Threads</ingredient>
-			</ingredients_list>
-		</item>	
-        
 
-		<item name="Schematic Hardened Leather Boots" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_25</a>
-				<a>CraftPrice_60</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Hardened Leather Boots">
-				<ingredient quantity="18">Quality cloth</ingredient>
-				<ingredient quantity="30">Hardened leather</ingredient>
-				<ingredient quantity="18">Threads</ingredient>
-			</ingredients_list>
-		</item>	
-        
-       <item name="Schematic High Quality Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="High Quality Leather Pants">
-				<ingredient quantity="14">Quality cloth</ingredient>
-				<ingredient quantity="8">Leather</ingredient>
-				<ingredient quantity="4">Threads</ingredient>
-			</ingredients_list>
-		</item>	
-        
-        <item name="Schematic Studded Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_25</a>
-				<a>CraftPrice_60</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Studded Leather Pants">
-				<ingredient quantity="12">Quality cloth</ingredient>
-				<ingredient quantity="18">Studded leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-			</ingredients_list>
-		</item>
-        
-        <item name="Schematic Quality Long Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Quality Long Gloves">
-				<ingredient quantity="16">Quality cloth</ingredient>
-				<ingredient quantity="18">Hardened leather</ingredient>
-				<ingredient quantity="6">Threads</ingredient>
-			</ingredients_list>
-		</item>		
-        ##########################################################################################################################################
-        # AKT 2
-        
-        <item name="Schematic Heavy Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Long Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_30</a>
-				<a>CraftPrice_60</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
-			<ingredients_list crafted_item="Heavy Leather Pants">
-				<ingredient quantity="2">Cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-			</ingredients_list>
-		</item>
-        
-        ##########################################################################################################################################
-        # AKT 3
-        
-        <item name="Schematic Unique Leather Pants of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Unique Leather Pants of Elder Blood">
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-			</ingredients_list>
-		</item>
-        
-        <item name="Schematic Unique Leather Boots of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Unique Leather Boots of Elder Blood">
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Hardened leather</ingredient>
+			<ingredients_list crafted_item="Long Leather Gloves">
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        <item name="Schematic Unique Leather Gloves of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Long Studded Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_50</a>
+				<a>CraftPrice_35</a>
 			</base_abilities>
-			<ingredients_list crafted_item="Unique Leather Gloves of Elder Blood">
+			<ingredients_list crafted_item="Long Studded Leather Gloves">
+				<ingredient quantity="1">Cloth</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+			</ingredients_list>
+		</item>	
+
+
+		<item name="Schematic Hardened Leather Boots" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_40</a>
+				<a>CraftPrice_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Hardened Leather Boots">
 				<ingredient quantity="3">Quality cloth</ingredient>
 				<ingredient quantity="2">Hardened leather</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
 			</ingredients_list>
-		</item>
-        
-        <item name="Schematic High Quality Temerian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		</item>	
+
+		<item name="Schematic High Quality Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_110</a>
-				<a>CraftPrice_220</a>
-				<a>Weight_00</a>
+				<a>Price_50</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
-			<ingredients_list crafted_item="High Quality Temerian Unique Leather Gloves">
-				<ingredient quantity="3">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
+			<ingredients_list crafted_item="High Quality Leather Pants">
+				<ingredient quantity="3">Cloth</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
 				<ingredient quantity="3">Threads</ingredient>
 			</ingredients_list>
-		</item>
-        
-        <item name="Schematic High Quality Kaedwenian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		</item>	
+
+		<item name="Schematic Studded Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_110</a>
-				<a>CraftPrice_220</a>
-				<a>Weight_00</a>
+				<a>Price_30</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
-			<ingredients_list crafted_item="High Quality Kaedwenian Unique Leather Gloves">
+			<ingredients_list crafted_item="Studded Leather Pants">
 				<ingredient quantity="2">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="2">Studded leather</ingredient>
 				<ingredient quantity="5">Threads</ingredient>
 			</ingredients_list>
 		</item>
-        
-        <item name="Schematic High Quality Nilfgaardian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Quality Long Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_110</a>
-				<a>CraftPrice_220</a>
-				<a>Weight_00</a>
+				<a>Price_60</a>
+				<a>CraftPrice_30</a>
 			</base_abilities>
-			<ingredients_list crafted_item="High Quality Nilfgaardian Unique Leather Gloves">
+			<ingredients_list crafted_item="Quality Long Gloves">
 				<ingredient quantity="2">Quality cloth</ingredient>
 				<ingredient quantity="3">Hardened leather</ingredient>
 				<ingredient quantity="3">Threads</ingredient>
 			</ingredients_list>
+		</item>		
+
+		<item name="Schematic Heavy Leather Pants" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+				<a>CraftPrice_25</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Heavy Leather Pants">
+				<ingredient quantity="4">Cloth</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+			</ingredients_list>
 		</item>
 
-        #######################################################################################################################################################
-        ########################################################### DEFINICJE RUN ######################################################################
-		
-		<item name="Schematic Rune of Sun" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Unique Leather Pants of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_180</a>
+				<a>CraftPrice_90</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Unique Leather Pants of Elder Blood">
+				<ingredient quantity="4">Cloth</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="3">Threads</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic Unique Leather Boots of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_110</a>
+				<a>CraftPrice_55</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Unique Leather Boots of Elder Blood">
+				<ingredient quantity="3">Cloth</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Unique Leather Gloves of Elder Blood" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+				<a>CraftPrice_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Unique Leather Gloves of Elder Blood">
+				<ingredient quantity="4">Cloth</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="1">Threads</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic High Quality Temerian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_400</a>
+				<a>CraftPrice_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Temerian Unique Leather Gloves">
+				<ingredient quantity="2">Cloth</ingredient>
+				<ingredient quantity="3">Hardened leather</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic High Quality Kaedwenian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_400</a>
+				<a>CraftPrice_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Kaedwenian Unique Leather Gloves">
+				<ingredient quantity="3">Cloth</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic High Quality Nilfgaardian Unique Leather Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_400</a>
+				<a>CraftPrice_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Nilfgaardian Unique Leather Gloves">
+				<ingredient quantity="4">Cloth</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic Rune of Sun" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_175</a>
+				<a>CraftPrice_50</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rune of Sun">
-				<ingredient quantity="4">Water essence</ingredient>
-				<ingredient quantity="4">Elemental stone</ingredient>
-				<ingredient quantity="2">Red meteorite ore</ingredient>
-				<ingredient quantity="1">Yellow meteorite ore</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
+				<ingredient quantity="1">Water essence</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="4">Amethyst Dust</ingredient>
 			</ingredients_list>
 		</item>		
-		
+
 		<item name="Schematic Rune of Ysgith" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_175</a>
+				<a>CraftPrice_50</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rune of Ysgith">
-				<ingredient quantity="4">Water essence</ingredient>
-				<ingredient quantity="2">Elemental stone</ingredient>
-				<ingredient quantity="4">Blue meteorite ore</ingredient>
-				<ingredient quantity="2">Yellow meteorite ore</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
+				<ingredient quantity="1">Water essence</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="8">Nekker Heart</ingredient>
 			</ingredients_list>
 		</item>			
-		
+
 		<item name="Schematic Rune of Earth" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_175</a>
+				<a>CraftPrice_50</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rune of Earth">
-				<ingredient quantity="2">Water essence</ingredient>
-				<ingredient quantity="4">Elemental stone</ingredient>
-				<ingredient quantity="2">Yellow meteorite ore</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Water essence</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="5">Silver ore</ingredient>
 			</ingredients_list>
 		</item>			
-		
+
 		<item name="Schematic Rune of Moon" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_175</a>
+				<a>CraftPrice_50</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rune of Moon">
-				<ingredient quantity="4">Water essence</ingredient>
-				<ingredient quantity="2">Elemental stone</ingredient>
-				<ingredient quantity="2">Blue meteorite ore</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
+				<ingredient quantity="1">Water essence</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="4">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>			
 
 		<item name="Schematic Rune of Fire" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_225</a>
+				<a>CraftPrice_50</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rune of Fire">
-				<ingredient quantity="4">Water essence</ingredient>
-				<ingredient quantity="2">Elemental stone</ingredient>
-				<ingredient quantity="3">Red meteorite ore</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
+				<ingredient quantity="1">Water essence</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="8">Endriag saliva</ingredient>
 			</ingredients_list>
 		</item>			
 
-        #######################################################################################################################################################
-        ########################################################### DEFINICJE ULEPSZEŃ PANCERZY ######################################################################
-
+		#######################################################################################################################################################
+		########################################################### DEFINICJE ULEPSZEŃ PANCERZY ######################################################################
 
 		<item name="Schematic Diamond Armor Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_110</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Diamond Armor Enhancement">
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
+				<ingredient quantity="5">Diamond Dust</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="3">Oil</ingredient>
+				<ingredient quantity="2">Oil</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Tentadrake Armor Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_140</a>
-				<a>CraftPrice_250</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_20</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Tentadrake Armor Enhancement">
-				<ingredient quantity="4">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="2">Oil</ingredient>
-				<ingredient quantity="3">Tentadrake skin</ingredient>
+				<ingredient quantity="8">Hardened leather</ingredient>
+				<ingredient quantity="6">Threads</ingredient>
+				<ingredient quantity="5">Oil</ingredient>
+				<ingredient quantity="1">Tentadrake skin</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Endriag Armor Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_80</a>
+				<a>CraftPrice_10</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Endriag Armor Enhancement">
-				<ingredient quantity="4">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
+				<ingredient quantity="6">Leather</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
 				<ingredient quantity="2">Oil</ingredient>
-				<ingredient quantity="3">Endriag skin</ingredient>
-				<ingredient quantity="2">Endriag venom</ingredient>
+				<ingredient quantity="5">Endriag teeth</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		<item name="Schematic Mystic Armor Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_150</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_40</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mystic Armor Enhancement">
-				<ingredient quantity="4">Leather</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="6">Gargoyle dust</ingredient>
-				<ingredient quantity="4">Troll skin</ingredient>
+				<ingredient quantity="3">Studded leather</ingredient>
+				<ingredient quantity="1">Troll skin</ingredient>
+				<ingredient quantity="2">Necrophage skin</ingredient>
 				<ingredient quantity="2">Death essence</ingredient>
 			</ingredients_list>
 		</item>
-		
-        #######################################################################################################################################################
-        ########################################################### DEFINICJE PUŁAPEK ######################################################################
-		
+
+		#######################################################################################################################################################
+		########################################################### DEFINICJE PUŁAPEK ######################################################################
+
 		<item name="Schematic Explosive Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_100</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Explosive Trap">
-				<ingredient quantity="6">Endriag embryo</ingredient>
-				<ingredient quantity="4">Oil</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="2">Endriag embryo</ingredient>
+				<ingredient quantity="1">Oil</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic Crippling Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
+				<a>Price_75</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Crippling Trap">
-				<ingredient quantity="4">Oil</ingredient>
-				<ingredient quantity="4">Endriag venom</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="1">Endriag venom</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic Freezing Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_110</a>
+				<a>CraftPrice_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Freezing Trap">
+				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Rage Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_100</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Freezing Trap">
-				<ingredient quantity="3">Oil</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-			</ingredients_list>
-		</item>	
-		
-		<item name="Schematic Rage Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_120</a>
-				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rage Trap">
-				<ingredient quantity="8">Oil</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
-				<ingredient quantity="6">Nekker heart</ingredient>
+				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Nekker Heart</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Grappling Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_80</a>
-				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Grappling Trap">
-				<ingredient quantity="4">Oil</ingredient>
-				<ingredient quantity="6">Wood lumber</ingredient>
-				<ingredient quantity="4">Threads</ingredient>
-			</ingredients_list>
-		</item>	
-		
-		<item name="Schematic Harpy Bait Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_80</a>
-				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Harpy Bait Trap">
-				<ingredient quantity="4">Oil</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="4">Silver ore</ingredient>
-			</ingredients_list>
-		</item>	
-		
-		<item name="Schematic Tentadrake Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_90</a>
-				<a>CraftPrice_40</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Grappling Trap">
+				<ingredient quantity="1">Oil</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Threads</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Harpy Bait Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_80</a>
+				<a>CraftPrice_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Harpy Bait Trap">
+				<ingredient quantity="2">Oil</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Silver ore</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Tentadrake Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_110</a>
+				<a>CraftPrice_20</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Tentadrake Trap">
-                                <ingredient quantity="4">Iron Frame</ingredient>
+				<ingredient quantity="1">Iron Frame</ingredient>
 				<ingredient quantity="2">Oil</ingredient>
 				<ingredient quantity="1">Iron ore</ingredient>
 				<ingredient quantity="1">Silver ore</ingredient>
 			</ingredients_list>
 		</item>		
-        
-        		<item name="Schematic Dragon Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Dragon Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_115</a>
+				<a>Price_125</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dragon Trap">
-				<ingredient quantity="2">Iron Ore</ingredient>
+				<ingredient quantity="3">Iron Ore</ingredient>
 				<ingredient quantity="3">Silver Ore</ingredient>
-				<ingredient quantity="4">Red meteorite ore</ingredient>
+				<ingredient quantity="1">Red meteorite ore</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Arachas Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_105</a>
+				<a>Price_110</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Arachas Trap">
-				<ingredient quantity="3">Endriag embryo</ingredient>
+				<ingredient quantity="1">Endriag embryo</ingredient>
 				<ingredient quantity="2">Silver Ore</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		<item name="Schematic Draug Trap" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_125</a>
 				<a>CraftPrice_20</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Draug Trap">
-				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="2">Iron ore</ingredient>
 				<ingredient quantity="2">Silver Ore</ingredient>
-				<ingredient quantity="2">Death essence</ingredient>
+				<ingredient quantity="1">Death Essence</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        #######################################################################################################################################################
-        ########################################################### DEFINICJE MIECZY ######################################################################
+
+		#######################################################################################################################################################
+		########################################################### DEFINICJE MIECZY ######################################################################
 
 		<item name="Schematic Balanced Dagger" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_45</a>
+				<a>Price_35</a>
 				<a>CraftPrice_5</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Balanced Dagger">
-				<ingredient quantity="4">Iron ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Iron ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>			
-        
-        ##############################################################################################################################################################
-        # AKT 1
+
+		##############################################################################################################################################################
+		# AKT 1
 		<item name="Schematic Witcher Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,Quest,Special</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,Quest,Special,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_40</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_35</a>
+				<a>CraftPrice_35</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Witcher Silver Sword">
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Iron ore</ingredient>
 				<ingredient quantity="2">Silver ore</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic High Quality Witcher Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_90</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_75</a>
+				<a>CraftPrice_75</a>
 			</base_abilities>
 			<ingredients_list crafted_item="High Quality Witcher Silver Sword">
-				<ingredient quantity="6">Diamond Dust</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
-				<ingredient quantity="5">Iron ore</ingredient>
+				<ingredient quantity="4">Iron ore</ingredient>
 				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>		
 
-
 		<item name="Schematic Caingornian Steel Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_40</a>
-				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
+				<a>Price_35</a>
+				<a>CraftPrice_35</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Caingornian Steel Sword">
-				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>			
-		
+
 		<item name="Schematic Yspadenian Steel Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_40</a>
-				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_40</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Yspadenian Steel Sword">
-				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="10">Iron ore</ingredient>
 				<ingredient quantity="2">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>			
 
 		<item name="Schematic Temerian Steel Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_20</a>
-				<a>CraftPrice_60</a>
-				<a>Weight_00</a>
+				<a>Price_35</a>
+				<a>CraftPrice_40</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Temerian Steel Sword">
-				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
 				<ingredient quantity="4">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		<item name="Schematic Jagged Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_140</a>
+				<a>CraftPrice_140</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Jagged Blade">
-				<ingredient quantity="4">Iron ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="6">Endriag teeth</ingredient>
-				<ingredient quantity="1">Endriag venom</ingredient>
+				<ingredient quantity="16">Iron ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="15">Endriag teeth</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        ###############################################################################################################################################################
-        # AKT 2
-        
-        <item name="Schematic Dol Blathanna High Quality Steel Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Dol Blathanna High Quality Steel Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_375</a>
-				<a>Weight_00</a>
+				<a>Price_175</a>
+				<a>CraftPrice_175</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dol Blathanna High Quality Steel Blade">
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-			</ingredients_list>
-		</item>			
-		
-        
-        <item name="Schematic Kaedwenian Quality Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_80</a>
-				<a>CraftPrice_140</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Kaedwenian Quality Sword">
-				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
-			</ingredients_list>
-		</item>			
-        
-        <item name="Schematic Zerrikan Steel Sabre" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_220</a>
-				<a>CraftPrice_250</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Zerrikan Steel Sabre">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="4">Endriag saliva</ingredient>
+				<ingredient quantity="15">Iron ore</ingredient>
+				<ingredient quantity="3">Wood lumber</ingredient>
 			</ingredients_list>
 		</item>			
 
-        
-        <item name="Schematic Mahakaman Steel Sihil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Kaedwenian Quality Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_180</a>
-				<a>CraftPrice_225</a>
-				<a>Weight_00</a>
+				<a>Price_75</a>
+				<a>CraftPrice_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Kaedwenian Quality Sword">
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="3">Wood lumber</ingredient>
+			</ingredients_list>
+		</item>			
+
+		<item name="Schematic Zerrikan Steel Sabre" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+				<a>CraftPrice_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Zerrikan Steel Sabre">
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="7">Endriag saliva</ingredient>
+			</ingredients_list>
+		</item>			
+
+
+		<item name="Schematic Mahakaman Steel Sihil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_125</a>
+				<a>CraftPrice_125</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mahakaman Steel Sihil">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="8">Piece of Dwarven Armor</ingredient>
+				<ingredient quantity="20">Iron ore</ingredient>
+				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="1">Piece of Dwarven Armor</ingredient>
 			</ingredients_list>
 		</item>		
-        
-        <item name="Schematic Nilfgaardian Harphy Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Nilfgaardian Harphy Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_160</a>
+				<a>CraftPrice_160</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Nilfgaardian Harphy Sword">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="5">Harphy claws</ingredient>
-'				<ingredient quantity="4">Harphy saliva</ingredient>
+				<ingredient quantity="24">Iron ore</ingredient>
+				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="8">Harphy claws</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        <item name="Schematic Peacemaker" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Peacemaker" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_110</a>
-				<a>CraftPrice_180</a>
-				<a>Weight_00</a>
+				<a>Price_100</a>
+				<a>CraftPrice_100</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Peacemaker">
-				<ingredient quantity="1">Iron ore</ingredient>
+				<ingredient quantity="16">Iron ore</ingredient>
 				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="4">Troll skin</ingredient>
+				<ingredient quantity="2">Troll skin</ingredient>
 			</ingredients_list>
 		</item>	
-        
-        <item name="Schematic Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_105</a>
-				<a>CraftPrice_150</a>
-				<a>Weight_00</a>
+				<a>Price_135</a>
+				<a>CraftPrice_135</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Blue Meteorite Silver Sword">
-				<ingredient quantity="1">Amethyst Dust</ingredient>
 				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="8">Iron ore</ingredient>
-				<ingredient quantity="8">Silver ore</ingredient>
-				<ingredient quantity="3">Blue meteorite ore</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="5">Iron ore</ingredient>
+				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Blue meteorite ore</ingredient>
 			</ingredients_list>
 		</item>					
-		
+
 		<item name="Schematic Red Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_105</a>
-				<a>CraftPrice_150</a>
-				<a>Weight_00</a>
+				<a>Price_60</a>
+				<a>CraftPrice_60</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Red Meteorite Silver Sword">
-				<ingredient quantity="5">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="8">Silver ore</ingredient>
-				<ingredient quantity="3">Red meteorite ore</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="5">Iron ore</ingredient>
+				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Red meteorite ore</ingredient>
 			</ingredients_list>
 		</item>					
-		
+
 		<item name="Schematic Yellow Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_105</a>
-				<a>CraftPrice_150</a>
-				<a>Weight_00</a>
+				<a>Price_65</a>
+				<a>CraftPrice_65</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Yellow Meteorite Silver Sword">
-				<ingredient quantity="5">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="8">Silver ore</ingredient>
-				<ingredient quantity="3">Yellow meteorite ore</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="5">Iron ore</ingredient>
+				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Yellow meteorite ore</ingredient>
 			</ingredients_list>
 		</item>					
-        
-        <item name="Schematic Quality Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Quality Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_145</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Quality Blue Meteorite Silver Sword">
-				<ingredient quantity="8">Amethyst Dust</ingredient>
-				<ingredient quantity="6">Diamond Dust</ingredient>
-				<ingredient quantity="5">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="6">Blue meteorite ore</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="8">Silver ore</ingredient>
+				<ingredient quantity="2">Blue meteorite ore</ingredient>
 			</ingredients_list>
 		</item>			
 
 		<item name="Schematic Quality Red Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_145</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_90</a>
+				<a>CraftPrice_90</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Quality Red Meteorite Silver Sword">
-				<ingredient quantity="6">Amethyst Dust</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="5">Silver ore</ingredient>
-				<ingredient quantity="6">Red meteorite ore</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="8">Silver ore</ingredient>
+				<ingredient quantity="2">Red meteorite ore</ingredient>
 			</ingredients_list>
 		</item>			
 
 		<item name="Schematic Quality Yellow Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_145</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_105</a>
+				<a>CraftPrice_105</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Quality Yellow Meteorite Silver Sword">
-				<ingredient quantity="3">Amethyst Dust</ingredient>
 				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="2">Silver ore</ingredient>
-				<ingredient quantity="6">Yellow meteorite ore</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="8">Silver ore</ingredient>
+				<ingredient quantity="2">Yellow meteorite ore</ingredient>
 			</ingredients_list>
 		</item>				
 		<item name="Schematic Negotiator" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_120</a>
-				<a>CraftPrice_225</a>
-				<a>Weight_00</a>
+				<a>Price_110</a>
+				<a>CraftPrice_110</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Negotiator">
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="1">Endriag teeth</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="12">Silver ore</ingredient>
-			</ingredients_list>
-		</item>	
-        ###############################################################################################################################################################
-        # AKT 3
-        
-        <item name="Schematic High Quality Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="High Quality Blue Meteorite Silver Sword">
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="14">Silver ore</ingredient>
-				<ingredient quantity="8">Blue meteorite ore</ingredient>
-			</ingredients_list>
-		</item>			
-		
-		<item name="Schematic High Quality Yellow Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="High Quality Yellow Meteorite Silver Sword">
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="14">Silver ore</ingredient>
-				<ingredient quantity="8">Yellow meteorite ore</ingredient>
-			</ingredients_list>
-		</item>			
-		
-		<item name="Schematic High Quality Red Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="High Quality Red Meteorite Silver Sword">
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="14">Silver ore</ingredient>
-				<ingredient quantity="8">Red meteorite ore</ingredient>
-			</ingredients_list>
-		</item>	
-        
-        <item name="Schematic Unique Silver Meteorite Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_245</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Unique Silver Meteorite Sword">
-				<ingredient quantity="1">Amethyst Dust</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="18">Silver ore</ingredient>
-				<ingredient quantity="1">Dragon scales</ingredient>
-			</ingredients_list>
-		</item>	
-        
-        <item name="Schematic Caerme" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_245</a>
-				<a>CraftPrice_600</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Caerme">
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
 				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="1">Crab spider shell</ingredient>
-				<ingredient quantity="2">Gargoyle Heart</ingredient>
-			</ingredients_list>
-		</item>	
-        
-        <item name="Schematic Ceremonial Steel Sword of Deithwen" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_260</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Ceremonial Steel Sword of Deithwen">
-				<ingredient quantity="1">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Wood lumber</ingredient>
-				<ingredient quantity="8">Death essence</ingredient>
-			</ingredients_list>
-		</item>	
-        
-		#######################################################################################################################################################
-        ########################################################### DEFINICJE SKLADNIKOW ######################################################################
-        
-		<item name="Schematic Amethyst Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_60</a>
-				<a>CraftPrice_5</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Amethyst Dust">
-				<ingredient quantity="3">Drowner brain</ingredient>
-				<ingredient quantity="3">Nekker eyes</ingredient>
+				<ingredient quantity="1">Endriag saliva</ingredient>
+				<ingredient quantity="10">Iron ore</ingredient>
+				<ingredient quantity="16">Silver ore</ingredient>
 			</ingredients_list>
 		</item>
-		
-		<item name="Schematic Diamond Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic High Quality Blue Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_70</a>
+				<a>Price_220</a>
+				<a>CraftPrice_220</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Blue Meteorite Silver Sword">
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
+				<ingredient quantity="14">Silver ore</ingredient>
+				<ingredient quantity="3">Blue meteorite ore</ingredient>
+			</ingredients_list>
+		</item>			
+
+		<item name="Schematic High Quality Yellow Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_140</a>
+				<a>CraftPrice_140</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Yellow Meteorite Silver Sword">
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
+				<ingredient quantity="14">Silver ore</ingredient>
+				<ingredient quantity="3">Yellow meteorite ore</ingredient>
+			</ingredients_list>
+		</item>			
+
+		<item name="Schematic High Quality Red Meteorite Silver Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_125</a>
+				<a>CraftPrice_125</a>
+			</base_abilities>
+			<ingredients_list crafted_item="High Quality Red Meteorite Silver Sword">
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
+				<ingredient quantity="14">Silver ore</ingredient>
+				<ingredient quantity="3">Red meteorite ore</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Unique Silver Meteorite Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_200</a>
+				<a>CraftPrice_180</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Unique Silver Meteorite Sword">
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Dragon scales</ingredient>
+				<ingredient quantity="10">Iron ore</ingredient>
+				<ingredient quantity="16">Silver ore</ingredient>
+				<ingredient quantity="3">Yellow meteorite ore</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Caerme" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Caerme">
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="4">Harphy feathers</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Ceremonial Steel Sword of Deithwen" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_260</a>
+				<a>CraftPrice_260</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Ceremonial Steel Sword of Deithwen">
+				<ingredient quantity="26">Iron ore</ingredient>
+				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="1">Crab spider shell</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Schematic Amethyst Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_105</a>
 				<a>CraftPrice_5</a>
-				<a>Weight_00</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Amethyst Dust">
+				<ingredient quantity="1">Drowner Brain</ingredient>
+				<ingredient quantity="2">Nekker Eyes</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic Diamond Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_125</a>
+				<a>CraftPrice_10</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Diamond Dust">
-				<ingredient quantity="1">Silver ore</ingredient>
-                <ingredient quantity="2">Necrophage teeth</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Necrophage teeth</ingredient>
 			</ingredients_list>
 		</item>		
-		
+
 		<item name="Schematic Quality cloth" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_80</a>
-				<a>CraftPrice_10</a>
-				<a>Weight_00</a>
+				<a>Price_100</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Quality cloth">
-				<ingredient quantity="2">Cloth</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
+				<ingredient quantity="3">Cloth</ingredient>
+				<ingredient quantity="1">Threads</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>				
-		
+
 		<item name="Schematic Hardened leather" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_75</a>
-				<a>CraftPrice_10</a>
-				<a>Weight_00</a>
+				<a>Price_100</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Hardened leather">
-				<ingredient quantity="2">Leather</ingredient>
-				<ingredient quantity="1">Oil</ingredient>
+				<ingredient quantity="3">Leather</ingredient>
+				<ingredient quantity="2">Oil</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Studded leather" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_85</a>
-				<a>CraftPrice_10</a>
-				<a>Weight_00</a>
+				<a>Price_110</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Studded leather">
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
 				<ingredient quantity="1">Oil</ingredient>
+				<ingredient quantity="1">Threads</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Leather" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_30</a>
+				<a>Price_70</a>
 				<a>CraftPrice_5</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Leather">
 				<ingredient quantity="1">Cloth</ingredient>
 				<ingredient quantity="1">Oil</ingredient>
-                                <ingredient quantity="2">Water essence</ingredient>
+				<ingredient quantity="1">Necrophage skin</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		<item name="Schematic Elemental stone" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_55</a>
-				<a>CraftPrice_10</a>
-				<a>Weight_00</a>
+				<a>Price_85</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Elemental stone">
-				<ingredient quantity="4">Amethyst Dust</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
+				<ingredient quantity="1">Gargoyle Heart</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
 			</ingredients_list>
 		</item>			
-		
+
 		<item name="Schematic Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_30</a>
+				<a>Price_50</a>
 				<a>CraftPrice_5</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Oil">
-				<ingredient quantity="4">Necrophage blood</ingredient>
-				<ingredient quantity="4">Harphy saliva</ingredient>
+				<ingredient quantity="1">Necrophage skin</ingredient>
+				<ingredient quantity="1">Necrophage blood</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic Water essence" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_55</a>
-				<a>CraftPrice_10</a>
-				<a>Weight_00</a>
+				<a>Price_90</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Water essence">
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="4">Drowner brain</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Blue meteorite ore" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_90</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_120</a>
+				<a>CraftPrice_30</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Blue meteorite ore">
-				<ingredient quantity="4">Amethyst Dust</ingredient>
-				<ingredient quantity="5">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="3">Silver ore</ingredient>
-				<ingredient quantity="1">Death essence</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Earth</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		<item name="Schematic Red meteorite ore" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_90</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_95</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Red meteorite ore">
-				<ingredient quantity="8">Amethyst Dust</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Fire</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
 				<ingredient quantity="1">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="1">Harphy saliva</ingredient>
 			</ingredients_list>
 		</item>		
 
 		<item name="Schematic Yellow meteorite ore" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_90</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_95</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Yellow meteorite ore">
-				<ingredient quantity="10">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="1">Endriag embryo</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Sun</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>	
+		
+		# Custom Schematics
 
-
-########## DARK ##########
-
-		# Dark Difficulty Steelsword A1
-		 <item name="Schematic Dark difficulty steelsword A1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+		# Major Mutagen of Critical Effect, Price_500
+		# Mutagen of Critical Effect, Price_200
+		# Minor Mutagen of Critical Effect
+		<item name="Schematic Dark difficulty steelsword A1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_125</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dark difficulty steelsword A1">
-				<ingredient quantity="8">Iron ore</ingredient>
-				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="12">Iron ore</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
 				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Nekker teeth</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="5">Nekker teeth</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		# Dark Difficulty Steelsword A2
 		<item name="Schematic Dark difficulty steelsword A2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_220</a>
+				<a>CraftPrice_175</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dark difficulty steelsword A2">
 				<ingredient quantity="14">Iron ore</ingredient>
 				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="4">Diamond Dust</ingredient>
-				<ingredient quantity="4">Harphy saliva</ingredient>
+				<ingredient quantity="3">Wood lumber</ingredient>
+				<ingredient quantity="2">Blue meteorite ore</ingredient>
+				<ingredient quantity="5">Amethyst Dust</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		# Dark Difficulty Steelsword A3
 		<item name="Schematic Dark difficulty steelsword A3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_315</a>
+				<a>CraftPrice_275</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dark difficulty steelsword A3">
-				<ingredient quantity="18">Iron ore</ingredient>
-				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="16">Iron ore</ingredient>
+				<ingredient quantity="4">Leather</ingredient>
 				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="6">Gargoyle dust</ingredient>
-				<ingredient quantity="6">Death essence</ingredient>
+				<ingredient quantity="3">Gargoyle dust</ingredient>
+				<ingredient quantity="2">Death essence</ingredient>
 			</ingredients_list>
 		</item>
 
 		# Dark Diffficulty Silversword A1
 		<item name="Schematic Dark difficulty silversword A1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_135</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dark difficulty silversword A1">
-				<ingredient quantity="16">Silver ore</ingredient>
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="15">Wood lumber</ingredient>
+				<ingredient quantity="12">Silver ore</ingredient>
+				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="3">Wood lumber</ingredient>
 				<ingredient quantity="2">Yellow meteorite ore</ingredient>
-				<ingredient quantity="2">Endriag venom</ingredient>				
-			</ingredients_list>
-		</item>
-		
-		# Dark Diffficulty Silversword A2		
-		<item name="Schematic Dark difficulty silversword A2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Dark difficulty silversword A2">
-				<ingredient quantity="8">Silver ore</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="3">Red meteorite ore</ingredient>
-				<ingredient quantity="4">Necrophage blood</ingredient>
-			</ingredients_list>
-		</item>
-		
-		# Dark Diffficulty Silversword A3
-		<item name="Schematic Dark difficulty silversword A3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Dark difficulty silversword A3">
-				<ingredient quantity="8">Silver ore</ingredient>
-				<ingredient quantity="2">Iron ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="1">Blue meteorite ore</ingredient>
-				<ingredient quantity="6">Death essence</ingredient>
+				<ingredient quantity="4">Nekker teeth</ingredient>				
 			</ingredients_list>
 		</item>
 
-		# Dark Difficulty Armor A1 
-		<item name="Schematic DarkDifficultyArmorA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+		# Dark Diffficulty Silversword A2		
+		<item name="Schematic Dark difficulty silversword A2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
+				<a>Price_220</a>
+				<a>CraftPrice_200</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Dark difficulty silversword A2">
+				<ingredient quantity="14">Silver ore</ingredient>
+				<ingredient quantity="2">Iron ore</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Diamond Dust</ingredient>
+				<ingredient quantity="2">Death essence</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Diffficulty Silversword A3
+		<item name="Schematic Dark difficulty silversword A3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_315</a>
 				<a>CraftPrice_250</a>
-				<a>Weight_00</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Dark difficulty silversword A3">
+				<ingredient quantity="14">Silver ore</ingredient>
+				<ingredient quantity="2">Iron ore</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="4">Elemental stone</ingredient>
+				<ingredient quantity="2">Blue meteorite ore</ingredient>
+			</ingredients_list>
+		</item>
+
+
+		#######################################################################################################################################################
+		########################################################### DEFINICJE SKLADNIKOW ######################################################################
+
+		<item name="Schematic DarkDifficultyArmorA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_225</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyArmorA1">
-				<ingredient quantity="8">Quality cloth</ingredient>
-				<ingredient quantity="2">Studded leather</ingredient>
-				<ingredient quantity="2">Amethyst Dust</ingredient>
-				<ingredient quantity="2">Diamond Dust</ingredient>
-				<ingredient quantity="1">Tentadrake skin</ingredient>
+				<ingredient quantity="14">Studded leather</ingredient>
+				<ingredient quantity="8">Nekker claws</ingredient>
+				<ingredient quantity="4">Amethyst Dust</ingredient>
+				<ingredient quantity="4">Diamond Dust</ingredient>
+				<ingredient quantity="6">Quality cloth</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		# Dark Difficulty Armor A2
 		<item name="Schematic DarkDifficultyArmorA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_600</a>
-				<a>CraftPrice_500</a>
-				<a>Weight_00</a>
+				<a>Price_625</a>
+				<a>CraftPrice_550</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyArmorA2">
-				<ingredient quantity="15">Quality cloth</ingredient>
-				<ingredient quantity="3">Studded leather</ingredient>
-				<ingredient quantity="6">Amethyst Dust</ingredient>
-				<ingredient quantity="6">Diamond Dust</ingredient>
+				<ingredient quantity="12">Quality cloth</ingredient>
+				<ingredient quantity="18">Studded leather</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
 				<ingredient quantity="1">Piece of Wraith Knight armor</ingredient>
 			</ingredients_list>
 		</item>	
-		
+
 		# Dark Difficulty Armor A3
 		<item name="Schematic DarkDifficultyArmorA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_900</a>
+				<a>Price_1500</a>
 				<a>CraftPrice_750</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyArmorA3">
-				<ingredient quantity="14">Quality cloth</ingredient>
-				<ingredient quantity="3">Studded leather</ingredient>
-				<ingredient quantity="8">Amethyst Dust</ingredient>
-				<ingredient quantity="8">Diamond Dust</ingredient>
-				<ingredient quantity="1">Dragon scales</ingredient>
+				<ingredient quantity="16">Hardened leather</ingredient>
+				<ingredient quantity="18">Quality cloth</ingredient>
+				<ingredient quantity="6">Threads</ingredient>
+				<ingredient quantity="2">Harphy saliva</ingredient>
+				<ingredient quantity="6">Harphy feathers</ingredient>
+			</ingredients_list>
+		</item>
+
+		##########################################################################################################################################
+		# AKT 1
+		<item name="Schematic DarkDifficultyBootsA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+				<a>CraftPrice_25</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyBootsA1">
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Studded leather</ingredient>
+				<ingredient quantity="6">Quality cloth</ingredient>
+				<ingredient quantity="1">Endriag skin</ingredient>
+
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Boots A2
+		<item name="Schematic DarkDifficultyBootsA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+				<a>CraftPrice_70</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyBootsA2">
+				<ingredient quantity="2">Studded leather</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Death essence</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+			</ingredients_list>
+		</item>	
+
+		# Dark Difficulty Boots A3
+		<item name="Schematic DarkDifficultyBootsA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_135</a>
+				<a>CraftPrice_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyBootsA3">
+				<ingredient quantity="6">Hardened leather</ingredient>
+				<ingredient quantity="4">Studded leather</ingredient>
+				<ingredient quantity="4">Gargoyle dust</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+			</ingredients_list>
+		</item>	
+
+		#######################################################################################################################################################
+		########################################################### DEFINICJE RUN ######################################################################
+
+		<item name="Schematic DarkDifficultyGlovesA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_80</a>
+				<a>CraftPrice_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyGlovesA1">
+				<ingredient quantity="6">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+				<ingredient quantity="2">Endriag venom</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Gloves A2
+		<item name="Schematic DarkDifficultyGlovesA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+				<a>CraftPrice_60</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyGlovesA2">
+				<ingredient quantity="6">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
+				<ingredient quantity="2">Amethyst Dust</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Gloves A3
+		<item name="Schematic DarkDifficultyGlovesA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+				<a>CraftPrice_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="DarkDifficultyGlovesA3">
+				<ingredient quantity="6">Hardened leather</ingredient>
+				<ingredient quantity="4">Quality cloth</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+				<ingredient quantity="2">Gargoyle dust</ingredient>
+				<ingredient quantity="2">Harphy feathers</ingredient>
 			</ingredients_list>
 		</item>
 
 		# Dark Difficulty Boots A1 
-		<item name="Schematic DarkDifficultyBootsA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyBootsA1">
-				<ingredient quantity="14">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="7">Studded leather</ingredient>
-				<ingredient quantity="1">Endriag skin</ingredient>				
-			</ingredients_list>
-		</item>
-		
-		# Dark Difficulty Boots A2
-		<item name="Schematic DarkDifficultyBootsA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_150</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyBootsA2">
-				<ingredient quantity="20">Quality cloth</ingredient>
-				<ingredient quantity="4">Hardened leather</ingredient>
-				<ingredient quantity="1">Studded leather</ingredient>
-				<ingredient quantity="1">Necrophage skin</ingredient>
-			</ingredients_list>
-		</item>	
-		
-		# Dark Difficulty Boots A3
-		<item name="Schematic DarkDifficultyBootsA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyBootsA3">
-				<ingredient quantity="24">Quality cloth</ingredient>
-				<ingredient quantity="4">Hardened leather</ingredient>
-				<ingredient quantity="8">Studded leather</ingredient>
-				<ingredient quantity="1">Gargoyle Heart</ingredient>
-			</ingredients_list>
-		</item>	
-
-
-		# Dark Difficulty Gloves A1
-		<item name="Schematic DarkDifficultyGlovesA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyGlovesA1">
-				<ingredient quantity="16">Quality cloth</ingredient>
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="2">Endriag saliva</ingredient>
-			</ingredients_list>
-		</item>
-		
-		# Dark Difficulty Gloves A2
-		<item name="Schematic DarkDifficultyGlovesA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_150</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyGlovesA2">
-				<ingredient quantity="10">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="2">Harphy saliva</ingredient>
-			</ingredients_list>
-		</item>
-		
-		# Dark Difficulty Gloves A3
-		<item name="Schematic DarkDifficultyGlovesA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
-			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="DarkDifficultyGlovesA3">
-				<ingredient quantity="10">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="4">Endriag saliva</ingredient>
-				<ingredient quantity="2">Harphy saliva</ingredient>
-			</ingredients_list>
-		</item>
-		
-		# Dark Difficulty Pants A1
 		<item name="Schematic DarkDifficultyPantsA1" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_65</a>
+				<a>CraftPrice_40</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyPantsA1">
-				<ingredient quantity="12">Quality cloth</ingredient>
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="3">Studded leather</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
-				<ingredient quantity="1">Endriag embryo</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="4">Studded leather</ingredient>
+				<ingredient quantity="6">Quality cloth</ingredient>
+				<ingredient quantity="4">Endriag skin</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		# Dark Difficulty Pants A2
 		<item name="Schematic DarkDifficultyPantsA2" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_250</a>
-				<a>Weight_00</a>
+				<a>Price_200</a>
+				<a>CraftPrice_135</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyPantsA2">
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="5">Studded leather</ingredient>
+				<ingredient quantity="6">Hardened leather</ingredient>
 				<ingredient quantity="4">Threads</ingredient>
-				<ingredient quantity="1">Harphy feathers</ingredient>
+				<ingredient quantity="4">Quality cloth</ingredient>
+				<ingredient quantity="6">Harphy feathers</ingredient>
 			</ingredients_list>
 		</item>
-		
+
 		# Dark Difficulty Pants A3
 		<item name="Schematic DarkDifficultyPantsA3" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,DarkDiff,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_275</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="DarkDifficultyPantsA3">
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="5">Studded leather</ingredient>
 				<ingredient quantity="4">Threads</ingredient>
+				<ingredient quantity="4">Studded leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="1">Dragon scales</ingredient>
 				<ingredient quantity="1">Troll tongue</ingredient>
 			</ingredients_list>
 		</item>
-		
-########## ENHANCED ##########
 
-        A1
-        <item name="Schematic Decapitator" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Decapitator" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_195</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Decapitator">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="5">Wood lumber</ingredient>
-				<ingredient quantity="4">Nekker claws</ingredient>
+				<ingredient quantity="10">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Nekker claws</ingredient>
 				<ingredient quantity="1">Death essence</ingredient>
 			</ingredients_list>
 		</item>	
 
-        <item name="Schematic Guardian" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Guardian" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_195</a>
+				<a>CraftPrice_175</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Guardian">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="6">Wood lumber</ingredient>
-				<ingredient quantity="8">Harphy eyes</ingredient>
+				<ingredient quantity="10">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="4">Harphy eyes</ingredient>
 			</ingredients_list>
 		</item>	
 
-        <item name="Schematic Basilisk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Basilisk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_195</a>
+				<a>CraftPrice_200</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Basilisk">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="6">Endriag Mandible</ingredient>
-				<ingredient quantity="8">Elemental stone</ingredient>
-				<ingredient quantity="2">Yellow meteorite ore</ingredient>
+				<ingredient quantity="12">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="3">Endriag Mandible</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
+				<ingredient quantity="1">Yellow meteorite ore</ingredient>
 			</ingredients_list>
 		</item>	
 
-		A2
 		<item name="Schematic Demise of the Cursed" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Demise of the Cursed">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="6">Leather</ingredient>
-				<ingredient quantity="8">Wood lumber</ingredient>
-				<ingredient quantity="2">Wraith Knight claws</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="8">Silver ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="1">Wraith Knight Claws</ingredient>
 			</ingredients_list>
 		</item>
-        
+
 		<item name="Schematic Eclipse" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Eclipse">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="10">Leather</ingredient>
-				<ingredient quantity="16">Wood lumber</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="10">Silver ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
 				<ingredient quantity="2">Nekker teeth</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Schematic Hags Bane" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_300</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_150</a>
+				<a>CraftPrice_150</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Hags Bane">
 				<ingredient quantity="6">Iron ore</ingredient>
 				<ingredient quantity="8">Silver ore</ingredient>
 				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="2">Death essence</ingredient>
-				<ingredient quantity="1">Harphy eyes</ingredient>
+				<ingredient quantity="1">Death essence</ingredient>
+				<ingredient quantity="2">Harphy eyes</ingredient>
 			</ingredients_list>
 		</item>
 
-		A3
-        <item name="Schematic Marag Bator" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		###############################################################################################################################################################
+		# AKT 3
+
+		<item name="Schematic Marag Bator" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_235</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Marag Bator">
 				<ingredient quantity="6">Iron ore</ingredient>
 				<ingredient quantity="10">Silver ore</ingredient>
 				<ingredient quantity="2">Leather</ingredient>
-				<ingredient quantity="2">Elemental stone</ingredient>
+				<ingredient quantity="1">Elemental stone</ingredient>
 				<ingredient quantity="2">Harphy eyes</ingredient>
 			</ingredients_list>
 		</item>	        
 
-        <item name="Schematic Ichaer Aardanna" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Ichaer Aardanna" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_235</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Ichaer Aardanna">
 				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="8">Silver ore</ingredient>
+				<ingredient quantity="10">Silver ore</ingredient>
 				<ingredient quantity="2">Leather</ingredient>
 				<ingredient quantity="1">Harphy feathers</ingredient>
 				<ingredient quantity="2">Gargoyle dust</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Phantom Edge" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Phantom Edge" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_235</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Phantom Edge">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Silver ore</ingredient>
-				<ingredient quantity="8">Wood lumber</ingredient>
-				<ingredient quantity="14">Wraith Knight claws</ingredient>
-				<ingredient quantity="3">Nekker teeth</ingredient>
+				<ingredient quantity="6">Iron ore</ingredient>
+				<ingredient quantity="10">Silver ore</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="1">Wraith Knight Claws</ingredient>
+				<ingredient quantity="4">Nekker teeth</ingredient>
 			</ingredients_list>
 		</item>	
 
 		<item name="Schematic Dancing Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_310</a>
+				<a>CraftPrice_310</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dancing Blade">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="8">Nekker teeth</ingredient>
-				<ingredient quantity="14">Silver ore</ingredient>
-				<ingredient quantity="3">Red meteorite ore</ingredient>
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="5">Nekker teeth</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Red meteorite ore</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Archeus" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Archeus" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_310</a>
+				<a>CraftPrice_310</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Archeus">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="8">Wood lumber</ingredient>
-				<ingredient quantity="14">Death essence</ingredient>
-				<ingredient quantity="3">Water essence</ingredient>
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Death essence</ingredient>
+				<ingredient quantity="4">Water essence</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Beannshie" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Beannshie" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_400</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_310</a>
+				<a>CraftPrice_310</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Beannshie">
-				<ingredient quantity="1">Iron ore</ingredient>
-				<ingredient quantity="1">Leather</ingredient>
-				<ingredient quantity="10">Wood lumber</ingredient>
-				<ingredient quantity="16">Drowner brain</ingredient>
-				<ingredient quantity="3">Necrophage eyes</ingredient>
+				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
+				<ingredient quantity="2">Drowner Brain</ingredient>
+				<ingredient quantity="2">Necrophage eyes</ingredient>
 			</ingredients_list>
 		</item>
-		
-				<item name="Schematic Titans Hand" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		# Dark Difficulty Steelsword A1
+		<item name="Schematic Titans Hand" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_150</a>
-				<a>CraftPrice_90</a>
-				<a>Weight_00</a>
+				<a>Price_95</a>
+				<a>CraftPrice_95</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Titans Hand">
-				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="10">Silver ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="2">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>		
-        
+
 		<item name="Schematic Shadow Sword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_150</a>
-				<a>CraftPrice_90</a>
-				<a>Weight_00</a>
+				<a>Price_115</a>
+				<a>CraftPrice_95</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Shadow Sword">
-				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="10">Silver ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="4">Silver ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="3">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>		        
 
 		<item name="Schematic Abomination Slayer" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_150</a>
-				<a>CraftPrice_90</a>
-				<a>Weight_00</a>
+				<a>CraftPrice_95</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Abomination Slayer">
-				<ingredient quantity="6">Iron ore</ingredient>
-				<ingredient quantity="10">Silver ore</ingredient>
-				<ingredient quantity="2">Wood lumber</ingredient>
-				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="4">Iron ore</ingredient>
+				<ingredient quantity="5">Silver ore</ingredient>
+				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="3">Diamond Dust</ingredient>
 			</ingredients_list>
-		</item>	
-		
-				<item name="Schematic Assassins Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		</item>		
+
+
+		<item name="Schematic Assassins Blade" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_135</a>
-				<a>Weight_00</a>
+				<a>Price_155</a>
+				<a>CraftPrice_155</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Assassins Blade">
-				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
 				<ingredient quantity="2">Leather</ingredient>
-				<ingredient quantity="4">Wood lumber</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
 				<ingredient quantity="3">Endriag venom</ingredient>
 			</ingredients_list>
 		</item>	        
-        
+
 		<item name="Schematic Surger" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_135</a>
-				<a>Weight_00</a>
+				<a>Price_155</a>
+				<a>CraftPrice_155</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Surger">
-				<ingredient quantity="26">Iron ore</ingredient>
-				<ingredient quantity="4">Leather</ingredient>
-				<ingredient quantity="1">Wood lumber</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
+				<ingredient quantity="2">Leather</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
 				<ingredient quantity="1">Death essence</ingredient>
 			</ingredients_list>
 		</item>	        
 
 		<item name="Schematic Viroleda Longsword" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_135</a>
-				<a>Weight_00</a>
+				<a>Price_155</a>
+				<a>CraftPrice_155</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Viroleda Longsword">
-				<ingredient quantity="14">Iron ore</ingredient>
+				<ingredient quantity="8">Iron ore</ingredient>
 				<ingredient quantity="2">Leather</ingredient>
-				<ingredient quantity="5">Wood lumber</ingredient>
+				<ingredient quantity="2">Wood lumber</ingredient>
 				<ingredient quantity="2">Endriag skin</ingredient>
 			</ingredients_list>
 		</item>
-		       <item name="Schematic Armor of Craag Ros" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		###############################################################################################################################################################
+		# AKT 2
+
+		<item name="Schematic Armor of Craag Ros" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_2000</a>
-				<a>CraftPrice_1000</a>
-				<a>Weight_00</a>
+				<a>Price_2350</a>
+				<a>CraftPrice_2000</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Armor of Craag Ros">
-				<ingredient quantity="14">Hardened leather</ingredient>
-				<ingredient quantity="2">Quality cloth</ingredient>
-				<ingredient quantity="2">Elemental stone</ingredient>
-				<ingredient quantity="2">Studded leather</ingredient>
-				<ingredient quantity="4">Harphy saliva</ingredient>
-			</ingredients_list>
-		</item>
-        
-        <item name="Schematic Vestement of Devoted One" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_2000</a>
-				<a>CraftPrice_1000</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Vestement of Devoted One">
-				<ingredient quantity="14">Hardened leather</ingredient>
-				<ingredient quantity="2">Quality cloth</ingredient>
-				<ingredient quantity="2">Studded leather</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="2">Piece of Draug armor</ingredient>
-			</ingredients_list>
-		</item>        
-        
-        <item name="Schematic Shroud of Baelor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_2000</a>
-				<a>CraftPrice_1000</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Shroud of Baelor">
-				<ingredient quantity="12">Hardened leather</ingredient>
-				<ingredient quantity="2">Quality cloth</ingredient>
-				<ingredient quantity="2">Studded leather</ingredient>
-				<ingredient quantity="1">Harphy saliva</ingredient>
-				<ingredient quantity="5">Piece of Wraith Knight armor</ingredient>
+				<ingredient quantity="20">Hardened leather</ingredient>
+				<ingredient quantity="18">Quality cloth</ingredient>
+				<ingredient quantity="9">Elemental stone</ingredient>
+				<ingredient quantity="12">Studded leather</ingredient>
+				<ingredient quantity="14">Harphy saliva</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Wild Hunt Hauberk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Vestement of Devoted One" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_2000</a>
-				<a>CraftPrice_1000</a>
-				<a>Weight_00</a>
+				<a>Price_2350</a>
+				<a>CraftPrice_2000</a>
 			</base_abilities>
-			<ingredients_list crafted_item="Wild Hunt Hauberk">
-				<ingredient quantity="14">Hardened leather</ingredient>
-				<ingredient quantity="2">Necrophage teeth</ingredient>
-				<ingredient quantity="3">Studded leather</ingredient>
-				<ingredient quantity="2">Piece of Wraith Knight armor</ingredient>
-				<ingredient quantity="5">Amethyst Dust</ingredient>
+			<ingredients_list crafted_item="Vestement of Devoted One">
+				<ingredient quantity="16">Hardened leather</ingredient>
+				<ingredient quantity="20">Quality cloth</ingredient>
+				<ingredient quantity="20">Studded leather</ingredient>
+				<ingredient quantity="7">Threads</ingredient>
+				<ingredient quantity="1">Piece of Draug armor</ingredient>
+			</ingredients_list>
+		</item>        
+
+		<item name="Schematic Shroud of Baelor" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_2350</a>
+				<a>CraftPrice_2000</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Shroud of Baelor">
+				<ingredient quantity="22">Hardened leather</ingredient>
+				<ingredient quantity="18">Quality cloth</ingredient>
+				<ingredient quantity="12">Studded leather</ingredient>
+				<ingredient quantity="12">Harphy saliva</ingredient>
+				<ingredient quantity="1">Piece of Wraith Knight armor</ingredient>
 			</ingredients_list>
 		</item>
-		
-                <item name="Schematic Wild Hunt Treads" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Wild Hunt Hauberk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_2350</a>
+				<a>CraftPrice_2000</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Wild Hunt Hauberk">
+				<ingredient quantity="18">Hardened leather</ingredient>
+				<ingredient quantity="30">Necrophage teeth</ingredient>
+				<ingredient quantity="18">Studded leather</ingredient>
+				<ingredient quantity="1">Piece of Wraith Knight armor</ingredient>
+				<ingredient quantity="10">Amethyst Dust</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Armor A1 
+		<item name="Schematic Wild Hunt Treads" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_175</a>
 				<a>CraftPrice_55</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Wild Hunt Treads">
-				<ingredient quantity="16">Quality cloth</ingredient>
+				<ingredient quantity="4">Quality cloth</ingredient>
 				<ingredient quantity="4">Hardened leather</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="3">Death essence</ingredient>
+				<ingredient quantity="1">Death essence</ingredient>
 			</ingredients_list>
-		</item>	
-		
-		        <item name="Schematic Wild Hunt Clutches" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		</item>		        
+
+
+		##########################################################################################################################################
+		# AKT 2
+
+		<item name="Schematic Wild Hunt Clutches" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_450</a>
 				<a>CraftPrice_135</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Wild Hunt Clutches">
-				<ingredient quantity="12">Hardened leather</ingredient>
+				<ingredient quantity="2">Hardened leather</ingredient>
 				<ingredient quantity="4">Quality cloth</ingredient>
-				<ingredient quantity="3">Threads</ingredient>
-				<ingredient quantity="2">Wraith Knight claws</ingredient>
-				<ingredient quantity="4">Death essence</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+				<ingredient quantity="1">Wraith Knight Claws</ingredient>
+				<ingredient quantity="1">Death essence</ingredient>
 			</ingredients_list>
 		</item>        
 
-        <item name="Schematic Wild Hunt Legguards" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Wild Hunt Legguards" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_650</a>
 				<a>CraftPrice_135</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Wild Hunt Legguards">
-				<ingredient quantity="14">Hardened leather</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
 				<ingredient quantity="2">Quality cloth</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
 				<ingredient quantity="2">Studded leather</ingredient>
-				<ingredient quantity="2">Piece of Wraith Knight armor</ingredient>
-			</ingredients_list>
-		</item>
-		
-		        <item name="Schematic Sentinel Legguards" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_315</a>
-				<a>CraftPrice_120</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Sentinel Legguards">
-				<ingredient quantity="14">Hardened leather</ingredient>
-				<ingredient quantity="2">Quality cloth</ingredient>
-				<ingredient quantity="2">Threads</ingredient>
-				<ingredient quantity="4">Crab spider shell</ingredient>
+				<ingredient quantity="4">Piece of Wraith Knight armor</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Abyssal Leggins" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		##########################################################################################################################################
+		# AKT 3
+
+		<item name="Schematic Sentinel Legguards" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_315</a>
 				<a>CraftPrice_120</a>
-				<a>Weight_00</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Sentinel Legguards">
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="2">Threads</ingredient>
+				<ingredient quantity="3">Crab spider shell</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Schematic Abyssal Leggins" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_315</a>
+				<a>CraftPrice_120</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Abyssal Leggins">
-				<ingredient quantity="1">Hardened leather</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
 				<ingredient quantity="2">Quality cloth</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
 				<ingredient quantity="3">Death essence</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Rogues Trousers" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Rogues Trousers" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_315</a>
 				<a>CraftPrice_120</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Rogues Trousers">
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
 				<ingredient quantity="2">Threads</ingredient>
 				<ingredient quantity="3">Gargoyle Heart</ingredient>
 			</ingredients_list>
 		</item>
-		
-		        <item name="Schematic Dragonbreath Sabatons" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		# Dark Difficulty Pants A1
+		<item name="Schematic Dragonbreath Sabatons" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_200</a>
 				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Dragonbreath Sabatons">
-				<ingredient quantity="3">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
+				<ingredient quantity="8">Hardened leather</ingredient>
+				<ingredient quantity="4">Quality cloth</ingredient>
+				<ingredient quantity="6">Threads</ingredient>
 				<ingredient quantity="1">Dragon scales</ingredient>
 			</ingredients_list>
 		</item>	
 
-        <item name="Schematic Plane Walkers" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Plane Walkers" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_200</a>
 				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Plane Walkers">
-				<ingredient quantity="3">Hardened leather</ingredient>
-				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="6">Quality cloth</ingredient>
 				<ingredient quantity="4">Threads</ingredient>
 				<ingredient quantity="1">Bruxa teeth</ingredient>
 			</ingredients_list>
 		</item>	
 
-        <item name="Schematic Lion Spider Boots" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Lion Spider Boots" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_200</a>
 				<a>CraftPrice_80</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Lion Spider Boots">
-				<ingredient quantity="2">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
 				<ingredient quantity="1">Troll skin</ingredient>
 			</ingredients_list>
 		</item>	
-		
-		        <item name="Schematic Master Dualist Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+
+		<item name="Schematic Master Dualist Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_400</a>
 				<a>CraftPrice_50</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Master Dualist Gloves">
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
-				<ingredient quantity="1">Threads</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
+				<ingredient quantity="4">Threads</ingredient>
 				<ingredient quantity="2">Harphy feathers</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Gloves of the Monk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Gloves of the Monk" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_400</a>
 				<a>CraftPrice_50</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Gloves of the Monk">
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
+				<ingredient quantity="4">Hardened leather</ingredient>
+				<ingredient quantity="2">Quality cloth</ingredient>
 				<ingredient quantity="4">Threads</ingredient>
 				<ingredient quantity="2">Gargoyle dust</ingredient>
 			</ingredients_list>
 		</item>
 
-        <item name="Schematic Mongoose Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Schematic Mongoose Gloves" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
 				<a>Price_400</a>
 				<a>CraftPrice_50</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mongoose Gloves">
-				<ingredient quantity="1">Hardened leather</ingredient>
-				<ingredient quantity="1">Quality cloth</ingredient>
+				<ingredient quantity="6">Hardened leather</ingredient>
+				<ingredient quantity="4">Quality cloth</ingredient>
 				<ingredient quantity="5">Threads</ingredient>
 				<ingredient quantity="4">Endriag venom</ingredient>
 			</ingredients_list>
 		</item>
-		
-		###MUTAGENOLOGY###
+
+		# Dark Difficulty Gloves A1
 		<item name="Formula: Mutagen of Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_90</a>
+				<a>CraftPrice_5</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mutagen of Amplification">
-				<ingredient quantity="1">Minor Mutagen of Amplification</ingredient>
-				<ingredient quantity="1">Nekker eyes</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+				<ingredient quantity="1">Amethyst Dust</ingredient>
 			</ingredients_list>
 		</item>
 
 		<item name="Formula: Greater Mutagen of Enhancement" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_120</a>
+				<a>CraftPrice_30</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Major Mutagen of Amplification">
-				<ingredient quantity="2">Mutagen of Amplification</ingredient>
-				<ingredient quantity="1">Harphy eyes</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Earth</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
-		</item>
+		</item>	
 
 		<item name="Formula: Mutagen of Range" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+				<a>Price_95</a>
+				<a>CraftPrice_25</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mutagen of Range">
-				<ingredient quantity="2">Minor Mutagen of Range</ingredient>
-				<ingredient quantity="1">Elemental Stone</ingredient>
-			</ingredients_list>
-		</item>
-
-		<item name="Formula: Mutagen of Critical Effects" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Mutagen of Critical Effect">
-				<ingredient quantity="2">Minor Mutagen of Critical Effect</ingredient>
-				<ingredient quantity="1">Endriag venom</ingredient>
-			</ingredients_list>
-		</item>
-
-		<item name="Formula: Greater Mutagen of Critical Effects" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Major Mutagen of Critical Effect">
-				<ingredient quantity="3">Mutagen of Critical Effect</ingredient>
-				<ingredient quantity="2">Death essence</ingredient>
-			</ingredients_list>
-		</item>
-
-		<item name="Formula: Mutagen of Vitality" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_50</a>
-				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Mutagen of Vitality">
-				<ingredient quantity="3">Minor Mutagen of Vitality</ingredient>
-				<ingredient quantity="2">Water essence</ingredient>
-			</ingredients_list>
-		</item>
-
-		<item name="Formula: Greater Mutagen of Vitality" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
-			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
-			</base_abilities>
-			<ingredients_list crafted_item="Major Mutagen of Vitality">
-				<ingredient quantity="3">Mutagen of Vitality</ingredient>
-				<ingredient quantity="2">Nekker heart</ingredient>
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Fire</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
 			</ingredients_list>
 		</item>		
 
-		<item name="Formula: Mutagen of Power" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+		<item name="Formula: Mutagen of Critical Effects" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_50</a>
+				<a>Price_95</a>
+				<a>CraftPrice_25</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Mutagen of Critical Effect">
+				<ingredient quantity="2">Silver ore</ingredient>
+				<ingredient quantity="1">Rune of Sun</ingredient>
+				<ingredient quantity="1">Rune of Moon</ingredient>
+				<ingredient quantity="1">Diamond Dust</ingredient>
+			</ingredients_list>
+		</item>	
+		
+		# Custom Schematics
+
+		# Major Mutagen of Critical Effect, Price_500
+		# Mutagen of Critical Effect, Price_200
+		# Minor Mutagen of Critical Effect
+		<item name="Formula: Greater Mutagen of Critical Effects" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Major Mutagen of Critical Effect">
+				<ingredient quantity="3">Mutagen of Critical Effect</ingredient>
+			</ingredients_list>
+		</item>
+		<item name="Formula: Mutagen of Vitality" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
 				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Mutagen of Vitality">
+				<ingredient quantity="3">Minor Mutagen of Critical Effect</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Major Mutagen of Power, Price_500
+		# Mutagen of Power, Price_200
+		# Minor Mutagen of Power
+		<item name="Formula: Greater Mutagen of Vitality" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Major Mutagen of Vitality">
+				<ingredient quantity="3">Mutagen of Power</ingredient>
+			</ingredients_list>
+		</item>
+		<item name="Formula: Mutagen of Power" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+				<a>CraftPrice_100</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mutagen of Power">
 				<ingredient quantity="3">Minor Mutagen of Power</ingredient>
-				<ingredient quantity="2">Endriag embryo</ingredient>
 			</ingredients_list>
 		</item>
 
+		# Major Mutagen of Strength, Price_500
+		# Mutagen of Strength, Price_200
+		# Minor Mutagen of Strength
 		<item name="Formula: Greater Mutagen of Power" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Major Mutagen of Power">
-				<ingredient quantity="3">Mutagen of Power</ingredient>
-				<ingredient quantity="2">Necrophage blood</ingredient>
+				<ingredient quantity="3">Mutagen of Strength</ingredient>
 			</ingredients_list>
 		</item>
-
 		<item name="Formula: Mutagen of Strength" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_50</a>
+				<a>Price_100</a>
 				<a>CraftPrice_100</a>
-				<a>Weight_00</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mutagen of Strength">
 				<ingredient quantity="3">Minor Mutagen of Strength</ingredient>
-				<ingredient quantity="2">Drowner brain</ingredient>
 			</ingredients_list>
 		</item>
 
+		# Major Mutagen of Vitality, Price_500
+		# Mutagen of Vitality, Price_200
+		# Minor Mutagen of Vitality
 		<item name="Formula: Greater Mutagen of Strength" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_100</a>
-				<a>CraftPrice_200</a>
-				<a>Weight_00</a>
+				<a>Price_250</a>
+				<a>CraftPrice_250</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Major Mutagen of Strength">
-				<ingredient quantity="3">Mutagen of Strength</ingredient>
-				<ingredient quantity="2">Necrophage eyes</ingredient>
+				<ingredient quantity="3">Mutagen of Vitality</ingredient>
 			</ingredients_list>
 		</item>
-
 		<item name="Formula: Mutagen of Madness" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-			<tags>SortTypeSchematic,Schematic,TypeMagic</tags>
+			<tags>SortTypeSchematic,Schematic,TypeMagic,NoTooltip</tags>
 			<base_abilities>
-				<a>Price_200</a>
-				<a>CraftPrice_300</a>
-				<a>Weight_00</a>
+				<a>Price_100</a>
+				<a>CraftPrice_100</a>
 			</base_abilities>
 			<ingredients_list crafted_item="Mutagen of Mutagen of Insanity">
-				<ingredient quantity="3">Major Mutagen of Amplification</ingredient>
-				<ingredient quantity="2">Major Mutagen of Power</ingredient>
-				<ingredient quantity="2">Major Mutagen of Vitality</ingredient>
-				<ingredient quantity="1">Crab spider eyes</ingredient>
+				<ingredient quantity="3">Minor Mutagen of Vitality</ingredient>
 			</ingredients_list>
 		</item>
 		
-
-		
-    </items>
+		# Major Mutagen of Amplification, Price_500
+		# Mutagen of Amplification, Price_200
+		# Minor Mutagen of Amplification
+		</items>
 </definitions>

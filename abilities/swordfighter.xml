@@ -8,8 +8,6 @@
 			<experience mult="false" always_random="false" min="6" max="6" />
 			<vitality mult="false" always_random="false" min="230" max="230" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="9" max="9" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -19,14 +17,12 @@
 			<damage_reduction_block mult="false" always_random="false" min="2" max="2" />
 		</ability>  
 
-# weak sword fighter prolog
+		# weak sword fighter prolog
 		<ability name="Swordfighter Weak Prolog">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="7" max="7" />
 			<vitality mult="false" always_random="false" min="20" max="20" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="1" max="1" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -36,14 +32,12 @@
 			<damage_reduction_block mult="false" always_random="false" min="2" max="2" />
 		</ability>  
 
-# sword fighter prolog
+		# sword fighter prolog
 		<ability name="Swordfighter Prolog">
 			<level mult="false" always_random="false" min="2" max="2" />
 			<experience mult="false" always_random="false" min="8" max="8" />
 			<vitality mult="false" always_random="false" min="40" max="40" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="8" max="8" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -53,14 +47,12 @@
 			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
 		</ability>  
 
-# sword fighter strong prolog
+		# sword fighter strong prolog
 		<ability name="Swordfighter Strong Prolog">
 			<level mult="false" always_random="false" min="3" max="3" />
 			<experience mult="false" always_random="false" min="9" max="9" />
 			<vitality mult="false" always_random="false" min="50" max="50" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="4" max="4" />
 			<damage_max mult="false" always_random="false" min="9" max="9" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -69,15 +61,13 @@
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
 		</ability>
- 
-# q002 prison guard prolog
+
+		# q002 prison guard prolog
 		<ability name="q002 prison guard prolog">
 			<level mult="false" always_random="false" min="3" max="3" />
 			<experience mult="false" always_random="false" min="9" max="9" />
 			<vitality mult="false" always_random="false" min="80" max="80" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="25" max="25" />
 			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -87,14 +77,12 @@
 			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
 		</ability> 
 
-# q002 scribe prolog
+		# q002 scribe prolog
 		<ability name="q002 scribe prolog">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="1" max="1" />
 			<vitality mult="false" always_random="false" min="30" max="30" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="4" max="4" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -103,8 +91,8 @@
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction_block mult="false" always_random="false" min="2" max="2" />
 		</ability> 
-		
-# q303 oneshoot sword fighter for q303
+
+		# q303 oneshoot sword fighter for q303
 		<ability name="Swordfighter Bastards q303">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="6" max="6" />
@@ -117,7 +105,8 @@
 			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
-		</ability>
+		</ability>  
+
 	</abilities>
 	<items>
 	</items>

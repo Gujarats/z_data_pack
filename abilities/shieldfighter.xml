@@ -8,108 +8,97 @@
 			<experience mult="false" always_random="false" min="8" max="8" />
 			<vitality mult="false" always_random="false" min="60" max="60" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="4" max="4" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
 			<res_shieldshatter mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>   
 
-# weak shield fighter for prolog
+		# weak shield fighter for prolog
 		<ability name="Shieldfighter Weak Prolog">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="8" max="8" />
 			<vitality mult="false" always_random="false" min="60" max="60" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="0" max="0" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
 			<res_shieldshatter mult="false" always_random="false" min="0.06" max="0.06" />
 		</ability>   
 
-#  shield fighter for prolog
+		#  shield fighter for prolog
 		<ability name="Shieldfighter Prolog">
 			<level mult="false" always_random="false" min="2" max="2" />
 			<experience mult="false" always_random="false" min="10" max="10" />
 			<vitality mult="false" always_random="false" min="70" max="70" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.4" max="1.4" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="4" max="4" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="0" max="0" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
 			<res_shieldshatter mult="false" always_random="false" min="0.07" max="0.07" />
 		</ability>   
 
-#  strong shield fighter for prolog
+		#  strong shield fighter for prolog
 		<ability name="Shieldfighter Strong Prolog">
 			<level mult="false" always_random="false" min="4" max="4" />
 			<experience mult="false" always_random="false" min="12" max="12" />
 			<vitality mult="false" always_random="false" min="100" max="100" />
 			<vitality_regen mult="false" always_random="false" min="0.5" max="0.5" />
-			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="6" max="6" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="0" max="0" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
-			<damage_reduction_block mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction_block mult="false" always_random="false" min="14" max="14" />
 			<res_shieldshatter mult="false" always_random="false" min="1.08" max="1.08" />
 		</ability>   
 
-#  shield fighter for prolog
+		#  shield fighter for prolog
 		<ability name="Shieldfighter - DeadlyWright">
 			<level mult="false" always_random="false" min="20" max="20" />
 			<experience mult="false" always_random="false" min="10" max="10" />
 			<vitality mult="false" always_random="false" min="480" max="480" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="130" max="130" />
 			<damage_max mult="false" always_random="false" min="180" max="180" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="0" max="0" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
 			<res_shieldshatter mult="false" always_random="false" min="1.07" max="1.07" />
-			<crt_bleed mult="true" always_random="false" min="1.04" max="1.04" type="critical" />
+			<crt_bleed mult="true" always_random="false" min="1.04" max="1.04" type="critical" />	
 		</ability> 
 
-# q002 executioner prolog
+		# q002 executioner prolog
 		<ability name="q002 executioner prolog">
 			<level mult="false" always_random="false" min="5" max="5" />
 			<experience mult="false" always_random="false" min="20" max="20" />
 			<vitality mult="false" always_random="false" min="140" max="140" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="35" max="35" />
 			<damage_max mult="false" always_random="false" min="44" max="44" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
 			<endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
 			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
+			<damage_reduction_block mult="false" always_random="false" min="12" max="12" />
 			<res_shieldshatter mult="false" always_random="false" min="1.1" max="1.1" />
-			<crt_bleed mult="true" always_random="false" min="1.04" max="1.04" type="critical" />
-			<crt_knockdown mult="true" always_random="false" min="1.02" max="1.02" type="critical" />
-		</ability>
+			<crt_bleed mult="true" always_random="false" min="1.04" max="1.04" type="critical" />	
+			<crt_knockdown mult="true" always_random="false" min="1.02" max="1.02" type="critical" />	
+		</ability>  
+
 	</abilities>
 	<items>
 	</items>

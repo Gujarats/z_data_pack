@@ -5,35 +5,32 @@
         # Definicje pułapek
 
 		<ability name="Rune of Sun _Stats" on_added="" on_ended="">
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" /> 
-            <crt_stun display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="8" max="8" />			
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
 		</ability>
-	
+
 		<ability name="Rune of Earth _Stats" on_added="" on_ended="">
-			<damage_reduction_block mult="true" always_random="false" min="1.05" max="1.05" display_perc="true" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
-            <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
+			<damage_reduction_block display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
+			<vitality mult="false" always_random="false" min="25" max="25" />
 		</ability>
-	
-		<ability name="Rune of Moon _Stats" on_added="" on_ended=""> 
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-            <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="8" max="8" />            
+
+		<ability name="Rune of Moon _Stats" on_added="" on_ended="">
+			<damage_signsbonus mult="false" always_random="false" min="4" max="4" />
 		</ability>
-	
+
 		<ability name="Rune of Fire _Stats" on_added="" on_ended="">
-            <vitality mult="false" always_random="false" min="30" max="30" type="critical" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />   
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
 		</ability>
-	
+
 		<ability name="Rune of Ysgith _Stats" on_added="" on_ended="">
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.07" max="1.07" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.07" max="1.07" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
 		</ability>
-	
+
 	</abilities>
 	
 		<items>

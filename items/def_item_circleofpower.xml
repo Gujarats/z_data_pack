@@ -27,7 +27,7 @@
 			<damage_reduction mult="true" always_random="false" min="1.15" max="1.15" />
 			<durration mult="false" always_random="false" min="300" max="300" />
 		</ability>
-	
+
 	</abilities>
     
     <items>
@@ -35,36 +35,36 @@
     # Miejsca mocy
 
         <item name="COP_Vitality" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>Elixir,NoShow,NoDrop</tags>
-            <base_abilities>
-			<a>COP_Vitality_Stats</a>
-            </base_abilities>
-        </item>
-	<item name="COP_Endurance" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>Elixir,NoShow,NoDrop</tags>
-            <base_abilities>
-			<a>COP_Endurance_Stats</a>
-            </base_abilities>
-        </item>
-	<item name="COP_Signs" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>Elixir,NoShow,NoDrop</tags>
-            <base_abilities>
-			<a>COP_Signs_Stats</a>
-            </base_abilities>
-        </item>
-	<item name="COP_Damage" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>Elixir,NoShow,NoDrop</tags>
-            <base_abilities>
-			<a>COP_Damage_Stats</a>
-            </base_abilities>
-        </item>
-	<item name="COP_Armor" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>Elixir,NoShow,NoDrop</tags>
-            <base_abilities>
-			<a>COP_Armor_Stats</a>
-            </base_abilities>
-        </item>
-	
-    </items>
+			<tags>Elixir,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>COP_Vitality_Stats</a>
+			</base_abilities>
+		</item>
+		<item name="COP_Endurance" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>Elixir,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>COP_Endurance_Stats</a>
+			</base_abilities>
+		</item>
+		<item name="COP_Signs" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>Elixir,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>COP_Signs_Stats</a>
+			</base_abilities>
+		</item>
+		<item name="COP_Damage" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>Elixir,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>COP_Damage_Stats</a>
+			</base_abilities>
+		</item>
+		<item name="COP_Armor" category="elixir" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>Elixir,NoShow,NoDrop</tags>
+			<base_abilities>
+				<a>COP_Armor_Stats</a>
+			</base_abilities>
+		</item>
+
+	</items>
 
 </definitions>

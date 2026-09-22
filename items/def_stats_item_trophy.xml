@@ -7,134 +7,115 @@
 		<ability name="Nekkers Trophy _Stats">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="1" max="1" />
-            <vitality_regen mult="false" always_random="false" min="2" max="2" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" />                        
 		</ability>    
-		
+
 		<ability name="Drowner Trophy _Stats">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />                       
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="bonus" />
+			<vitality mult="false" always_random="false" min="15" max="15" />
 		</ability>    
 
 		<ability name="Endriags Trophy _Stats">
-			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="bonus" />
-		</ability>
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+		</ability>    
 
 		<ability name="Wraith Trophy _Stats">
-			<damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.20" max="1.20" type="bonus" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />			
-            <damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
+			<damage_max mult="false" always_random="false" min="6" max="6" />
+		</ability>    	
+
+		<ability name="Harpy Trophy _Stats">
+			<damage_reduction mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+		</ability>    
+
+		<ability name="Necrophage Trophy _Stats">
+			<damage_min mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="4" max="4" />
+		</ability>    
+
+		<ability name="Rotfiend Trophy _Stats">
+			<vitality mult="false" always_random="false" min="20" max="20" />
 		</ability>    		
 
-		<ability name="Harpy Trophy _Stats">			
-			<damage_min mult="false" always_random="false" min="2" max="2" />
+		<ability name="Bulvore Trophy _Stats">
+			<damage_reduction mult="false" always_random="false" min="8" max="8" />
 			<damage_max mult="false" always_random="false" min="8" max="8" />
-            <res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
 		</ability>    
-		
-		###UNUSED###
-		<ability name="Necrophage Trophy _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />           
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
-		</ability>  
 
-		<ability name="Rotfiend Trophy _Stats">	
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />           
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
-		</ability>   		
-
-		<ability name="Bulvore Trophy _Stats"> 
-			<damage_reduction mult="false" always_random="false" min="6" max="6" />                  
-            <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />				
-		</ability>    
-		
 		<ability name="Troll Trophy _Stats">
-			<damage_min mult="false" always_random="false" min="1" max="1" />		
-			<damage_max mult="false" always_random="false" min="4" max="4" /> 
-            <crt_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-            <damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />                        
-		</ability> 
-		
-		###DRAUGIR###
-		<ability name="Wraith Knight TrophyT _Stats">
-			<damage_min mult="false" always_random="false" min="2" max="2" />
-			<damage_max mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<damage_min mult="false" always_random="false" min="9" max="9" />
+			<damage_max mult="false" always_random="false" min="9" max="9" />
 		</ability>    
-		
-		<ability name="Tentadrake Trophy _Stats">
-			<vitality mult="false" always_random="false" min="40" max="40" />
-			<damage_reduction mult="false" always_random="false" min="5" max="5" />			
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <crt_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />                                                 
-		</ability>  		
-		
-		<ability name="Draug Trophy _Stats">
+
+		<ability name="Wraith Knight TrophyT _Stats">
 			<vitality mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction mult="false" always_random="false" min="5" max="5" />		
-            <res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <crt_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />                                              
-		</ability>		
-		
-		###UNUSED###
+			<damage_max mult="false" always_random="false" min="5" max="5" />
+		</ability>    	
+
+		<ability name="Tentadrake Trophy _Stats">
+			<vitality mult="false" always_random="false" min="50" max="50" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
+		</ability>    		
+
+		<ability name="Draug Trophy _Stats">
+			<vitality mult="false" always_random="false" min="55" max="55" />
+			<damage_reduction mult="false" always_random="false" min="5" max="5" />
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+		</ability>    	
+
 		<ability name="Golem Trophy _Stats">
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-            <res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />                                            
+			<vitality mult="false" always_random="false" min="25" max="25" />
 		</ability>    	
-		
-		###DROPPED BY GOLEM###
+
 		<ability name="Elemental Trophy _Stats">
-			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-            <res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />  
+			<vitality mult="false" always_random="false" min="15" max="15" />
+			<damage_signsbonus mult="false" always_random="false" min="5" max="5" />
 		</ability>   
 
 		<ability name="Gargoyle Trophy _Stats">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="3" max="3" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />                        
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
 		</ability>    
-		
+
 		<ability name="Arachas Trophy _Stats">
 			<vitality mult="false" always_random="false" min="25" max="25" />
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-            <damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" /> 
-		</ability>   
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="4" max="4" />
+			<damage_signsbonus mult="false" always_random="false" min="2" max="2" />
+		</ability>    
 
 		<ability name="Elthon Trophy _Stats">
-			<max_weight mult="false" always_random="false" min="15" max="15" />
-		</ability>   
+			<vitality mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" />
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
+		</ability>
 
 		<ability name="Werewolf Trophy _Stats">
-			<damage_min mult="false" always_random="false" min="2" max="2" />
-			<damage_max mult="false" always_random="false" min="3" max="3" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="bonus" />
+			<vitality mult="false" always_random="false" min="10" max="10" />
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" />
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
 		</ability>
-		
+
 		<ability name="SQ308 Golem Trophy _Stats">
 			<damage_reduction mult="false" always_random="false" min="10" max="10" />
-            <res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<vitality mult="false" always_random="false" min="15" max="15" />
 		</ability> 
 
 		<ability name="SQ307_Natalis_Trophy_Stats">
-			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-            <res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
+			<damage_max mult="false" always_random="false" min="6" max="6" />
+			<vitality mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
 		</ability> 
 
 	</abilities>	

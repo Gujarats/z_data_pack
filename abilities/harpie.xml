@@ -2,47 +2,47 @@
 <definitions>
   <abilities>
     <ability name="Harpie Claws _Stats">
-      <damage_min mult="false" always_random="false" min="1" max="1" />
-      <damage_max mult="false" always_random="false" min="2" max="2" />
-    </ability>
-    <ability name="Harpie Default">
-      <level mult="false" always_random="false" min="8" max="8" />
-      <experience mult="false" always_random="false" min="20" max="20" />
-      <vitality mult="false" always_random="false" min="50" max="50" />
-      <vitality_regen mult="false" always_random="false" min="0.01" max="0.01" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="3" max="3" />
-      <damage_reduction_block mult="false" always_random="false" min="11" max="11" />
-      <res_falter mult="false" always_random="false" min="0.6" max="0.6" />
-      <res_bleed mult="false" always_random="false" min="0.4" max="0.4" />
-      <res_poison mult="false" always_random="false" min="0.4" max="0.4" />
-      <res_laming mult="false" always_random="false" min="0.4" max="0.4" />
-      <crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="12" max="12" />
-      <damage_max mult="false" always_random="false" min="20" max="20" />
-    </ability>
-    <ability name="Harpie Strong">
-      <level mult="false" always_random="false" min="9" max="9" />
-      <experience mult="false" always_random="false" min="22" max="22" />
-      <vitality mult="false" always_random="false" min="80" max="80" />
-      <vitality_regen mult="false" always_random="false" min="0.01" max="0.01" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_reduction mult="false" always_random="false" min="3" max="3" />
-      <damage_reduction_block mult="false" always_random="false" min="16" max="16" />
-      <res_falter mult="false" always_random="false" min="0.2" max="0.2" />
-      <res_falter mult="false" always_random="false" min="0.2" max="0.2" />
-      <damage_min mult="false" always_random="false" min="16" max="16" />
-      <damage_max mult="false" always_random="false" min="30" max="30" />
-    </ability>
-  </abilities>
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+		</ability>  
+
+		<ability name="Harpie Default">
+			<level mult="false" always_random="false" min="8" max="8" />
+			<experience mult="false" always_random="false" min="20" max="20" />
+			<vitality mult="false" always_random="false" min="50" max="50" />
+			<vitality_regen mult="false" always_random="false" min="0.01" max="0.01" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="22" max="22" />
+			<res_falter mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_bleed mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_poison mult="false" always_random="false" min="0.4" max="0.4" />
+			<res_laming mult="false" always_random="false" min="0.4" max="0.4" />
+			<crt_bleed mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+		</ability>  
+
+		<ability name="Harpie Strong">
+			<level mult="false" always_random="false" min="9" max="9" />
+			<experience mult="false" always_random="false" min="22" max="22" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0.01" max="0.01" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="32" max="32" />
+			<res_falter mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_falter mult="false" always_random="false" min="0.2" max="0.2" />
+			<damage_min mult="false" always_random="false" min="16" max="16" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+		</ability>  
+
+	</abilities>
   <items>
     <item name="Harpie claws" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="None" weapon="true" lethal="true">
-      <tags>NoDrop,NoShow</tags>
-      <base_abilities>
-        <a>Harpie Claws _Stats</a>
-      </base_abilities>
-    </item>
-  </items>
+			<tags>NoDrop,NoShow</tags>
+			<base_abilities>
+				<a>Harpie Claws _Stats</a>
+			</base_abilities>
+		</item>    
+
+	</items>
 </definitions>

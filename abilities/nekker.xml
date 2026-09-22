@@ -4,35 +4,32 @@
 		<ability name="Nekker Claws _Stats">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="2" max="2" />
-		</ability>
+		</ability>  
+
 		<ability name="Nekker Default">
 			<level mult="false" always_random="false" min="8" max="8" />
 			<experience mult="false" always_random="false" min="10" max="10" />
 			<vitality mult="false" always_random="false" min="40" max="40" />
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
 			<damage_min mult="false" always_random="false" min="5" max="5" />
 			<damage_max mult="false" always_random="false" min="7" max="7" />
 			<res_aard mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_igni mult="false" always_random="false" min="0.3" max="0.3" />
-		</ability>
+		</ability>  
+
 		<ability name="Nekker Warrior">
 			<level mult="false" always_random="false" min="10" max="10" />
 			<experience mult="false" always_random="false" min="15" max="15" />
 			<vitality mult="false" always_random="false" min="50" max="50" />
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
 			<damage_min mult="false" always_random="false" min="5" max="5" />
 			<damage_max mult="false" always_random="false" min="7" max="7" />
 			<res_aard mult="false" always_random="false" min="0.3" max="0.3" />
 			<res_igni mult="false" always_random="false" min="0.3" max="0.3" />
-		</ability>
+		</ability>  
+
 	</abilities>
 	<items>
 		<item name="Nekker claws" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="None" weapon="true" lethal="true">
@@ -40,6 +37,7 @@
 			<base_abilities>
 				<a>Nekker Claws _Stats</a>
 			</base_abilities>
-		</item>
+		</item>    
+
 	</items>
 </definitions>

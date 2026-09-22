@@ -17,504 +17,452 @@
 
 	###LAPWING###
 	<item name="Recipe Wolverine" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_150</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Wolverine">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Fulgur</ingredient>
-	    </ingredients_list>
-        </item>
-		
-	###SWALLOW###
-	<item name="Recipe Marten" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Marten">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-		
-	###WOLF###	
-	<item name="Recipe Blizzard" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_95</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Blizzard">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###GOLDEN ORIOLE###	
-	<item name="Recipe Maribor Forest" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_85</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Maribor Forest">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-		
-	###STAMMELFORD'S PHILTRE###
-	<item name="Recipe Golden Oriole" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_120</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Golden Oriole">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Fulgur</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###VIRGA###
-	<item name="Recipe De Vries Extract" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_75</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="De Vries Extract">
-        <ingredient quantity="1">Vitriol</ingredient>
-        <ingredient quantity="1">Caelum</ingredient>
-        <ingredient quantity="1">Quebrith</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###WHITE RAFFARD'S DECOCTION###
-	<item name="Recipe White Raffards Decoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="White Raffards Decoction">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###MARIBOR FOREST###
-	<item name="Recipe Wolf" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_115</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Wolf">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###TIARA###
-	<item name="Recipe Shrike" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_75</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Shrike">
-        <ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###GADWALL###
-	<item name="Recipe Swallow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Swallow">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-	    </ingredients_list>
-        </item>
-		
-	###BROCK###
-	<item name="Recipe Concretion" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_75</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Concretion">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-        <ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###CAT###
-	<item name="Recipe Cat" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_60</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Cat">
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###ROOK###
-	<item name="Recipe Kiss" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_125</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Kiss">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-	    </ingredients_list>
-        </item>
-		
-	###TAWNY OWL###
-	<item name="Recipe Tawny Owl" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Tawny Owl">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-        <ingredient quantity="1">Fulgur</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###THUNDERBOLT###
-	<item name="Recipe Thunderbolt" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_125</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Thunderbolt">
-		<ingredient quantity="1">Quebrith</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	###PETRI'S PHILTRE###
-	<item name="Recipe Petri Philter" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_180</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Petri Philter">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-	    </ingredients_list>
-        </item>	
-	
-	###MONGOOSE###
-	<item name="Recipe Shadow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_150</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Shadow">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Fulgur</ingredient>
-	    </ingredients_list>
-        </item>		
-	
-#petardy
-	<item name="Recipe Samum" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Samum">
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Rebis</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Dancing Star" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Dancing Star">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Dragon Slumber" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Dragon Slumber">
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Devil Puffball" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Devil Puffball">
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Flare" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_30</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Flare">
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Stinker" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Stinker">
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Firefly" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Firefly">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Vitriol</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Grapeshot" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_70</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Grapeshot">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-        
-    <item name="Recipe Red Haze" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Red Haze">
-		<ingredient quantity="1">Aether</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-#oleje
-	<item name="Recipe Caelm" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Caelm">
-        <ingredient quantity="1">Rebis</ingredient>
-        <ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>        
-   	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Cerbin Blath" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Cerbin Blath">
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>        
-        
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Specter Grease" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Specter Grease">
-        <ingredient quantity="1">Rebis</ingredient>
-        <ingredient quantity="1">Hydragenum</ingredient>
-        <ingredient quantity="1">Aether</ingredient>
-        <ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Argentia" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Argentia">
-        <ingredient quantity="1">Vitriol</ingredient>
-        <ingredient quantity="1">Vitriol</ingredient>
-        <ingredient quantity="1">Aether</ingredient>
-        <ingredient quantity="1">Rebis</ingredient>        
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Brown Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Brown Oil">
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>        
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Crinfrid Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Crinfrid Oil">
-        <ingredient quantity="1">Hydragenum</ingredient>
-        <ingredient quantity="1">Rebis</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Hangman Venom" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_90</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Hangman Venom">
-		<ingredient quantity="1">Caelum</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-		<ingredient quantity="1">Vitriol</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>        
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Surge" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_80</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Surge">
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>        
-		<ingredient quantity="1">Vermilion</ingredient>        
-	    </ingredients_list>
-        </item>	
-	
-	
-#skladniki rzemieslnicze
-	<item name="Recipe Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_30</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Oil">
-		<ingredient quantity="1">Vermilion</ingredient>
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Hydragenum</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-	    </ingredients_list>
-        </item>
-	
-	<item name="Recipe Amethyst Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
-            <base_abilities>
-		<a>Price_40</a>
-		<a>Weight_00</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="Amethyst Dust">
-		<ingredient quantity="1">Fulgur</ingredient>
-		<ingredient quantity="1">Sol</ingredient>
-		<ingredient quantity="1">Rebis</ingredient>
-		<ingredient quantity="1">Quebrith</ingredient>
-		<ingredient quantity="1">Aether</ingredient>
-	    </ingredients_list>
-        </item>
-	
-   </items>
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Wolverine">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Fulgur</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Marten" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Marten">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Blizzard" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_55</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Blizzard">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Maribor Forest" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_45</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Maribor Forest">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Golden Oriole" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Golden Oriole">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Fulgur</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe De Vries Extract" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="De Vries Extract">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe White Raffards Decoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_70</a>
+			</base_abilities>
+			<ingredients_list crafted_item="White Raffards Decoction">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Wolf" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_110</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Wolf">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Shrike" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_60</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Shrike">
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Swallow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Swallow">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Concretion" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Concretion">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Cat" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Cat">
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Kiss" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_125</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Kiss">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Tawny Owl" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Tawny Owl">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Fulgur</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Thunderbolt" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_90</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Thunderbolt">
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Petri Philter" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_200</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Petri Philter">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+			</ingredients_list>
+		</item>	
+
+		<item name="Recipe Shadow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Shadow">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Fulgur</ingredient>
+			</ingredients_list>
+		</item>		
+
+		#petardy
+		<item name="Recipe Samum" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Samum">
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Rebis</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Dancing Star" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_60</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Dancing Star">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Dragon Slumber" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_80</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Dragon Slumber">
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Devil Puffball" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_55</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Devil Puffball">
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Flare" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_25</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Flare">
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Stinker" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_45</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Stinker">
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Firefly" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_70</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Firefly">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vitriol</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Grapeshot" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Grapeshot">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Red Haze" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_60</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Red Haze">
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		#oleje
+		<item name="Recipe Caelm" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_90</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Caelm">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>        
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Cerbin Blath" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_100</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Cerbin Blath">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>        
+
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Specter Grease" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Specter Grease">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Argentia" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Argentia">
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vitriol</ingredient>        
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Brown Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_90</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Brown Oil">
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>        
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Crinfrid Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_80</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Crinfrid Oil">
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Rebis</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Hangman Venom" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_65</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Hangman Venom">
+				<ingredient quantity="1">Caelum</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>        
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Surge" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_75</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Surge">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>        
+				<ingredient quantity="1">Vermilion</ingredient>        
+			</ingredients_list>
+		</item>	
+
+
+		#skladniki rzemieslnicze
+		<item name="Recipe Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Oil">
+				<ingredient quantity="1">Vermilion</ingredient>
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Hydragenum</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Recipe Amethyst Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,NoTooltip</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Amethyst Dust">
+				<ingredient quantity="1">Fulgur</ingredient>
+				<ingredient quantity="1">Sol</ingredient>
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Quebrith</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+			</ingredients_list>
+		</item>
+
+	</items>
 </definitions>

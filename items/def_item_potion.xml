@@ -7,320 +7,251 @@
     #	Definicje eliksirow
 
 		<item name="Candlemakers Potion Real" category="elixir" ability_slots="0" stackable="true" template="q213r_candlemakers_potion_real" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,SortTypeQuest,Elixir</tags>
-            <base_abilities>
+			<tags>SortTypePotion,SortTypeQuest,Elixir</tags>
+			<base_abilities>
 				<a>Candlemakers Potion Real _Stats</a>
 				<a>Price_100</a>
 				<a>Weight_02</a>
-            </base_abilities>
+			</base_abilities>
 		</item>
 
-		###CAT###
-        <item name="Cat" category="elixir" ability_slots="0" stackable="true" template="alch_pot_01" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Cat _Stats</a>
-		<a>Cat _Stats2</a>
-		<a>Cat _Stats3</a>
-		<a>Cat _Stats4</a>
-		<a>Cat _Stats5</a>
-		<a>Cat _Stats6</a>
-		<a>Price_40</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###GADWALL###
-        <item name="Swallow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_02" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Swallow _Stats</a>
-		<a>Swallow _Stats2</a>
-		<a>Swallow _Stats3</a>
-		<a>Swallow _Stats4</a>
-		<a>Swallow _Stats5</a>
-		<a>Swallow _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###TAWNY OWL###
-        <item name="Tawny Owl" category="elixir" ability_slots="0" stackable="true" template="alch_pot_03" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Tawny Owl _Stats</a>
-		<a>Tawny Owl _Stats2</a>
-		<a>Tawny Owl _Stats3</a>
-		<a>Tawny Owl _Stats4</a>
-		<a>Tawny Owl _Stats5</a>
-		<a>Tawny Owl _Stats6</a>
-		<a>Price_50</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###WOLF###
-        <item name="Blizzard" category="elixir" ability_slots="0" stackable="true" template="alch_pot_04" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Blizzard _Stats</a>
-		<a>Blizzard _Stats2</a>
-		<a>Blizzard _Stats3</a>
-		<a>Blizzard _Stats4</a>
-		<a>Blizzard _Stats5</a>
-		<a>Blizzard _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###ROOK###
-        <item name="Kiss" category="elixir" ability_slots="0" stackable="true" template="alch_pot_05" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Kiss _Stats</a>
-		<a>Kiss _Stats2</a>
-		<a>Kiss _Stats3</a>
-		<a>Kiss _Stats4</a>
-		<a>Kiss _Stats5</a>
-		<a>Kiss _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###SWALLOW###
-        <item name="Marten" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Marten _Stats</a>
-		<a>Marten _Stats2</a>
-		<a>Marten _Stats3</a>
-		<a>Marten _Stats4</a>
-		<a>Marten _Stats5</a>
-		<a>Marten _Stats6</a>
-		<a>Price_50</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-        ###GOLDEN ORIOLE###			
-        <item name="Maribor Forest" category="elixir" ability_slots="0" stackable="true" template="alch_pot_07" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Maribor Forest _Stats</a>
-		<a>Maribor Forest _Stats2</a>
-		<a>Maribor Forest _Stats3</a>
-		<a>Maribor Forest _Stats4</a>
-		<a>Maribor Forest _Stats5</a>
-		<a>Maribor Forest _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###TIARA###
-        <item name="Shrike" category="elixir" ability_slots="0" stackable="true" template="alch_pot_08" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Shrike _Stats</a>
-		<a>Shrike _Stats2</a>
-		<a>Shrike _Stats3</a>
-		<a>Shrike _Stats4</a>
-		<a>Shrike _Stats5</a>
-		<a>Shrike _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###STAMMELFORD'S PHILTRE###
-        <item name="Golden Oriole" category="elixir" ability_slots="0" stackable="true" template="alch_pot_09" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Golden Oriole _Stats</a>
-		 <a>Golden Oriole _Stats2</a>
-		  <a>Golden Oriole _Stats3</a>
-		  <a>Golden Oriole _Stats4</a>
-		  <a>Golden Oriole _Stats5</a>
-		<a>Golden Oriole _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###MARIBOR'S FOREST###
-        <item name="Wolf" category="elixir" ability_slots="0" stackable="true" template="alch_pot_10" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Wolf _Stats</a>
-		 <a>Wolf _Stats2</a>
-		  <a>Wolf _Stats3</a>
-		  <a>Wolf _Stats4</a>
-		  <a>Wolf _Stats5</a>
-		<a>Wolf _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-        
-		###LAPWING###
-	    <item name="Wolverine" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Wolverine _Stats</a>
-		<a>Wolverine _Stats2</a>
-		<a>Wolverine _Stats3</a>
-		<a>Wolverine _Stats4</a>
-		<a>Wolverine _Stats5</a>
-		<a>Wolverine _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	    ###VIRGA###
-	    <item name="De Vries Extract" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>De Vries Extract _Stats</a>
-		<a>De Vries Extract _Stats2</a>
-		<a>De Vries Extract _Stats3</a>
-		<a>De Vries Extract _Stats4</a>
-		<a>De Vries Extract _Stats5</a>
-		<a>De Vries Extract _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
+		<item name="Cat" category="elixir" ability_slots="0" stackable="true" template="alch_pot_01" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Cat _Stats</a>
+				<a>Cat _Stats2</a>
+				<a>Cat _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
 
-		###WHITE RAFFARD'S DECOCTION###
-	    <item name="White Raffards Decoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>White Raffard Decoction _Stats</a>
-		<a>White Raffard Decoction _Stats2</a>
-		<a>White Raffard Decoction _Stats3</a>
-		<a>White Raffard Decoction _Stats4</a>
-		<a>White Raffard Decoction _Stats5</a>
-		<a>White Raffard Decoction _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	    
-		###PETRI'S PHILTRE###
-	    <item name="Petri Philter" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Petri Philter _Stats</a>
-		<a>Petri Philter _Stats2</a>
-		<a>Petri Philter _Stats3</a>
-		<a>Petri Philter _Stats4</a>
-		<a>Petri Philter _Stats5</a>
-		<a>Petri Philter _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	    ###BROCK###
-	    <item name="Concretion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Concretion _Stats</a>
-		  <a>Concretion _Stats2</a>
-		    <a>Concretion _Stats3</a>
-		    <a>Concretion _Stats4</a>
-		    <a>Concretion _Stats5</a>
-		<a>Concretion _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	    ###THUNDERBOLT###
-	    <item name="Thunderbolt" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-                <a>Thunderbolt _Stats</a>
-		<a>Thunderbolt _Stats2</a>
-		<a>Thunderbolt _Stats3</a>
-		<a>Thunderbolt _Stats4</a>
-		<a>Thunderbolt _Stats5</a>
-		<a>Thunderbolt _Stats6</a>
-		<a>Price_60</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
+		<item name="Swallow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_02" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Swallow _Stats</a>
+				<a>Swallow _Stats2</a>
+				<a>Swallow _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
 
-	<item name="Anabolic" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir,SortTypeQuest,Quest,Special</tags>
-            <base_abilities>
-		<a>Anabolic_Stats</a>
-		<a>Price_50</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>
-	
-	    ###MONGOOSE###
-	    <item name="Shadow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>Shadow_Stats</a>
-		<a>Shadow_Stats2</a>
-		<a>Shadow_Stats3</a>
-		<a>Shadow_Stats4</a>
-		<a>Shadow_Stats5</a>
-		<a>Shadow_Stats6</a>
-		<a>Price_50</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>	
-	
-	<item name="Unknown Red Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>UnknownPotion_Stats</a>
-		<a>Price_1</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>	
-	<item name="Unknown Green Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>UnknownPotion_Stats</a>
-		<a>Price_1</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>	
-	<item name="Unknown Yellow Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>UnknownPotion_Stats</a>
-		<a>Price_1</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>	
-	<item name="Unknown Black Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
-            <tags>SortTypePotion,TypeMagic,Elixir</tags>
-            <base_abilities>
-		<a>UnknownPotion_Stats</a>
-		<a>Price_1</a>
-		<a>Weight_02</a>
-            </base_abilities>
-        </item>	
-        		
+		<item name="Tawny Owl" category="elixir" ability_slots="0" stackable="true" template="alch_pot_03" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Tawny Owl _Stats</a>
+				<a>Tawny Owl _Stats2</a>
+				<a>Tawny Owl _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Blizzard" category="elixir" ability_slots="0" stackable="true" template="alch_pot_04" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Blizzard _Stats</a>
+				<a>Blizzard _Stats2</a>
+				<a>Blizzard _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Kiss" category="elixir" ability_slots="0" stackable="true" template="alch_pot_05" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Kiss _Stats</a>
+				<a>Kiss _Stats2</a>
+				<a>Kiss _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Marten" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Marten _Stats</a>
+				<a>Marten _Stats2</a>
+				<a>Marten _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Maribor Forest" category="elixir" ability_slots="0" stackable="true" template="alch_pot_07" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Maribor Forest _Stats</a>
+				<a>Maribor Forest _Stats2</a>
+				<a>Maribor Forest _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Shrike" category="elixir" ability_slots="0" stackable="true" template="alch_pot_08" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Shrike _Stats</a>
+				<a>Shrike _Stats2</a>
+				<a>Shrike _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Golden Oriole" category="elixir" ability_slots="0" stackable="true" template="alch_pot_09" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Golden Oriole _Stats</a>
+				<a>Golden Oriole _Stats2</a>
+				<a>Golden Oriole _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Wolf" category="elixir" ability_slots="0" stackable="true" template="alch_pot_10" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Wolf _Stats</a>
+				<a>Wolf _Stats2</a>
+				<a>Wolf _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Wolverine" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Wolverine _Stats</a>
+				<a>Wolverine _Stats2</a>
+				<a>Wolverine _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="De Vries Extract" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>De Vries Extract _Stats</a>
+				<a>De Vries Extract _Stats2</a>
+				<a>De Vries Extract _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="White Raffards Decoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>White Raffard Decoction _Stats</a>
+				<a>White Raffard Decoction _Stats2</a>
+				<a>White Raffard Decoction _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Petri Philter" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Petri Philter _Stats</a>
+				<a>Petri Philter _Stats2</a>
+				<a>Petri Philter _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Concretion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Concretion _Stats</a>
+				<a>Concretion _Stats2</a>
+				<a>Concretion _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Thunderbolt" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Thunderbolt _Stats</a>
+				<a>Thunderbolt _Stats2</a>
+				<a>Thunderbolt _Stats3</a>
+				<a>Price_10</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Anabolic" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir,SortTypeQuest,Quest,Special</tags>
+			<base_abilities>
+				<a>Anabolic_Stats</a>
+				<a>Price_100</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>
+
+		<item name="Shadow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>Shadow_Stats</a>
+				<a>Shadow_Stats2</a>
+				<a>Shadow_Stats3</a>
+				<a>Price_100</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>	
+
+		<item name="Unknown Red Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>UnknownPotion_Stats</a>
+				<a>Price_1</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>	
+		<item name="Unknown Green Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>UnknownPotion_Stats</a>
+				<a>Price_1</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>	
+		<item name="Unknown Yellow Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>UnknownPotion_Stats</a>
+				<a>Price_1</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>	
+		<item name="Unknown Black Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
+			<tags>SortTypePotion,TypeMagic,Elixir</tags>
+			<base_abilities>
+				<a>UnknownPotion_Stats</a>
+				<a>Price_1</a>
+				<a>Weight_02</a>
+			</base_abilities>
+		</item>	
+
 		# Custom potions
 		<item name="Respec" category="elixir" ability_slots="0" stackable="true" template="alch_pot_01" equip_slot="" hold_slot="">
 			<tags>SortTypePotion,TypeMagic,Elixir</tags>
 			<base_abilities>
 				<a>Respec _Stats</a>
-				<a>Price_13</a>
+				<a>Price_500</a>
 				<a>Weight_02</a>
 			</base_abilities>
-		</item>		
-		
-    </items>
+		</item>	
+	</items>
 </definitions>

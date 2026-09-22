@@ -29,7 +29,7 @@
 			<crt_freeze display_perc="true" mult="false" always_random="true" min="0.03" max="0.03" type="critical" />
 			<crt_stun display_perc="true" mult="false" always_random="true" min="0.03" max="0.03" type="critical" />
 			<crt_knockdown display_perc="true" mult="false" always_random="true" min="0.03" max="0.03" type="critical" />
-		</ability>		
+		</ability>
 		<ability name="Mutagen of Critical Effect _Stats2" prerequisites="alchemy_s9">
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="critical" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="critical" />
@@ -46,252 +46,133 @@
 			<crt_stun display_perc="true" mult="false" always_random="true" min="0.02" max="0.02" type="critical" />
 			<crt_knockdown display_perc="true" mult="false" always_random="true" min="0.02" max="0.02" type="critical" />
 		</ability>
-	
 
-	#Mutagen of Amplification	
+		#Mutagen of Amplification
 		<ability name="Minor Mutagen of Amplification _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.04" max="1.04" type="bonus" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" /> 
+			<adrenaline_on_hit mult="true" display_perc="true" always_random="false" min="1.01" max="1.01" type="bonus" />
 		</ability>
 		<ability name="Mutagen of Amplification _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.04" max="1.04" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.04" max="1.04" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.06" max="1.06" type="bonus" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
+			<adrenaline_on_hit mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
 		<ability name="Major Mutagen of Amplification _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.06" max="1.06" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.06" max="1.06" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.08" max="1.08" type="bonus" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
-		</ability>		
+			<adrenaline_on_hit mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
 		<ability name="Mutagen of Amplification _Stats2" prerequisites="alchemy_s9">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="0.5" max="0.5" />
+			<adrenaline_on_hit mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
 		</ability>
 		<ability name="Mutagen of Amplification _Stats3" prerequisites="alchemy_s9_2">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="0.5" max="0.5" /> 
+			<adrenaline_on_hit mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
 
-
-	# Mutagen of Range	
+		# Mutagen of Range	
 		<ability name="Minor Mutagen of Range _Stats">
 			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
 			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-			<damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
-		
 		<ability name="Mutagen of Range _Stats">
 			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.07" max="1.07" type="bonus" />			
 		</ability>
-		
 		<ability name="Major Mutagen of Range _Stats" prerequisites="alchemy_s9">
 			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
 			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-			<damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.09" max="1.09" type="bonus" />
 		</ability>
-		
-		<ability name="Mutagen of Range _Stats2" prerequisites="alchemy_s9_2">
+		<ability name="Mutagen of Range _Stats2" prerequisites="alchemy_s9">
 			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
 			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-			<damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
-		<ability name="Mutagen of Range _Stats3">
-			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
-			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
-			<damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
+		<ability name="Mutagen of Range _Stats3" prerequisites="alchemy_s9_2">
+			<igni_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
+			<aard_max_dist mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />
 		</ability>
 
-	
-	# Mutagen of Vitality
+		# Mutagen of Vitality
 		<ability name="Minor Mutagen of Vitality _Stats">
-            <vitality mult="false" always_random="false" min="5" max="5" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.03" max="0.03" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.03" max="0.03" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.03" max="0.03" type="resistance" />
+			<vitality mult="false" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="Mutagen of Vitality _Stats">
-            <vitality mult="false" always_random="false" min="10" max="10" />
-			<vitality_regen mult="false" always_random="false" min="2" max="2" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" type="resistance" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
 		</ability>
-		<ability name="Major Mutagen of Vitality _Stats" prerequisites="alchemy_s9">
-            <vitality mult="false" always_random="false" min="5" max="5" />
-			<vitality_regen mult="false" always_random="false" min="3" max="3" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.07" max="0.07" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.07" max="0.07" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.07" max="0.07" type="resistance" />
+		<ability name="Major Mutagen of Vitality _Stats">
+			<vitality mult="false" always_random="false" min="10" max="10" />
 		</ability>
-		<ability name="Mutagen of Vitality _Stats2" prerequisites="alchemy_s9_2">
-            <vitality mult="false" always_random="false" min="5" max="5" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
+		<ability name="Mutagen of Vitality _Stats2" prerequisites="alchemy_s9">
+			<vitality mult="false" always_random="false" min="5" max="5" />
 		</ability>
-		<ability name="Mutagen of Vitality _Stats3">
-            <vitality mult="false" always_random="false" min="10" max="10" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" />
-			<vitality_combat_regen mult="false" always_random="false" min="0.1" max="0.1" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
+		<ability name="Mutagen of Vitality _Stats3" prerequisites="alchemy_s9_2">
+			<vitality mult="false" always_random="false" min="5" max="5" />
 		</ability>
-	
 
-	# Mutagen of Power
+		# Mutagen of Power
 		<ability name="Minor Mutagen of Power _Stats">
-            <damage_reduction mult="false" always_random="false" min="2" max="2" />                  
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-		    <signs_power display_perc="true" mult="true" always_random="false" min="1.04" max="1.04" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="Mutagen of Power _Stats">
-            <damage_reduction mult="false" always_random="false" min="3" max="3" />                  
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-		    <signs_power display_perc="true" mult="true" always_random="false" min="1.06" max="1.06" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>
-		<ability name="Major Mutagen of Power _Stats" prerequisites="alchemy_s9">
-            <damage_reduction mult="false" always_random="false" min="4" max="4" />                  
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-		    <signs_power display_perc="true" mult="true" always_random="false" min="1.08" max="1.08" />
+		<ability name="Major Mutagen of Power _Stats">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="3" max="3" />
 		</ability>
-		<ability name="Mutagen of Power _Stats2" prerequisites="alchemy_s9_2">
-            <damage_reduction mult="false" always_random="false" min="1" max="1" />
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
-		    <signs_power display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
+		<ability name="Mutagen of Power _Stats2" prerequisites="alchemy_s9">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
 		</ability>	
-		<ability name="Mutagen of Power _Stats3">
-            <damage_reduction mult="false" always_random="false" min="1" max="1" />
-            <endurance_noncombat_regen display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
-		    <signs_power display_perc="true" mult="true" always_random="false" min="1.03" max="1.03" />
+		<ability name="Mutagen of Power _Stats3" prerequisites="alchemy_s9_2">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>		
-	
 
-	# Mutagen of Strength
+		# Mutagen of Strength
 		<ability name="Minor Mutagen of Strength _Stats">
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />  
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="Mutagen of Strength _Stats">
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
-			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />  
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 		</ability>
-		<ability name="Major Mutagen of Strength _Stats" prerequisites="alchemy_s9">
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />  
+		<ability name="Major Mutagen of Strength _Stats">
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 		</ability>
-		<ability name="Mutagen of Strength _Stats2" prerequisites="alchemy_s9_2">
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
+		<ability name="Mutagen of Strength _Stats2" prerequisites="alchemy_s9">
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 		</ability>
-		<ability name="Mutagen of Strength _Stats3">
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="bonus" />
+		<ability name="Mutagen of Strength _Stats3" prerequisites="alchemy_s9_2">
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 		</ability>		
-	
 
-	# Mutagen of Concentration
+		# Mutagen of Concentration
 		<ability name="Minor utagen of Concentration _Stats" prerequisites="alchemy_s9">
-			<signs_power display_perc="true" mult="true" always_random="false" min="1.03" max="1.03" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.03" max="1.03" type="bonus" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />   	
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>	
+		<ability name="Mutagen of Concentration _Stats">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
 		</ability>
-		<ability name="Mutagen of Concentration _Stats" prerequisites="alchemy_s9_2">
-			<signs_power display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />    	
-		</ability>
-		<ability name="Major Mutagen of Concentration _Stats">
-			<signs_power display_perc="true" mult="true" always_random="false" min="1.07" max="1.07" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.07" max="1.07" type="bonus" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />    	
-		</ability>
-		<ability name="Mutagen of Concentration _Stats2" prerequisites="alchemy_s9">
-			<signs_power display_perc="true" mult="true" always_random="false" min="1.01" max="1.01" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.01" max="1.01" type="bonus" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="0.5" max="0.5" />			
+		<ability name="Major Mutagen of Concentration _Stats" prerequisites="alchemy_s9_2">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>			
+
+	<ability name="Mutagen of Concentration _Stats2" prerequisites="alchemy_s9">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
 		</ability>	
 		<ability name="Mutagen of Concentration _Stats3" prerequisites="alchemy_s9_2">
-			<signs_power display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" type="bonus" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="0.5" max="0.5" />  	
-		</ability>
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>			
 
-        # Mutagen of Madness
-		<ability name="Mutagen of Madness _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.06" max="1.06" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.06" max="1.06" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.06" max="1.06" type="bonus" />            
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.06" max="0.06" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.06" max="0.06" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.06" max="0.06" type="resistance" /> 
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-            <adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />			
-		</ability>
-		<ability name="Mutagen of Madness _Stats2" prerequisites="alchemy_s9">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.01" max="1.01" type="bonus" />            
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" /> 
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />							
-	        </ability>
-            <ability name="Mutagen of Madness _Stats3" prerequisites="alchemy_s9_2">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.02" max="1.02" />			
-            <damage_signsbonus mult="true" display_perc="true" always_random="false" min="1.02" max="1.02" type="bonus" />            
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" />
-			<res_poison mult="false" always_random="false" display_perc="true" min="0.02" max="0.02" type="resistance" /> 
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />							
-	        </ability>
+	<ability name="Mutagen of Madness _Stats" prerequisites="alchemy_s9_2">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>			
+
+	<ability name="Mutagen of Madness _Stats2" prerequisites="alchemy_s9_2">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>			
+
+	<ability name="Mutagen of Madness _Stats3" prerequisites="alchemy_s9_2">
+			<damage_signsbonus mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>			
+
 	</abilities>
     
 	<items>

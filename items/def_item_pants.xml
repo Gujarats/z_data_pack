@@ -7,363 +7,360 @@
       # 		Definicje spodni
 
     <item name="default_geralt_legs" category="pants" enhancement_slots="0" equip_template="00_naked_legs" attachment_type="skinning" ability_mode="OnMount">
-          <tags>SortTypeArmor,Armor,NoShow</tags>
-          <base_abilities>
-          </base_abilities>
-        </item>
-		
-	<item name="bare_geralt_legs" category="pants" enhancement_slots="0" equip_template="00_naked_full" attachment_type="skinning" ability_mode="OnMount">
-          <tags>SortTypeArmor,Armor,NoShow</tags>
-          <base_abilities>
-          </base_abilities>
-        </item>		
-		
-		
-    ##############################################################################    
-    # AKT 1  
-    
-        #Q1
-    <item name="Worn Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="01_worn_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Worn Pants _Stats</a>
- 	      <a>Weight_4</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-	    #Q3
-    <item name="Quality Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="03_quality_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Quality Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-	    #Q4
-    <item name="High Quality Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="04_high_quality_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>High Quality Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-          <a>Price_10</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather,Pants</ingredient>
-	  </ingredients_list>
-        </item>
+			<tags>SortTypeArmor,Armor,NoShow</tags>
+			<base_abilities>
+			</base_abilities>
+		</item>
 
-    <item name="Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Heavy Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>
-	
-	<item name="Quality Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Quality Heavy Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>
-	
-	<item name="High Quality Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="02_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>High Quality Heavy Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-	  </ingredients_list>
-        </item>    
-
-     #Q5   
-    <item name="Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="05_quality_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Studded Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-
-	<item name="Quality Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="06_hq_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Quality Studded Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-	
-	<item name="High Quality Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="08_quality_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>High Quality Studded Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_40</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-  
-      <item name="Kaedwenian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="09_hq_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Kaedwenian Unique Leather Pants _Stats</a>
- 	      <a>Weight_7</a>
-          <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-
-    <item name="Nilfgaardian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="10_temerian_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Nilfgaardian Unique Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_40</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-	
-	<item name="Temerian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="1" equip_template="16_elder_blood_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Temerian Unique Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather,Pants</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-	
-
-    <item name="High Quality Nilfgaardian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>High Quality Nilfgaardian Unique Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-    <item name="High Quality Temerian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="12_nilfgaardian_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>High Quality Temerian Unique Leather Pants _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-
-    <item name="Unique Leather Pants of Elder Blood" category="pants" stackable="false" enhancement_slots="0" equip_template="14_kaedwenian_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Unique Leather Pants of Elder Blood _Stats</a>
- 	      <a>Weight_5</a>
-          <a>Price_150</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item> 
+		<item name="bare_geralt_legs" category="pants" enhancement_slots="0" equip_template="00_naked_full" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,NoShow</tags>
+			<base_abilities>
+			</base_abilities>
+		</item>		
 
 
-######## DARK ########
+		##############################################################################    
+		# AKT 1  
 
-# Dark armor set - pants - A3
+		#Q1
+		<item name="Worn Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="01_worn_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Worn Pants _Stats</a>
+				<a>Weight_4</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
 
-	<item name="Wild Hunt Legguards" category="pants" stackable="false" enhancement_slots="0" equip_template="11_hq_temerian_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Wild Hunt Legguards _Stats</a>
- 	      <a>Weight_3</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather,Pants</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>       
-        
-    <item name="Sentinel Legguards" category="pants" stackable="false" enhancement_slots="0" equip_template="13_hq_nilfgaardian_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Sentinel Legguards _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_150</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q3
+		<item name="Quality Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="03_quality_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Quality Leather Pants _Stats</a>
+				<a>Weight_6</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
 
-    <item name="Abyssal Leggins" category="pants" stackable="false" enhancement_slots="0" equip_template="16_elder_blood_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Abyssal Leggins _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_150</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
+		#Q4
+		<item name="High Quality Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="04_high_quality_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>High Quality Leather Pants _Stats</a>
+				<a>Weight_5</a>
+				<a>Price_10</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather,Pants</ingredient>
+			</ingredients_list>
+		</item>
+		#Q5   
+		<item name="Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="02_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Heavy Leather Pants _Stats</a>
+				<a>Weight_6</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
 
-    <item name="Rogues Trousers" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Rogues Trousers _Stats</a>
- 	      <a>Weight_6</a>
-          <a>Price_150</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
+		<item name="Quality Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="05_quality_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Quality Heavy Leather Pants _Stats</a>
+				<a>Weight_5</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        # Dark Difficulty Pants A1
-        <item name="DarkDifficultyPantsA1" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA1</tags>
-            <base_abilities>
-                <a>DarkDifficultyPantsA1 _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        # Dark Difficulty Pants A2
-        <item name="DarkDifficultyPantsA2" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA2</tags>
-            <base_abilities>
-                <a>DarkDifficultyPantsA2 _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        # Dark Difficulty Pants A3
-        <item name="DarkDifficultyPantsA3" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA3</tags>
-            <base_abilities>
-                <a>DarkDifficultyPantsA3 _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
+		<item name="High Quality Heavy Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="06_hq_heavy_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>High Quality Heavy Leather Pants _Stats</a>
+				<a>Weight_5</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Studded Leather Pants _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		#Q9
+		<item name="Quality Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="08_quality_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Nilfgaardian Unique Leather Pants _Stats</a>
+				<a>Weight_6</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="High Quality Studded Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="09_hq_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>High Quality Studded Leather Pants _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Kaedwenian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="14_kaedwenian_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Kaedwenian Unique Leather Pants _Stats</a>
+				<a>Weight_7</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Nilfgaardian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="12_nilfgaardian_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Nilfgaardian Unique Leather Pants _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
 
 
-######## DLC ########
+		<item name="Temerian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="10_temerian_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Temerian Unique Leather Pants _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather,Pants</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
 
-<item name="Unique Essenced Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="17_dark_pants" attachment_type="skinning" ability_mode="OnMount">
-      <tags>SortTypeArmor,Armor,Dismantle</tags>
-      <base_abilities>
-        <a>Unique Essenced Pants _Stats</a>
-        <a>Weight_2</a>
-      </base_abilities>
-      <ingredients_list crafted_item="">
-        <ingredient quantity="1">Leather</ingredient>
-        <ingredient quantity="1">Studded leather</ingredient>
-      </ingredients_list>
-    </item>
+		<item name="High Quality Nilfgaardian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="13_hq_nilfgaardian_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>High Quality Nilfgaardian Unique Leather Pants _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="High Quality Temerian Unique Leather Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="11_hq_temerian_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>High Quality Nilfgaardian Unique Leather Pants _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Unique Leather Pants of Elder Blood" category="pants" stackable="false" enhancement_slots="0" equip_template="16_elder_blood_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Unique Leather Pants of Elder Blood _Stats</a>
+				<a>Weight_5</a>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		################################################################################################
+		# Dark armor set - pants - A3
+
+		<item name="Wild Hunt Legguards" category="pants" stackable="false" enhancement_slots="1" equip_template="16_elder_blood_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Wild Hunt Legguards _Stats</a>
+				<a>Weight_3</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather,Pants</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>        
 
 
-######## TESTING? ########
+		#Q9
+		<item name="Sentinel Legguards" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Sentinel Legguards _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q9
-        <item name="Unique Pants 1" category="pants" stackable="false" enhancement_slots="0" equip_template="18_medium_dark_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Studded Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-        
-        #Q9
-        <item name="Unique Pants 2" category="pants" stackable="false" enhancement_slots="0" equip_template="19_heavy_dark_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Studded Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
+		<item name="Abyssal Leggins" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Abyssal Leggins _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
 
-        #Q9
-        <item name="Unique Pants 3" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
-	<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
-            <base_abilities>
-                <a>Studded Leather Pants _Stats</a>
- 	      <a>Weight_5</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Studded leather</ingredient>
-	  </ingredients_list>
-        </item>
-               
-    </items>
+		<item name="Rogues Trousers" category="pants" stackable="false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Rogues Trousers _Stats</a>
+				<a>Weight_6</a>
+				<a>Price_150</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		############################################################################################
+
+		#Q9
+		<item name="DarkDifficultyPantsA1" category="pants" stackable="false" enhancement_slots="0" equip_template="17_dark_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA1</tags>
+			<base_abilities>
+				<a>DarkDifficultyPantsA1 _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Pants A2
+		<item name="DarkDifficultyPantsA2" category="pants" stackable="false" enhancement_slots="0" equip_template="18_medium_dark_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA2</tags>
+			<base_abilities>
+				<a>DarkDifficultyPantsA2 _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Pants A3
+		<item name="DarkDifficultyPantsA3" category="pants" stackable="false" enhancement_slots="0" equip_template="19_heavy_dark_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA3</tags>
+			<base_abilities>
+				<a>DarkDifficultyPantsA3 _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+	<item name="Unique Essenced Pants" category="pants" stackable="false" enhancement_slots="0" equip_template="17_dark_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants,DarkDiffA1</tags>
+			<base_abilities>
+				<a>DarkDifficultyPantsA1 _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Pants A2
+		<item name="Unique Pants 1" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Studded Leather Pants _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+		##############################################################################     
+		# AKT 2    
+		<item name="Unique Pants 2" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Studded Leather Pants _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+		############################################################################## 
+		# AKT 3
+
+		<item name="Unique Pants 3" category="pants" stackable="false" enhancement_slots="0" equip_template="07_studded_pants" attachment_type="skinning" ability_mode="OnMount">
+			<tags>SortTypeArmor,Armor,Dismantle,Pants</tags>
+			<base_abilities>
+				<a>Studded Leather Pants _Stats</a>
+				<a>Weight_5</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Leather</ingredient>
+				<ingredient quantity="1">Studded leather</ingredient>
+			</ingredients_list>
+		</item>
+
+		# Dark Difficulty Pants A1
+		</items>
 </definitions>

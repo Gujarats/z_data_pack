@@ -16,228 +16,217 @@
 
 	#Mutagen of Amplification
         <item name="Minor Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,Mutagen,TypeMagic,EnhancementType1,Vitriol,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Amplification _Stats</a>
-		 <a>Mutagen of Amplification _Stats2</a>
-		  <a>Mutagen of Amplification _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-		
-        <item name="Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType1,Vitriol,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Amplification _Stats</a>
-		 <a>Mutagen of Amplification _Stats2</a>
-		  <a>Mutagen of Amplification _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>	
-        </item>
-		
-        <item name="Major Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType1,Vitriol,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Major Mutagen of Amplification _Stats</a>
-		 <a>Mutagen of Amplification _Stats2</a>
-		  <a>Mutagen of Amplification _Stats3</a>
-	      <a>Price_300</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-        
-		
-	#Mutagen of Range
-        <item name="Minor Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Aether,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Range _Stats</a>
-		<a>Mutagen of Range _Stats2</a>
-		<a>Mutagen of Range _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>		
-        </item>    
-		
-	    <item name="Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Aether,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Range _Stats</a>
-		<a>Mutagen of Range _Stats2</a>
-		<a>Mutagen of Range _Stats3</a>
-	      <a>Weight_01</a>
-	      <a>Price_200</a>	
-            </base_abilities>
-        </item>
-        
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,Mutagen,TypeEpic,EnhancementType1,Vitriol,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Amplification _Stats</a>
+				<a>Mutagen of Amplification _Stats2</a>
+				<a>Mutagen of Amplification _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>
+		<item name="Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType1,Vitriol,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Amplification _Stats</a>
+				<a>Mutagen of Amplification _Stats2</a>
+				<a>Mutagen of Amplification _Stats3</a>
+				<a>Price_200</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>
+		<item name="Major Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType1,Vitriol</tags>
+			<base_abilities>
+				<a>Major Mutagen of Amplification _Stats</a>
+				<a>Mutagen of Amplification _Stats2</a>
+				<a>Mutagen of Amplification _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>
 
-	#Mutagen of Critical Effect
-        <item name="Minor Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Critical Effect _Stats</a>
-		<a>Mutagen of Critical Effect _Stats2</a>
-		<a>Mutagen of Critical Effect _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item> 
-        
-	<item name="Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Critical Effect _Stats</a>
-		<a>Mutagen of Critical Effect _Stats2</a>
-		<a>Mutagen of Critical Effect _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-        
-	<item name="Major Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Rebis,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Major Mutagen of Critical Effect _Stats</a>
-		<a>Mutagen of Critical Effect _Stats2</a>
-		<a>Mutagen of Critical Effect _Stats3</a>
-	      <a>Price_300</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-		
+		#Mutagen of Range
+		<item name="Minor Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Aether,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Range _Stats</a>
+				<a>Mutagen of Range _Stats2</a>
+				<a>Mutagen of Range _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Aether,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Range _Stats</a>
+				<a>Mutagen of Range _Stats2</a>
+				<a>Mutagen of Range _Stats3</a>
+				<a>Weight_01</a>
+				<a>Price_200</a>	
+			</base_abilities>
+		</item>
 
-	#Mutagen of Vitality
-        <item name="Minor Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Vitality _Stats</a>
-		<a>Mutagen of Vitality _Stats2</a>
-		<a>Mutagen of Vitality _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>  
-		
-        <item name="Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Vitality _Stats</a>
-		<a>Mutagen of Vitality _Stats2</a>
-		<a>Mutagen of Vitality _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>     
-		
-        <item name="Major Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Hydragenum,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Major Mutagen of Vitality _Stats</a>
-		<a>Mutagen of Vitality _Stats2</a>
-		<a>Mutagen of Vitality _Stats3</a>
-	      <a>Price_300</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>              
-	
-	
-	#Mutagen of Power 
-        <item name="Minor Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Power _Stats</a>
-		<a>Mutagen of Power _Stats2</a>
-		<a>Mutagen of Power _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>  
-		
-        <item name="Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Power _Stats</a>
-		<a>Mutagen of Power _Stats2</a>
-		<a>Mutagen of Power _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item> 
-		
-        <item name="Major Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Quebrith,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Major Mutagen of Power _Stats</a>
-		<a>Mutagen of Power _Stats2</a>
-		<a>Mutagen of Power _Stats3</a>
-	      <a>Price_300</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>     		
-   
+		#Mutagen of Critical Effect
+		<item name="Minor Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Critical Effect _Stats</a>
+				<a>Mutagen of Critical Effect _Stats2</a>
+				<a>Mutagen of Critical Effect _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Critical Effect _Stats</a>
+				<a>Mutagen of Critical Effect _Stats2</a>
+				<a>Mutagen of Critical Effect _Stats3</a>
+				<a>Price_200</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Major Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Rebis</tags>
+			<base_abilities>
+				<a>Major Mutagen of Critical Effect _Stats</a>
+				<a>Mutagen of Critical Effect _Stats2</a>
+				<a>Mutagen of Critical Effect _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>
 
-	#Mutagen of Strength
-        <item name="Minor Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Minor Mutagen of Strength _Stats</a>
-		<a>Mutagen of Strength _Stats2</a>
-		<a>Mutagen of Strength _Stats3</a>
-	      <a>Price_100</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>      
-		
-        <item name="Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Strength _Stats</a>
-		<a>Mutagen of Strength _Stats2</a>
-		<a>Mutagen of Strength _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-		
-        <item name="Major Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Vermilion,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Major Mutagen of Strength _Stats</a>
-		<a>Mutagen of Strength _Stats2</a>
-		<a>Mutagen of Strength _Stats3</a>
-	      <a>Price_300</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>           
+		#Mutagen of Vitality
+		<item name="Minor Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Vitality _Stats</a>
+				<a>Mutagen of Vitality _Stats2</a>
+				<a>Mutagen of Vitality _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Vitality _Stats</a>
+				<a>Mutagen of Vitality _Stats2</a>
+				<a>Mutagen of Vitality _Stats3</a>
+				<a>Price_200</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Major Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Hydragenum</tags>
+			<base_abilities>
+				<a>Major Mutagen of Vitality _Stats</a>
+				<a>Mutagen of Vitality _Stats2</a>
+				<a>Mutagen of Vitality _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+
+		#Mutagen of Power
+		<item name="Minor Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Power _Stats</a>
+				<a>Mutagen of Power _Stats2</a>
+				<a>Mutagen of Power _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Power _Stats</a>
+				<a>Mutagen of Power _Stats2</a>
+				<a>Mutagen of Power _Stats3</a>
+				<a>Price_200</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Major Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Quebrith</tags>
+			<base_abilities>
+				<a>Major Mutagen of Power _Stats</a>
+				<a>Mutagen of Power _Stats2</a>
+				<a>Mutagen of Power _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>     
+
+		#Mutagen of Strength
+		<item name="Minor Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Minor Mutagen of Strength _Stats</a>
+				<a>Mutagen of Strength _Stats2</a>
+				<a>Mutagen of Strength _Stats3</a>
+				<a>Price_100</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Strength _Stats</a>
+				<a>Mutagen of Strength _Stats2</a>
+				<a>Mutagen of Strength _Stats3</a>
+				<a>Price_200</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+		<item name="Major Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Vermilion</tags>
+			<base_abilities>
+				<a>Major Mutagen of Strength _Stats</a>
+				<a>Mutagen of Strength _Stats2</a>
+				<a>Mutagen of Strength _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>       
+
+		#Mutagen of Concentration
+		<item name="Mutagen of Concentration" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType2,Caelum,CraftingIngridient</tags>
+			<base_abilities>
+				<a>Mutagen of Concentration _Stats</a>
+				<a>Mutagen of Concentration _Stats2</a>
+				<a>Mutagen of Concentration _Stats3</a>
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>        
+
+		#Mutagen of Insanity
+		<item name="Mutagen of Mutagen of Insanity" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType2,Caelum</tags>
+			<base_abilities>
+				<a>Mutagen of Strength _Stats</a>
+				<a>Mutagen of Strength _Stats2</a>
+				<a>Mutagen of Strength _Stats3</a>
+				<a>Mutagen of Concentration _Stats</a>
+				<a>Mutagen of Concentration _Stats2</a>
+				<a>Mutagen of Concentration _Stats3</a>
+				<a>Mutagen of Vitality _Stats</a>	
+				<a>Mutagen of Vitality _Stats2</a>	
+				<a>Mutagen of Vitality _Stats3</a>	
+				<a>Price_500</a>	
+				<a>Weight_01</a>
+			</base_abilities>
+		</item>   	
 
 
-	#Mutagen of Concentration		
-        <item name="Mutagen of Concentration" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Caelum,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Concentration _Stats</a>
-		<a>Mutagen of Concentration _Stats2</a>
-		<a>Mutagen of Concentration _Stats3</a>
-	      <a>Price_200</a>	
-	      <a>Weight_01</a>
-            </base_abilities>
-        </item>
-	
-	#Mutagen of Insanity (Madness)
-        <item name="Mutagen of Mutagen of Insanity" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType2,Caelum,CraftingIngridient</tags>
-            <base_abilities>
-                <a>Mutagen of Madness _Stats</a>
-		<a>Mutagen of Madness _Stats2</a>
-		<a>Mutagen of Madness _Stats3</a>                                	
-	      <a>Price_400</a>	
-	      <a>Weight_01</a>
-	</base_abilities>
-        </item>   	
-	
 
-	
-    </items>
+	</items>
 </definitions>

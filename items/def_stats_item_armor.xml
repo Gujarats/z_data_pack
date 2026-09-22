@@ -8,36 +8,32 @@
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 		</ability>
 
-	# PROLOG
+		# PROLOG
 
 		<ability name="Light Leather Jacket _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.08" type="resistance" />
 		</ability>
-	
+
 		<ability name="Quilted Leather _Stats">
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.08" type="resistance" />
 		</ability>	
-	 
-	#AKT 1
+
+		#AKT 1
 		#Imported Items
 		#Q1
 		<ability name="ImportedRavenArmor _Stats">
-            <damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
-            <damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-            <damage_signsbonus mult="false" always_random="false" min="6" max="6" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<vitality mult="false" always_random="false" min="15" max="15" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
 		</ability>
 		#Q1
 		<ability name="Leather Jacket _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />			
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
 		</ability>
 		#Q1
 		<ability name="Studded Leather Jacket _Stats">
@@ -45,128 +41,123 @@
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="resistance" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="resistance" />
 		</ability>
-
-		#Q3
+		#Q2
 		<ability name="Heavy Leather Jacket _Stats">
-			<damage_reduction mult="false" always_random="false" min="5" max="5" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="resistance" />
-		</ability>
-		
-		#Q3
-		<ability name="Hardened Leather Jacket _Stats">
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.1" type="resistance" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.07" max="0.1" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.07" max="0.1" type="resistance" />
 		</ability>
-		
+
+		#Q3
+		<ability name="Hardened Leather Jacket _Stats">
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+		</ability>
+
 		#Q4
 		<ability name="Elven Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-            <riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="8" max="8" />
+			<max_weight mult="false" always_random="false" min="15" max="15" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 		</ability>	
-		
+
 		#Q4
 		<ability name="Astrogarus Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<vitality mult="false" always_random="false" min="15" max="15" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.08" max="0.11" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.04" max="0.08" type="resistance" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 		</ability>
-		
+
 		#Q5
 		<ability name="Light Chainmail Shirt _Stats">
-			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.17" max="0.21" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.12" max="0.16" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="9" max="9" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.4" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 		</ability>
-		
+
 		#Q6
 		<ability name="Shiadhal Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<damage_signsbonus mult="false" always_random="false" min="5" max="5" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.12" type="resistance" />
-            <res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.12" type="resistance" /> 
+			<damage_reduction mult="false" always_random="false" min="8" max="8" />
+			<damage_signsbonus mult="false" always_random="false" min="4" max="4" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
 		</ability>
-		
-	
-	# AKT 1 - Crafted
+
+
+		# AKT 1 - Crafted
 
 		#Q3
 		<ability name="Quality Leather Jacket _Stats">
-			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
-            <res_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
-		</ability>
-	  
-		#Q3
-		<ability name="Light Leather Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+		</ability>
+
+		#Q3
+		<ability name="Light Leather Armor _Stats">
+			<damage_reduction mult="false" always_random="false" min="7" max="7" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.2" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.2" type="resistance" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.05" type="resistance" />
 		</ability>	  
-	  
+
 		#Q5
 		<ability name="Heavy Elven Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="7" max="7" />
-			<damage_signsbonus mult="false" always_random="false" min="5" max="5" />
+			<damage_reduction mult="false" always_random="false" min="8" max="8" />
+			<max_weight mult="false" always_random="false" min="20" max="20" type="bonus" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.2" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="resistance" />			
-			<max_weight mult="false" always_random="false" min="15" max="15" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.2" type="resistance" />
 		</ability>	  
-	
+
 		#Q7
 		<ability name="Ravens Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="8" max="8" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-            <hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="bonus" />	
+			<damage_reduction mult="false" always_random="false" min="10" max="10" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 		</ability>	 	
 
 		#Q8
 		<ability name="Tentadrake Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="10" max="10" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-		</ability>
-	
-	# AKT 2
-		#Q1
-		<ability name="Quilted Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.11" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.14" max="0.16" type="resistance" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
 		</ability>
 
-		<ability name="Temerian Armor _Stats">
+		# AKT 2
+		#Q1
+		<ability name="Quilted Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
-		</ability>		
-		
+		</ability>	
+
 		#Q2
+		<ability name="Temerian Armor _Stats">
+			<damage_reduction mult="false" always_random="false" min="5" max="5" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.1" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.1" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.1" type="resistance" />
+		</ability>
+		#Q3
 		<ability name="Kaedwenian Leather Jacket _Stats">
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.25" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.25" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.25" type="resistance" />
 		</ability>
-	
+
 		#Q3
 		<ability name="Aedirnian Leather Jacket _Stats">
 			<damage_reduction mult="false" always_random="false" min="14" max="14" />
@@ -174,7 +165,7 @@
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 		</ability>
-	
+
 		#Q3
 		<ability name="Kaedwenian Leather Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
@@ -182,17 +173,18 @@
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 		</ability>
-		
+
 		#Q4
 		<ability name="Thyssen Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.08" max="0.10" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.10" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="resistance" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.03" max="0.05" type="resistance" />
-			<damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />			
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<petards_damage_mult display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />		
 		</ability>	
-		
+
 		#Q6
 		<ability name="Ban Ard Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="16" max="16" />
@@ -202,17 +194,15 @@
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 		</ability>	
-		
+
 		#Q6
 		<ability name="Seltkirk Chainmail _Stats">
 			<damage_reduction mult="false" always_random="false" min="14" max="14" />
-            <vitality mult="false" always_random="false" min="15" max="15" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.04" max="0.06" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.06" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.2" max="0.3" type="resistance" />
 		</ability>	
-		
+
 		#Q7
 		<ability name="Armor of Loc Muinne _Stats">
 			<damage_reduction mult="false" always_random="false" min="18" max="18" />
@@ -222,18 +212,18 @@
 			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
 		</ability>
-		
+
 		#Q7
 		<ability name="Dragonscale Armor _Stats">
-			<damage_reduction mult="false" always_random="false" min="17" max="17" />                        
+			<damage_reduction mult="false" always_random="false" min="17" max="17" />
 			<vitality mult="false" always_random="false" min="50" max="50" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.4" max="0.5" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.4" max="0.5" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.4" max="0.5" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<traps_damage_mult display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
 		</ability>
-		
+
 		#Q8
 		<ability name="Zireael Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="17" max="17" />
@@ -244,10 +234,10 @@
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.4" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
 		</ability>
-		
-			
-	# Akt 2 - Crafted
-	
+
+
+		# Akt 2 - Crafted
+
 		#Q9
 		<ability name="Draug Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
@@ -258,20 +248,19 @@
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
 		</ability>	
-	
-	# AKT 3
+
+		# AKT 3
 		#Q4
 		<ability name="Dearg Ruadhri _Stats">
-			<damage_reduction mult="false" always_random="false" min="22" max="22" />			
+			<damage_reduction mult="false" always_random="false" min="22" max="22" />
 			<vitality mult="false" always_random="false" min="30" max="30" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />                        
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<damage_signsbonus mult="false" always_random="false" min="4" max="4" type="bonus" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />   
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
 		</ability>	
-		
+
 		#Q7
 		<ability name="Armor of Tir _Stats">
 			<damage_reduction mult="false" always_random="false" min="23" max="23" />
@@ -279,45 +268,44 @@
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
-            <vitality_combat_regen mult="false" always_random="false" min="2" max="2" />			
-			<damage_signsbonus mult="false" always_random="false" min="4" max="4" type="bonus" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />   
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.15" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
 		</ability>		 
-		
+
 		#Q8
 		<ability name="Cahir Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="24" max="24" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.18" max="0.22" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.24" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.18" max="0.22" type="resistance" />			
-            <damage_reduction_block mult="false" always_random="false" min="8" max="8" />
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" />
-			<max_weight mult="false" always_random="false" min="20" max="20" />
+			<max_weight mult="false" always_random="false" min="45" max="45" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.3" max="0.5" type="resistance" />
 		</ability>	
-	 
-	# AKT 3 - Crafted
-	
+
+		# AKT 3 - Crafted
+
 		#Q10
 		<ability name="Ysgith Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="26" max="26" />
-            <vitality mult="false" always_random="false" min="50" max="50" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.17" max="0.17" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.19" max="0.19" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />    
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<endurance mult="false" always_random="false" min="1.0" max="1.0" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
+			<damage_signsbonus mult="false" always_random="false" min="8" max="8" type="bonus" />
 		</ability>	
 
 		#Q6
 		<ability name="Armor of Ys _Stats">
 			<damage_reduction mult="false" always_random="false" min="24" max="24" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.23" max="0.23" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.17" max="0.17" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
-            <damage_signsbonus mult="false" always_random="false" min="7" max="7" type="bonus" />
 		</ability>	
-		
+
 		#Q10
 		<ability name="Vran Armor _Stats">
 			<damage_reduction mult="false" always_random="false" min="30" max="30" />
@@ -325,18 +313,16 @@
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
-            <vitality_combat_regen mult="false" always_random="false" min="2" max="2" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
 		</ability>
-
-
 
 		#Q11
 		<ability name="Armor of Craag Ros _Stats">
 			<damage_reduction mult="false" always_random="false" min="29" max="29" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
 			<vitality mult="false" always_random="false" min="30" max="30" />
-			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" type="resistance" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" type="resistance" />
 			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="1.1" max="1.1" />
 			<damage_reduction_block mult="false" always_random="false" min="15" max="15" />
 		</ability>
@@ -355,11 +341,13 @@
 		<ability name="Shroud of Baelor _Stats">
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.85" max="0.85" type="resistance" />
-			<hit_back_bonus display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="bonus" />	
-			<max_weight mult="false" always_random="false" min="50" max="50" />            
-			<oils_time_bonus mult="false" display_perc="true" always_random="false" min="5" max="5" type="bonus" />
+			<traps_damage_mult display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" />
+			<petards_damage_mult display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" />
+			<damage_throw_combo mult="false" always_random="false" min="15" max="15" />
+			<max_weight mult="false" always_random="false" min="55" max="55" />            
+			<oils_time_bonus mult="false" display_perc="true" always_random="false" min="6" max="6" type="bonus" />
 		</ability>
-        
+
 		#Q14
 		<ability name="Wild Hunt Hauberk _Stats">
 			<damage_reduction mult="false" always_random="false" min="30" max="30" />
@@ -371,57 +359,56 @@
 			<damage_reduction_block mult="false" always_random="false" min="20" max="20" />
 			<damage_signsbonus mult="false" always_random="false" min="22" max="22" type="bonus" />
 			<max_weight mult="false" always_random="false" min="30" max="30" />
-        </ability>        
-        
+		</ability>         
 
-		
-		# Dark Difficulty Armor A1
+
 		<ability name="DarkDifficultyArmorA1 _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<vitality mult="false" always_random="false" min="5" max="5" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<damage_signsbonus mult="false" always_random="false" min="4" max="4" type="bonus" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-            <vitality_combat_regen mult="false" always_random="false" min="1" max="1" />			
-		</ability>
-		
-		# Dark Difficulty Armor A2
-		<ability name="DarkDifficultyArmorA2 _Stats">
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<vitality mult="false" always_random="false" min="40" max="40" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
-			<damage_signsbonus mult="false" always_random="false" min="6" max="6" type="bonus" />
-			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-            <vitality_combat_regen mult="false" always_random="false" min="2" max="2" />			
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.55" max="0.55" type="resistance" />
+			<damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.22" max="0.22" type="resistance" />
 		</ability>
-		
-		# Dark Difficulty Armor A3
-		<ability name="DarkDifficultyArmorA3 _Stats">
+
+		# Dark Difficulty Armor A2
+		<ability name="DarkDifficultyArmorA2 _Stats">
 			<damage_reduction mult="false" always_random="false" min="30" max="30" />
 			<vitality mult="false" always_random="false" min="60" max="60" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="resistance" />
 			<damage_signsbonus mult="false" always_random="false" min="8" max="8" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="resistance" />
 			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.33" max="0.33" type="resistance" />
-            <vitality_combat_regen mult="false" always_random="false" min="3" max="3" />
-		</ability>  
+			<max_weight mult="false" always_random="false" min="50" max="50" />            
+		</ability>
 
-
-		<ability name="Roche Commando Jacket _Stats">
+		# Dark Difficulty Armor A3
+		<ability name="DarkDifficultyArmorA3 _Stats">
 			<damage_reduction mult="false" always_random="false" min="40" max="40" />
-			<vitality mult="false" always_random="false" min="100" max="100" />			                        
+			<vitality mult="false" always_random="false" min="100" max="100" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.7" max="0.7" type="resistance" />
-            <riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />            
-		</ability>	      
-		
-	</abilities>
+			<vitality_regen mult="false" always_random="false" min="2" max="2" type="resistance" />
+			<damage_reduction_magicbonus display_perc="true" mult="false" always_random="false" min="0.4" max="0.4" type="resistance" />
+			<damage_signsbonus mult="false" always_random="false" min="10" max="10" type="bonus" />
+		</ability>        
+
+	<ability name="Roche Commando Jacket _Stats">
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<vitality mult="false" always_random="false" min="5" max="5" />
+			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="1.0" max="1.0" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
+		</ability>	
+
+		# Dark Difficulty Armor A1
+		</abilities>
 	
 	<items>
 	</items>

@@ -2,740 +2,711 @@
 <definitions>
     <abilities>
 		<ability name="Heart of Melitele _Stats">
-			<damage_reduction mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-		</ability>
-
+            <vitality_regen mult="false" always_random="false" min="1" max="1" />
+            <vitality_combat_regen mult="false" always_random="false" min="1" max="1" />
+        </ability>
 		<ability name="Youngs Talisman _Stats">
 			<damage_reduction mult="true" display_perc="true" always_random="false" min="0.9" max="0.9" />
-            <res_poison display_perc="true" mult="true" always_random="false" min="0.95" max="0.95" type="resistance" />
 		</ability> 		
-    </abilities>
+	</abilities>
     
     <items>
         #		Definicje przedmiotow roznych
 
         <item name="Orens" category="other" ability_slots="0" stackable="true" template="misc_01" equip_slot="" hold_slot="">
-	    <tags>NoShow</tags>
-            <base_abilities>
-            </base_abilities>
+			<tags>NoShow</tags>
+			<base_abilities>
+			</base_abilities>
 		</item>
-		
+
 		<item name="Trigger Mechanism" category="other" ability_slots="0" stackable="true" template="misc_02" equip_slot="" hold_slot="">
-	<tags>SortTypeQuest</tags>
-	    <base_abilities>
-			<a>Price_10</a>
-            </base_abilities>
+			<tags>SortTypeQuest</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
 		</item>
-		
+
 		<item name="Iron Frame" category="craftingingredient" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-	<tags>SortTypeIngridient,CraftingIngridient,SortTypeQuest,Dismantle,Quest</tags>
-	    <base_abilities>
-			<a>Price_10</a>
-            </base_abilities>
+			<tags>SortTypeIngridient,CraftingIngridient,SortTypeQuest,Dismantle,Quest</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
 		</item>
-		
-	#przedmioty uzytkowe, 'ludnosci'
-	
+
+		#przedmioty uzytkowe, 'ludnosci'
+
 	<item name="Spyglass" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="2">Quality cloth</ingredient>
+												 
+			<ingredient quantity="1">Spyglass</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Wood rope ladder" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_5</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Wood lumber</ingredient>
-			<ingredient quantity="1">Rope</ingredient>
+													
+			<ingredient quantity="1">Wood rope ladder</ingredient>
 		</ingredients_list>
 	</item>
 
 	<item name="Iron rope ladder" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Rope</ingredient>
+												 
+			<ingredient quantity="1">Iron rope ladder</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Hatchet" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_40</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Wood lumber</ingredient>
+												 
+			<ingredient quantity="1">Hatchet</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Hunting horn" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_60</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_5</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Leather</ingredient>
+												 
+			<ingredient quantity="1">Hunting horn</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Chandelier" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_75</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Chandelier</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Silver chandelier" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
+			<ingredient quantity="1">Silver chandelier</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Rags" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_5</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="2">Cloth</ingredient>
+			<ingredient quantity="2">Rags</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Wire rope" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Wire rope</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Grapnel" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Rope</ingredient>
+												 
+			<ingredient quantity="1">Grapnel</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Fishing net" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_5</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Rope</ingredient>
-			<ingredient quantity="1">Cloth</ingredient>
+											 
+			<ingredient quantity="1">Fishing net</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Precious ornament" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Blue meteorite ore</ingredient>
+			<ingredient quantity="1">Precious ornament</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Stone medallion" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Red meteorite ore</ingredient>
+			<ingredient quantity="1">Stone medallion</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Shackles" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Shackles</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Pear of anguish" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Pear of anguish</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Strange clamp" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Strange clamp</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Iron bangle" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Studded leather</ingredient>
+												 
+			<ingredient quantity="1">Iron bangle</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Hinges" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Hinges</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Tool blades" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Tool blades</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Precious figurine" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
-			<a>Weight_05</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Blue meteorite ore</ingredient>
+			<ingredient quantity="1">Precious figurine</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Tongs" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Tongs</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Primitive necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_5</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Leather</ingredient>
+			<ingredient quantity="1">Primitive necklace</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_110</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
+			<ingredient quantity="1">Silver necklace</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Enriched silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_150</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-			<ingredient quantity="1">Green mineral</ingredient>
+												   
+			<ingredient quantity="1">Enriched silver necklace</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Primitive enriched silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_80</a>
-			<a>Weight_02</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Leather</ingredient>
-			<ingredient quantity="1">Silver ore</ingredient>
+												
+			<ingredient quantity="1">Primitive enriched silver necklace</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Silver ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
+			<ingredient quantity="1">Silver ring</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Enriched silver ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-			<ingredient quantity="1">Blue meteorite ore</ingredient>
+												   
+			<ingredient quantity="1">Enriched silver ring</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Enriched iron ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
-			<ingredient quantity="1">Green mineral</ingredient>
+												 
+			<ingredient quantity="1">Enriched iron ring</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Iron ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Iron ring</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Wire" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_01</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="2">Iron ore</ingredient>
+			<ingredient quantity="2">Wire</ingredient>
 		</ingredients_list>
-	</item>	
+	</item>
 	
+ 
 	<item name="Chains" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Chains</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Sword blade" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
-			<a>Weight_2</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Sword blade</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Primitive drill" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Primitive drill</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
-			<a>Weight_1</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Sword sheath</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Enriched sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_40</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_10</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="1">Enriched sword sheath</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Silver sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
+			<ingredient quantity="1">Silver sword sheath</ingredient>
 		</ingredients_list>
 	</item>
 	
 	<item name="Enriched silver sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other</tags>
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
-			<a>Weight_1</a>
+			<a>CraftPrice_20</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-			<ingredient quantity="1">Blue meteorite ore</ingredient>
+												   
+			<ingredient quantity="1">Enriched silver sword sheath</ingredient>
+		</ingredients_list>
+	</item>
+
+		<item name="Kajetan's Talisman" category="other" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="">
+			<tags>SortTypeOther,Dismantle,Other,Quest</tags>
+			<base_abilities>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Silver ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Heart of Melitele" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
+			<tags>SortTypeQuest,Dismantle,Quest</tags>
+			<base_abilities>
+				<a>Heart of Melitele _Stats</a>
+				<a>Price_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Silver ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Young's Talisman" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
+			<tags>SortTypeQuest,Dismantle, Quest</tags>
+			<base_abilities>
+				<a>Youngs Talisman _Stats</a>
+				<a>Price_10</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Silver ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		#		Definicje przedmiotow do zbierania
+
+		<item name="Fish" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Apple" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Old cheese" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Potato" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Cucumber" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Plum" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Bread" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Rags" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
+		<tags>SortTypeOther,CraftingIngridient,Schematic,Dismantle,Other</tags>
+		<base_abilities>
+			<a>Price_10</a>
+			<a>CraftPrice_5</a>
+		</base_abilities>
+		<ingredients_list crafted_item="Cloth">
+			<ingredient quantity="2">Rags</ingredient>
 		</ingredients_list>
 	</item>
 	
-	<item name="Kajetan's Talisman" category="other" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="">
-		<tags>SortTypeOther,Dismantle,Other,Quest</tags>
-		<base_abilities>
-			<a>Price_20</a>
-			<a>Weight_01</a>
-		</base_abilities>
-		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-		</ingredients_list>
-	</item>
-	
-	<item name="Heart of Melitele" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
-		<tags>SortTypeQuest,Dismantle,Quest</tags>
-		<base_abilities>
-			<a>Heart of Melitele _Stats</a>
-			<a>Price_100</a>
-			<a>Weight_01</a>
-		</base_abilities>
-		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-		</ingredients_list>
-	</item>
-	
-	<item name="Young's Talisman" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
-		<tags>SortTypeQuest,Dismantle, Quest</tags>
-		<base_abilities>
-			<a>Youngs Talisman _Stats</a>
-			<a>Price_20</a>
-			<a>Weight_01</a>
-		</base_abilities>
-		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Silver ore</ingredient>
-		</ingredients_list>
-	</item>
-    
-#		Definicje przedmiotow do zbierania
+	<item name="Cup" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-	<item name="Fish" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-        
-    <item name="Apple" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Old cheese" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Potato" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Cucumber" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Plum" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Bread" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Rags" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-		
-    <item name="Cup" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Bowl" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_02</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Spoon" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Empty bottle" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Apple juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-        
-    <item name="Bottled water" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Cows milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Goats milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Raspberry juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Dried fruit" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Honeycomb" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Chicken leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-		
-    <item name="Mutton leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Blueberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_02</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Raspberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Pear" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
-    <item name="Dried fruit and nuts" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-            <tags>SortTypeOther</tags>
-            <base_abilities>
-			<a>Price_10</a>
-			<a>Weight_01</a>
-            </base_abilities>
-    </item>
-    
+		<item name="Bowl" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-#################################################################################################################################################
-# Tutorial stuff
-    
-    <item name="Tournament Notice" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
-            <tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
-            <base_abilities>
-                <a>type_book</a>
-            </base_abilities>
-    </item>
+		<item name="Spoon" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-    <item name="Arena Invitation" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
-            <tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
-            <base_abilities>
-                <a>type_book</a>
-            </base_abilities>
-    </item>
+		<item name="Empty bottle" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-    <item name="Healing Concoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
-        <tags>SortTypeQuest,SortTypePotion,TypeMagic,Elixir,Quest</tags>
-        <base_abilities>
-		    <a>Healing Concoction _Stats</a>
-		    <a>Price_10</a>
-		    <a>Weight_02</a>
-        </base_abilities>
-    </item>
+		<item name="Apple juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-	<item name="Recipe Healing Concoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
-	    <tags>SortTypeQuest,SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,Quest</tags>
-        <base_abilities>
-            <a>Price_50</a>
-            <a>Weight_01</a>
-        </base_abilities>
-        <ingredients_list crafted_item="Healing Concoction">
-            <ingredient quantity="1">Rebis</ingredient>
-            <ingredient quantity="1">Vitriol</ingredient>
-            <ingredient quantity="1">Aether</ingredient>
-            <ingredient quantity="1">Caelum</ingredient>
-	    </ingredients_list>
-    </item>
+		<item name="Bottled water" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
 
-</items>
+		<item name="Cows milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Goats milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Raspberry juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Dried fruit" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Honeycomb" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Chicken leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Mutton leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Blueberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Raspberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Pear" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Dried fruit and nuts" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeOther</tags>
+			<base_abilities>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		#################################################################################################################################################
+		# Tutorial stuff
+
+		<item name="Tournament Notice" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
+			<tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
+			<base_abilities>
+				<a>type_book</a>
+			</base_abilities>
+		</item>
+
+		<item name="Arena Invitation" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
+			<tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
+			<base_abilities>
+				<a>type_book</a>
+			</base_abilities>
+		</item>
+
+		<item name="Healing Concoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
+			<tags>SortTypeQuest,SortTypePotion,TypeMagic,Elixir,Quest</tags>
+			<base_abilities>
+				<a>Healing Concoction _Stats</a>
+				<a>Price_10</a>
+			</base_abilities>
+		</item>
+
+		<item name="Recipe Healing Concoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
+			<tags>SortTypeQuest,SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,Quest</tags>
+			<base_abilities>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="Healing Concoction">
+				<ingredient quantity="1">Rebis</ingredient>
+				<ingredient quantity="1">Vitriol</ingredient>
+				<ingredient quantity="1">Aether</ingredient>
+				<ingredient quantity="1">Caelum</ingredient>
+			</ingredients_list>
+		</item>
+
+	</items>
 
 #Tutorial Chests
 
@@ -745,8 +716,8 @@
 			<loot_entry name="Samum" chance="100" quantity_min="10" quantity_max="10" respawn_time="2" />
 			<loot_entry name="Freezing Trap" chance="100" quantity_min="10" quantity_max="10" respawn_time="2" />
 		</loot>
-        
-        <loot name="Tutorial Skirmish Chest">
+
+		<loot name="Tutorial Skirmish Chest">
 			<loot_entry name="Balanced Dagger" chance="100" quantity_min="10" quantity_max="10" respawn_time="60" />
 			<loot_entry name="Grapeshot" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
 			<loot_entry name="Samum" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
@@ -757,7 +728,7 @@
 			<loot_entry name="Marten" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
 			<loot_entry name="Wolf" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
 		</loot>
-        
+
 	</loot_definitions>
     
 

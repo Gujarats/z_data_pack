@@ -6,138 +6,141 @@
 		
 	###Necrophage Oil###
 		<ability name="Brown Oil _Stats" on_added="Ability_BrownOil_Add" on_ended="Ability_BrownOil_Remove">
-				<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
-				<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
+			<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability>
 		<ability name="Brown Oil _Stats2" on_added="" on_ended="" prerequisites="alchemy_s8">
-				<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
+			<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
 		</ability>    
 		<ability name="Brown Oil _Stats3" on_added="" on_ended="" prerequisites="alchemy_s8_2">
-				<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
+			<damage_bonus_undead display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
 		</ability>    		
+
 		<ability name="Brown Oil _Stats4">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability>  
-
- 	###Hanged Man's Venom###
-		<ability name="Hangman Venom _Stats" prerequisites="alchemy_s8">
-				<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
-				<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
-		</ability> 
-		<ability name="Hangman Venom _Stats2" prerequisites="alchemy_s8_2">
-				<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
-		</ability>  
-		<ability name="Hangman Venom _Stats3">
-				<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
-		</ability>
-		<ability name="Hangman Venom _Stats4" prerequisites="alchemy_s8">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability>   		
-
-	###Insectoid Oil###
-		<ability name="Cinfrid Oil _Stats" prerequisites="alchemy_s8_2">
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="bonus" />
 			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability> 
-		<ability name="Cinfrid Oil _Stats2">
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.045" max="0.045" type="bonus" />
+		<ability name="Hangman Venom _Stats">
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="bonus" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
+		</ability> 
+		<ability name="Hangman Venom _Stats2" prerequisites="alchemy_s8">
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>  
-		<ability name="Cinfrid Oil _Stats3" prerequisites="alchemy_s8">
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
-		</ability>  
-		<ability name="Cinfrid Oil _Stats4" prerequisites="alchemy_s8_2">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability> 		
+		<ability name="Hangman Venom _Stats3" prerequisites="alchemy_s8_2">
+			<damage_bonus_human display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>  		
 
-	###Spectre Oil###		
+		<ability name="Hangman Venom _Stats4" prerequisites="alchemy_s8">
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>  
+		<ability name="Cinfrid Oil _Stats">
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="bonus" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
+		</ability> 
+		<ability name="Cinfrid Oil _Stats2" prerequisites="alchemy_s8">
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>  
+		<ability name="Cinfrid Oil _Stats3" prerequisites="alchemy_s8_2">
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>  		
+
+		<ability name="Cinfrid Oil _Stats4" prerequisites="alchemy_s8_2">
+			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>  
+
 		<ability name="Specter Grease _Stats">
-			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="bonus" />
+			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="bonus" />
 			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability>  
 		<ability name="Specter Grease _Stats2" prerequisites="alchemy_s8">
-			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.045" max="0.045" type="bonus" />
+			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>  
 		<ability name="Specter Grease _Stats3" prerequisites="alchemy_s8_2">
-			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
-		</ability>
-		<ability name="Specter Grease _Stats4">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability>  
-	
-	###Brown Oil###	
-		<ability name="Caelm _Stats" prerequisites="alchemy_s8">
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.40" max="0.40" type="bonus" />
-			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
-		</ability>  
-		<ability name="Caelm _Stats2" prerequisites="alchemy_s8_2">
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.06" max="0.06" type="bonus" />
-		</ability>  
-		<ability name="Caelm _Stats3">
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
-		</ability>
-		<ability name="Caelm _Stats4" prerequisites="alchemy_s8">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability>   
-		
-	###Arachnid Oil###
-		<ability name="Surge _Stats" prerequisites="alchemy_s8_2">
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.40" max="0.40" type="critical" />
-			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
-		</ability>  
-		<ability name="Surge _Stats2">
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" type="critical" />
-		</ability>  
-		<ability name="Surge _Stats3" prerequisites="alchemy_s8">
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="critical" />
-		</ability>
-		<ability name="Surge _Stats4" prerequisites="alchemy_s8_2">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
+			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>  
 
-	###Falka's Blood###	(Supposedly based on luck.)	
+		<ability name="Specter Grease _Stats4">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
+			<durration mult="false" always_random="false" min="200" max="200" type="bonus" />
+		</ability>  
+		<ability name="Caelm _Stats">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" type="bonus" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
+		</ability>  
+		<ability name="Caelm _Stats2" prerequisites="alchemy_s8">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />
+		</ability>  
+		<ability name="Caelm _Stats3" prerequisites="alchemy_s8_2">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />
+		</ability>  
+
+		<ability name="Caelm _Stats4" prerequisites="alchemy_s8">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+		</ability>  
+		<ability name="Surge _Stats">
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" type="critical" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
+		</ability>  
+		<ability name="Surge _Stats2" prerequisites="alchemy_s8">
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>  
+		<ability name="Surge _Stats3" prerequisites="alchemy_s8_2">
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>  
+
+		<ability name="Surge _Stats4" prerequisites="alchemy_s8_2">
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="critical" />
+		</ability>  
+
 		<ability name="Cerbin Blath _Stats">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
+			<durration mult="false" always_random="false" min="200" max="200" type="bonus" />
+		</ability>  
+		<ability name="Cerbin Blath _Stats2" prerequisites="alchemy_s8">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+		</ability>  
+		<ability name="Cerbin Blath _Stats3" prerequisites="alchemy_s8_2">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+		</ability>  
+
+		<ability name="Cerbin Blath _Stats4">
 			<damage_min mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
 			<damage_max mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
 			<durration mult="false" always_random="false" min="1200" max="1200" type="bonus" />
 		</ability>  
-		<ability name="Cerbin Blath _Stats2" prerequisites="alchemy_s8">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0136363636" max="1.0136363636" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0136363636" max="1.0136363636" />
-		</ability>  
-		<ability name="Cerbin Blath _Stats3" prerequisites="alchemy_s8_2">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0179372197" max="1.0179372197" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0179372197" max="1.0179372197" />
-		</ability>
-		<ability name="Cerbin Blath _Stats4" on_added="" on_ended="" prerequisites="alchemy_s5_2">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability> 
 
-	###Whirl Oil###		
-		<ability name="Argentia _Stats">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.10" max="1.10" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.10" max="1.10" />
+	<ability name="Argentia _Stats">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
 			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability>  
 		<ability name="Argentia _Stats2" prerequisites="alchemy_s8">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0136363636" max="1.0136363636" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0136363636" max="1.0136363636" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
 		</ability>  
 		<ability name="Argentia _Stats3" prerequisites="alchemy_s8_2">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0179372197" max="1.0179372197" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0179372197" max="1.0179372197" />
-		</ability> 
-		<ability name="Argentia _Stats4" on_added="" on_ended="" prerequisites="alchemy_s5_2">
-				<crt_burn mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
-		</ability> 
-		
-	###Whetstone###			
-		<ability name="Unique Whetstone _Stats">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.20" max="1.20" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.20" max="1.20" />
-			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" />
 		</ability>  
 
-		
+		<ability name="Argentia _Stats4">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
+			<durration mult="false" always_random="false" min="1200" max="1200" type="bonus" />
+		</ability>  
+
+	<ability name="Unique Whetstone _Stats">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" />
+			<durration mult="false" always_random="false" min="1200" max="1200" type="bonus" />
+		</ability>  
+
 	</abilities>
 	
 	<items>

@@ -3,7 +3,20 @@
   <abilities>
 
 # Detmolds Guard Leader two handed fighter
-		<ability name="Detmolds Guard Leader"><level mult="false" always_random="false" min="1" max="1" /><experience mult="false" always_random="false" min="8" max="8" /><vitality mult="false" always_random="false" min="160" max="180" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="3.2" max="3.2" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><damage_min mult="false" always_random="false" min="6" max="6" /><damage_max mult="false" always_random="false" min="10" max="10" /><endurance mult="false" always_random="false" min="0" max="0" /><damage_reduction mult="false" always_random="false" min="2" max="2" /><damage_reduction_block mult="false" always_random="false" min="5" max="5" /></ability></abilities>
+		<ability name="Detmolds Guard Leader">
+			<level mult="false" always_random="false" min="1" max="1" />
+			<experience mult="false" always_random="false" min="8" max="8" />
+			<vitality mult="false" always_random="false" min="160" max="180" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_min mult="false" always_random="false" min="6" max="6" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<endurance mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+		</ability>   
+
+
+	</abilities>
   <items>
   </items>
 </definitions>

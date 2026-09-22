@@ -2,54 +2,46 @@
 <definitions>
   <abilities>
     <ability name="Dualfighter Default">
-      <vitality mult="false" always_random="false" min="50" max="50" />
-      <vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="1" max="1" />
-      <damage_max mult="false" always_random="false" min="10" max="10" />
-      <damage_reduction mult="false" always_random="false" min="1" max="1" />
-      <damage_reduction_block mult="false" always_random="false" min="3" max="3" />
-      <crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
-      <crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
-    </ability>
-    <ability name="Dualfighter Weak Prolog">
-      <vitality mult="false" always_random="false" min="30" max="30" />
-      <vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="2" max="2" />
-      <damage_max mult="false" always_random="false" min="8" max="8" />
-      <damage_reduction mult="false" always_random="false" min="0" max="0" />
-      <damage_reduction_block mult="false" always_random="false" min="3" max="3" />
-      <crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
-      <crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
-    </ability>
-    <ability name="Dualfighter Prolog">
-      <vitality mult="false" always_random="false" min="60" max="60" />
-      <vitality_regen mult="false" always_random="false" min="1.2" max="1.2" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="4" max="4" />
-      <damage_max mult="false" always_random="false" min="8" max="8" />
-      <damage_reduction mult="false" always_random="false" min="1" max="1" />
-      <damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-      <crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
-      <crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
-    </ability>
-    <ability name="Dualfighter Strong Prolog">
-      <vitality mult="false" always_random="false" min="70" max="70" />
-      <vitality_regen mult="false" always_random="false" min="1.4" max="1.4" />
-      <vitality_combat_regen mult="false" always_random="false" min="1.4" max="1.4" />
-      <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
-      <damage_min mult="false" always_random="false" min="5" max="5" />
-      <damage_max mult="false" always_random="false" min="15" max="15" />
-      <damage_reduction mult="false" always_random="false" min="2" max="2" />
-      <damage_reduction_block mult="false" always_random="false" min="8" max="8" />
-      <crt_poision mult="false" always_random="false" min="0.2" max="0.2" />
-      <crt_bleed mult="false" always_random="false" min="0.2" max="0.2" />
-    </ability>
-  </abilities>
+			<vitality mult="false" always_random="false" min="50" max="50" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
+			<crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+		</ability>   
+
+		<ability name="Dualfighter Weak Prolog">
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="8" max="8" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
+			<crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+		</ability>   
+
+		<ability name="Dualfighter Prolog">
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<damage_min mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="8" max="8" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<crt_poision mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" />
+		</ability>   
+
+		<ability name="Dualfighter Strong Prolog">
+			<vitality mult="false" always_random="false" min="70" max="70" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="15" max="15" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
+			<crt_poision mult="false" always_random="false" min="0.2" max="0.2" />
+			<crt_bleed mult="false" always_random="false" min="0.2" max="0.2" />
+		</ability>   
+
+	</abilities>
   <items>
   </items>
 </definitions>

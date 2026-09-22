@@ -9,7 +9,7 @@
 			<damage_min mult="false" always_random="false" min="0" max="0" />
 			<damage_max mult="false" always_random="false" min="0" max="0" />
 		</ability> 
-		
+
 		# Instantly inflicts fire damage to all creatures within explosion radius.
 
 		<ability name="Explosive Trap _Stats">
@@ -27,116 +27,120 @@
 			<damage_max mult="false" always_random="false" min="34" max="34" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>
+
+		# Wounds all creatures within crippling radius and causes bleeding over time - damage is applied every bleed tick during bleed duration.
+
 		<ability name="Explosive Trap _Stats4">
 			<damage_min mult="false" always_random="false" min="30" max="30" />
 			<damage_max mult="false" always_random="false" min="55" max="55" />
-			<crt_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>
 		<ability name="Explosive Trap _Stats5" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="10" max="10" />
 			<damage_max mult="false" always_random="false" min="18" max="18" />
-			<crt_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>
 		<ability name="Explosive Trap _Stats6" prerequisites="alchemy_s1_2">
 			<damage_min mult="false" always_random="false" min="20" max="20" />
 			<damage_max mult="false" always_random="false" min="37" max="37" />
-			<crt_burn display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>
+
+		# Freezes all creatures within freeze radius for a given freeze duration. Frozen creatures are unable to move and attack and are prone to shatter.
+
 		<ability name="Explosive Trap _Stats7">
 			<damage_min mult="false" always_random="false" min="20" max="20" />
 			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_burn display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>
-
-		# Wounds all creatures within crippling radius and causes bleeding over time - damage is applied every bleed tick during bleed duration.
-		
-		<ability name="Crippling Trap _Stats" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Crippling Trap _Stats">
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="55" max="55" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>
-		<ability name="Crippling Trap _Stats2" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="13" max="13" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
-		</ability>
-		<ability name="Crippling Trap _Stats3">
+		<ability name="Crippling Trap _Stats2" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>
+		<ability name="Crippling Trap _Stats3" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="37" max="37" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" />
+		</ability>
+
+		# Freezes all creatures within freeze radius for a given freeze duration. Frozen creatures are unable to move and attack and are prone to shatter.
+
 		<ability name="Crippling Trap _Stats4">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="5" max="5" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="Crippling Trap _Stats5" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="2" max="2" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="Crippling Trap _Stats6" prerequisites="alchemy_s1_2">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
 			<damage_max mult="false" always_random="false" min="3" max="3" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
 		</ability>
+
+		# Damages the Witcher.
+
 		<ability name="Crippling Trap _Stats7">
 			<damage_min mult="false" always_random="false" min="55" max="55" />
 			<damage_max mult="false" always_random="false" min="75" max="75" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
 		</ability>
-	
-		# Freezes all creatures within freeze radius for a given freeze duration. Frozen creatures are unable to move and attack and are prone to shatter.
+
+		# Inflicts damage over time.
 
 		<ability name="Freezing Trap _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>
 		<ability name="Freezing Trap _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="16" max="16" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>
 		<ability name="Freezing Trap _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="34" max="34" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
+			<damage_min mult="false" always_random="false" min="13" max="13" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>
+
+		# TODO: Locks nearest creature in place for a given time period and inflicts damage on activation
+
 		<ability name="Freezing Trap _Stats4">
 			<damage_min mult="false" always_random="false" min="50" max="50" />
 			<damage_max mult="false" always_random="false" min="70" max="70" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Freezing Trap _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="5" max="5" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Freezing Trap _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="5" max="5" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Freezing Trap _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="5" max="5" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
-		</ability>
-	
 
-		# TODO: Locks nearest creature in place for a given time period and inflicts damage on activation
-		
-		<ability name="Grappling Trap _Stats">
+	<ability name="Freezing Trap _Stats5">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Freezing Trap _Stats6">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Freezing Trap _Stats7">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Grappling Trap _Stats">
 			<damage_min mult="false" always_random="false" min="10" max="10" />
 			<damage_max mult="false" always_random="false" min="30" max="30" />
 		</ability> 
 
 		# Enrages enemies within a radius forcing them to atack each other - changes attitude toward witcher to friendly and toward other creatures to hostile for a given duration.
-	
+
 		<ability name="Rage Trap _Stats">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
 		</ability>
 		<ability name="Rage Trap _Stats2" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
@@ -144,77 +148,81 @@
 		</ability>
 		<ability name="Rage Trap _Stats3" prerequisites="alchemy_s1_2">
 			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="3" max="3" />
 		</ability>
-		<ability name="Rage Trap _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />
-		</ability>
-		<ability name="Rage Trap _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />
-		</ability>
-		<ability name="Rage Trap _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />
-		</ability>
-		<ability name="Rage Trap _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="2" max="2" />
-		</ability>		
 
 		# Damages the Witcher.
-		
-		<ability name="Anti Witcher Trap _Stats">
-			<damage_min mult="false" always_random="false" min="55" max="55" />
-			<damage_max mult="false" always_random="false" min="75" max="75" />
-		</ability>
-	
-		# Inflicts damage over time.
 
-		<ability name="Animal Trap _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="90" max="90" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
-		</ability>
-		<ability name="Animal Trap _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
-		</ability>
-		<ability name="Animal Trap _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.125" max="0.125" />
-		</ability>
-		<ability name="Animal Trap _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Animal Trap _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Animal Trap _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Animal Trap _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.025" max="0.025" />
-		</ability>
-
-		#	Blinds creatures.
-	
-		<ability name="Arachas Smoke Trap _Stats">
+		<ability name="Rage Trap _Stats4">
 			<damage_min mult="false" always_random="false" min="50" max="50" />
 			<damage_max mult="false" always_random="false" min="70" max="70" />
 		</ability>
-    
+
+	<ability name="Rage Trap _Stats5">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Rage Trap _Stats6">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Rage Trap _Stats7">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Anti Witcher Trap _Stats">
+			<damage_min mult="false" always_random="false" min="55" max="55" />
+			<damage_max mult="false" always_random="false" min="75" max="75" />
+		</ability>
+
+		# Inflicts damage over time.
+
+		<ability name="Animal Trap _Stats">
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
+		</ability>
+		<ability name="Animal Trap _Stats2" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
+		</ability>
+		<ability name="Animal Trap _Stats3" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="34" max="34" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" />
+		</ability>
+
+		#	Blinds creatures.
+
+		<ability name="Animal Trap _Stats4">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Animal Trap _Stats5">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Animal Trap _Stats6">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Animal Trap _Stats7">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
+	<ability name="Arachas Smoke Trap _Stats">
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
+		</ability>
+
 	</abilities>
 	
 	<items>

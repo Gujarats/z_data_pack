@@ -12,129 +12,135 @@
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 		</ability>
 
-		<ability name="Reinforced Leather Boots _Stats">                        
+		<ability name="Reinforced Leather Boots _Stats">
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="resistance" />
-            <endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" />
 		</ability>
 
 		<ability name="Worn Hardened Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
 		</ability>
 
 		<ability name="Hardened Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" />
 		</ability>
 
 		<ability name="Kaedwenian Unique Leather Boots _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" />
 		</ability>
-        
+
 		<ability name="Nilfgaardian Unique Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" />
 		</ability>
 
 		<ability name="Temerian Unique Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" />
 		</ability>
-		
 
 		<ability name="High Quality Kaedwenian Unique Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" />
 		</ability>
 
 		<ability name="High Quality Nilfgaardian Unique Leather Boots _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-		</ability>
-		
-		<ability name="High Quality Temerian Unique Leather Boots _Stats">
-			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
 		</ability>
-           
-		<ability name="Unique Leather Boots of Elder Blood _Stats">
-            <damage_reduction mult="false" always_random="false" min="1" max="1" />			
+
+		<ability name="High Quality Temerian Unique Leather Boots _Stats">
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" />
 		</ability>
-        
-        
 
-########## TUTORIAL ##########
+		<ability name="Unique Leather Boots of Elder Blood _Stats">
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
 
 		<ability name="Soaked Wet Boots _Stats">
 		</ability>
-        
-        <ability name="Worn Squire Boots _Stats">
-        	<res_burn display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="resistance" />
+
+		<ability name="Worn Squire Boots _Stats">
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="resistance" />
 		</ability>
 
-
-
-########## ENHANCED ##########
-
+		# Dark Difficulty Boots A1
 		<ability name="Dragonbreath Sabatons _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" />
 			<max_weight mult="false" always_random="false" min="10" max="10" /> 
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
 		</ability>
 
 		<ability name="Plane Walkers _Stats">
-			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<damage_signsbonus mult="false" always_random="false" min="6" max="6" type="bonus" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
+			<damage_signsbonus mult="false" always_random="false" min="12" max="12" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" />
 		</ability>
 
 		<ability name="Lion Spider Boots _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<vitality_regen mult="false" always_random="false" min="1" max="1" type="resistance" />
-			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" />
+			<traps_damage_mult display_perc="true" mult="false" always_random="false" min="0.4" max="0.4" />
+			<petards_damage_mult display_perc="true" mult="false" always_random="false" min="0.4" max="0.4" />
+			<damage_reduction_block mult="false" always_random="false" min="0.15" max="0.15" />
 		</ability>
+
+
+		##############################################################################################################################################
+		# Tutorial Boots
 
 		<ability name="Wild Hunt Treads _Stats">
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />            
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />           
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />       
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />            
+			<endurance mult="false" always_random="false" min="1.0" max="1.0" />          
+			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" />       
 			<max_weight mult="false" always_random="false" min="10" max="10" />   
 		</ability>
-		
-	# Dark Difficulty Boots A1
+
 		<ability name="DarkDifficultyBootsA1 _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" /> 
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" /> 
 			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" /> 
 		</ability>
-		
-	# Dark Difficulty Boots A2
+
+		# Dark Difficulty Boots A2
 		<ability name="DarkDifficultyBootsA2 _Stats">
 			<damage_reduction mult="false" always_random="false" min="2" max="2" /> 
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" /> 
 			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" /> 
 		</ability>
-		
-	# Dark Difficulty Boots A3
+
+		# Dark Difficulty Boots A3
 		<ability name="DarkDifficultyBootsA3 _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" /> 
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" /> 

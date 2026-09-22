@@ -8,92 +8,91 @@
     #		Definicje broni rzucanej
 	
 	        <item name="Rusty Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="01_rusty_dagger" equip_template="01_rusty_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-            <tags>SortTypeWapon,QuickSlot,Ranged,crt_bleed,crit_bleed</tags>
-            <base_abilities>
-                <a>Rusty Balanced Dagger _Stats</a>
-  	        <a>Weight_05</a>
-            <a>Price_10</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
+			<tags>SortTypeWapon,QuickSlot,Ranged</tags>
+			<base_abilities>
+				<a>Rusty Balanced Dagger _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_10</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
 
+		<item name="Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
 
-        <item name="Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-		
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crit_bleed</tags>
-            <base_abilities>
-                <a>Balanced Dagger _Stats</a>
-  	        <a>Weight_05</a>
-            <a>Price_15</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-    
-        <item name="High Quality Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="03_quality_balanced_dagger" equip_template="03_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-		
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crit_bleed</tags>
-            <base_abilities>
-                <a>High Quality Balanced Dagger _Stats</a>
-  	        <a>Weight_05</a>
-          <a>Price_30</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-	
-		<item name="Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_burn,crit_bleed,crit_burn</tags>
-            <base_abilities>
-                <a>Silver Balanced Dagger _Stats</a>
-  	        <a>Weight_05</a>
-          <a>Price_20</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-	
-		<item name="High Quality Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_burn,crit_bleed,crit_burn</tags>
-            <base_abilities>
-        <a>High Quality Silver Balanced Dagger _Stats</a>
-  	        <a>Weight_05</a>
-          <a>Price_40</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-		
-        <item name="Sting" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="03_quality_balanced_dagger" equip_template="03_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_stun,crt_freeze,crit_bleed,crit_stun,crit_freeze</tags>
-            <base_abilities>
-                <a>Sting _Stats</a>
-  	        <a>Weight_05</a>
-          <a>Price_50</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-	
-		<item name="Poisoned flying harphy claws" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
-            <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_poison,crit_bleed,crit_poison</tags>
-            <base_abilities>
-                <a>Poisoned flying harphy claws _Stats</a>
-  	        <a>Weight_05</a>
-        <a>Price_50</a>
-            </base_abilities>
-	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Iron ore</ingredient>
-	  </ingredients_list>
-        </item>
-	
-    </items>
+			<tags>SortTypeWapon,QuickSlot,Dismantle,Ranged</tags>
+			<base_abilities>
+				<a>Balanced Dagger _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_15</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="High Quality Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
+
+			<tags>SortTypeWapon,QuickSlot,Dismantle,Ranged</tags>
+			<base_abilities>
+				<a>High Quality Balanced Dagger _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_30</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
+			<tags>SortTypeWapon,QuickSlot,Dismantle,Ranged</tags>
+			<base_abilities>
+				<a>High Quality Balanced Dagger _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_20</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="High Quality Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
+			<tags>SortTypeWapon,QuickSlot,Dismantle,Ranged</tags>
+			<base_abilities>
+				<a>High Quality Balanced Dagger _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_40</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Sting" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="05_sting" equip_template="05_sting" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
+			<tags>SortTypeWapon,QuickSlot,Dismantle,crit_poison,Ranged</tags>
+			<base_abilities>
+				<a>Sting _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+		<item name="Poisoned flying harphy claws" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="05_sting" equip_template="05_sting" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
+			<tags>SortTypeWapon,QuickSlot,Dismantle,crit_poison,Ranged</tags>
+			<base_abilities>
+				<a>Poisoned flying harphy claws _Stats</a>
+				<a>Weight_05</a>
+				<a>Price_50</a>
+			</base_abilities>
+			<ingredients_list crafted_item="">
+				<ingredient quantity="1">Iron ore</ingredient>
+			</ingredients_list>
+		</item>
+
+	</items>
 	
 </definitions>

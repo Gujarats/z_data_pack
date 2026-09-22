@@ -2,40 +2,42 @@
 <definitions>
   <abilities>
     <ability name="Dragon_breath_stats_a3">
-      <damage_min_add mult="false" always_random="false" min="80" max="80" />
-      <damage_max_add mult="false" always_random="false" min="100" max="100" />
-    </ability>
-    <ability name="DragonHeadA3">
-      <vitality mult="false" always_random="false" min="2000" max="2000" />
-      <damage_min mult="false" always_random="false" min="80" max="80" />
-      <damage_max mult="false" always_random="false" min="100" max="100" />
-      <damage_fire_per_sec mult="false" always_random="false" min="40" max="40" />
-      <level mult="false" always_random="false" min="30" max="30" />
-      <experience mult="false" always_random="false" min="500" max="500" />
-      <damage_reduction mult="false" always_random="false" min="25" max="25" />
-      <damage_reduction_block mult="false" always_random="false" min="999" max="999" />
-      <crt_burn mult="false" always_random="false" min="3.0" max="3.0" />
-      <res_falter mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_burn mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_berserk mult="false" always_random="false" min="1" max="1" />
-      <res_aard mult="false" always_random="false" min="0.3" max="0.3" />
-      <res_igni mult="false" always_random="false" min="0.7" max="0.7" />
-      <res_yrden mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_axii mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_quen mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_poison mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_freeze mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_stun mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
-    </ability>
-  </abilities>
+			<damage_min_add mult="false" always_random="false" min="80" max="80" />
+			<damage_max_add mult="false" always_random="false" min="100" max="100" />
+		</ability>  
+
+		<ability name="DragonHeadA3">
+			<vitality mult="false" always_random="false" min="2000" max="2000" />
+			<damage_min mult="false" always_random="false" min="80" max="80" />
+			<damage_max mult="false" always_random="false" min="100" max="100" />
+			<damage_fire_per_sec mult="false" always_random="false" min="40" max="40" />
+			<level mult="false" always_random="false" min="30" max="30" />
+			<experience mult="false" always_random="false" min="500" max="500" />
+			<damage_reduction mult="false" always_random="false" min="25" max="25" />
+			<damage_reduction_block mult="false" always_random="false" min="999" max="999" />
+			<crt_burn mult="false" always_random="false" min="3.0" max="3.0" />
+			<res_falter mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_berserk mult="false" always_random="false" min="1" max="1" />
+			<res_igni mult="false" always_random="false" min="0.2" max="0.2" />
+			<res_yrden mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_quen mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_freeze mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+		</ability>   
+
+	</abilities>
   <items>
     <item name="Dragon breath" ability_slots="0" template="" equip_slot="fire" hold_slot="fire" weapon="true">
-      <base_abilities>
-        <a>Dragon_breath_stats</a>
-      </base_abilities>
-    </item>
-  </items>
+			<base_abilities>
+				<a>Dragon_breath_stats</a>
+			</base_abilities>
+		</item>    
+
+	</items>
 </definitions>

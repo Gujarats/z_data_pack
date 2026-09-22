@@ -12,734 +12,614 @@
 			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
 			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability>
-
-		# Stéroïdes anabolisants (Anabolic steroids)
-	  	<ability name="Anabolic_Stats">
-			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
+		<ability name="Anabolic_Stats">
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
 			<durration mult="false" always_random="false" min="120" max="120" type="bonus" />
 		</ability>
 
-		<ability name="UnknownPotion_Stats" prerequisites="alchemy_s7">
+		<ability name="UnknownPotion_Stats" on_removed="unknown_potion">
 			<tox_level mult="false" always_random="false" min="5" max="5" type="bonus" />
 			<durration mult="false" always_random="false" min="15" max="15" type="bonus" />
 		</ability>
 
-		# TUTORIAL POTION: Élixir de guérison (Healing brew)
-		<ability name="Healing Concoction _Stats" prerequisites="alchemy_s7_2"> 
-			<vitality_regen type="bonus" max="1" min="1" always_random="false" mult="false" /> 
-			<tox_level type="bonus" max="25" min="25" always_random="false" mult="false" /> 
-			<durration type="bonus" max="300" min="300" always_random="false" mult="false" /> 
-		</ability>
+		# TUTORIAL POTION
 
-		# Blaireau (Brock)
-		<ability name="Concretion _Stats">
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Concretion _Stats2" prerequisites="alchemy_s7">
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-		</ability>
-		<ability name="Concretion _Stats3" prerequisites="alchemy_s7_2">
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-		</ability>
-		<ability name="Concretion _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Concretion _Stats5" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Concretion _Stats6" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Chat (Cat)
-		<ability name="Cat _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="0.95" max="0.95" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="0.95" max="0.95" type="bonus" />
-			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" />
+		<ability name="Healing Concoction _Stats">
+			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
 			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Cat _Stats2" prerequisites="alchemy_s7">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.0210526316" max="1.0210526316" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.0210526316" max="1.0210526316" type="bonus" />
-			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" />
+		
+		# Custom potions
+		<ability name="Concretion _Stats">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<res_poison display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Cat _Stats3" prerequisites="alchemy_s7_2">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.0206185567" max="1.0206185567" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.0206185567" max="1.0206185567" type="bonus" />
-			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" />
+		<ability name="Concretion _Stats2" prerequisites="alchemy_s7">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
-		<ability name="Cat _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Cat _Stats5" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Cat _Stats6" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Concretion _Stats3" prerequisites="alchemy_s7_2">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_poison display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
 
-		# Chat-huant (Tawny owl)
-		<ability name="Tawny Owl _Stats">
-			<endurance mult="false" always_random="false" min="1" max="1" type="bonus" />
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+		<ability name="Concretion _Stats4">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Tawny Owl _Stats2" prerequisites="alchemy_s7">
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.0461538462" max="1.0461538462" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.03333333333" max="1.03333333333" type="bonus" />
+		<ability name="Concretion _Stats5" prerequisites="alchemy_s7">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
-		<ability name="Tawny Owl _Stats3" prerequisites="alchemy_s7_2">
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.0661764706" max="1.0661764706" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-		</ability>
-		<ability name="Tawny Owl _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Tawny Owl _Stats5" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Tawny Owl _Stats6" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Concretion _Stats6" prerequisites="alchemy_s7_2">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
 
-		# Chipeau (Gadwall)
-		<ability name="Swallow _Stats">
-			<endurance mult="false" always_random="false" min="-1" max="-1" type="bonus" />
-			<vitality mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<vitality_regen mult="false" always_random="false" min="3" max="3" type="bonus" />
-			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" type="bonus" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="0.8" max="0.8" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="0.8" max="0.8" type="bonus" />
-			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+		<ability name="Cat _Stats">
+			<damage_min mult="true" display_perc="true" always_random="false" min="0.9" max="0.9" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="300" max="300" type="bonus" />
 		</ability>
-		<ability name="Swallow _Stats2" prerequisites="alchemy_s7">
-			<vitality mult="true" display_perc="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.075" max="1.075" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.075" max="1.075" type="bonus" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		<ability name="Cat _Stats2" prerequisites="alchemy_s7">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
-		<ability name="Swallow _Stats3" prerequisites="alchemy_s7_2">
-			<vitality mult="true" display_perc="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-			<endurance mult="false" always_random="false" min="1" max="1" type="bonus" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.1162790698" max="1.1162790698" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.1162790698" max="1.1162790698" type="bonus" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
-		</ability>
-		<ability name="Swallow _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Swallow _Stats5" prerequisites="alchemy_s7">
-			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Swallow _Stats6" prerequisites="alchemy_s7_2">
-			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Cat _Stats3" prerequisites="alchemy_s7_2">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
 
-		# Décocté de Raffard le Blanc (White Rafford's decoction)
-		<ability name="White Raffard Decoction _Stats">
-			<vitality display_perc="true" mult="true" always_random="false" min="1.6" max="1.6" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="White Raffard Decoction _Stats2" prerequisites="alchemy_s7">
-			<vitality display_perc="true" mult="true" always_random="false" min="1.075" max="1.075" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-		</ability>
-		<ability name="White Raffard Decoction _Stats3" prerequisites="alchemy_s7_2">
-			<vitality display_perc="true" mult="true" always_random="false" min="1.1046511628" max="1.1046511628" />
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-		</ability>
-		<ability name="White Raffard Decoction _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="White Raffard Decoction _Stats5">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="0.70" max="0.70" type="bonus" display_perc="true" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="White Raffard Decoction _Stats6" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Forêt de Maribor (Maribor forest)
-		<ability name="Wolf _Stats" prerequisites="alchemy_s7_2">
-			<endurance mult="false" always_random="false" min="2" max="2" type="bonus" />
-			<vitality display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<heliotrop_duration mult="false" always_random="false" min="1" max="1" />
-			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Wolf _Stats2">
-			<vitality display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<heliotrop_duration mult="false" always_random="false" min="1" max="1" />
-		</ability>
-		<ability name="Wolf _Stats3" prerequisites="alchemy_s7">
-			<vitality display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.27777777778" max="1.27777777778" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.27777777778" max="1.27777777778" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.27777777778" max="1.27777777778" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.27777777778" max="1.27777777778" type="bonus" />
-			<heliotrop_duration mult="false" always_random="false" min="1" max="1" />
-		</ability>
-		<ability name="Wolf _Stats4" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Wolf _Stats5">
-			<vitality mult="true" always_random="false" min="1.5" max="1.5" display_perc="true" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Wolf _Stats6" prerequisites="alchemy_s7">
-			<vitality mult="true" always_random="false" min="1.1" max="1.1" display_perc="true" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Freux (Rook)
-		<ability name="Kiss _Stats" prerequisites="alchemy_s7_2">
+		<ability name="Cat _Stats4">
 			<damage_min mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 			<damage_max mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" type="bonus" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="critical" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Kiss _Stats2">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0181818182" max="1.0181818182" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0181818182" max="1.0181818182" type="bonus" />
+		<ability name="Cat _Stats5" prerequisites="alchemy_s7">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
-		<ability name="Kiss _Stats3" prerequisites="alchemy_s7">
-			<damage_min mult="true" display_perc="true" always_random="false" min="1.0267857143" max="1.0267857143" type="bonus" />
-			<damage_max mult="true" display_perc="true" always_random="false" min="1.0267857143" max="1.0267857143" type="bonus" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" type="critical" />
-		</ability>
-		<ability name="Kiss _Stats4" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Kiss _Stats5">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Kiss _Stats6" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Cat _Stats6" prerequisites="alchemy_s7_2">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
 
-		# Hirondelle (Swallow)
-		<ability name="Marten _Stats" prerequisites="alchemy_s7_2">
-			<vitality mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" type="bonus" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		<ability name="Tawny Owl _Stats">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Marten _Stats2">
-			<vitality mult="true" display_perc="true" always_random="false" min="1.0181818182" max="1.0181818182" type="bonus" />
-			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		<ability name="Tawny Owl _Stats2" prerequisites="alchemy_s7">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
-		<ability name="Marten _Stats3" prerequisites="alchemy_s7">
-			<vitality mult="true" display_perc="true" always_random="false" min="1.0267857143" max="1.0267857143" type="bonus" />
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
-		</ability>
-		<ability name="Marten _Stats4" prerequisites="alchemy_s7_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Marten _Stats5">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Marten _Stats6" prerequisites="alchemy_s7">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Tawny Owl _Stats3" prerequisites="alchemy_s7_2">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 		</ability>
 
-		# Loriot doré (Golden oriole)
-		<ability name="Maribor Forest _Stats" prerequisites="alchemy_s7_2">
+		<ability name="Tawny Owl _Stats4">
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Maribor Forest _Stats2" on_removed="unknown_potion">
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
+		<ability name="Tawny Owl _Stats5" prerequisites="alchemy_s7">
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>
-		<ability name="Maribor Forest _Stats3">
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="bonus" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="bonus" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="bonus" />
-		</ability>
-		<ability name="Maribor Forest _Stats4">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Maribor Forest _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Maribor Forest _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Tawny Owl _Stats6" prerequisites="alchemy_s7_2">
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
 		</ability>
 
-		# Loup (Wolf)
-		<ability name="Blizzard _Stats">
+		<ability name="Swallow _Stats">
+			<vitality_regen mult="false" always_random="false" min="3" max="3" type="bonus" />
+			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" type="bonus" />
+			<endurance mult="false" always_random="false" min="-1" max="-1" type="bonus" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="0.6" max="0.6" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="0.6" max="0.6" type="bonus" />
+			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Swallow _Stats2" prerequisites="alchemy_s7">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>
+		<ability name="Swallow _Stats3" prerequisites="alchemy_s7_2">
+			<endurance mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>
+
+		<ability name="Swallow _Stats4">
+			<signs_power mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<tox_level mult="false" always_random="false" min="30" max="30" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Swallow _Stats5" prerequisites="alchemy_s7">
+			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+		<ability name="Swallow _Stats6" prerequisites="alchemy_s7_2">
+			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+
+		<ability name="White Raffard Decoction _Stats">
+			<vitality display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="White Raffard Decoction _Stats2" prerequisites="alchemy_s7">
+			<vitality display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+		</ability>
+		<ability name="White Raffard Decoction _Stats3" prerequisites="alchemy_s7_2">
+			<vitality display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.24" max="1.24" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.24" max="1.24" type="bonus" />
+		</ability>
+
+		<ability name="White Raffard Decoction _Stats4">
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="120" max="120" type="bonus" />
+		</ability>
+
+		<ability name="White Raffard Decoction _Stats5">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="0.70" max="0.70" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="0.70" max="0.70" type="bonus" />
+			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="White Raffard Decoction _Stats6" prerequisites="alchemy_s7">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+		<ability name="Wolf _Stats">
+			<endurance mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Wolf _Stats2" prerequisites="alchemy_s7">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+		<ability name="Wolf _Stats3" prerequisites="alchemy_s7_2">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<vitality mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<crt_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 			<crt_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+		</ability>
+
+		<ability name="Wolf _Stats4" prerequisites="alchemy_s7_2">
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+		</ability>
+
+		<ability name="Wolf _Stats5">
+			<vitality display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Wolf _Stats6" prerequisites="alchemy_s7">
+			<vitality display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+		</ability>
+		<ability name="Kiss _Stats">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Blizzard _Stats2" prerequisites="alchemy_s7">
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
+		<ability name="Kiss _Stats2" prerequisites="alchemy_s7">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
-		<ability name="Blizzard _Stats3" prerequisites="alchemy_s7_2">
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-		</ability>
-		<ability name="Blizzard _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Blizzard _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Blizzard _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Kiss _Stats3" prerequisites="alchemy_s7_2">
+			<damage_min mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
+			<damage_max mult="true" display_perc="true" always_random="false" min="1.03" max="1.03" type="bonus" />
 		</ability>
 
-		# Mangouste (Mongoose)
-		<ability name="Shadow_Stats">
-			<res_poison display_perc="true" mult="false" always_random="false" min="200.0" max="200.0" type="bonus" />
-			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Shadow_Stats2" prerequisites="alchemy_s7">
-			<res_poison display_perc="true" mult="false" always_random="false" min="40.0" max="40.0" type="bonus" />
-		</ability>
-		<ability name="Shadow_Stats3" prerequisites="alchemy_s7_2">
-			<res_poison display_perc="true" mult="false" always_random="false" min="60.0" max="60.0" type="bonus" />
-		</ability>
-		<ability name="Shadow_Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Shadow_Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Shadow_Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Philtre de Petri (Petri's philtre)
-		<ability name="Petri Philter _Stats">
-			<damage_signsbonus mult="false" always_random="false" min="24" max="24" type="bonus" />
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.07" max="1.07" type="bonus" />
-			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Petri Philter _Stats2" prerequisites="alchemy_s7">
+		<ability name="Kiss _Stats4" prerequisites="alchemy_s7_2">
 			<damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.15" max="-0.15" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0093457944" max="1.0093457944" type="bonus" />
-		</ability>
-		<ability name="Petri Philter _Stats3" prerequisites="alchemy_s7_2">
-			<damage_signsbonus mult="false" always_random="false" min="7" max="7" type="bonus" />
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.25" max="-0.25" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0185185185" max="1.0185185185" type="bonus" />
-		</ability>
-		<ability name="Petri Philter _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Petri Philter _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Petri Philter _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
 		</ability>
 
-		# Philtre de Stammelford (Stammelford's philtre)
-		<ability name="Golden Oriole _Stats">
-			<signs_power mult="true" display_perc="true" always_random="false" min="1.2" max="1.2" type="bonus" />
-			<vitality mult="true" display_perc="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
-			<tox_level mult="false" always_random="false" min="30" max="30" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Golden Oriole _Stats2" prerequisites="alchemy_s7">
-			<signs_power mult="true" display_perc="true" always_random="false" min="1.0333333333" max="1.0333333333" type="bonus" />
-			<vitality mult="true" always_random="false" min="1.1285714256" max="1.1285714256" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0180180181" max="1.0180180181" type="bonus" />
-		</ability>
-		<ability name="Golden Oriole _Stats3" prerequisites="alchemy_s7_2">
-			<signs_power mult="true" display_perc="true" always_random="false" min="1.0483870968" max="1.0483870968" type="bonus" />
-			<vitality mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.0267857143" max="1.0267857143" type="bonus" />
-		</ability>
-		<ability name="Golden Oriole _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Golden Oriole _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Golden Oriole _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Tiare (Tiara)
-		<ability name="Shrike _Stats">
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="100" max="100" />
-			<damage_min display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<vitality mult="true" display_perc="true" always_random="false" min="0.8" max="0.8" type="bonus" />
-			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="0" max="0" type="bonus" />
-			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
-		</ability>
-		<ability name="Shrike _Stats2" prerequisites="alchemy_s7">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="20" max="20" />
-			<vitality mult="true" display_perc="true" always_random="false" min="1.075" max="1.075" type="bonus" />
-		</ability>
-		<ability name="Shrike _Stats3" prerequisites="alchemy_s7_2">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="30" max="30" />
-			<vitality mult="true" display_perc="true" always_random="false" min="1.1162790698" max="1.1162790698" type="bonus" />
-		</ability>
-		<ability name="Shrike _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Shrike _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Shrike _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
-		</ability>
-
-		# Tonnerre (Thunderbolt)
-		<ability name="Thunderbolt _Stats">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" type="critical" />
-			<vitality display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<vitality_regen display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+		<ability name="Kiss _Stats5">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<res_poison display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
 			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Thunderbolt _Stats2" prerequisites="alchemy_s7">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.0461538462" max="1.0461538462" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.0461538462" max="1.0461538462" type="bonus" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" type="critical" />
+		<ability name="Kiss _Stats6" prerequisites="alchemy_s7">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
+		<ability name="Marten _Stats">
+			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Marten _Stats2" prerequisites="alchemy_s7">
+			<vitality_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>
+		<ability name="Marten _Stats3" prerequisites="alchemy_s7_2">
+			<vitality_combat_regen mult="false" always_random="false" min="1" max="1" type="bonus" />
+		</ability>
+
+		<ability name="Marten _Stats4" prerequisites="alchemy_s7_2">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
 			<vitality display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
 			<vitality_regen display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
 			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
 		</ability>
-		<ability name="Thunderbolt _Stats3" prerequisites="alchemy_s7_2">
-			<damage_min display_perc="true" mult="true" always_random="false" min="1.0661764706" max="1.0661764706" type="bonus" />
-			<damage_max display_perc="true" mult="true" always_random="false" min="1.0661764706" max="1.0661764706" type="bonus" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" type="critical" />
-			<vitality display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<vitality_regen display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
+
+		<ability name="Marten _Stats5">
+			<res_poison display_perc="true" mult="false" always_random="false" min="200.0" max="200.0" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Thunderbolt _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
+		<ability name="Marten _Stats6" prerequisites="alchemy_s7">
+			<res_poison display_perc="true" mult="false" always_random="false" min="100.0" max="100.0" type="bonus" />
 		</ability>
-		<ability name="Thunderbolt _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
+		<ability name="Maribor Forest _Stats">
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
-		<ability name="Thunderbolt _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+		<ability name="Maribor Forest _Stats2" prerequisites="alchemy_s7">
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+		</ability>
+		<ability name="Maribor Forest _Stats3" prerequisites="alchemy_s7_2">
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
 		</ability>
 
-		# Vanneau (Lapwing)
-		<ability name="Wolverine _Stats">
-			<endurance mult="false" always_random="false" min="2" max="2" type="bonus" />
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<vitality display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+		<ability name="Maribor Forest _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Maribor Forest _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Maribor Forest _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Blizzard _Stats">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.15" max="1.15" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Blizzard _Stats2" prerequisites="alchemy_s7">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
+		<ability name="Blizzard _Stats3" prerequisites="alchemy_s7_2">
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<aard_knockdown_chance display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
+
+		<ability name="Blizzard _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Blizzard _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Blizzard _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shadow_Stats">
+			<res_poison display_perc="true" mult="false" always_random="false" min="200.0" max="200.0" type="bonus" />
+			<tox_level mult="false" always_random="false" min="25" max="25" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Shadow_Stats2" prerequisites="alchemy_s7">
+			<res_poison display_perc="true" mult="false" always_random="false" min="100.0" max="100.0" type="bonus" />
+		</ability>
+		<ability name="Shadow_Stats3" prerequisites="alchemy_s7_2">
+			<res_poison display_perc="true" mult="false" always_random="false" min="100.0" max="100.0" type="bonus" />
+		</ability>
+
+		<ability name="Shadow_Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shadow_Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shadow_Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Petri Philter _Stats">
+			<damage_signsbonus mult="false" always_random="false" min="7.0" max="7.0" type="bonus" />
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Petri Philter _Stats2" prerequisites="alchemy_s7">
+			<damage_signsbonus mult="false" always_random="false" min="3" max="3" type="bonus" />
+		</ability>
+		<ability name="Petri Philter _Stats3" prerequisites="alchemy_s7_2">
+			<damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />
+		</ability>
+
+		<ability name="Petri Philter _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Petri Philter _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Petri Philter _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Golden Oriole _Stats">
+			<signs_power mult="false" always_random="false" min="1" max="1" type="bonus" />
+			<vitality mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<tox_level mult="false" always_random="false" min="30" max="30" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Golden Oriole _Stats2" prerequisites="alchemy_s7">
+			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+		<ability name="Golden Oriole _Stats3" prerequisites="alchemy_s7_2">
+			<vitality mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+		</ability>
+
+		<ability name="Golden Oriole _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Golden Oriole _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Golden Oriole _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shrike _Stats">
+			<endurance_on_block_mult display_perc="true" mult="true" always_random="false" min="0.9" max="0.9" type="bonus" />
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<damage_min display_perc="true" mult="true" always_random="false" min="0.8" max="0.8" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="0.8" max="0.8" type="bonus" />
+			<vitality mult="false" always_random="false" min="-20" max="-20" type="bonus" />
 			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Shrike _Stats2" prerequisites="alchemy_s7">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<vitality mult="false" always_random="false" min="6" max="6" type="bonus" />
+			<endurance_on_block_mult display_perc="true" mult="true" always_random="false" min="0.9" max="0.9" type="bonus" />
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
+		<ability name="Shrike _Stats3" prerequisites="alchemy_s7_2">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<vitality mult="false" always_random="false" min="10" max="10" type="bonus" />
+			<endurance_on_block_mult display_perc="true" mult="true" always_random="false" min="0.9" max="0.9" type="bonus" />
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+		</ability>
+
+		<ability name="Shrike _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shrike _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Shrike _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Thunderbolt _Stats">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<vitality_regen display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<tox_level mult="false" always_random="false" min="50" max="50" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="Thunderbolt _Stats2" prerequisites="alchemy_s7">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<vitality_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+		</ability>
+		<ability name="Thunderbolt _Stats3" prerequisites="alchemy_s7_2">
+			<damage_min display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<damage_max display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<vitality_regen display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<vitality_combat_regen display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
+		</ability>
+
+		<ability name="Thunderbolt _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Thunderbolt _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Thunderbolt _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Wolverine _Stats">
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.5" max="1.5" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="0.70" max="0.70" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="0.70" max="0.70" type="bonus" />
+			<tox_level mult="false" always_random="false" min="40" max="40" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
 		</ability>
 		<ability name="Wolverine _Stats2" prerequisites="alchemy_s7">
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.0666666667" max="1.0666666667" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-			<vitality display_perc="true" mult="true" always_random="false" min="1.3" max="1.3" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>
 		<ability name="Wolverine _Stats3" prerequisites="alchemy_s7_2">
-			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.09375" max="1.09375" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-			<vitality display_perc="true" mult="true" always_random="false" min="1.3846153846" max="1.3846153846" type="bonus" />
-			<res_bleed display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<res_burn display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<res_poison display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-		</ability>
-		<ability name="Wolverine _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-		</ability>
-		<ability name="Wolverine _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
-		</ability>
-		<ability name="Wolverine _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+			<endurance_noncombat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<endurance_combat_regen display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<vitality display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 		</ability>
 
-		# Virga (Virga)
-		<ability name="De Vries Extract _Stats">
-			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.4" max="1.4" type="bonus" />
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="5" max="5" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="0.7" max="0.7" type="bonus" />
-			<tox_level mult="false" always_random="false" min="30" max="30" type="bonus" />
-			<durration mult="false" always_random="false" min="2400" max="2400" type="bonus" />
+		<ability name="Wolverine _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
 		</ability>
-		<ability name="De Vries Extract _Stats2" prerequisites="alchemy_s7_2">
-			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.0571428571" max="1.0571428571" type="bonus" />
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="bonus" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="bonus" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.1285714286" max="1.1285714286" type="bonus" />
+
+	<ability name="Wolverine _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="Wolverine _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
+		</ability>
+
+	<ability name="De Vries Extract _Stats">
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="0.75" max="0.75" type="bonus" />
+			<tox_level mult="false" always_random="false" min="30" max="30" type="bonus" />
+			<durration mult="false" always_random="false" min="600" max="600" type="bonus" />
+		</ability>
+		<ability name="De Vries Extract _Stats2" prerequisites="alchemy_s7">
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.11" max="0.11" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>
 		<ability name="De Vries Extract _Stats3" prerequisites="alchemy_s7_2">
-			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.0810810811" max="1.0810810811" type="bonus" />
-			<damage_reduction_block mult="false" display_perc="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="bonus" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="bonus" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.18" max="0.18" type="bonus" />
-			<crt_poison display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<crt_burn display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
-			<igni_burn_chance display_perc="true" mult="true" always_random="false" min="1.1898734177" max="1.1898734177" type="bonus" />
+			<damage_reduction display_perc="true" mult="true" always_random="false" min="1.05" max="1.05" type="bonus" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<crt_poison display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<crt_bleed display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
+			<crt_burn display_perc="true" mult="true" always_random="false" min="1.2" max="1.2" type="bonus" />
 		</ability>
-		<ability name="De Vries Extract _Stats4" prerequisites="alchemy_s6_2">
-			<vitality mult="false" always_random="false" min="20" max="20" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
+
+		<ability name="De Vries Extract _Stats4">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
 		</ability>
-		<ability name="De Vries Extract _Stats5" prerequisites="alchemy_s10_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.025" max="0.025" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-			<res_burn mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_bleed mult="true" always_random="false" min="1.05" max="1.05" />
-			<res_poison mult="true" always_random="false" min="1.05" max="1.05" />
+
+	<ability name="De Vries Extract _Stats5">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
 		</ability>
-		<ability name="De Vries Extract _Stats6" prerequisites="alchemy_s15_2">
-			<vitality mult="false" always_random="false" min="10" max="10" />
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.05" max="0.05" />
-			<adrenaline_toxgeneration mult="false" always_random="true" min="1" max="1" />
+
+	<ability name="De Vries Extract _Stats6">
+			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
 		</ability>
-		
-		# Custom potions
-		<ability name="Respec _Stats">
+
+	<ability name="Respec _Stats">
 			<tox_level mult="false" always_random="false" min="80" max="80" type="bonus" />
 		</ability>
 

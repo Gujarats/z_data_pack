@@ -2,30 +2,29 @@
 <definitions>
   <abilities>
     <ability name="draug_boss_base">
-      <vitality mult="false" always_random="false" min="450" max="450" />
-      <shield mult="false" always_random="false" min="400" max="400" />
-      <damage_min mult="false" always_random="false" min="40" max="40" />
-      <damage_max mult="false" always_random="false" min="60" max="60" />
-      <damage_charge mult="false" always_random="false" min="50" max="50" />
-      <damage_tornado mult="false" always_random="false" min="50" max="50" />
-      <res_falter mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_burn mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_berserk mult="false" always_random="false" min="1" max="1" />
-      <res_aard mult="false" always_random="false" min="0.4" max="0.4" />
-      <res_igni mult="false" always_random="false" min="0.5" max="0.5" />
-      <res_yrden mult="false" always_random="false" min="0.2" max="0.2" />
-      <res_axii mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_quen mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_poison mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_freeze mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_stun mult="false" always_random="false" min="100.0" max="100.0" />
-      <res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
-      <damage_reduction mult="false" always_random="false" min="20.0" max="20.0" />
-      <back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" />
-    </ability>
-  </abilities>
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<shield mult="false" always_random="false" min="400" max="400" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_charge mult="false" always_random="false" min="50" max="50" />
+			<damage_tornado mult="false" always_random="false" min="50" max="50" />
+			<res_falter mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_burn mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_berserk mult="false" always_random="false" min="1" max="1" />
+			<res_igni mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_yrden mult="false" always_random="false" min="0.3" max="0.3" />
+			<res_axii mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_quen mult="false" always_random="false" min="0.6" max="0.6" />
+			<res_bleed mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_poison mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_freeze mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_stun mult="false" always_random="false" min="100.0" max="100.0" />
+			<res_knockdown mult="false" always_random="false" min="100.0" max="100.0" />
+			<damage_reduction mult="false" always_random="false" min="20.0" max="20.0" />
+		</ability>
+
+	</abilities>
   <items>
   </items>
 </definitions>
