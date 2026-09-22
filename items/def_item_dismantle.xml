@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,7 +7,7 @@
 
 		# Smarowidla i oselki
 
-		<item name="Wooden Toy Sword" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Wooden Toy Sword" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeDismantle</tags>
 			<base_abilities>
 				<a>Weight_05</a>

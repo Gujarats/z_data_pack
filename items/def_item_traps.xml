@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -9,7 +9,7 @@
 
 		# Standard Traps used by player / allys
 	
-        <item name="Explosive Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="explosive_trap" equip_slot="" hold_slot="">
+        <item name="Explosive Trap" category="trap" ability_slots="0" stackable="true" hold_template="explosive_trap" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Explosive Trap _Stats</a>
@@ -24,7 +24,7 @@
             </base_abilities>
         </item>
 
-        <item name="Crippling Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="crippling_trap" equip_slot="" hold_slot="">
+        <item name="Crippling Trap" category="trap" ability_slots="0" stackable="true" hold_template="crippling_trap" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Crippling Trap _Stats</a>
@@ -39,7 +39,7 @@
             </base_abilities>
         </item>
 
-        <item name="Freezing Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="freezing_trap" equip_template="" equip_slot="" hold_slot="">
+        <item name="Freezing Trap" category="trap" ability_slots="0" stackable="true" hold_template="freezing_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Freezing Trap _Stats</a>
@@ -54,7 +54,7 @@
             </base_abilities>
         </item>
 
-        <item name="Rage Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="rage_trap" equip_template="" equip_slot="" hold_slot="">
+        <item name="Rage Trap" category="trap" ability_slots="0" stackable="true" hold_template="rage_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Rage Trap _Stats</a>
@@ -70,7 +70,7 @@
         </item>
 		
 		# Probably will not be used
-        #<item name="Grappling Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="grappling_trap" equip_template="" equip_slot="" hold_slot="">
+        #<item name="Grappling Trap" category="trap" ability_slots="0" stackable="true" hold_template="grappling_trap" equip_template="" equip_slot="" hold_slot="">
         #	<tags>SortTypeTrap,Trap,QuickSlot</tags>
         #	<base_abilities>
         #		<a>Grappling Trap _Stats</a>
@@ -81,7 +81,7 @@
 		
 		# Special Traps used to destroy harpy nests
 		
-        <item name="Harpy Bait Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="harpy_trap" equip_template="" equip_slot="" hold_slot="">
+        <item name="Harpy Bait Trap" category="trap" ability_slots="0" stackable="true" hold_template="harpy_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Harpy Bait Trap _Stats</a>
@@ -93,7 +93,7 @@
 		
 		# Special Traps used against bosses
 		
-        #<item name="Tentadrake Trap" category="quest" ability_slots="0" stackable = "true"  hold_template="tentadrake_trap" equip_template="" equip_slot="" hold_slot="">
+        #<item name="Tentadrake Trap" category="quest" ability_slots="0" stackable="true" hold_template="tentadrake_trap" equip_template="" equip_slot="" hold_slot="">
             #<tags>SortTypeTrap,SortTypeQuest,Quest</tags>
             #<base_abilities>
 	#	<a>Tentadrake Trap _Stats</a>
@@ -102,7 +102,7 @@
             #</base_abilities>
         #</item>
 		
-        #<item name="Draug Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="draug_trap" equip_template="" equip_slot="" hold_slot="">
+        #<item name="Draug Trap" category="trap" ability_slots="0" stackable="true" hold_template="draug_trap" equip_template="" equip_slot="" hold_slot="">
          #   <tags>SortTypeTrap,Trap,QuickSlot</tags>
            # <base_abilities>
 	#	<a>Draug Trap _Stats</a>
@@ -111,7 +111,7 @@
            # </base_abilities>
         #</item>
         
-	#	<item name="Dragon Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="dragon_trap" equip_template="" equip_slot="" hold_slot="">
+	#	<item name="Dragon Trap" category="trap" ability_slots="0" stackable="true" hold_template="dragon_trap" equip_template="" equip_slot="" hold_slot="">
            # <tags>SortTypeTrap,Trap,QuickSlot</tags>
             #<base_abilities>
 	#	<a>Dragon Trap _Stats</a>
@@ -120,7 +120,7 @@
    #         </base_abilities>
      #   </item>
         
-		<item name="Arachas Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="arachas_trap" equip_template="" equip_slot="" hold_slot="">
+		<item name="Arachas Trap" category="trap" ability_slots="0" stackable="true" hold_template="arachas_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
             <base_abilities>
 		<a>Arachas Trap _Stats</a>
@@ -129,7 +129,7 @@
             </base_abilities>
         </item>
         
-		<item name="Magic Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="magic_trap" equip_template="" equip_slot="" hold_slot="">
+		<item name="Magic Trap" category="trap" ability_slots="0" stackable="true" hold_template="magic_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
             <base_abilities>
 		<a>Magic Trap _Stats</a>
@@ -140,7 +140,7 @@
 
 		# Anti Witcher Traps used by enemies  
         
-        <item name="Arachas Smoke Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="arachas_smoke_trap" equip_template="" equip_slot="" hold_slot="">
+        <item name="Arachas Smoke Trap" category="trap" ability_slots="0" stackable="true" hold_template="arachas_smoke_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot,NoShow,NoDrop</tags>
             <base_abilities>
 		<a>Arachas Smoke Trap _Stats</a>
@@ -151,7 +151,7 @@
 		
 		# Anti witcher traps used on location
 		
-		<item name="Animal Trap" category="trap" ability_slots="0" stackable = "true"  hold_template="animal_trap" equip_template="" equip_slot="" hold_slot="">
+		<item name="Animal Trap" category="trap" ability_slots="0" stackable="true" hold_template="animal_trap" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot</tags>
             <base_abilities>
 		<a>Animal Trap _Stats</a>
@@ -165,15 +165,15 @@
                 <a>Weight_1</a>
             </base_abilities>
         </item>
-	<item name="Mage Fire Trap" category="trap" ability_slots="0" stackable = "true"  equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
+	<item name="Mage Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
         </item>
 
-	<item name="Detmold Fire Trap" category="trap" ability_slots="0" stackable = "true"  equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
+	<item name="Detmold Fire Trap" category="trap" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
         </item>
 
-	<item name="Used Trap" category="other" ability_slots="0" stackable = "true"  equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
+	<item name="Used Trap" category="other" ability_slots="0" stackable="true" equip_template="fire_trap" hold_template="fire_trap" equip_slot="" hold_slot="">
             <tags>SortTypeOther,Dismantle</tags>
             <base_abilities>
 		<a>Price_20</a>

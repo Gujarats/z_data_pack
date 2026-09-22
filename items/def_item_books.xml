@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 
 	<abilities>
@@ -8,7 +8,7 @@
 
 		# Księgi wiedzy
 
-		<item name="Book of Arachases" category="book" stackable = "true" ability_slots="0" template="book_lore_spider" equip_slot="" hold_slot="">
+		<item name="Book of Arachases" category="book" stackable="true" ability_slots="0" template="book_lore_spider" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -16,7 +16,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Bruxas" category="book" stackable = "true" ability_slots="0" template="book_lore_bruxa" equip_slot="" hold_slot="">
+		<item name="Book of Bruxas" category="book" stackable="true" ability_slots="0" template="book_lore_bruxa" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -24,7 +24,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Bullvore" category="book" stackable = "true" ability_slots="0" template="book_lore_bullvore" equip_slot="" hold_slot="">
+		<item name="Book of Bullvore" category="book" stackable="true" ability_slots="0" template="book_lore_bullvore" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -32,7 +32,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Draugirs" category="book" stackable = "true" ability_slots="0" template="book_lore_draugir" equip_slot="" hold_slot="">
+		<item name="Book of Draugirs" category="book" stackable="true" ability_slots="0" template="book_lore_draugir" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -40,7 +40,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Draugs" category="book" stackable = "true" ability_slots="0" template="book_lore_draug" equip_slot="" hold_slot="">
+		<item name="Book of Draugs" category="book" stackable="true" ability_slots="0" template="book_lore_draug" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -48,7 +48,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Drowners" category="book" stackable = "true" ability_slots="0" template="book_lore_drowner" equip_slot="" hold_slot="">
+		<item name="Book of Drowners" category="book" stackable="true" ability_slots="0" template="book_lore_drowner" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -56,7 +56,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Nekkers" category="book" stackable = "true" ability_slots="0" template="book_lore_nekker" equip_slot="" hold_slot="">
+		<item name="Book of Nekkers" category="book" stackable="true" ability_slots="0" template="book_lore_nekker" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -64,7 +64,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Rotfiends" category="book" stackable = "true" ability_slots="0" template="book_lore_rotfiend" equip_slot="" hold_slot="">
+		<item name="Book of Rotfiends" category="book" stackable="true" ability_slots="0" template="book_lore_rotfiend" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -73,7 +73,7 @@
 		</item>
 
 
-		<item name="Book of Tentadrakes" category="book" stackable = "true" ability_slots="0" template="book_lore_tentadrake" equip_slot="" hold_slot="">
+		<item name="Book of Tentadrakes" category="book" stackable="true" ability_slots="0" template="book_lore_tentadrake" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -81,7 +81,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Golems" category="book" stackable = "true" ability_slots="0" template="book_lore_golem" equip_slot="" hold_slot="">
+		<item name="Book of Golems" category="book" stackable="true" ability_slots="0" template="book_lore_golem" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -89,7 +89,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Ifrits" category="book" stackable = "true" ability_slots="0" template="book_lore_ifrit" equip_slot="" hold_slot="">
+		<item name="Book of Ifrits" category="book" stackable="true" ability_slots="0" template="book_lore_ifrit" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_trap</a>
@@ -97,7 +97,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Endriags" category="book" stackable = "true" ability_slots="0" template="book_lore_endriag" equip_slot="" hold_slot="">
+		<item name="Book of Endriags" category="book" stackable="true" ability_slots="0" template="book_lore_endriag" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -105,7 +105,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Dragons" category="book" stackable = "true" ability_slots="0" template="book_lore_dragon" equip_slot="" hold_slot="">
+		<item name="Book of Dragons" category="book" stackable="true" ability_slots="0" template="book_lore_dragon" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -113,7 +113,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Trolls" category="book" stackable = "true" ability_slots="0" template="book_lore_troll" equip_slot="" hold_slot="">
+		<item name="Book of Trolls" category="book" stackable="true" ability_slots="0" template="book_lore_troll" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -121,7 +121,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Gargoyles" category="book" stackable = "true" ability_slots="0" template="book_lore_gargoyle" equip_slot="" hold_slot="">
+		<item name="Book of Gargoyles" category="book" stackable="true" ability_slots="0" template="book_lore_gargoyle" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -129,7 +129,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Harpies" category="book" stackable = "true" ability_slots="0" template="book_lore_harpy" equip_slot="" hold_slot="">
+		<item name="Book of Harpies" category="book" stackable="true" ability_slots="0" template="book_lore_harpy" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -137,7 +137,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Wraiths" category="book" stackable = "true" ability_slots="0" template="book_lore_wraith" equip_slot="" hold_slot="">
+		<item name="Book of Wraiths" category="book" stackable="true" ability_slots="0" template="book_lore_wraith" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -145,7 +145,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Astrology" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Book of Astrology" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -153,7 +153,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Mahakam Geography" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Book of Mahakam Geography" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -161,7 +161,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Legends and Miths" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Book of Legends and Miths" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -169,7 +169,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Book of Natural Phenomena" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Book of Natural Phenomena" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -179,7 +179,7 @@
 
 		# Glossary
 
-		<item name="Glossary Temerian Dynasty" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Temerian Dynasty" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -187,7 +187,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Aelirenn" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Aelirenn" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -195,7 +195,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Thanned Riot" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Thanned Riot" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -203,7 +203,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Ban Ard" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Ban Ard" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -211,7 +211,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Sorcerers" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Sorcerers" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -219,7 +219,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary The Good Book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary The Good Book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_50</a>
@@ -227,7 +227,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Elder Races" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Elder Races" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -235,7 +235,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary The White Flame" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary The White Flame" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -243,7 +243,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Conclave of Mages" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Conclave of Mages" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -251,7 +251,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Scoiatael" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Scoiatael" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -259,7 +259,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Council of Mages" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Council of Mages" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -267,7 +267,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Vizimian Uprising" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Vizimian Uprising" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -275,7 +275,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Special Forces" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Special Forces" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -283,7 +283,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Melitele" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Melitele" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -291,7 +291,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Magic" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Magic" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -299,7 +299,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary The Lodge" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary The Lodge" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -307,7 +307,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Dwarves" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Dwarves" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -315,7 +315,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Conjunction of Spheres" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Conjunction of Spheres" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -323,7 +323,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Order of the Flaming Rose" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Order of the Flaming Rose" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -331,7 +331,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Witchers" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Witchers" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -339,7 +339,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Vejopatis Book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Vejopatis Book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -347,7 +347,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Glossary Dun Banner" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Glossary Dun Banner" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -355,7 +355,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Aedirn" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Aedirn" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -363,7 +363,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Dol Blathanna" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Dol Blathanna" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -371,7 +371,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Dolina Pontaru" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Dolina Pontaru" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -379,7 +379,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Dolna Marchia" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Dolna Marchia" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -387,7 +387,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Loc Muinne" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Loc Muinne" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -395,7 +395,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Places Nilfgaard" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Places Nilfgaard" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -403,7 +403,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Knowledge Alchemy Book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Knowledge Alchemy Book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -411,7 +411,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Knowledge Crafting Book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Knowledge Crafting Book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -419,7 +419,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Knowledge Herbalism Book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Knowledge Herbalism Book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -427,7 +427,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="DarkDifficultyBookA1" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="DarkDifficultyBookA1" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -435,7 +435,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="DarkDifficultyBookA2" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="DarkDifficultyBookA2" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -443,7 +443,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="DarkDifficultyBookA3" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="DarkDifficultyBookA3" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
@@ -454,98 +454,98 @@
 
 		# Notatki
 
-		<item name="Orders from Shilard" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="Orders from Shilard" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q001_orders" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q001_orders" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q203_moria_notes_01" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q203_moria_notes_01" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q203_moria_notes_02" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q203_moria_notes_02" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q203_moria_notes_03" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q203_moria_notes_03" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q203_moria_notes_key" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q203_moria_notes_key" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q203_xeranthemum_book" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q203_xeranthemum_book" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q207_shilard_letters_01" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q207_shilard_letters_01" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q207_shilard_letters_02" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q207_shilard_letters_02" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q304_shilard_letters_03" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q304_shilard_letters_03" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q211_serrit_notes_01" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q211_serrit_notes_01" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="q304_renuald_letters_01" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="q304_renuald_letters_01" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="sq202_autopsy_book" category="book" stackable = "true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
+		<item name="sq202_autopsy_book" category="book" stackable="true" ability_slots="0" template="orders_from_shilard" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a>
 			</base_abilities>
 		</item>
 
-		<item name="sq202_succubus_book" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq202_succubus_book" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_75</a>
@@ -553,63 +553,63 @@
 			</base_abilities>
 		</item>	
 
-		<item name="Ancient Manuscript" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Ancient Manuscript" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>		
 
-		<item name="Dandelion's Book of Poetry" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Dandelion's Book of Poetry" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination02" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination02" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination03" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination03" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination04" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination04" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination05" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination05" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_combination06" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_combination06" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="sq303_runesbook_tome01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_runesbook_tome01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_75</a>
@@ -617,7 +617,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="sq303_runesbook_tome02" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_runesbook_tome02" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_75</a>
@@ -625,7 +625,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="sq303_runesbook_tome03" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_runesbook_tome03" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_75</a>
@@ -633,7 +633,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="sq303_runesbook_tome04" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq303_runesbook_tome04" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>Price_75</a>
@@ -641,14 +641,14 @@
 			</base_abilities>
 		</item>
 
-		<item name="sq107_dymitr_letter" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq107_dymitr_letter" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq107_talar_man_letter_01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq107_talar_man_letter_01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
@@ -656,28 +656,28 @@
 		</item>
 
 		# karty pacjenta
-		<item name="sq101_patient_note_01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq101_patient_note_01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq101_patient_note_02" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq101_patient_note_02" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq101_patient_note_03" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq101_patient_note_03" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq101_patient_note_04" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq101_patient_note_04" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
@@ -685,63 +685,63 @@
 		</item>	
 
 		# notatki natchnionego	
-		<item name="q213_chosen_one_notes_01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q213_chosen_one_notes_01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="q213_chosen_one_notes_02" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q213_chosen_one_notes_02" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="q213_chosen_one_notes_03" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q213_chosen_one_notes_03" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Quest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="q203_mines_level1_map" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q203_mines_level1_map" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="q203_mines_level2_map" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q203_mines_level2_map" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="q203_mines_level3_map" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q203_mines_level3_map" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="arrest warrant" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="arrest warrant" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="Detmolds Grimoir" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Detmolds Grimoir" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="q105_tentadrake_notes_sheala_01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="q105_tentadrake_notes_sheala_01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
@@ -749,70 +749,70 @@
 		</item>	
 
 		# notatki natchnionego	
-		<item name="sq308_mage_notes_01" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq308_mage_notes_01" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq308_mage_notes_02" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq308_mage_notes_02" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq308_mage_notes_03" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq308_mage_notes_03" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq308_mage_notes_04" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq308_mage_notes_04" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq308_mage_notes_05" category="quest" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq308_mage_notes_05" category="quest" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="Daerhanna Memoir" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="Daerhanna Memoir" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq307_arjan_torture_note" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq307_arjan_torture_note" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq307_luiza_torture_note" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq307_luiza_torture_note" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq307_werewolf_notes" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq307_werewolf_notes" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>	
 
-		<item name="sq307_bloodied_letter" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="sq307_bloodied_letter" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,SortTypeQuest,Usable,Quest</tags>
 			<base_abilities>
 				<a>type_book</a> 
@@ -821,14 +821,14 @@
 
 		# Summer and winter shrine
 
-		<item name="summer_shrine" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="summer_shrine" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 
 			</base_abilities>
 		</item>
 
-		<item name="winter_shrine" category="book" stackable = "true" ability_slots="0" template="" equip_slot="" hold_slot="">
+		<item name="winter_shrine" category="book" stackable="true" ability_slots="0" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeBook,Usable</tags>
 			<base_abilities>
 				<a>type_book</a> 

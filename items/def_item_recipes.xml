@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -16,7 +16,7 @@
     # Fulgur (F)
 
 	###LAPWING###
-	<item name="Recipe Wolverine" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Wolverine" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_150</a>
@@ -31,7 +31,7 @@
         </item>
 		
 	###SWALLOW###
-	<item name="Recipe Marten" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Marten" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -45,7 +45,7 @@
         </item>
 		
 	###WOLF###	
-	<item name="Recipe Blizzard" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Blizzard" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_95</a>
@@ -59,7 +59,7 @@
         </item>
 	
 	###GOLDEN ORIOLE###	
-	<item name="Recipe Maribor Forest" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Maribor Forest" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_85</a>
@@ -73,7 +73,7 @@
         </item>
 		
 	###STAMMELFORD'S PHILTRE###
-	<item name="Recipe Golden Oriole" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Golden Oriole" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_120</a>
@@ -88,7 +88,7 @@
         </item>
 	
 	###VIRGA###
-	<item name="Recipe De Vries Extract" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe De Vries Extract" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_75</a>
@@ -102,7 +102,7 @@
         </item>
 	
 	###WHITE RAFFARD'S DECOCTION###
-	<item name="Recipe White Raffards Decoction" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe White Raffards Decoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -117,7 +117,7 @@
         </item>
 	
 	###MARIBOR FOREST###
-	<item name="Recipe Wolf" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Wolf" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_115</a>
@@ -132,7 +132,7 @@
         </item>
 	
 	###TIARA###
-	<item name="Recipe Shrike" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Shrike" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_75</a>
@@ -146,7 +146,7 @@
         </item>
 	
 	###GADWALL###
-	<item name="Recipe Swallow" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Swallow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -162,7 +162,7 @@
         </item>
 		
 	###BROCK###
-	<item name="Recipe Concretion" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Concretion" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_75</a>
@@ -177,7 +177,7 @@
         </item>
 	
 	###CAT###
-	<item name="Recipe Cat" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Cat" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_60</a>
@@ -191,7 +191,7 @@
         </item>
 	
 	###ROOK###
-	<item name="Recipe Kiss" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Kiss" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_125</a>
@@ -205,7 +205,7 @@
         </item>
 		
 	###TAWNY OWL###
-	<item name="Recipe Tawny Owl" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Tawny Owl" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -220,7 +220,7 @@
         </item>
 	
 	###THUNDERBOLT###
-	<item name="Recipe Thunderbolt" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Thunderbolt" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_125</a>
@@ -235,7 +235,7 @@
         </item>
 	
 	###PETRI'S PHILTRE###
-	<item name="Recipe Petri Philter" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Petri Philter" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_180</a>
@@ -249,7 +249,7 @@
         </item>	
 	
 	###MONGOOSE###
-	<item name="Recipe Shadow" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Shadow" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_150</a>
@@ -263,7 +263,7 @@
         </item>		
 	
 #petardy
-	<item name="Recipe Samum" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Samum" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -275,7 +275,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Dancing Star" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Dancing Star" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -287,7 +287,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Dragon Slumber" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Dragon Slumber" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -299,7 +299,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Devil Puffball" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Devil Puffball" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -311,7 +311,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Flare" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Flare" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_30</a>
@@ -323,7 +323,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Stinker" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Stinker" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -335,7 +335,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Firefly" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Firefly" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -347,7 +347,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Grapeshot" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Grapeshot" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_70</a>
@@ -359,7 +359,7 @@
 	    </ingredients_list>
         </item>
         
-    <item name="Recipe Red Haze" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Recipe Red Haze" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -373,7 +373,7 @@
         </item>
 	
 #oleje
-	<item name="Recipe Caelm" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Caelm" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -387,7 +387,7 @@
    	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Cerbin Blath" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Cerbin Blath" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -402,7 +402,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Specter Grease" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Specter Grease" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -416,7 +416,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Argentia" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Argentia" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -430,7 +430,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Brown Oil" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Brown Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -444,7 +444,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Crinfrid Oil" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Crinfrid Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -456,7 +456,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Hangman Venom" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Hangman Venom" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_90</a>
@@ -470,7 +470,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Surge" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Surge" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_80</a>
@@ -486,7 +486,7 @@
 	
 	
 #skladniki rzemieslnicze
-	<item name="Recipe Oil" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Oil" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_30</a>
@@ -501,7 +501,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Recipe Amethyst Dust" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Amethyst Dust" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic</tags>
             <base_abilities>
 		<a>Price_40</a>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,77 +7,77 @@
 
 		# Ziola zbierane
 
-		<item name="White Myrtle Petals" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="White Myrtle Petals" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Vitriol</tags>
 			<base_abilities>
 				<a>Price_9 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Hellebore Petals" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Hellebore Petals" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Aether</tags>
 			<base_abilities>
 				<a>Price_10 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Celandine" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Celandine" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Rebis</tags>
 			<base_abilities>
 				<a>Price_7 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Beggartick Blossoms" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Beggartick Blossoms" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Hydragenum</tags>
 			<base_abilities>
 				<a>Price_12 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Mandrake Root" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Mandrake Root" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Quebrith</tags>
 			<base_abilities>
 				<a>Price_15 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Wolfsbane" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Wolfsbane" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Vermilion</tags>
 			<base_abilities>
 				<a>Price_11 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Bryony" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Bryony" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Caelum</tags>
 			<base_abilities>
 				<a>Price_18 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Verbena" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Verbena" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Sol</tags>
 			<base_abilities>
 				<a>Price_18 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Balisse" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Balisse" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Vitriol</tags>
 			<base_abilities>
 				<a>Price_8 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Wolf aloe leaves" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Wolf aloe leaves" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,AlchemyIngridient,Herb,Sol,Special</tags>
 			<base_abilities>
 				<a>Price_50 </a>
 			</base_abilities>
 		</item>
 
-		<item name="Green mold" category="alchemyingredient" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+		<item name="Green mold" category="alchemyingredient" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,Quest,SortTypeIngridient,AlchemyIngridient,Herb,Caelum,Special</tags>
 			<base_abilities>
 				<a>Price_50 </a>
@@ -89,31 +89,31 @@
 
 	<loot_definitions>
 		<loot name="Herb Balisse">
-			<loot_entry name="Balisse" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Balisse" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb White Myrtle Petals">
-			<loot_entry name="White Myrtle Petals" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="White Myrtle Petals" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Hellebore Petals">
-			<loot_entry name="Hellebore Petals" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Hellebore Petals" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Celandine">
-			<loot_entry name="Celandine" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Celandine" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Beggartick Blossoms">
-			<loot_entry name="Beggartick Blossoms" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Beggartick Blossoms" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Mandrake Root">
-			<loot_entry name="Mandrake Root" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Mandrake Root" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Wolfsbane">
-			<loot_entry name="Wolfsbane" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Wolfsbane" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Bryony">
-			<loot_entry name="Bryony" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Bryony" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 		<loot name="Herb Verbena">
-			<loot_entry name="Verbena" chance="100" quantity_min="1" quantity_max="1"  respawn_time="1200"/>
+			<loot_entry name="Verbena" chance="100" quantity_min="1" quantity_max="1" respawn_time="1200" />
 		</loot>
 	</loot_definitions>
 

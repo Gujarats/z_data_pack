@@ -7,7 +7,7 @@
   
 		#Q1
 		<ability name="Worn Leather Gloves _Stats">
-			<res_bleed mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="resistance" />	
+			<res_bleed mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="resistance" />	
 		</ability>
 		
 		#Q2
@@ -47,13 +47,13 @@
 		<ability name="Long Studded Leather Gloves _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
-			<res_burn mult="false" always_random="false" display_perc="true" min="0.08" max="0.08" type="resistance" />
-			<res_bleed mult="false" always_random="false" display_perc="true" min="0.08" max="0.08" type="resistance" />	
+			<res_burn mult="false" always_random="false" display_perc="true" min="0.04" max="0.04" type="resistance" />
+			<res_bleed mult="false" always_random="false" display_perc="true" min="0.04" max="0.04" type="resistance" />	
 		</ability>   
 
 		#Q5
 		<ability name="Sorccerer Gloves _Stats">
-            <damage_signsbonus mult="false" always_random="false" min="5" max="5" type="bonus" />
+            <damage_signsbonus mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>   
 		
@@ -66,9 +66,9 @@
 		</ability>
 
 		<ability name="High Quality Temerian Unique Leather Gloves _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
 			<max_weight mult="false" always_random="false" min="10.0" max="10.0" />	
 		</ability>   
 		
@@ -76,7 +76,7 @@
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<max_weight mult="false" always_random="false" min="5.0" max="5.0" />
+			<max_weight mult="false" always_random="false" min="10.0" max="10.0" />
 		</ability>   
 		
 		<ability name="High Quality Nilfgaardian Unique Leather Gloves _Stats">
@@ -91,34 +91,34 @@
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
             <res_poison mult="false" always_random="false" display_perc="true" min="0.07" max="0.07" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" />
 		</ability> 
 
 
 ########## DARK ##########
 
 		<ability name="Master Dualist Gloves _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
-			<vitality mult="false" always_random="false" min="15" max="15" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
-			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" />
 		</ability>   		
 
 		<ability name="Gloves of the Monk _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
 			<damage_signsbonus mult="false" always_random="false" min="10" max="10" type="bonus" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.12" max="0.12" />
 		</ability>   		
 
 		<ability name="Mongoose Gloves _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
-			<max_weight mult="false" always_random="false" min="15" max="15" />   
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<max_weight mult="false" always_random="false" min="20" max="20" />   
+			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.06" max="0.06" />
 		</ability>  
 
                 #Q6
@@ -127,29 +127,29 @@
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />            
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<damage_signsbonus mult="false" always_random="false" min="12" max="12" type="bonus" />            
+			<damage_signsbonus mult="false" always_random="false" min="8" max="8" type="bonus" />            
 			<max_weight mult="false" always_random="false" min="10.0" max="10.0" />
 		</ability> 		
 		
 		# Dark Difficulty Gloves A1
 		<ability name="DarkDifficultyGlovesA1 _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
 			<max_weight mult="false" always_random="false" min="15" max="15" />   
 		</ability>
 		
 		# Dark Difficulty Gloves A2
 		<ability name="DarkDifficultyGlovesA2 _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
-			<max_weight mult="false" always_random="false" min="20" max="20" />   
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
+			<max_weight mult="false" always_random="false" min="15" max="15" />   
 		</ability>
 
 		# Dark Difficulty Gloves A3
 		<ability name="DarkDifficultyGlovesA3 _Stats">
-			<damage_reduction mult="false" always_random="false" min="4" max="4" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
-			<max_weight mult="false" always_random="false" min="25" max="25" />   
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="resistance" />
+			<max_weight mult="false" always_random="false" min="20" max="20" />   
 		</ability>
 
 
@@ -159,7 +159,7 @@
             <res_poison mult="false" always_random="false" display_perc="true" min="0.10" max="0.10" type="resistance" />
 			<loot_alchemy_bonus mult="false" always_random="false" min="1.0" max="1.0" />
 			<mutagen_chance mult="false" always_random="false" min="4" max="4" />                       
-            <oils_time_bonus display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+            <oils_time_bonus display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="bonus" />
 		</ability>   		
         
 

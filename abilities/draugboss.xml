@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="draug_boss_base">
-      <vitality mult="false" always_random="false" min="675" max="675" />
+      <vitality mult="false" always_random="false" min="450" max="450" />
       <shield mult="false" always_random="false" min="400" max="400" />
       <damage_min mult="false" always_random="false" min="40" max="40" />
       <damage_max mult="false" always_random="false" min="60" max="60" />

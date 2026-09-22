@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
 
 # Adam Pangratt two handed fighter
-		<ability name="Adam Pangratt"><level mult="false" always_random="false" min="1" max="1" /><experience mult="false" always_random="false" min="8" max="8" /><vitality mult="false" always_random="false" min="120" max="120" /><vitality_regen mult="false" always_random="false" min="1.6" max="1.6" /><vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" /><damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" /><damage_min mult="false" always_random="false" min="5" max="5" /><damage_max mult="false" always_random="false" min="7" max="7" /><endurance mult="false" always_random="false" min="0" max="0" /><damage_reduction mult="false" always_random="false" min="2" max="2" /><damage_reduction_block mult="false" always_random="false" min="5" max="5" /></ability></abilities>
+		<ability name="Adam Pangratt"><level mult="false" always_random="false" min="1" max="1" /><experience mult="false" always_random="false" min="8" max="8" /><vitality mult="false" always_random="false" min="80" max="80" /><vitality_regen mult="false" always_random="false" min="0" max="0" /><vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" /><damage_reduction_block_perc mult="false" always_random="false" min="0.75" max="0.75" /><damage_min mult="false" always_random="false" min="5" max="5" /><damage_max mult="false" always_random="false" min="7" max="7" /><endurance mult="false" always_random="false" min="0" max="0" /><damage_reduction mult="false" always_random="false" min="2" max="2" /><damage_reduction_block mult="false" always_random="false" min="5" max="5" /></ability></abilities>
   <items>
   </items>
 </definitions>

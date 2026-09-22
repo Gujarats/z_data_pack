@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
 
 # fog spectre base ability
-		<ability name="fog spectre base ability"><vitality mult="false" always_random="false" min="60" max="60" />
+		<ability name="fog spectre base ability"><vitality mult="false" always_random="false" min="40" max="40" />
 			
 			#odpornosci 
 			<res_axii mult="false" always_random="false" min="400" max="400" /></ability>   
 
 # fog hostile spectre base ability
-		<ability name="fog hostile spectre base ability"><vitality mult="false" always_random="false" min="150" max="150" /></ability></abilities>
+		<ability name="fog hostile spectre base ability"><vitality mult="false" always_random="false" min="100" max="100" /></ability></abilities>
   <items>
   </items>
 </definitions>

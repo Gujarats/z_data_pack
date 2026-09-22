@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -7,18 +7,7 @@
 
     #		Definicje broni rzucanej
 	
-	        <item
-			name="Rusty Balanced Dagger" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="01_rusty_dagger" 
-			equip_template="01_rusty_dagger" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+	        <item name="Rusty Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="01_rusty_dagger" equip_template="01_rusty_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
             <tags>SortTypeWapon,QuickSlot,Ranged,crt_bleed,crit_bleed</tags>
             <base_abilities>
                 <a>Rusty Balanced Dagger _Stats</a>
@@ -31,18 +20,7 @@
         </item>
 
 
-        <item 
-			name="Balanced Dagger" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="02_balanced_dagger" 
-			equip_template="02_balanced_dagger" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+        <item name="Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
 		
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crit_bleed</tags>
             <base_abilities>
@@ -55,18 +33,7 @@
 	  </ingredients_list>
         </item>
     
-        <item 
-			name="High Quality Balanced Dagger" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="04_high_quality_balanced_dagger" 
-			equip_template="04_high_quality_balanced_dagger" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+        <item name="High Quality Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="03_quality_balanced_dagger" equip_template="03_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
 		
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crit_bleed</tags>
             <base_abilities>
@@ -79,19 +46,7 @@
 	  </ingredients_list>
         </item>
 	
-		<item 
-			name="Silver Balanced Dagger" 
-		
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="02_balanced_dagger" 
-			equip_template="02_balanced_dagger" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+		<item name="Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_burn,crit_bleed,crit_burn</tags>
             <base_abilities>
                 <a>Silver Balanced Dagger _Stats</a>
@@ -103,18 +58,7 @@
 	  </ingredients_list>
         </item>
 	
-		<item 
-			name="High Quality Silver Balanced Dagger" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="04_high_quality_balanced_dagger" 
-			equip_template="04_high_quality_balanced_dagger" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+		<item name="High Quality Silver Balanced Dagger" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="02_balanced_dagger" equip_template="02_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_burn,crit_bleed,crit_burn</tags>
             <base_abilities>
         <a>High Quality Silver Balanced Dagger _Stats</a>
@@ -126,18 +70,7 @@
 	  </ingredients_list>
         </item>
 		
-        <item 
-			name="Sting" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="05_sting" 
-			equip_template="05_sting" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+        <item name="Sting" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="03_quality_balanced_dagger" equip_template="03_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_stun,crt_freeze,crit_bleed,crit_stun,crit_freeze</tags>
             <base_abilities>
                 <a>Sting _Stats</a>
@@ -149,18 +82,7 @@
 	  </ingredients_list>
         </item>
 	
-		<item 
-			name="Poisoned flying harphy claws" 
-			category="rangedweapon" 
-			enhancement_slots="0" 
-			stackable = "true" 
-			lethal="true"
-			hold_template="05_sting" 
-			equip_template="05_sting" 
-			equip_slot="dagger_leg_slot" 
-			hold_slot="r_weapon"
-			ability_mode="OnHold"
-		>
+		<item name="Poisoned flying harphy claws" category="rangedweapon" enhancement_slots="0" stackable="true" lethal="true" hold_template="04_high_quality_balanced_dagger" equip_template="04_high_quality_balanced_dagger" equip_slot="dagger_leg_slot" hold_slot="r_weapon" ability_mode="OnHold">
             <tags>SortTypeWapon,QuickSlot,Dismantle,Ranged,crt_bleed,crt_poison,crit_bleed,crit_poison</tags>
             <base_abilities>
                 <a>Poisoned flying harphy claws _Stats</a>

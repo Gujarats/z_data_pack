@@ -11,7 +11,7 @@
 		</ability>
 	
 		<ability name="Rune of Earth _Stats" on_added="" on_ended="">
-			<damage_reduction_block mult="false" always_random="false" min="1.05" max="1.05" />
+			<damage_reduction_block mult="true" always_random="false" min="1.05" max="1.05" display_perc="true" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
             <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
 		</ability>
@@ -19,7 +19,7 @@
 		<ability name="Rune of Moon _Stats" on_added="" on_ended=""> 
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
             <crt_knockdown display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="4" max="4" />            
+			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="8" max="8" />            
 		</ability>
 	
 		<ability name="Rune of Fire _Stats" on_added="" on_ended="">

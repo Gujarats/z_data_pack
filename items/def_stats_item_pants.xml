@@ -21,44 +21,44 @@
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 		</ability>
 
 		<ability name="Heavy Leather Pants _Stats">
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
 		</ability>		
 		<ability name="Quality Heavy Leather Pants _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />	
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />	
 		</ability>		
 		<ability name="High Quality Heavy Leather Pants _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 		</ability>
 
 		<ability name="Studded Leather Pants _Stats">
-            <damage_reduction mult="false" always_random="false" min="1" max="1" />			
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
+            <damage_reduction mult="false" always_random="false" min="2" max="2" />			
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="resistance" />
 		</ability>
 
 		<ability name="Quality Studded Leather Pants _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 			<res_poison display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 		</ability>
 		
 		<ability name="High Quality Studded Leather Pants _Stats">
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.07" max="0.08" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
 		</ability>
 		
 
@@ -69,7 +69,7 @@
 		</ability>
 
 		<ability name="Nilfgaardian Unique Leather Pants _Stats">
-			<damage_reduction mult="false" always_random="false" min="1" max="1" />			
+			<damage_reduction mult="false" always_random="false" min="2" max="2" />			
             <res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
             <res_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
 		</ability>
@@ -96,10 +96,10 @@
         
 		<ability name="Unique Leather Pants of Elder Blood _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
             <res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
 		</ability>
 
 
@@ -109,36 +109,36 @@
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<vitality mult="false" always_random="false" min="20" max="20" />
             <riposte_damage_mult display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
-			<damage_reduction_block mult="false" always_random="false" min="0.2" max="0.2" />
+			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
 		</ability>
 
 		<ability name="Abyssal Leggins _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.20" max="0.20" />
 		</ability>
 
 		<ability name="Rogues Trousers _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
             <vitality_regen mult="false" always_random="false" min="2" max="2" type="resistance" />
-			<max_weight mult="false" always_random="false" min="20" max="20" />   
+			<max_weight mult="false" always_random="false" min="25" max="25" />   
 			<oils_time_bonus mult="false" display_perc="true" always_random="false" min="2" max="2" type="bonus" />
 		</ability>
 
 		<ability name="Wild Hunt Legguards _Stats">
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
-			<res_poison display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
-			<res_bleed display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />
-			<res_burn display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="resistance" />            
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="resistance" />
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" />
-			<max_weight mult="false" always_random="false" min="15" max="15" />
+			<res_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<res_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />
+			<res_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" />            
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="resistance" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" />
+			<max_weight mult="false" always_random="false" min="10" max="10" />
 		</ability>    
 
 		# Dark Difficulty Pants A1
 		<ability name="DarkDifficultyPantsA1 _Stats">
-			<damage_reduction mult="false" always_random="false" min="2" max="2" /> 
+			<damage_reduction mult="false" always_random="false" min="3" max="3" /> 
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="resistance" />
 		</ability>
@@ -146,14 +146,14 @@
 		
 		# Dark Difficulty Pants A2
 		<ability name="DarkDifficultyPantsA2 _Stats">
-			<damage_reduction mult="false" always_random="false" min="3" max="3" /> 
+			<damage_reduction mult="false" always_random="false" min="2" max="2" /> 
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="resistance" />
 			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="resistance" />
 		</ability>
 		
 		# Dark Difficulty Pants A3
 		<ability name="DarkDifficultyPantsA3 _Stats">
-			<damage_reduction mult="false" always_random="false" min="4" max="4" /> 
+			<damage_reduction mult="false" always_random="false" min="3" max="3" /> 
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="resistance" />
 			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="resistance" /> 
 		</ability>
@@ -162,7 +162,7 @@
 ########## DLC ##########     
    
 		<ability name="Unique Essenced Pants _Stats">
-                        <damage_signsbonus mult="false" always_random="false" min="1.0" max="1.0" type="bonus" />			
+                        <damage_signsbonus mult="false" always_random="false" min="4" max="4" type="bonus" />			
 			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" />
 			<res_bleed display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="resistance" />
 			<res_burn display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
@@ -16,15 +16,15 @@
 		</ability>
 
 		<ability name="type_zagnica">
-			<TentacleHealth mult="false" always_random="false" min="100" max="100"/>
-			<TentacleYrdenDelay mult="false" always_random="false" min="12" max="12"/>
-			<HorizontalAttackChance mult="false" always_random="false" min="0.3" max="0.3"/>
-			<horizontalAttackDmg mult="false" always_random="false" min="20" max="20"/>
-			<verticalAttackDmg mult="false" always_random="false" min="20" max="20"/>
-			<arenaHolderAttackDmg mult="false" always_random="false" min="20" max="20"/>
-			<finisherAttackDmg mult="false" always_random="false" min="40" max="40"/>
-			<rangedAttackDmg mult="false" always_random="false" min="5" max="5"/>
-			<SpitAttackChance mult="false" always_random="false" min="0.05" max="0.05"/>
+			<TentacleHealth mult="false" always_random="false" min="100" max="100" />
+			<TentacleYrdenDelay mult="false" always_random="false" min="12" max="12" />
+			<HorizontalAttackChance mult="false" always_random="false" min="0.3" max="0.3" />
+			<horizontalAttackDmg mult="false" always_random="false" min="20" max="20" />
+			<verticalAttackDmg mult="false" always_random="false" min="20" max="20" />
+			<arenaHolderAttackDmg mult="false" always_random="false" min="20" max="20" />
+			<finisherAttackDmg mult="false" always_random="false" min="40" max="40" />
+			<rangedAttackDmg mult="false" always_random="false" min="5" max="5" />
+			<SpitAttackChance mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>
 	</abilities>
 

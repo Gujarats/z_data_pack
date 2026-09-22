@@ -1,131 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
 		<ability name="Fists _Stats">
-			<damage_min mult="false" always_random="false" min="5" max="5"/>
-			<damage_max mult="false" always_random="false" min="10" max="10"/>
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
 		</ability>   
 
 		<ability name="Fistfighter Default">
-			<vitality mult="false" always_random="false" min="8" max="8"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="8" max="8" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability>   
 
 		<ability name="q002 Prison Fistfighter 01">
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<damage_min mult="false" always_random="false" min="5" max="5"/>
-			<damage_max mult="false" always_random="false" min="7" max="7"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability>  
 
 		<ability name="q002 Prison Fistfighter 02">
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<damage_min mult="false" always_random="false" min="5" max="5"/>
-			<damage_max mult="false" always_random="false" min="7" max="7"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability>  
 
 		<ability name="Fistfighter Act1 Weak">
-			<vitality mult="false" always_random="false" min="88" max="88"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="88" max="88" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability>   
 
 		<ability name="Fistfighter Act1 Medium">
-			<vitality mult="false" always_random="false" min="124" max="124"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="2"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="5"/>
+			<vitality mult="false" always_random="false" min="124" max="124" />
+			<damage_reduction mult="false" always_random="false" min="1" max="2" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="5" />
 		</ability>   
 
 		<ability name="Fistfighter Act1 Strong">
-			<vitality mult="false" always_random="false" min="150" max="150"/>
-			<damage_reduction mult="false" always_random="false" min="2" max="3"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="6"/>
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<damage_reduction mult="false" always_random="false" min="2" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="6" />
 		</ability>
 
 		<ability name="q102 Hang Guard">
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<damage_min mult="false" always_random="false" min="5" max="5"/>
-			<damage_max mult="false" always_random="false" min="7" max="7"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability> 
 
 		<ability name="Fistfighter Act1 LoredoFighters Weak">
-			<vitality mult="false" always_random="false" min="130" max="130"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="3"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="5"/>
+			<vitality mult="false" always_random="false" min="130" max="130" />
+			<damage_reduction mult="false" always_random="false" min="1" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="5" />
 		</ability>   
 
 		<ability name="Fistfighter Act1 LoredoFighters Medium">
-			<vitality mult="false" always_random="false" min="150" max="150"/>
-			<damage_reduction mult="false" always_random="false" min="2" max="5"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="7"/>
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<damage_reduction mult="false" always_random="false" min="2" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="7" />
 		</ability>   
 
 		<ability name="Fistfighter Act1 LoredoFighters Final">
-			<vitality mult="false" always_random="false" min="200" max="200"/>
-			<damage_reduction mult="false" always_random="false" min="3" max="5"/>
-			<damage_reduction_block mult="false" always_random="false" min="4" max="8"/>
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<damage_reduction mult="false" always_random="false" min="3" max="5" />
+			<damage_reduction_block mult="false" always_random="false" min="4" max="8" />
 		</ability>
 
 		<ability name="Fistfighter Act2 Weak">
-			<vitality mult="false" always_random="false" min="40" max="40"/>
-			<damage_reduction mult="false" always_random="false" min="3" max="6"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="8"/>
+			<vitality mult="false" always_random="false" min="40" max="40" />
+			<damage_reduction mult="false" always_random="false" min="3" max="6" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="8" />
 		</ability>   
 
 		<ability name="Fistfighter Act2 Medium">
-			<vitality mult="false" always_random="false" min="60" max="60"/>
-			<damage_reduction mult="false" always_random="false" min="4" max="6"/>
-			<damage_reduction_block mult="false" always_random="false" min="5" max="10"/>
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<damage_reduction mult="false" always_random="false" min="4" max="6" />
+			<damage_reduction_block mult="false" always_random="false" min="5" max="10" />
 		</ability>   
 
 		<ability name="Fistfighter Act2 Strong">
-			<vitality mult="false" always_random="false" min="80" max="80"/>
-			<damage_reduction mult="false" always_random="false" min="5" max="8"/>
-			<damage_reduction_block mult="false" always_random="false" min="7" max="12"/>
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<damage_reduction mult="false" always_random="false" min="5" max="8" />
+			<damage_reduction_block mult="false" always_random="false" min="7" max="12" />
 		</ability>
 
 		<ability name="Fistfighter Act2i Weak">
-			<vitality mult="false" always_random="false" min="70" max="70"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="2" max="2"/>
+			<vitality mult="false" always_random="false" min="70" max="70" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="2" max="2" />
 		</ability>   
 
 		<ability name="Fistfighter Act2i Medium">
-			<vitality mult="false" always_random="false" min="100" max="100"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="3"/>
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
 		</ability>   
 
 		<ability name="Fistfighter Act2i Strong">
-			<vitality mult="false" always_random="false" min="160" max="160"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="3" max="3"/>
+			<vitality mult="false" always_random="false" min="160" max="160" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
 		</ability>
 
 		<ability name="Fistfighter Act2 Special">
-			<vitality mult="false" always_random="false" min="120" max="120"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="120" max="120" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
 		</ability>
 
 		<ability name="Fistfighter Act3 Special">
-			<vitality mult="false" always_random="false" min="270" max="270"/>
-			<damage_reduction mult="false" always_random="false" min="10" max="13"/>
-			<damage_reduction_block mult="false" always_random="false" min="10" max="18"/>
+			<vitality mult="false" always_random="false" min="270" max="270" />
+			<damage_reduction mult="false" always_random="false" min="10" max="13" />
+			<damage_reduction_block mult="false" always_random="false" min="10" max="18" />
 		</ability>
 
 	</abilities>
 
 	<items>
 
-		<item name="Fists" category="fists" enhancement_slots="0"  equip_template="" equip_slot="l_weapon" hold_slot="l_weapon" weapon="true" lethal="false" ability_mode="OnHold">
+		<item name="Fists" category="fists" enhancement_slots="0" equip_template="" equip_slot="l_weapon" hold_slot="l_weapon" weapon="true" lethal="false" ability_mode="OnHold">
 			<tags>NoDrop,NoShow</tags>
 			<base_abilities>
 				<a>Fists _Stats</a>

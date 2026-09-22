@@ -19,136 +19,136 @@
 			<damage_max mult="false" always_random="false" min="25" max="25" />
 			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Grapeshot _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Grapeshot _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Grapeshot _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Grapeshot _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-
-
-		<ability name="Devil Puffball _Stats">
+		<ability name="Grapeshot _Stats4">
 			<damage_min mult="false" always_random="false" min="15" max="15" />
 			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.5" max="0.5" />
-		</ability> 
-		<ability name="Devil Puffball _Stats2" prerequisites="alchemy_s1">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Grapeshot _Stats5" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="5" max="5" />
 			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>    
-		<ability name="Devil Puffball _Stats3" prerequisites="alchemy_s1_2">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Grapeshot _Stats6" prerequisites="alchemy_s1_2">
 			<damage_min mult="false" always_random="false" min="10" max="10" />
 			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Devil Puffball _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Devil Puffball _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Devil Puffball _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-		<ability name="Devil Puffball _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>
-
-
-		<ability name="Samum _Stats">
+		<ability name="Grapeshot _Stats7">
 			<damage_min mult="false" always_random="false" min="15" max="15" />
 			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" />
-		</ability> 
-		<ability name="Samum _Stats2" prerequisites="alchemy_s1">
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+
+
+		<ability name="Devil Puffball _Stats" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="5" max="5" />
 			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
-		</ability>    
-		<ability name="Samum _Stats3" prerequisites="alchemy_s1_2">
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.4" max="0.4" />
+		</ability> 
+		<ability name="Devil Puffball _Stats2" prerequisites="alchemy_s1_2">
 			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>    
+		<ability name="Devil Puffball _Stats3">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Devil Puffball _Stats4" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="13" max="13" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Devil Puffball _Stats5" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="27" max="27" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Devil Puffball _Stats6">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Devil Puffball _Stats7" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+
+
+		<ability name="Samum _Stats" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" />
+		</ability> 
+		<ability name="Samum _Stats2">
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.5" max="0.5" />
+		</ability>    
+		<ability name="Samum _Stats3" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Samum _Stats4" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="7" max="7" />
 			<damage_max mult="false" always_random="false" min="20" max="20" />
 			<crt_stun mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
 		</ability>
-		<ability name="Samum _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Samum _Stats5">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
 			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
 		</ability>
-		<ability name="Samum _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
-		</ability>
-		<ability name="Samum _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Samum _Stats6" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
 			<crt_stun mult="false" display_perc="true" always_random="false" min="0.025" max="0.025" />
 		</ability>
-		<ability name="Samum _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Samum _Stats7" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="1" max="1" />
 			<crt_stun mult="false" display_perc="true" always_random="false" min="0.025" max="0.025" />
 		</ability>
 
 
 
 		<ability name="Dancing Star _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" />
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.4" max="0.4" />
 		</ability> 
 		<ability name="Dancing Star _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="3" max="3" />
-			<damage_max mult="false" always_random="false" min="13" max="13" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="3" max="3" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>    
 		<ability name="Dancing Star _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="27" max="27" />
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
-		</ability>
-		<ability name="Dancing Star _Stats4" prerequisites="alchemy_s12">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Dancing Star _Stats5" prerequisites="alchemy_s12_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Dancing Star _Stats4">
+			<damage_min mult="true" always_random="false" min="0.8" max="0.8" />
+			<damage_max mult="true" always_random="false" min="0.8" max="0.8" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Dancing Star _Stats6" prerequisites="alchemy_s15">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Dancing Star _Stats5">
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
-		<ability name="Dancing Star _Stats7" prerequisites="alchemy_s15_2">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+		<ability name="Dancing Star _Stats6" prerequisites="alchemy_s1">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+		</ability>
+		<ability name="Dancing Star _Stats7" prerequisites="alchemy_s1_2">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="3" max="3" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
 
@@ -191,19 +191,19 @@
 
 
 		<ability name="Firefly _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<damage_min mult="false" always_random="false" min="0" max="0" />
+			<damage_max mult="false" always_random="false" min="0" max="0" />
 			<crt_stun mult="false" display_perc="true" always_random="false" min="0.5" max="0.5" />
 		</ability> 
 		<ability name="Firefly _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_min mult="false" always_random="false" min="8" max="8" />
 			<damage_max mult="false" always_random="false" min="10" max="10" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.075" max="0.075" />
 		</ability>    
 		<ability name="Firefly _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.075" max="0.075" />
 		</ability>
 		<ability name="Firefly _Stats4" prerequisites="alchemy_s12">
 			<damage_min mult="false" always_random="false" min="8" max="8" />
@@ -242,16 +242,16 @@
 
 
 		<ability name="Stinker _Stats">
-			<damage_min mult="false" always_random="false" min="5" max="5" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="Stinker _Stats2" prerequisites="alchemy_s1">
 			<damage_min mult="false" always_random="false" min="2" max="2" />
-			<damage_max mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>  
 		<ability name="Stinker _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="3" max="3" />
-			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="Stinker _Stats4" prerequisites="alchemy_s12">
 			<damage_min mult="false" always_random="false" min="2" max="2" />
@@ -291,15 +291,15 @@
 
 		<ability name="Red Haze _Stats">
 			<damage_min mult="false" always_random="false" min="2" max="2" />
-			<damage_max mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="Red Haze _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
 			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>  
 		<ability name="Red Haze _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="1" max="1" />
-			<damage_max mult="false" always_random="false" min="3" max="3" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="Red Haze _Stats4" prerequisites="alchemy_s12">
 			<damage_min mult="false" always_random="false" min="2" max="2" />
@@ -321,19 +321,19 @@
 
 
 		<ability name="DragonDream _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="30" max="30" />
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" />
+			<damage_min mult="false" always_random="false" min="1026" max="1026" />
+			<damage_max mult="false" always_random="false" min="1032" max="1032" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.4" max="0.4" />
 		</ability> 
 		<ability name="DragonDream _Stats2" prerequisites="alchemy_s1">
-			<damage_min mult="false" always_random="false" min="3" max="3" />
-			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<damage_min mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
 			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>    
 		<ability name="DragonDream _Stats3" prerequisites="alchemy_s1_2">
-			<damage_min mult="false" always_random="false" min="7" max="7" />
-			<damage_max mult="false" always_random="false" min="20" max="20" />
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
+			<damage_min mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="DragonDream _Stats4" prerequisites="alchemy_s12">
 			<damage_min mult="false" always_random="false" min="4" max="4" />

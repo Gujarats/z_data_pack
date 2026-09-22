@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	
@@ -15,8 +15,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
 			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -55,8 +55,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
 			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="45" max="45" />
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -95,8 +95,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="10" max="10" />
 			<ranged_damage_max mult="false" always_random="false" min="15" max="15" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="225" max="225" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -135,8 +135,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="10" max="10" />
 			<ranged_damage_max mult="false" always_random="false" min="15" max="15" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="150" max="150" />
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -175,8 +175,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="10" max="10" />
 			<ranged_damage_max mult="false" always_random="false" min="15" max="15" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="180" max="180" />
-			<vitality_regen mult="false" always_random="false" min="2.4" max="2.4" />
+			<vitality mult="false" always_random="false" min="120" max="120" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.4" max="2.4" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -215,8 +215,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="480" max="480" />
-			<vitality_regen mult="false" always_random="false" min="6.4" max="6.4" />
+			<vitality mult="false" always_random="false" min="320" max="320" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.4" max="6.4" />
 			<damage_reduction mult="false" always_random="false" min="14" max="14" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -255,8 +255,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
 			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -295,8 +295,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
 			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="45" max="45" />
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="3" max="3" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -335,8 +335,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="10" max="10" />
 			<ranged_damage_max mult="false" always_random="false" min="15" max="15" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="60" max="60" />
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
+			<vitality mult="false" always_random="false" min="40" max="40" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction mult="false" always_random="false" min="1" max="1" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -370,7 +370,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="38" max="38" />
+			<vitality mult="false" always_random="false" min="50" max="50" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -388,8 +388,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="150" max="150" />
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -428,8 +428,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="120" max="120" />
-			<vitality_regen mult="false" always_random="false" min="1.6" max="1.6" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -468,8 +468,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="300" max="300" />
-			<vitality_regen mult="false" always_random="false" min="4.0" max="4.0" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -502,14 +502,14 @@
 			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
 			<damage_min mult="false" always_random="false" min="15" max="15" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
 			<damage_npc_min mult="false" always_random="false" min="2" max="2" />
 			<damage_npc_max mult="false" always_random="false" min="2" max="2" />
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
-			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<ranged_damage_max mult="false" always_random="false" min="45" max="45" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="300" max="300" />
-			<vitality_regen mult="false" always_random="false" min="4.0" max="4.0" />
+			<vitality mult="false" always_random="false" min="1000" max="1000" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="8" max="8" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -543,7 +543,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="90" max="90" />
+			<vitality mult="false" always_random="false" min="120" max="120" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -561,8 +561,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="135" max="135" />
-			<vitality_regen mult="false" always_random="false" min="1.8" max="1.8" />
+			<vitality mult="false" always_random="false" min="90" max="90" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.8" max="1.8" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -601,8 +601,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="13" max="13" />
 			<ranged_damage_max mult="false" always_random="false" min="17" max="17" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="135" max="135" />
-			<vitality_regen mult="false" always_random="false" min="1.8" max="1.8" />
+			<vitality mult="false" always_random="false" min="90" max="90" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.8" max="1.8" />
 			<damage_reduction mult="false" always_random="false" min="7" max="7" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -641,8 +641,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="16" max="16" />
 			<ranged_damage_max mult="false" always_random="false" min="23" max="23" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="375" max="375" />
-			<vitality_regen mult="false" always_random="false" min="5.0" max="5.0" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
 			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -681,8 +681,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="8" max="8" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -714,15 +714,15 @@
 			<level mult="false" always_random="false" min="15" max="15" />
 			<experience mult="false" always_random="false" min="10" max="10" />
 			#damage
-			<damage_min mult="false" always_random="false" min="18" max="18" />
-			<damage_max mult="false" always_random="false" min="26" max="26" />
-			<damage_npc_min mult="false" always_random="false" min="4" max="4" />
-			<damage_npc_max mult="false" always_random="false" min="4" max="4" />
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<damage_npc_min mult="false" always_random="false" min="2" max="2" />
+			<damage_npc_max mult="false" always_random="false" min="2" max="2" />
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
-			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
+			<ranged_damage_max mult="false" always_random="false" min="45" max="45" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="390" max="390" />
-			<vitality_regen mult="false" always_random="false" min="5.2" max="5.2" />
+			<vitality mult="false" always_random="false" min="1000" max="1000" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="5.2" max="5.2" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -761,8 +761,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="165" max="165" />
-			<vitality_regen mult="false" always_random="false" min="2.2" max="2.2" />
+			<vitality mult="false" always_random="false" min="110" max="110" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.2" max="2.2" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -801,8 +801,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="330" max="330" />
-			<vitality_regen mult="false" always_random="false" min="4.4" max="4.4" />
+			<vitality mult="false" always_random="false" min="220" max="220" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -836,7 +836,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="112" max="112" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -854,8 +854,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="120" max="120" />
-			<vitality_regen mult="false" always_random="false" min="1.6" max="1.6" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="6" max="6" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -894,8 +894,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="60" max="60" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="5.0" max="5.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="2" max="2" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -929,7 +929,7 @@
 			<damage_npc_min mult="false" always_random="false" min="10" max="10" />
 			<damage_npc_max mult="false" always_random="false" min="10" max="10" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="75" max="75" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -942,7 +942,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="112" max="112" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -955,7 +955,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="90" max="90" />
+			<vitality mult="false" always_random="false" min="120" max="120" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -968,7 +968,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -981,7 +981,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="165" max="165" />
+			<vitality mult="false" always_random="false" min="220" max="220" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -994,7 +994,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="188" max="188" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -1007,7 +1007,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="202" max="202" />
+			<vitality mult="false" always_random="false" min="270" max="270" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -1020,7 +1020,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="218" max="218" />
+			<vitality mult="false" always_random="false" min="290" max="290" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -1033,7 +1033,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="262" max="262" />
+			<vitality mult="false" always_random="false" min="350" max="350" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -1051,8 +1051,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="472" max="472" />
-			<vitality_regen mult="false" always_random="false" min="6.3" max="6.3" />
+			<vitality mult="false" always_random="false" min="315" max="315" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.3" max="6.3" />
 			<damage_reduction mult="false" always_random="false" min="8" max="8" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1091,8 +1091,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="15" max="15" />
 			<ranged_damage_max mult="false" always_random="false" min="20" max="20" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="1050" max="1050" />
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality mult="false" always_random="false" min="700" max="700" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="10" max="10" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1138,8 +1138,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="25" max="25" />
 			<ranged_damage_max mult="false" always_random="false" min="45" max="45" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1179,8 +1179,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="28" max="28" />
 			<ranged_damage_max mult="false" always_random="false" min="35" max="35" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1219,8 +1219,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="255" max="255" />
-			<vitality_regen mult="false" always_random="false" min="3.4" max="3.4" />
+			<vitality mult="false" always_random="false" min="170" max="170" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.4" max="3.4" />
 			<damage_reduction mult="false" always_random="false" min="17" max="17" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1259,8 +1259,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="18" max="18" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1299,8 +1299,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="2" max="2" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1339,8 +1339,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="25" max="25" />
 			<ranged_damage_max mult="false" always_random="false" min="45" max="45" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="540" max="540" />
-			<vitality_regen mult="false" always_random="false" min="7.2" max="7.2" />
+			<vitality mult="false" always_random="false" min="360" max="360" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="7.2" max="7.2" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1379,8 +1379,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1419,8 +1419,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1459,8 +1459,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1499,8 +1499,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="40" max="40" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1539,8 +1539,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="375" max="375" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="20" max="20" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -1578,8 +1578,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="240" max="240" />
-			<vitality_regen mult="false" always_random="false" min="3.2" max="3.2" />
+			<vitality mult="false" always_random="false" min="160" max="160" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.2" max="3.2" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1618,8 +1618,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="795" max="795" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="530" max="530" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1656,7 +1656,7 @@
 			<damage_npc_min mult="false" always_random="false" min="2" max="2" />
 			<damage_npc_max mult="false" always_random="false" min="2" max="2" />
 			<ranged_damage_min mult="false" always_random="false" min="80" max="80" />
-			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
+			<ranged_damage_max mult="false" always_random="false" min="100" max="100" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			#vitality i pancerz
 			<vitality mult="false" always_random="false" min="495" max="495" />
@@ -1698,8 +1698,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="60" max="60" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1738,8 +1738,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="375" max="375" />
-			<vitality_regen mult="false" always_random="false" min="5.0" max="5.0" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="5.0" max="5.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1779,8 +1779,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="25" max="25" />
 			<ranged_damage_max mult="false" always_random="false" min="45" max="45" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="675" max="675" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1820,8 +1820,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="70" max="70" />
 			<ranged_damage_max mult="false" always_random="false" min="110" max="110" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="780" max="780" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="520" max="520" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="10" max="10" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1860,8 +1860,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="15" max="15" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1901,8 +1901,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="40" max="40" />
 			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="675" max="675" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1941,8 +1941,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="330" max="330" />
-			<vitality_regen mult="false" always_random="false" min="4.4" max="4.4" />
+			<vitality mult="false" always_random="false" min="220" max="220" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.4" max="4.4" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -1981,8 +1981,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="270" max="270" />
-			<vitality_regen mult="false" always_random="false" min="3.6" max="3.6" />
+			<vitality mult="false" always_random="false" min="180" max="180" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.6" max="3.6" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2021,8 +2021,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="120" max="120" />
-			<vitality_regen mult="false" always_random="false" min="1.6" max="1.6" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.6" max="1.6" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2061,8 +2061,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="300" max="300" />
-			<vitality_regen mult="false" always_random="false" min="4.0" max="4.0" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2101,8 +2101,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="150" max="150" />
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2141,8 +2141,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2181,8 +2181,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2221,8 +2221,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2261,8 +2261,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2301,8 +2301,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2341,8 +2341,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="13" max="13" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2381,8 +2381,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="18" max="18" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2421,8 +2421,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="225" max="225" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2461,8 +2461,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="225" max="225" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2501,8 +2501,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="20" max="20" />
 			<ranged_damage_max mult="false" always_random="false" min="25" max="25" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="300" max="300" />
-			<vitality_regen mult="false" always_random="false" min="4.0" max="4.0" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="9" max="9" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2541,8 +2541,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="450" max="450" />
-			<vitality_regen mult="false" always_random="false" min="6.0" max="6.0" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.0" max="6.0" />
 			<damage_reduction mult="false" always_random="false" min="17" max="17" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2581,8 +2581,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2621,8 +2621,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="825" max="825" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="550" max="550" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2661,8 +2661,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="225" max="225" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="12" max="12" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2696,7 +2696,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="188" max="188" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2709,7 +2709,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="225" max="225" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2722,7 +2722,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="262" max="262" />
+			<vitality mult="false" always_random="false" min="350" max="350" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2735,7 +2735,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2748,7 +2748,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="375" max="375" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2761,7 +2761,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="150" max="150" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2774,7 +2774,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="188" max="188" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2787,7 +2787,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="225" max="225" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2800,7 +2800,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="262" max="262" />
+			<vitality mult="false" always_random="false" min="350" max="350" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -2818,8 +2818,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="80" max="80" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2858,8 +2858,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="80" max="80" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="975" max="975" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="650" max="650" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="10" />
@@ -2898,8 +2898,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="180" max="180" />
 			<ranged_damage_max mult="false" always_random="false" min="230" max="230" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="975" max="975" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="650" max="650" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="35" max="35" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2938,8 +2938,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="60" max="60" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="480" max="480" />
-			<vitality_regen mult="false" always_random="false" min="6.4" max="6.4" />
+			<vitality mult="false" always_random="false" min="320" max="320" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="6.4" max="6.4" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -2978,8 +2978,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="60" max="60" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -3013,8 +3013,8 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="750" max="750" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -3028,7 +3028,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="375" max="375" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -3041,7 +3041,7 @@
 			<damage_npc_min mult="false" always_random="false" min="1" max="1" />
 			<damage_npc_max mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="300" max="300" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
 			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction mult="false" always_random="false" min="0" max="0" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -3059,8 +3059,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="80" max="80" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="2100" max="2100" />
-			<vitality_regen mult="false" always_random="false" min="4.0" max="4.0" />
+			<vitality mult="false" always_random="false" min="1400" max="1400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_reduction mult="false" always_random="false" min="25" max="25" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -3106,8 +3106,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="25" max="25" />
 			<ranged_damage_max mult="false" always_random="false" min="40" max="40" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="720" max="720" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="480" max="480" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
 			<damage_reduction mult="false" always_random="false" min="22" max="22" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -3147,8 +3147,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="50" max="50" />
 			<ranged_damage_max mult="false" always_random="false" min="70" max="70" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="600" max="600" />
-			<vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+			<vitality mult="false" always_random="false" min="400" max="400" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
 			<damage_reduction mult="false" always_random="false" min="4" max="4" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
@@ -3187,8 +3187,8 @@
 			<ranged_damage_min mult="false" always_random="false" min="65" max="65" />
 			<ranged_damage_max mult="false" always_random="false" min="75" max="75" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="675" max="675" />
-			<vitality_regen mult="false" always_random="false" min="8" max="8" />
+			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction mult="false" always_random="false" min="5" max="5" />
 			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
@@ -3217,7 +3217,7 @@
 		<ability name="SQ307_Brygida">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="8" max="8" />
-			<vitality mult="false" always_random="false" min="450" max="450" />
+			<vitality mult="false" always_random="false" min="300" max="300" />
 			<vitality_regen mult="false" always_random="false" min="10" max="10" />
 			<vitality_combat_regen mult="false" always_random="false" min="4.0" max="4.0" />
 			<damage_min mult="false" always_random="false" min="10" max="10" />

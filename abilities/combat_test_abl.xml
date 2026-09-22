@@ -1,189 +1,189 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
 		<ability name="CombatTest_Sword">
-			<damage_min mult="false" always_random="false" min="3" max="3"/>
-			<damage_max mult="false" always_random="false" min="5" max="5"/>
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
 		</ability>  
 		<ability name="CombatTwohanded">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="10" max="10"/>
-			<damage_max mult="false" always_random="false" min="20" max="20"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="200" max="200"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="100" max="100"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 		</ability> 
 		<ability name="CombatNekker">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="7" max="7"/>
-			<damage_max mult="false" always_random="false" min="10" max="10"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="10" max="10"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="10" max="10" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 		</ability> 
 		<ability name="CombatSword">
 			#exp
-			<level mult="false" always_random="false" min="2" max="2"/>
-			<experience mult="false" always_random="false" min="5" max="5"/>
+			<level mult="false" always_random="false" min="2" max="2" />
+			<experience mult="false" always_random="false" min="5" max="5" />
 			#damage
-			<damage_min mult="false" always_random="false" min="10" max="10"/>
-			<damage_max mult="false" always_random="false" min="15" max="15"/>
-			<damage_npc_min mult="false" always_random="false" min="5" max="5"/>
-			<damage_npc_max mult="false" always_random="false" min="5" max="5"/>
-			<ranged_damage_min mult="false" always_random="false" min="8" max="8"/>
-			<ranged_damage_max mult="false" always_random="false" min="10" max="10"/>
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="15" max="15" />
+			<damage_npc_min mult="false" always_random="false" min="5" max="5" />
+			<damage_npc_max mult="false" always_random="false" min="5" max="5" />
+			<ranged_damage_min mult="false" always_random="false" min="8" max="8" />
+			<ranged_damage_max mult="false" always_random="false" min="10" max="10" />
 			#vitality i pancerz
-			<vitality mult="false" always_random="false" min="5000" max="5000"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="100" max="100"/>
+			<vitality mult="false" always_random="false" min="5000" max="5000" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 			#zdolnosci specjalne
-			<block mult="false" always_random="false" min="0.2" max="0.2"/>
-			<heal_spell mult="false" always_random="false" min="0.0" max="0.0"/>
+			<block mult="false" always_random="false" min="0.2" max="0.2" />
+			<heal_spell mult="false" always_random="false" min="0.0" max="0.0" />
 			#celnosc pociskow
-			<shot_accuracy mult="false" always_random="false" min="20" max="20"/>
+			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
 			#odpornosci
-			<res_aard mult="false" always_random="false" min="0.0" max="0.0"/>
-			<res_igni mult="false" always_random="false" min="0.5" max="0.5"/>
-			<res_yrden mult="false" always_random="false" min="0.05" max="0.05"/>
-			<res_quen mult="false" always_random="false" min="0.0" max="0.0"/>
-			<res_axii mult="false" always_random="false" min="0.0" max="0.0"/>
-			<res_stun mult="false" always_random="false" min="0.05" max="0.05"/>
-			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05"/>
-			<res_bleed mult="false" always_random="false" min="0.02" max="0.02"/>
-			<res_poison mult="false" always_random="false" min="0.0" max="0.0"/>
-			<res_burn mult="false" always_random="false" min="0.0" max="0.0"/>
-			<res_falldown mult="false" always_random="false" min="0.0" max="0.0"/>
+			<res_aard mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_igni mult="false" always_random="false" min="0.5" max="0.5" />
+			<res_yrden mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_quen mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_axii mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_stun mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_knockdown mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_bleed mult="false" always_random="false" min="0.02" max="0.02" />
+			<res_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_burn mult="false" always_random="false" min="0.0" max="0.0" />
+			<res_falldown mult="false" always_random="false" min="0.0" max="0.0" />
 			#efekty krytyczne
-			<crt_bleed mult="false" always_random="false" min="0.05" max="0.05"/>
-			<crt_poison mult="false" always_random="false" min="0.0" max="0.0"/>
-			<crt_burn mult="false" always_random="false" min="0.0" max="0.0"/>
+			<crt_bleed mult="false" always_random="false" min="0.05" max="0.05" />
+			<crt_poison mult="false" always_random="false" min="0.0" max="0.0" />
+			<crt_burn mult="false" always_random="false" min="0.0" max="0.0" />
 		</ability>		
 		<ability name="CombatShield">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="10" max="10"/>
-			<damage_max mult="false" always_random="false" min="20" max="20"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="200" max="200"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="1000" max="1000"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="200" max="200" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="1000" max="1000" />
 		</ability> 
 		<ability name="CombatCrossbow">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="20" max="20"/>
-			<damage_max mult="false" always_random="false" min="30" max="30"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<shot_accuracy mult="false" always_random="false" min="70" max="70"/>
-			<vitality mult="false" always_random="false" min="100" max="100"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="0" max="0"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<shot_accuracy mult="false" always_random="false" min="70" max="70" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
 		</ability> 
 		<ability name="CombatMage">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="20" max="20"/>
-			<damage_max mult="false" always_random="false" min="30" max="30"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="250" max="250"/>
-			<shot_accuracy mult="false" always_random="false" min="20" max="20"/>
-			<ranged_damage_min mult="false" always_random="false" min="30" max="30"/>
-			<ranged_damage_max mult="false" always_random="false" min="50" max="50"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="0" max="0"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="30" max="30" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="250" max="250" />
+			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
+			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
 		</ability> 
 		<ability name="CombatTest_Swordfighter">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="10" max="10"/>
-			<damage_max mult="false" always_random="false" min="10" max="10"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="500" max="500"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="100" max="100"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="500" max="500" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 		</ability> 
 		<ability name="CombatTest_Dual">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="20" max="20"/>
-			<damage_max mult="false" always_random="false" min="40" max="40"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="70" max="70"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="100" max="100"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="70" max="70" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
 		</ability> 
 		<ability name="CombatTest_Mage">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="50" max="50"/>
-			<damage_max mult="false" always_random="false" min="80" max="80"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<shot_accuracy mult="false" always_random="false" min="20" max="20"/>
-			<ranged_damage_min mult="false" always_random="false" min="30" max="30"/>
-			<ranged_damage_max mult="false" always_random="false" min="50" max="50"/>
-			<crt_burn mult="false" always_random="false" min="0.5" max="0.5"/>
-			<heal_spell mult="false" always_random="false" min="20.0" max="20.0"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="80" max="80" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<shot_accuracy mult="false" always_random="false" min="20" max="20" />
+			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
+			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
+			<crt_burn mult="false" always_random="false" min="0.5" max="0.5" />
+			<heal_spell mult="false" always_random="false" min="20.0" max="20.0" />
 		</ability> 
 		<ability name="CombatTest_Archer_Week">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="50" max="50"/>
-			<damage_max mult="false" always_random="false" min="80" max="80"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<shot_accuracy mult="false" always_random="false" min="0.2" max="0.2"/>
-			<ranged_damage_min mult="false" always_random="false" min="30" max="30"/>
-			<ranged_damage_max mult="false" always_random="false" min="50" max="50"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="80" max="80" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<shot_accuracy mult="false" always_random="false" min="0.2" max="0.2" />
+			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
+			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 		</ability> 
 		<ability name="CombatTest_Archer_Best">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="50" max="50"/>
-			<damage_max mult="false" always_random="false" min="80" max="80"/>
-			<experience mult="false" always_random="false" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_regen mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<shot_accuracy mult="false" always_random="false" min="0.8" max="0.8"/>
-			<ranged_damage_min mult="false" always_random="false" min="30" max="30"/>
-			<ranged_damage_max mult="false" always_random="false" min="50" max="50"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="80" max="80" />
+			<experience mult="false" always_random="false" min="1" max="1" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<shot_accuracy mult="false" always_random="false" min="0.8" max="0.8" />
+			<ranged_damage_min mult="false" always_random="false" min="30" max="30" />
+			<ranged_damage_max mult="false" always_random="false" min="50" max="50" />
 		</ability> 
 
 		`	<ability name="CombatTestTwohanded">
-			<vitality mult="false" always_random="false" min="100" max="100"/>
-			<vitality_regen mult="false" always_random="false" min="1" max="1"/>
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="false" always_random="false" min="1" max="1"/>
-			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction mult="false" always_random="false" min="3" max="3"/>
-			<damage_reduction_block mult="false" always_random="false" min="1000" max="1000"/>
-			<res_fear mult="false" always_random="false" min="1" max="1"/>
-			<res_disarm mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="15" max="15"/>
-			<damage_max mult="false" always_random="false" min="25" max="25"/>
-			<evade mult="false" always_random="false" min="1" max="1"/>
-			<block mult="false" always_random="false" min="1" max="1"/>        
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="3" max="3" />
+			<damage_reduction_block mult="false" always_random="false" min="1000" max="1000" />
+			<res_fear mult="false" always_random="false" min="1" max="1" />
+			<res_disarm mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="15" max="15" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<evade mult="false" always_random="false" min="1" max="1" />
+			<block mult="false" always_random="false" min="1" max="1" />        
 		</ability>  
 		`	<ability name="CombatTestSwordSkilled">
-			<vitality mult="false" always_random="false" min="80" max="80"/>
-			<vitality_regen mult="false" always_random="false" min="1" max="1"/>
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="false" always_random="false" min="1" max="1"/>
-			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="100" max="100"/>
-			<res_fear mult="false" always_random="false" min="1" max="1"/>
-			<res_disarm mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="10" max="10"/>
-			<damage_max mult="false" always_random="false" min="15" max="15"/>
-			<evade mult="false" always_random="false" min="1" max="1"/>
-			<block mult="false" always_random="false" min="0.4" max="0.4"/>        
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="false" always_random="false" min="1" max="1" />
+			<endurance_noncombat_regen mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="100" max="100" />
+			<res_fear mult="false" always_random="false" min="1" max="1" />
+			<res_disarm mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="15" max="15" />
+			<evade mult="false" always_random="false" min="1" max="1" />
+			<block mult="false" always_random="false" min="0.4" max="0.4" />        
 		</ability>   		
 
 	</abilities>

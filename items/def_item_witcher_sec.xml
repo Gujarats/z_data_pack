@@ -1,870 +1,519 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
    # definicje abilities dla dodatkowych broni - narazie temp zeby jakies byly
     <abilities> 
     		<ability name="W_StennisSwd _Stats">
-			<damage_min mult="false" always_random="false" min="22" max="23"/>
-			<damage_max mult="false" always_random="false" min="28" max="29"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="22" max="23" />
+			<damage_max mult="false" always_random="false" min="28" max="29" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_Axe01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8"/>
-			<damage_max mult="false" always_random="false" min="12" max="12"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.20" max="0.30"/>
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.20" max="0.30" />
 		</ability>
 		<ability name="W_Axe02 _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="6"/>
-			<damage_max mult="false" always_random="false" min="14" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.20" max="0.30"/>
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="14" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.20" max="0.30" />
 		</ability>
 		<ability name="W_Club01 _Stats">
-			<damage_min mult="false" always_random="false" min="4" max="5"/>
-			<damage_max mult="false" always_random="false" min="9" max="10"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="10" max="10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_Club02 _Stats">
-			<damage_min mult="false" always_random="false" min="3" max="4"/>
-			<damage_max mult="false" always_random="false" min="10" max="11"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="12" max="12" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_Club03 _Stats">
-			<damage_min mult="false" always_random="false" min="3" max="3"/>
-			<damage_max mult="false" always_random="false" min="12" max="12"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
+			<damage_min mult="false" always_random="false" min="3" max="3" />
+			<damage_max mult="false" always_random="false" min="12" max="12" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_AxeDwarf01 _Stats">
-			<damage_min mult="false" always_random="false" min="7" max="8"/>
-			<damage_max mult="false" always_random="false" min="13" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.20" max="0.30"/>
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_HammerDwarf01 _Stats">
-			<damage_min mult="false" always_random="false" min="5" max="6"/>
-			<damage_max mult="false" always_random="false" min="13" max="14"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="7" max="7" />
+			<damage_max mult="false" always_random="false" min="20" max="20" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.1" max="0.15" />
 		</ability>
 		<ability name="W_ElvenMesser01 _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="8"/>
-			<damage_max mult="false" always_random="false" min="10" max="12"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="12" max="13" />
+			<damage_max mult="false" always_random="false" min="14" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_ElvenSword01 _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="12"/>
-			<damage_max mult="false" always_random="false" min="14" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="12" max="14" />
+			<damage_max mult="false" always_random="false" min="15" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_ElvenSword02 _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="12"/>
-			<damage_max mult="false" always_random="false" min="14" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="12" max="14" />
+			<damage_max mult="false" always_random="false" min="15" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_ExecRod _Stats">
-			<damage_min mult="false" always_random="false" min="3" max="3"/>
-			<damage_max mult="false" always_random="false" min="6" max="6"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.20" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="6" max="6" />
+			<damage_max mult="false" always_random="false" min="12" max="12" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.20" max="0.25" />
 		</ability>
 		<ability name="W_ExecSword _Stats">
-			<damage_min mult="false" always_random="false" min="9" max="9"/>
-			<damage_max mult="false" always_random="false" min="14" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="14" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.15" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.05" max="0.1" />
 		</ability>
 		<ability name="W_Halberd01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="16" max="18"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" />
 		</ability>
 		<ability name="W_Halberd02 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="16" max="18"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" />
 		</ability>
 		<ability name="W_Hammer01 _Stats">
-			<damage_min mult="false" always_random="false" min="4" max="4"/>
-			<damage_max mult="false" always_random="false" min="8" max="8"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" />
 		</ability>
 		<ability name="W_HenseltSword01 _Stats">
-			<damage_min mult="false" always_random="false" min="25" max="26"/>
-			<damage_max mult="false" always_random="false" min="32" max="33"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" type="critical"/>
+			<damage_min mult="false" always_random="false" min="25" max="26" />
+			<damage_max mult="false" always_random="false" min="32" max="33" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.05" max="0.1" type="critical" />
 		</ability>
 		<ability name="W_Messer01 _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="12"/>
-			<damage_max mult="false" always_random="false" min="14" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="13" />
+			<damage_max mult="false" always_random="false" min="16" max="17" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
 		</ability>
 		<ability name="W_Messer02 _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="12"/>
-			<damage_max mult="false" always_random="false" min="14" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="13" />
+			<damage_max mult="false" always_random="false" min="16" max="17" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_NilfgaardSword01 _Stats">
-			<damage_min mult="false" always_random="false" min="9" max="11"/>
-			<damage_max mult="false" always_random="false" min="14" max="15"/>
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.20" max="0.25" type="critical"/>
+			<damage_min mult="false" always_random="false" min="17" max="18" />
+			<damage_max mult="false" always_random="false" min="24" max="25" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.20" max="0.25" type="critical" />
 		</ability>
 		<ability name="W_RustyDagger01 _Stats">
-			<damage_min mult="false" always_random="false" min="4" max="4"/>
-			<damage_max mult="false" always_random="false" min="6" max="6"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.01" max="0.05"/>
+			<damage_min mult="false" always_random="false" min="5" max="5" />
+			<damage_max mult="false" always_random="false" min="8" max="8" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.02" max="0.05" />
 		</ability>
 		<ability name="W_Sabre01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="12" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="11" max="12" />
+			<damage_max mult="false" always_random="false" min="15" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="W_Sabre02 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="12" max="15"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="11" max="12" />
+			<damage_max mult="false" always_random="false" min="15" max="16" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
 		</ability>
 		<ability name="W_Staff01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="18" max="19"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="12" max="13" />
+			<damage_max mult="false" always_random="false" min="16" max="17" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.15" max="0.25" />
 		</ability>
 		<ability name="W_Staff02 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="18" max="19"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.25" type="critical"/>
+			<damage_min mult="false" always_random="false" min="14" max="15" />
+			<damage_max mult="false" always_random="false" min="20" max="21" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.25" type="critical" />
 		</ability>
 		<ability name="W_Staff03 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="9"/>
-			<damage_max mult="false" always_random="false" min="18" max="19"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.15" max="0.25"/>
+			<damage_min mult="false" always_random="false" min="12" max="15" />
+			<damage_max mult="false" always_random="false" min="25" max="30" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.15" max="0.25" />
 		</ability>
 		<ability name="W_Sword01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="10"/>
-			<damage_max mult="false" always_random="false" min="11" max="13"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="9" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="13" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
 		</ability>
 		<ability name="W_Sword02 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="10"/>
-			<damage_max mult="false" always_random="false" min="11" max="13"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="9" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="13" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.2" />
 		</ability>
 		<ability name="W_Sword03 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="10"/>
-			<damage_max mult="false" always_random="false" min="11" max="13"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="8" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="W_TwoHander01 _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="11"/>
-			<damage_max mult="false" always_random="false" min="16" max="17"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="19" max="20" />
+			<damage_max mult="false" always_random="false" min="24" max="25" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
 		</ability>
 		<ability name="W_WraithSword01 _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="10"/>
-			<damage_max mult="false" always_random="false" min="12" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="8" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>
 		<ability name="W_Paddle01 _Stats">
-			<damage_min mult="false" always_random="false" min="5" max="9"/>
-			<damage_max mult="false" always_random="false" min="12" max="16"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="8" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="14" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_Rake01 _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="8"/>
-			<damage_max mult="false" always_random="false" min="12" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="8" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="14" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_SuccubusStaff01 _Stats">
-			<damage_min mult="false" always_random="false" min="9" max="10"/>
-			<damage_max mult="false" always_random="false" min="19" max="20"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.20" max="0.25"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10"/>
+			<damage_min mult="false" always_random="false" min="14" max="15" />
+			<damage_max mult="false" always_random="false" min="20" max="21" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.10" />
 		</ability>
 		<ability name="W_PickAxe01 _Stats">
-			<damage_min mult="false" always_random="false" min="7" max="8"/>
-			<damage_max mult="false" always_random="false" min="12" max="16"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="14" />
+			<damage_max mult="false" always_random="false" min="20" max="22" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
 		</ability>
 		<ability name="W_PickAxe02 _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="7"/>
-			<damage_max mult="false" always_random="false" min="12" max="14"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="12" max="14" />
+			<damage_max mult="false" always_random="false" min="20" max="22" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
 		</ability>
 		<ability name="W_DeathmoldStaff _Stats">
-			<damage_min mult="false" always_random="false" min="6" max="7"/>
-			<damage_max mult="false" always_random="false" min="16" max="17"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="14" max="15" />
+			<damage_max mult="false" always_random="false" min="20" max="21" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
+			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20" />
 		</ability>
 		<ability name="W_Ladle01 _Stats">
-			<damage_min mult="false" always_random="false" min="1" max="1"/>
-			<damage_max mult="false" always_random="false" min="2" max="2"/>
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="5" max="5" />
 		</ability>
 		<ability name="W_Shovel01 _Stats">
-			<damage_min mult="false" always_random="false" min="5" max="9"/>
-			<damage_max mult="false" always_random="false" min="12" max="14"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.15" max="0.20"/>
+			<damage_min mult="false" always_random="false" min="8" max="10" />
+			<damage_max mult="false" always_random="false" min="12" max="14" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" />
 		</ability>
 		<ability name="W_Broom01 _Stats">
-			<damage_min mult="false" always_random="false" min="2" max="4"/>
-			<damage_max mult="false" always_random="false" min="6" max="8"/>
+			<damage_min mult="false" always_random="false" min="4" max="4" />
+			<damage_max mult="false" always_random="false" min="7" max="7" />
 		</ability>
 		<ability name="W_Pale01 _Stats">
-			<damage_min mult="false" always_random="false" min="3" max="5"/>
-			<damage_max mult="false" always_random="false" min="7" max="9"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.10" max="0.15"/>
+			<damage_min mult="false" always_random="false" min="4" max="5" />
+			<damage_max mult="false" always_random="false" min="8" max="9" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.10" max="0.15" />
 		</ability>
 		<ability name="Fishing Rod _Stats">
-			<damage_min mult="false" always_random="false" min="2" max="3"/>
-			<damage_max mult="false" always_random="false" min="6" max="7"/>
+			<damage_min mult="false" always_random="false" min="2" max="3" />
+			<damage_max mult="false" always_random="false" min="6" max="7" />
 		</ability>
 		<ability name="W_OperatorStaff _Stats">
-			<damage_min mult="false" always_random="false" min="15" max="15"/>
-			<damage_max mult="false" always_random="false" min="40" max="40"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.20" max="0.25"/>
-            <crt_freeze mult="false" display_perc="true" always_random="false" min="0.20" max="0.25"/>            
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.8" max="0.8" />
+            <crt_freeze mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />            
 		</ability>
     </abilities>
     	
 	# definicje uzbrojenia geralta nie bedacego mieczami
     <items>
-	<item name="W_StennisSwd"
-              category="steelsword"
-              ability_slots="0" 
-              equip_template="geralt_secondar__stennis_sword_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-	      ability_mode="OnHold"
-              lethal="true">
+	<item name="W_StennisSwd" category="steelsword" ability_slots="0" equip_template="geralt_secondar__stennis_sword_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_StennisSwd _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>	
 	
-	<item name="W_Axe01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__axe_2" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_Axe01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__axe_2" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,Secondary,SteelSword,crt_bleed</tags>
-		<bound_items></bound_items>
+		<bound_items />
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_Axe01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>	
-	<item name="W_Axe02"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__axe_1"
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_Axe02" category="steelsword" ability_slots="0" equip_template="geralt_secondary__axe_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_Axe02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>	
 
-	<item name="W_Club01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__club_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Club01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__club_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_3</a>
 				<a>W_Club01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
-	<item name="W_Club02"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__club_2" 
-		equip_slot="steel_sword_slot" 
-		stackable = "false" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Club02" category="steelsword" ability_slots="0" equip_template="geralt_secondary__club_2" equip_slot="steel_sword_slot" stackable="false" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_Club02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
-	<item name="W_Club03"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__club_3" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Club03" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__club_3" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_Club03 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_AxeDwarf01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__dwarf_axe_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_AxeDwarf01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__dwarf_axe_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_AxeDwarf01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_HammerDwarf01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__dwarf_hammer_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_HammerDwarf01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__dwarf_hammer_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_HammerDwarf01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_ElvenMesser01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		ability_mode="OnHold"
-		equip_template="geralt_secondary__elven_messer_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		lethal="true">
+	<item name="W_ElvenMesser01" category="steelsword" ability_slots="0" stackable="false" ability_mode="OnHold" equip_template="geralt_secondary__elven_messer_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 		<tags>ShortWeapon,Secondary,crt_bleed,crt_poison</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_ElvenMesser01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_ElvenSword01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__elven_sword_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_ElvenSword01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__elven_sword_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_poison</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_ElvenSword01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 	
-	<item name="W_ElvenSword02"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__elven_sword_2" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_ElvenSword02" category="steelsword" ability_slots="0" equip_template="geralt_secondary__elven_sword_2" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_poison</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_ElvenSword02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_ExecRod"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__executioner_rod_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_ExecRod" category="steelsword" ability_slots="0" equip_template="geralt_secondary__executioner_rod_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,Secondary,crt_bleed,crt_burn</tags>
 		<base_abilities>
 				<a>Weight_4</a>
 				<a>W_ExecRod _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_ExecSword"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__executioner_sword_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		ability_mode="OnHold"
-		lethal="true">
+	<item name="W_ExecSword" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__executioner_sword_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_burn</tags>
 		<base_abilities>
 				<a>Weight_9</a>
 				<a>W_ExecSword _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>	
 
 # Halabarda
-	<item name="W_Halberd01"
-		category="steelsword" 
-		enhancement_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__halberd_1"
-		equip_slot="steel_sword_back_slot"
-		hold_slot="r_weapon"
-		weapon="true"
-		ability_mode="OnHold"
-		lethal="true"
-		ability_mode="OnHold">
+	<item name="W_Halberd01" category="steelsword" enhancement_slots="0" stackable="false" equip_template="geralt_secondary__halberd_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" ability_mode="OnHold" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_13</a>
 				<a>W_Halberd01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		<ingredients_list crafted_item="">
@@ -873,53 +522,22 @@
 		</ingredients_list>
 	</item>
 
-	<item name="W_Halberd02"
-		category="steelsword" 
-		enhancement_slots="0" 
-		equip_template="geralt_secondary__halberd_2"
-		stackable = "false" 
-		equip_slot="steel_sword_back_slot"
-		hold_slot="r_weapon"
-		weapon="true"
-		lethal="true"
-		ability_mode="OnHold"
-		draw_event="draw_steel_sword_back"
-		draw_act="draw_steel_sword_back_act"
-		draw_deact="draw_steel_sword_back_deact"
-		holster_event="holster_steel_sword_back"
-		holster_act="holster_steel_sword_back_act"
-		holster_deact="holster_steel_sword_back_deact">
+	<item name="W_Halberd02" category="steelsword" enhancement_slots="0" equip_template="geralt_secondary__halberd_2" stackable="false" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_steel_sword_back" draw_act="draw_steel_sword_back_act" draw_deact="draw_steel_sword_back_deact" holster_event="holster_steel_sword_back" holster_act="holster_steel_sword_back_act" holster_deact="holster_steel_sword_back_deact">
 		<tags>RangeLong,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_14</a>
 				<a>W_Halberd02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		<ingredients_list crafted_item="">
@@ -928,773 +546,342 @@
 		</ingredients_list>
 	</item>
 
-	<item name="W_Hammer01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__hammer_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Hammer01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__hammer_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_2</a>
 				<a>W_Hammer01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_HenseltSword01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__henselt_sword_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_HenseltSword01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__henselt_sword_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_HenseltSword01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Messer01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__messer_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Messer01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__messer_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_Messer01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 	
-	<item name="W_Messer02"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__messer_2" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Messer02" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__messer_2" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_Messer02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_NilfgaardSword01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__nilfgaard_sword_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_NilfgaardSword01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__nilfgaard_sword_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_bleed,crt_poison</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_NilfgaardSword01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_RustyDagger01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__rusty_dagger_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_RustyDagger01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__rusty_dagger_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_2</a>
 				<a>W_RustyDagger01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Sabre01"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__sabre_1" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Sabre01" category="steelsword" ability_slots="0" equip_template="geralt_secondary__sabre_1" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_Sabre01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 	
-	<item name="W_Sabre02"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__sabre_2" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Sabre02" category="steelsword" ability_slots="0" equip_template="geralt_secondary__sabre_2" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_Sabre02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Staff01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__staff_1" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Staff01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__staff_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_freeze,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_8</a>
 				<a>W_Staff01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Staff02"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__staff_2" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Staff02" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__staff_2" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_knockdown,crt_poison,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_Staff02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Staff03"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__staff_3" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Staff03" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__staff_3" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_burn,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_8</a>
 				<a>W_Staff03 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Sword01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		ability_mode="OnHold"
-		equip_template="geralt_secondary__sword_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		lethal="true">
+	<item name="W_Sword01" category="steelsword" ability_slots="0" stackable="false" ability_mode="OnHold" equip_template="geralt_secondary__sword_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_8</a>
 				<a>W_Sword01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Sword02"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__sword_2" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Sword02" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__sword_2" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_Sword02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>	
 
-	<item name="W_Sword03"
-		category="steelsword"
-		ability_slots="0" 
-		equip_template="geralt_secondary__sword_3" 
-		stackable = "false" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Sword03" category="steelsword" ability_slots="0" equip_template="geralt_secondary__sword_3" stackable="false" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_knockdown</tags>
 		<base_abilities>
 				<a>Weight_7</a>
 				<a>W_Sword03 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_TwoHander01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__twohanded_1" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon"
-		ability_mode="OnHold"		
-		weapon="true" 
-		lethal="true">
+	<item name="W_TwoHander01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__twohanded_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>SteelSword,Secondary,Secondary,crt_bleed,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_12</a>
 				<a>W_TwoHander01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_WraithSword01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__wraith_sword_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_WraithSword01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__wraith_sword_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>SteelSword,ShortWeapon,Secondary,crt_bleed,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_8</a>
 				<a>W_WraithSword01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Paddle01"
-		category="steelsword" 
-		enhancement_slots="0" 
-		equip_template="geralt_secondary__paddle_1"
-		equip_slot="steel_sword_back_slot"
-		stackable = "false" 
-		hold_slot="r_weapon"
-		weapon="true"
-		lethal="true"
-		ability_mode="OnHold"
-		draw_event="draw_steel_sword_back"
-		draw_act="draw_steel_sword_back_act"
-		draw_deact="draw_steel_sword_back_deact"
-		holster_event="holster_steel_sword_back"
-		holster_act="holster_steel_sword_back_act"
-		holster_deact="holster_steel_sword_back_deact">
+	<item name="W_Paddle01" category="steelsword" enhancement_slots="0" equip_template="geralt_secondary__paddle_1" equip_slot="steel_sword_back_slot" stackable="false" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_steel_sword_back" draw_act="draw_steel_sword_back_act" draw_deact="draw_steel_sword_back_deact" holster_event="holster_steel_sword_back" holster_act="holster_steel_sword_back_act" holster_deact="holster_steel_sword_back_deact">
 		<tags>RangeLong,SteelSword,Secondary,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_Paddle01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		<ingredients_list crafted_item="">
@@ -1703,53 +890,22 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="W_Rake01"
-		category="steelsword" 
-		enhancement_slots="0" 
-		equip_template="geralt_secondary__rake_1"
-		equip_slot="steel_sword_back_slot"
-		stackable = "false" 
-		hold_slot="r_weapon"
-		weapon="true"
-		lethal="true"
-		ability_mode="OnHold"
-		draw_event="draw_steel_sword_back"
-		draw_act="draw_steel_sword_back_act"
-		draw_deact="draw_steel_sword_back_deact"
-		holster_event="holster_steel_sword_back"
-		holster_act="holster_steel_sword_back_act"
-		holster_deact="holster_steel_sword_back_deact">
+	<item name="W_Rake01" category="steelsword" enhancement_slots="0" equip_template="geralt_secondary__rake_1" equip_slot="steel_sword_back_slot" stackable="false" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_steel_sword_back" draw_act="draw_steel_sword_back_act" draw_deact="draw_steel_sword_back_deact" holster_event="holster_steel_sword_back" holster_act="holster_steel_sword_back_act" holster_deact="holster_steel_sword_back_deact">
 		<tags>RangeLong,SteelSword,Secondary,crt_bleed,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_Rake01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		<ingredients_list crafted_item="">
@@ -1758,53 +914,22 @@
 		</ingredients_list>
 	</item>
 
-	<item name="W_SuccubusStaff01"
-		category="steelsword" 
-		enhancement_slots="0" 
-		equip_template="geralt_secondary__succubus_staff_1"
-		equip_slot="steel_sword_back_slot"
-		stackable = "false" 
-		hold_slot="r_weapon"
-		weapon="true"
-		lethal="true"
-		ability_mode="OnHold"
-		draw_event="draw_steel_sword_back"
-		draw_act="draw_steel_sword_back_act"
-		draw_deact="draw_steel_sword_back_deact"
-		holster_event="holster_steel_sword_back"
-		holster_act="holster_steel_sword_back_act"
-		holster_deact="holster_steel_sword_back_deact">
+	<item name="W_SuccubusStaff01" category="steelsword" enhancement_slots="0" equip_template="geralt_secondary__succubus_staff_1" equip_slot="steel_sword_back_slot" stackable="false" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_steel_sword_back" draw_act="draw_steel_sword_back_act" draw_deact="draw_steel_sword_back_deact" holster_event="holster_steel_sword_back" holster_act="holster_steel_sword_back_act" holster_deact="holster_steel_sword_back_deact">
 		<tags>RangeLong,SteelSword,Secondary,crt_burn,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_8</a>
 				<a>W_SuccubusStaff01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		<ingredients_list crafted_item="">
@@ -1813,346 +938,154 @@
 		</ingredients_list>
 	</item>
 
-	<item name="W_PickAxe01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__pickaxe_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_PickAxe01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__pickaxe_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_PickAxe01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 	</item>
 
-	<item name="W_PickAxe02"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__pickaxe_2" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_PickAxe02" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__pickaxe_2" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed</tags>
 		<base_abilities>
 				<a>Weight_6</a>
 				<a>W_PickAxe02 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 	</item>
 
-	<item name="W_DeathmoldStaff"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__detmold_staff_1" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_DeathmoldStaff" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__detmold_staff_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_burn,crt_freeze,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_DeathmoldStaff _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Ladle01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		ability_mode="OnHold"
-		equip_template="geralt_secondary__laddle_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		weapon="true" 
-		lethal="true">
+	<item name="W_Ladle01" category="steelsword" ability_slots="0" stackable="false" ability_mode="OnHold" equip_template="geralt_secondary__laddle_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary</tags>
 		<base_abilities>
 				<a>Weight_4</a>
 				<a>W_Ladle01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Shovel01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__shovel_1" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Shovel01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__shovel_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_Shovel01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 	
-	<item name="W_Broom01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__broom_1" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Broom01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__broom_1" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_5</a>
 				<a>W_Broom01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>
 
-	<item name="W_Pale01"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="geralt_secondary__pale_1" 
-		equip_slot="steel_sword_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+	<item name="W_Pale01" category="steelsword" ability_slots="0" stackable="false" equip_template="geralt_secondary__pale_1" equip_slot="steel_sword_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>ShortWeapon,SteelSword,Secondary,crt_bleed,crt_knockdown,crt_stun</tags>
 		<base_abilities>
 				<a>Weight_4</a>
 				<a>W_Pale01 _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_side" 
-				act="holster_steel_sword_side_act" 
-				deact="holster_steel_sword_side_deact">
+			<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_side" 
-				act="draw_steel_sword_side_act" 
-				deact="draw_steel_sword_side_deact">
+			<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 			
 	</item>
-		<item name="W_OperatorStaff"
-		category="steelsword"
-		ability_slots="0" 
-		stackable = "false" 
-		equip_template="wran_staff_g" 
-		equip_slot="steel_sword_back_slot" 
-		hold_slot="r_weapon" 
-		ability_mode="OnHold"
-		weapon="true" 
-		lethal="true">
+		<item name="W_OperatorStaff" category="steelsword" ability_slots="0" stackable="false" equip_template="wran_staff_g" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" ability_mode="OnHold" weapon="true" lethal="true">
 		<tags>RangeLong,SteelSword,Secondary,crt_burn,crt_freeze,crt_knockdown,crt_stun,Quest</tags>
 		<base_abilities>
 				<a>Weight_10</a>
 				<a>W_OperatorStaff _Stats</a>
 		</base_abilities>
 		<anim_actions>
-			<action 
-				name="draw" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="draw" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
-			<action 
-				name="holster" 
-				event="holster_steel_sword_back" 
-				act="holster_steel_sword_back_act" 
-				deact="holster_steel_sword_back_deact">
+			<action name="holster" event="holster_steel_sword_back" act="holster_steel_sword_back_act" deact="holster_steel_sword_back_deact">
 			</action>
-			<action 
-				name="attack" 
-				event="draw_steel_sword_back" 
-				act="draw_steel_sword_back_act" 
-				deact="draw_steel_sword_back_deact">
+			<action name="attack" event="draw_steel_sword_back" act="draw_steel_sword_back_act" deact="draw_steel_sword_back_deact">
 			</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="silversword" 
-					event="silver_to_steel"
-					switch_act="silver_to_steel_act"
-					switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 	</item>

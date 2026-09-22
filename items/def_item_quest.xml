@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -165,19 +165,19 @@
 			</base_abilities>
 		</item>
 
-		<item name="Heart of nekker" category="quest" ability_slots="0" stackable = "true" template="sq101_heart_nek_01" equip_slot="" hold_slot="">
+		<item name="Heart of nekker" category="quest" ability_slots="0" stackable="true" template="sq101_heart_nek_01" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,Quest</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Eyes of nekker" category="quest" ability_slots="0" stackable = "true" template="sq101_eyes_nek_01" equip_slot="" hold_slot="">
+		<item name="Eyes of nekker" category="quest" ability_slots="0" stackable="true" template="sq101_eyes_nek_01" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,Quest</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Hearts and eyes of ox" category="quest" ability_slots="0" stackable = "true" template="sq101_heart_eyes_ox_01" equip_slot="" hold_slot="">
+		<item name="Hearts and eyes of ox" category="quest" ability_slots="0" stackable="true" template="sq101_heart_eyes_ox_01" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,Quest</tags>
 			<base_abilities>
 				<a>Price_30</a>
@@ -190,7 +190,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Xeranthemum" category="quest" ability_slots="0" template="q203_xeranthemum_herb" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Xeranthemum" category="quest" ability_slots="0" template="q203_xeranthemum_herb" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeQuest,SortTypeIngridients,Fulgur,Quest</tags>
 			<base_abilities>
 			</base_abilities>
@@ -309,46 +309,22 @@
 			<base_abilities>
 			</base_abilities>
 		</item>
-		<item name="Filippa's Dagger"
-				category="steelsword"
-				ability_slots="0" 
-				equip_template="saskia_dagger" 
-				stackable = "true" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Filippa's Dagger" category="steelsword" ability_slots="0" equip_template="saskia_dagger" stackable="true" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>SteelSword,SortTypeWeapon,sword_normal,Weapon,ShortWeapon,SortTypeQuest,Quest,crt_bleed,crt_poison</tags>
 			<base_abilities>
 				<a>Weight_5</a>
 				<a>W_StennisSwd _Stats</a>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="attack" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-						category="silversword" 
-						event="silver_to_steel"
-						switch_act="silver_to_steel_act"
-						switch_deact="silver_to_steel_deact">
+				<anim_switch category="silversword" event="silver_to_steel" switch_act="silver_to_steel_act" switch_deact="silver_to_steel_deact">
 				</anim_switch>
 			</anim_switches>
 		</item>		
@@ -589,4 +565,4 @@
 		</item>
 
 	</items>
-</definitions>	
+</definitions>

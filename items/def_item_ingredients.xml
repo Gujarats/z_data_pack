@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,329 +7,329 @@
 
 		# Skladniki rzemieslnicze
 
-		<item name="Diamond Dust" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_04" equip_slot="" hold_slot="">
+		<item name="Diamond Dust" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_04" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,TypeMagic,AlchemyIngridient,CraftingIngridient,Hydragenum</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Amethyst Dust" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_05" equip_slot="" hold_slot="">
+		<item name="Amethyst Dust" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_05" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,TypeMagic,AlchemyIngridient,CraftingIngridient,Caelum</tags>
 			<base_abilities>
 				<a>Price_15</a>
 			</base_abilities>
 		</item>
 
-		<item name="Cloth" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Cloth" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_15</a>
 			</base_abilities>
 		</item>
 
-		<item name="Quality cloth" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Quality cloth" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_25</a>
 			</base_abilities>
 		</item>
 
-		<item name="Leather" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Leather" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_15</a>
 			</base_abilities>
 		</item>
 
-		<item name="Hardened leather" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Hardened leather" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Studded leather" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Studded leather" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_30</a>
 			</base_abilities>
 		</item>
 
-		<item name="Iron ore" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_06" equip_slot="" hold_slot="">
+		<item name="Iron ore" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_06" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_15</a>
 			</base_abilities>
 		</item>
 
-		<item name="Silver ore" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_17" equip_slot="" hold_slot="">
+		<item name="Silver ore" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_17" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_35</a>
 			</base_abilities>
 		</item>
 
-		<item name="Dragon scales" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Dragon scales" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_75</a>
 			</base_abilities>
 		</item>
 
-		<item name="Draug essence" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Draug essence" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_500</a>
 			</base_abilities>
 		</item>
 
-		<item name="Wood lumber" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Wood lumber" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_5</a>
 			</base_abilities>
 		</item>
 
-		<item name="Blue meteorite ore" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Blue meteorite ore" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Red meteorite ore" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Red meteorite ore" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Yellow meteorite ore" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Yellow meteorite ore" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Harphy claws" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Harphy claws" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Tentadrake skin" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Tentadrake skin" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_600</a>
 			</base_abilities>
 		</item>
 
-		<item name="Crab spider shell" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Crab spider shell" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Quebrith</tags>
 			<base_abilities>
 				<a>Price_450</a>
 			</base_abilities>
 		</item>
 
-		<item name="Troll skin" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Troll skin" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_300</a>
 			</base_abilities>
 		</item>
 
-		<item name="Water essence" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Water essence" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Hydragenum</tags>
 			<base_abilities>
 				<a>Price_10</a>
 			</base_abilities>
 		</item>
 
-		<item name="Elemental stone" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Elemental stone" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Aether</tags>
 			<base_abilities>
 				<a>Price_20</a>
 			</base_abilities>
 		</item>
 
-		<item name="Harphy feathers" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Harphy feathers" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vermilion</tags>
 			<base_abilities>
 				<a>Price_150</a>
 			</base_abilities>
 		</item>
 
-		<item name="Gargoyle Heart" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Gargoyle Heart" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Quebrith</tags>
 			<base_abilities>
 				<a>Price_250</a>
 			</base_abilities>
 		</item>
 
-		<item name="Gargoyle dust" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Gargoyle dust" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vermilion</tags>
 			<base_abilities>
 				<a>Price_150</a>
 			</base_abilities>
 		</item>
 
-		<item name="Necrophage blood" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Necrophage blood" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Rebis</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Necrophage skin" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Necrophage skin" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Vermilion</tags>
 			<base_abilities>
 				<a>Price_80</a>
 			</base_abilities>
 		</item>
 
-		<item name="Death essence" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Death essence" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_150</a>
 			</base_abilities>
 		</item>
 
-		<item name="Piece of Wraith Knight armor" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Piece of Wraith Knight armor" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_290</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag skin" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Endriag skin" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_70</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag saliva" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Endriag saliva" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vermilion</tags>
 			<base_abilities>
 				<a>Price_30</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag teeth" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Endriag teeth" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Quebrith</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Nekker teeth" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Nekker teeth" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vitriol</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Nekker claws" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Nekker claws" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Hydragenum</tags>
 			<base_abilities>
 				<a>Price_25</a>
 			</base_abilities>
 		</item>
 
-		<item name="Threads" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Threads" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_10</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag embryo" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Endriag embryo" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient, AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_60</a>
 			</base_abilities>
 		</item>
 
-		<item name="Tentadrake eyes" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Tentadrake eyes" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient, AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_700</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag venom" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Endriag venom" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Caelum</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Wraith Knight claws" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Wraith Knight claws" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient, CraftingIngridient,AlchemyIngridient,Rebis</tags>
 			<base_abilities>
 				<a>Price_250</a>
 			</base_abilities>
 		</item>
 
-		<item name="Tentadrake Tissue" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Tentadrake Tissue" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_700</a>
 			</base_abilities>
 		</item>
 
-		<item name="Crab spider eyes" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Crab spider eyes" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Fulgur</tags>
 			<base_abilities>
 				<a>Price_350</a>
 			</base_abilities>
 		</item>
 
-		<item name="Troll tongue" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Troll tongue" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Aether</tags>
 			<base_abilities>
 				<a>Price_350</a>
 			</base_abilities>
 		</item>
 
-		<item name="Harphy saliva" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Harphy saliva" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Caelum</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Harphy eyes" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Harphy eyes" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Aether</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Necrophage eyes" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Necrophage eyes" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vitriol</tags>
 			<base_abilities>
 				<a>Price_70</a>
 			</base_abilities>
 		</item>
 
-		<item name="Necrophage teeth" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_19" equip_slot="" hold_slot="">
+		<item name="Necrophage teeth" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_19" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Rebis</tags>
 			<base_abilities>
 				<a>Price_60</a>
 			</base_abilities>
 		</item>
 
-		<item name="Endriag Mandible" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_17" equip_slot="" hold_slot="">
+		<item name="Endriag Mandible" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_17" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vermilion</tags>
 			<base_abilities>
 				<a>Price_50</a>
 			</base_abilities>
 		</item>
 
-		<item name="Nekker eyes" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crtr_17" equip_slot="" hold_slot="">
+		<item name="Nekker eyes" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crtr_17" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Vitriol</tags>
 			<base_abilities>
 				<a>Price_25</a>
@@ -343,35 +343,35 @@
 			</base_abilities>
 		</item>
 
-		<item name="Piece of Dwarven Armor" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_18" equip_slot="" hold_slot="">
+		<item name="Piece of Dwarven Armor" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_18" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,TypeRare</tags>
 			<base_abilities>
 				<a>Price_350</a>
 			</base_abilities>
 		</item>
 
-		<item name="Oil" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_18" equip_slot="" hold_slot="">
+		<item name="Oil" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_18" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_10</a>
 			</base_abilities>
 		</item>
 
-		<item name="Piece of Draug armor" category="craftingingredient" ability_slots="0" stackable = "true" equip_slot="" hold_slot="">
+		<item name="Piece of Draug armor" category="craftingingredient" ability_slots="0" stackable="true" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient</tags>
 			<base_abilities>
 				<a>Price_550</a>
 			</base_abilities>
 		</item>
 
-		<item name="Drowner brain" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_18" equip_slot="" hold_slot="">
+		<item name="Drowner brain" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_18" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Rebis</tags>
 			<base_abilities>
 				<a>Price_100</a>
 			</base_abilities>
 		</item>
 
-		<item name="Bruxa teeth" category="craftingingredient" ability_slots="0" stackable = "true" template="ingr_crft_18" equip_slot="" hold_slot="">
+		<item name="Bruxa teeth" category="craftingingredient" ability_slots="0" stackable="true" template="ingr_crft_18" equip_slot="" hold_slot="">
 			<tags>SortTypeIngridient,CraftingIngridient,AlchemyIngridient,Caelum</tags>
 			<base_abilities>
 				<a>Price_200</a>

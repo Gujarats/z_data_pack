@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -6,37 +6,16 @@
 	<items>
 
 		#		Definicje broni dla bossow
-		<item name="DraugSword" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="draug_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="DraugSword" category="opponent_weapon" ability_slots="0" equip_template="draug_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	

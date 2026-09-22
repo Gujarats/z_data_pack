@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -6,7 +6,7 @@
     <items>
     
         #		Definicje butow
-        <item name="default_geralt_boots" category="boots" stackable = "true" enhancement_slots="0" equip_template="00_bare_foot" attachment_type="skinning" ability_mode="OnMount">
+        <item name="default_geralt_boots" category="boots" stackable="true" enhancement_slots="0" equip_template="00_bare_foot" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,NoShow</tags>
             <base_abilities>
                </base_abilities>
@@ -16,7 +16,7 @@
     # AKT 1
     
         Q1
-	    <item name="Worn Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="01_worn_boots" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Worn Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="01_worn_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                <a>Worn Leather Boots _Stats</a>
@@ -29,7 +29,7 @@
 		</item>
 
         Q3, QUEST A1
-        <item name="Reinforced Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Reinforced Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="03_worn_hardened_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Reinforced Leather Boots _Stats</a>
@@ -38,12 +38,12 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Cloth</ingredient>
+		<ingredient quantity="1">Cloth</ingredient>
 	  </ingredients_list>
         </item>
   
         Q2
-        <item name="Worn Hardened Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="03_worn_hardened_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Worn Hardened Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Worn Hardened Leather Boots _Stats</a>
@@ -52,12 +52,12 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Hardened leather</ingredient>
+		<ingredient quantity="2">Hardened leather</ingredient>
 	  </ingredients_list>
         </item>
 
         Q2,  QUEST A2
-        <item name="Hardened Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="04_hardened_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Hardened Leather Boots" category="boots" stackable="false" enhancement_slots="1" equip_template="11_elder_blood_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Hardened Leather Boots _Stats</a>
@@ -66,7 +66,7 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Cloth</ingredient>
 		<ingredient quantity="1">Hardened leather</ingredient>
 	  </ingredients_list>
         </item>
@@ -76,7 +76,7 @@
     # AKT 2   
               
         Q5
-        <item name="Kaedwenian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="09_kaedwenian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Kaedwenian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Kaedwenian Unique Leather Boots _Stats</a>
@@ -85,14 +85,14 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Cloth</ingredient>
 		<ingredient quantity="1">Hardened leather</ingredient>
 	  </ingredients_list>
         </item>
 
         
         Q7
-        <item name="Nilfgaardian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="07_nilfgaardian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Nilfgaardian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="04_hardened_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Nilfgaardian Unique Leather Boots _Stats</a>
@@ -107,7 +107,7 @@
         </item>
 
         Q5
-        <item name="Temerian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="05_temerian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Temerian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="05_temerian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeEpic,Dismantle,Boots</tags>
             <base_abilities>
                <a>Temerian Unique Leather Boots _Stats</a>
@@ -125,7 +125,7 @@
     # AKT 3
  
         Q6
-        <item name="High Quality Kaedwenian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="10_hq_kaedwenian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="High Quality Kaedwenian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="09_kaedwenian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>High Quality Kaedwenian Unique Leather Boots _Stats</a>
@@ -140,7 +140,7 @@
         </item>
         
 	    Q8
-        <item name="High Quality Nilfgaardian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="08_hq_nilfgaardian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="High Quality Nilfgaardian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="07_nilfgaardian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>High Quality Nilfgaardian Unique Leather Boots _Stats</a>
@@ -155,7 +155,7 @@
         </item>
 
         Q3
-        <item name="High Quality Temerian Unique Leather Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="06_hq_temerian_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="High Quality Temerian Unique Leather Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>High Quality Temerian Unique Leather Boots _Stats</a>
@@ -164,14 +164,14 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Cloth</ingredient>
 		<ingredient quantity="1">Hardened leather</ingredient>
 	  </ingredients_list>
         </item>	
 
         
         Q10
-        <item name="Unique Leather Boots of Elder Blood" category="boots" stackable = "false" enhancement_slots="0" equip_template="11_elder_blood_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Leather Boots of Elder Blood" category="boots" stackable="false" enhancement_slots="0" equip_template="06_hq_temerian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Unique Leather Boots of Elder Blood _Stats</a>
@@ -191,7 +191,7 @@
 ########## TUTORIAL ##########
 
         Q11
-        <item name="Soaked Wet Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="13_dirty_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Soaked Wet Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="10_hq_kaedwenian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Soaked Wet Boots _Stats</a>
@@ -200,12 +200,12 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Cloth</ingredient>
+		<ingredient quantity="1">Cloth</ingredient>
 	  </ingredients_list>
        </item>
 
         Q11A
-        <item name="Worn Squire Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="01_worn_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Worn Squire Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="08_hq_nilfgaardian_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeQuest,SortTypeArmor,Armor,Dismantle,Boots,Quest</tags>
             <base_abilities>
                 <a>Worn Squire Boots _Stats</a>
@@ -214,7 +214,7 @@
           </base_abilities>
 	    <ingredients_list crafted_item="">
 	<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Cloth</ingredient>
+		<ingredient quantity="1">Cloth</ingredient>
 	  </ingredients_list>
        </item>
 
@@ -222,7 +222,7 @@
 ########## DARK ##########
 
         Q4
-        <item name="Wild Hunt Treads" category="boots" stackable = "false" enhancement_slots="1" equip_template="11_elder_blood_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Wild Hunt Treads" category="boots" stackable="false" enhancement_slots="0" equip_template="11_elder_blood_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Wild Hunt Treads _Stats</a>
@@ -231,14 +231,14 @@
             </base_abilities>
 	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Cloth</ingredient>
+		<ingredient quantity="1">Cloth</ingredient>
 	  </ingredients_list>
         </item>
 
 # Dark armor set - pants - A3 
 
         Q11
-        <item name="Dragonbreath Sabatons" category="boots" stackable = "false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Dragonbreath Sabatons" category="boots" stackable="false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Dragonbreath Sabatons _Stats</a>
@@ -253,7 +253,7 @@
         </item>
 
         Q12
-        <item name="Plane Walkers" category="boots" stackable = "false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Plane Walkers" category="boots" stackable="false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Plane Walkers _Stats</a>
@@ -268,7 +268,7 @@
         </item>
 
         Q13
-        <item name="Lion Spider Boots" category="boots" stackable = "false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Lion Spider Boots" category="boots" stackable="false" enhancement_slots="0" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,TypeMagic,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Lion Spider Boots _Stats</a>
@@ -284,7 +284,7 @@
 
         # Dark Difficulty Boots A1
         Q12
-        <item name="DarkDifficultyBootsA1" category="boots" stackable = "false" enhancement_slots="0" equip_template="12_dark_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="DarkDifficultyBootsA1" category="boots" stackable="false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots,DarkDiffA1</tags>
             <base_abilities>
                 <a>DarkDifficultyBootsA1 _Stats</a>
@@ -299,7 +299,7 @@
           
        # Dark Difficulty Boots A2
        Q13
-        <item name="DarkDifficultyBootsA2" category="boots" stackable = "false" enhancement_slots="0" equip_template="14_medium_dark_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="DarkDifficultyBootsA2" category="boots" stackable="false" enhancement_slots="0" equip_template="13_dirty_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots,DarkDiffA2</tags>
            <base_abilities>
                 <a>DarkDifficultyBootsA2 _Stats</a>
@@ -314,7 +314,7 @@
         
         # Dark Difficulty Boots A3
         Q14
-        <item name="DarkDifficultyBootsA3" category="boots" stackable = "false" enhancement_slots="0" equip_template="15_heavy_dark_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="DarkDifficultyBootsA3" category="boots" stackable="false" enhancement_slots="0" equip_template="01_worn_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots,DarkDiffA3</tags>
             <base_abilities>
                <a>DarkDifficultyBootsA3 _Stats</a>
@@ -333,7 +333,7 @@
 ########## TESTING? ##########
 
         Q9
-        <item name="Unique Boots 1" category="boots" stackable = "false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Boots 1" category="boots" stackable="false" enhancement_slots="0" equip_template="12_dark_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Reinforced Leather Boots _Stats</a>
@@ -347,7 +347,7 @@
         </item>
 
         Q9
-        <item name="Unique Boots 2" category="boots" stackable = "false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Boots 2" category="boots" stackable="false" enhancement_slots="0" equip_template="14_medium_dark_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                 <a>Reinforced Leather Boots _Stats</a>
@@ -361,7 +361,7 @@
         </item>
 
         Q10        
-		<item name="Unique Boots 3" category="boots" stackable = "false" enhancement_slots="0" equip_template="02_reinforced_boots" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Unique Boots 3" category="boots" stackable="false" enhancement_slots="0" equip_template="15_heavy_dark_boots" attachment_type="skinning" ability_mode="OnMount">
 	<tags>SortTypeArmor,Armor,Dismantle,Boots</tags>
             <base_abilities>
                <a>Reinforced Leather Boots _Stats</a>

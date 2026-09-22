@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="Brukolak Claws _Stats">
@@ -8,7 +8,7 @@
     <ability name="Brukolak">
       <level mult="false" always_random="false" min="5" max="5" />
       <experience mult="false" always_random="false" min="10" max="10" />
-      <vitality mult="false" always_random="false" min="225" max="225" />
+      <vitality mult="false" always_random="false" min="150" max="150" />
       <vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
       <vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
       <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -15,7 +15,7 @@
 	
 
 	#Mutagen of Amplification
-        <item name="Minor Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,Mutagen,TypeMagic,EnhancementType1,Vitriol,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Amplification _Stats</a>
@@ -26,7 +26,7 @@
             </base_abilities>
         </item>
 		
-        <item name="Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType1,Vitriol,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Amplification _Stats</a>
@@ -37,7 +37,7 @@
             </base_abilities>	
         </item>
 		
-        <item name="Major Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Major Mutagen of Amplification" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType1,Vitriol,CraftingIngridient</tags>
             <base_abilities>
                 <a>Major Mutagen of Amplification _Stats</a>
@@ -50,7 +50,7 @@
         
 		
 	#Mutagen of Range
-        <item name="Minor Mutagen of Range" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Aether,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Range _Stats</a>
@@ -61,7 +61,7 @@
             </base_abilities>		
         </item>    
 		
-	    <item name="Mutagen of Range" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+	    <item name="Mutagen of Range" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Aether,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Range _Stats</a>
@@ -74,7 +74,7 @@
         
 
 	#Mutagen of Critical Effect
-        <item name="Minor Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Critical Effect _Stats</a>
@@ -85,7 +85,7 @@
             </base_abilities>
         </item> 
         
-	<item name="Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+	<item name="Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType3,Rebis,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Critical Effect _Stats</a>
@@ -96,7 +96,7 @@
             </base_abilities>
         </item>
         
-	<item name="Major Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+	<item name="Major Mutagen of Critical Effect" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType3,Rebis,CraftingIngridient</tags>
             <base_abilities>
                 <a>Major Mutagen of Critical Effect _Stats</a>
@@ -109,7 +109,7 @@
 		
 
 	#Mutagen of Vitality
-        <item name="Minor Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Vitality _Stats</a>
@@ -120,7 +120,7 @@
             </base_abilities>
         </item>  
 		
-        <item name="Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Hydragenum,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Vitality _Stats</a>
@@ -131,7 +131,7 @@
             </base_abilities>
         </item>     
 		
-        <item name="Major Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Major Mutagen of Vitality" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Hydragenum,CraftingIngridient</tags>
             <base_abilities>
                 <a>Major Mutagen of Vitality _Stats</a>
@@ -144,7 +144,7 @@
 	
 	
 	#Mutagen of Power 
-        <item name="Minor Mutagen of Power" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Power _Stats</a>
@@ -155,7 +155,7 @@
             </base_abilities>
         </item>  
 		
-        <item name="Mutagen of Power" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Quebrith,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Power _Stats</a>
@@ -166,7 +166,7 @@
             </base_abilities>
         </item> 
 		
-        <item name="Major Mutagen of Power" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Major Mutagen of Power" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Quebrith,CraftingIngridient</tags>
             <base_abilities>
                 <a>Major Mutagen of Power _Stats</a>
@@ -179,7 +179,7 @@
    
 
 	#Mutagen of Strength
-        <item name="Minor Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Minor Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
             <base_abilities>
                 <a>Minor Mutagen of Strength _Stats</a>
@@ -190,7 +190,7 @@
             </base_abilities>
         </item>      
 		
-        <item name="Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Vermilion,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Strength _Stats</a>
@@ -201,7 +201,7 @@
             </base_abilities>
         </item>
 		
-        <item name="Major Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Major Mutagen of Strength" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeRare,EnhancementType2,Vermilion,CraftingIngridient</tags>
             <base_abilities>
                 <a>Major Mutagen of Strength _Stats</a>
@@ -214,7 +214,7 @@
 
 
 	#Mutagen of Concentration		
-        <item name="Mutagen of Concentration" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Concentration" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeMagic,EnhancementType2,Caelum,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Concentration _Stats</a>
@@ -226,7 +226,7 @@
         </item>
 	
 	#Mutagen of Insanity (Madness)
-        <item name="Mutagen of Mutagen of Insanity" category="skillupgrade" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+        <item name="Mutagen of Mutagen of Insanity" category="skillupgrade" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	<tags>SortTypeSkillUpgrade,SortTypeIngridient,AlchemyIngridient,,Mutagen,TypeEpic,EnhancementType2,Caelum,CraftingIngridient</tags>
             <base_abilities>
                 <a>Mutagen of Madness _Stats</a>

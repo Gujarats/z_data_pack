@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,26 +7,14 @@
 
 		#		Definicje tarcz
 
-		<item name="Test Shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_slot="shield_back_slot"
-				equip_template="shield_01"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Test Shield" category="opponent_shield" ability_slots="0" equip_slot="shield_back_slot" equip_template="shield_01" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 				<a>Shield Default</a>
 			</base_abilities>
 		</item>
 
-		<item name="Knight Shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_01"
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Knight Shield" category="opponent_shield" ability_slots="0" equip_template="shield_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>Shield Default</a>
@@ -38,13 +26,7 @@
 			</ingredients_list>
 		</item>
 
-		<item name="Kaedwenian Pavesse" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_1_kaedwen_01"
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon"
-				weapon="true">
+		<item name="Kaedwenian Pavesse" category="opponent_shield" ability_slots="0" equip_template="shield_1_kaedwen_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>Shield Default</a>
@@ -56,13 +38,7 @@
 			</ingredients_list>
 		</item>
 
-		<item name="Nilfgaard Pavesse" 
-				category="opponent_shield"
-				ability_slots="0"
-				equip_template="shield_1_nilfgaard_01" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Nilfgaard Pavesse" category="opponent_shield" ability_slots="0" equip_template="shield_1_nilfgaard_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>Shield Default</a>
@@ -74,13 +50,7 @@
 			</ingredients_list>
 		</item>
 
-		<item name="Renuald Pavesse" 
-				category="opponent_shield"
-				ability_slots="0"
-				equip_template="shield_1_nilfgaard_renuald_01" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Renuald Pavesse" category="opponent_shield" ability_slots="0" equip_template="shield_1_nilfgaard_renuald_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>Shield Default</a>
@@ -92,13 +62,7 @@
 			</ingredients_list>
 		</item>	
 
-		<item name="Arjan Pavesse" 
-				category="opponent_shield"
-				ability_slots="0"
-				equip_template="shield_arjan_03" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Arjan Pavesse" category="opponent_shield" ability_slots="0" equip_template="shield_arjan_03" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>Shield Default</a>
@@ -110,13 +74,7 @@
 			</ingredients_list>
 		</item>	
 
-		<item name="Knight Wraith Shield"
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="wraith_knight_shield_01"
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true">
+		<item name="Knight Wraith Shield" category="opponent_shield" ability_slots="0" equip_template="wraith_knight_shield_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle</tags>
 			<base_abilities>
 				<a>type_hweapon</a>
@@ -129,39 +87,19 @@
 			</ingredients_list>
 		</item>
 
-		<item name="Executioner Shield" 
-				category="opponent_shield" ability_slots="0" 
-				equip_template="executioner_shield"
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon"
-				weapon="true" 
-				lethal="false">
+		<item name="Executioner Shield" category="opponent_shield" ability_slots="0" equip_template="executioner_shield" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>    
 
-		<item name="Aedirn Shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_aedirn_02"
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon"
-				weapon="true" 
-				lethal="false">
+		<item name="Aedirn Shield" category="opponent_shield" ability_slots="0" equip_template="shield_aedirn_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>    
 
-		<item name="Kaedwen Shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_kaedwen_02"
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="false">
+		<item name="Kaedwen Shield" category="opponent_shield" ability_slots="0" equip_template="shield_kaedwen_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
@@ -169,40 +107,19 @@
 
 
 
-		<item name="Tameria Shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="false">
+		<item name="Tameria Shield" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>    
 
-		<item name="Arena shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_arena" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="false">
+		<item name="Arena shield" category="opponent_shield" ability_slots="0" equip_template="shield_arena" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>    
 
-		<item name="Redania big shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_redania_03" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="false">
+		<item name="Redania big shield" category="opponent_shield" ability_slots="0" equip_template="shield_redania_03" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="false">
 			<tags>NoShow,NoDrop</tags>
 			<base_abilities>
 			</base_abilities>

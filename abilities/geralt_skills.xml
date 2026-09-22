@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
     
@@ -8,33 +8,33 @@
 	# REGENERACJA ORGANIZMU  // Regen stamina poza walka 100%, regen stamina w walce 50%
 	
 		<ability name="training_s1" oned="" on_ended=""> 
-			<endurance_noncombat_regen mult="true" always_random="false" min="1.1" max="1.1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1"/>
+			<endurance_noncombat_regen mult="true" always_random="false" min="1.25" max="1.25" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>
 		
 		<ability name="training_s1_2" oned="" on_ended=""> 
-			<endurance_noncombat_regen mult="true" always_random="false" min="1.1363636364" max="1.1363636364"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.1363636364" max="1.1363636364"/>
+			<endurance_noncombat_regen mult="true" always_random="false" min="1.1363636364" max="1.1363636364" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.1363636364" max="1.1363636364" />
 		</ability>       
 	#Checked
 	# HART CIALA
 		<ability name="training_s2" oned="" on_ended="">
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
+			<vitality mult="false" always_random="false" min="10" max="10" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>       
 		<ability name="training_s2_2" oned="" on_ended="">
-			<vitality mult="false" always_random="false" min="30" max="30"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3"/>
+			<vitality mult="false" always_random="false" min="40" max="40" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>      
 	#Checked
 	# PAROWANIE - odblokowuje mozliwosc parowania przeciwnika z przodu// odblokowuje mozliwosc parowania przeciwnikow z pozostalych kierunkow
 		
 		<ability name="training_s3" oned="" on_ended="" prerequisites="training_s2,training_s1,training_s4">
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.25" max="0.25"/>
+			<damage_reduction_block_perc mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability> 
 		<ability name="training_s3_2" oned="" on_ended="">
-			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0"/>
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.25" max="0.25"/>
+			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0" />
+			<damage_reduction_block_perc mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
 	#Checked
 	# RZUT SZTYLETEM
@@ -42,8 +42,8 @@
 		<ability name="training_s4" oned="" on_ended="">
 		</ability>
 		
-		<ability name="training_s4_2" oned="" on_ended="" >
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+		<ability name="training_s4_2" oned="" on_ended="">
+			<damage_throw_combo mult="false" always_random="false" min="20" max="20" />
 		</ability>   
 	#Checked	
 	# ODBIJANIE STRZAL  - wlacza odbijanie strzal // wlacza odbijanie strzal w przeciwnika
@@ -58,13 +58,13 @@
 	# HART DUCHA
 		
 		<ability name="training_s6" oned="" on_ended="" prerequisites="training_s3" max_enhancements="1">
-			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1"/>
-			<endurance_noncombat_regen mult="true" always_random="false" min="1.2" max="1.2"/>
+			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1" />
+			<endurance_noncombat_regen mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>  
 	
 		<ability name="training_s6_2" oned="" on_ended="">
-			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0"/>
-			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0"/>
+			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
+			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
 		</ability>       
 
       
@@ -75,31 +75,31 @@
 	#Ulepszony Znak Aard	magic_s1	Odblokowuje Ulepszony Aard. Zwieksza zasieg Aard o 2m.	magic_s1_2	Odblokowuje ulepszony Aard. Zwieksza zasieg Aard o 4m.
 		
 		<ability name="magic_s1" oned="" on_ended="">
-			<aard_damage mult="false" always_random="false" min="1" max="1"/>
-			<aard_speed mult="false" always_random="false" min="5" max="5"/>
-			<aard_max_dist mult="false" always_random="false" min="2" max="2"/>
-			<aard_knockdown_chance mult="false" always_random="false" min="-0.1" max="-0.1" type="bonus"/>
-			<res_fear mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+			<aard_damage mult="false" always_random="false" min="1" max="1" />
+			<aard_speed mult="false" always_random="false" min="5" max="5" />
+			<aard_max_dist mult="false" always_random="false" min="2" max="2" />
+			<aard_knockdown_chance mult="false" always_random="false" min="-0.1" max="-0.1" type="bonus" />
+			<res_fear mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
 		</ability>       
 
 		<ability name="magic_s1_2" oned="" on_ended="">
-			<aard_speed mult="false" always_random="false" min="5" max="5"/>
-			<aard_max_dist mult="false" always_random="false" min="3" max="3"/>
+			<aard_speed mult="false" always_random="false" min="5" max="5" />
+			<aard_max_dist mult="false" always_random="false" min="3" max="3" />
 		</ability>         
 	#Checked
 	# Niszcząca Magia	magic_s2	Obrazenia znakow +10%	magic_s2_2	Obrazenia znakow +10% Zywotnosc +40% Endurance +1
 		
 		<ability name="magic_s2" oned="" on_ended="">
-			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01"/>
+			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01" />
 		</ability>       
 		
 		<ability name="magic_s2_2" oned="" on_ended="">
-			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015"/>
-			<aard_knockdown_chance mult="false" always_random="false" min="-0.03" max="-0.03" type="bonus"/>
-			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus"/>
-			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1"/>	
+			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015" />
+			<aard_knockdown_chance mult="false" always_random="false" min="-0.03" max="-0.03" type="bonus" />
+			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1" />	
 		</ability>       
 	#Checked
 	#Ulepszony Znak Axii	magic_s3	Odblokowuje Ulepszone Axii Przejety przeciwnik ostrzymuje +25% wiecej zywotnosci oraz zadaje o 15% wiecej obrazen.	magic_s3_2	Odblokowuje Ulepszone Axii Przejety przeciwnik ostrzymuje +50% wiecej zywotnosci oraz zadaje o 40% wiecej obrazen.
@@ -108,175 +108,175 @@
 		<ability name="magic_s3_2" oned="" on_ended="">
 		</ability> 
 		<ability name="axii_debuf1">
-			<damage_min mult="true" always_random="false" min="1.3" max="1.3"/>
-			<damage_max mult="true" always_random="false" min="1.3" max="1.3"/>
-			<damage_npc_min mult="true" always_random="false" min="1.3" max="1.3"/>
-			<damage_npc_max mult="true" always_random="false" min="1.3" max="1.3"/>
-			<vitality mult="true" always_random="false" min="0.9" max="0.9"/>
+			<damage_min mult="true" always_random="false" min="1.2" max="1.2" />
+			<damage_max mult="true" always_random="false" min="1.2" max="1.2" />
+			<damage_npc_min mult="true" always_random="false" min="1.2" max="1.2" />
+			<damage_npc_max mult="true" always_random="false" min="1.2" max="1.2" />
+			<vitality mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>  
 		<ability name="axii_debuf2">
-			<damage_min mult="true" always_random="false" min="1.3461538462" max="1.3461538462"/>
-			<damage_max mult="true" always_random="false" min="1.3461538462" max="1.3461538462"/>
-			<damage_npc_min mult="true" always_random="false" min="1.3461538462" max="1.3461538462"/>
-			<damage_npc_max mult="true" always_random="false" min="1.3461538462" max="1.3461538462"/>
-			<vitality mult="true" always_random="false" min="0.8333333333" max="0.8333333333"/>
+			<damage_min mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_max mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_npc_min mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_npc_max mult="true" always_random="false" min="1.5" max="1.5" />
+			<vitality mult="true" always_random="false" min="1.5" max="1.5" />
 		</ability>  		
 	#Checked
 	# Spotęgowanie Magii	magic_s4	Moc znakow +1	magic_s4_2	Moc znakow +2 Redukcja obrazen +25%
 		
 		<ability name="magic_s4" oned="" on_ended="" prerequisites="magic_s5,magic_s7">
-			<signs_power mult="false" always_random="false" min="1.0" max="1.0" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01"/>
+			<signs_power mult="false" always_random="false" min="1" max="1" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01" />
 		</ability>       
 		
 		<ability name="magic_s4_2" oned="" on_ended="">
-			<signs_power mult="false" always_random="false" min="1.0" max="1.0" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015"/>
-			<aard_knockdown_chance mult="false" always_random="false" min="-0.03" max="-0.03" type="bonus"/>
-			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus"/>
-			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1"/>
+			<signs_power mult="false" always_random="false" min="1" max="1" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015" />
+			<aard_knockdown_chance mult="false" always_random="false" min="-0.03" max="-0.03" type="bonus" />
+			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>       
 	#Checked     
 	# Ulepszony Znak Quen	magic_s5 Quen oddaje 20% damage i trwa dluzej	magic_s5_s2 Quen oddaje 50% damage i trwa dluzej
 		
 		<ability name="magic_s5" oned="" on_ended="" prerequisites="magic_s1,magic_s2,magic_s3">
-			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05"/>
+			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>      
 		
 		<ability name="magic_s5_2" oned="" on_ended="">
-			<quen_bolt_damage mult="false" always_random="false" min="0.15" max="0.15"/>
+			<quen_bolt_damage mult="false" always_random="false" min="0.15" max="0.15" />
 		</ability>       
   	#Checked      
 	#  Wyładowanie	magic_s6	Quen oddaje damage dwom przeciwnikom	magic_s6_2	Quen oddaje damage trzem przeciwnikom
 		<ability name="magic_s6" oned="" on_ended="" prerequisites="magic_s5,magic_s9">
-			<quen_duration mult="true" always_random="false" min="0.8" max="0.8"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05"/>
+			<quen_duration mult="true" always_random="false" min="0.8" max="0.8" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>       
 		<ability name="magic_s6_2" oned="" on_ended="">
-			<quen_duration mult="true" always_random="false" min="0.75" max="0.75"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05"/>
+			<quen_duration mult="true" always_random="false" min="0.75" max="0.75" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>       
 	#Checked  
 	#Fatalne Zauroczenie 	magic_s7	Pozwala przejmowac dwoch przeciwnikow na raz.	magic_s7_2	Pozwala przejmowac trzech przeciwnikow na raz.
 		<ability name="magic_s7" oned="" on_ended="" prerequisites="magic_s4,magic_s8,magic_s11">
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="critical"/>
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="critical" />
 		</ability>       
       
 		<ability name="magic_s7_2" oned="" on_ended="">
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="critical"/>
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="critical" />
 		</ability>       
 	#Checked  
 	#Magiczny Wigor	magic_s8	Zwieksza wytrzymalosc o 1	magic_s8_2	Zwieksza wytrzymalosc o 2  Vitality + 30%
 		
 		<ability name="magic_s8" oned="" on_ended="" prerequisites="magic_s5,magic_s7,magic_s9">
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.2" max="1.2"/>
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus"/>
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.2" max="1.2" />
+			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus" />
 		</ability>       
 		
 		<ability name="magic_s8_2" oned="" on_ended="">
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.1666666667" max="1.1666666667"/>
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus"/>
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.1666666667" max="1.1666666667" />
+			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus" />
 		</ability>       
 	#Checked  
 	#Ulepszony Znak Igni	magic_s9	Odblokowuje Ulepszony Igni Zwieksza zasieg  o 2m i powoduje podpalenie	magic_s9_2	Odblokowuje Ulepszony Igni Zwieksza zasieg Igni o 4m, jest znakiem obszarowym i ma zwiekszone obrazenia
 		<ability name="magic_s9" oned="" on_ended="" prerequisites="magic_s6,magic_s8,magic_s11">
-			<igni_max_dist mult="false" always_random="false" min="5" max="5"/>
-			<igni_burn_chance mult="false" always_random="false" min="0.25" max="0.25"/>
-			<igni_burn_damage mult="false" always_random="false" min="15" max="15"/>
-			<igni_burn_duration mult="false" always_random="false" min="2" max="2"/>
+			<igni_max_dist mult="false" always_random="false" min="3" max="3" />
+			<igni_burn_chance mult="false" always_random="false" min="0.5" max="0.6" />
+			<igni_burn_damage mult="false" always_random="false" min="4" max="6" />
+			<igni_burn_duration mult="false" always_random="false" min="8" max="12" />
 		</ability>       
 	 
 		<ability name="magic_s9_2" oned="" on_ended="">
-			<igni_max_dist mult="false" always_random="false" min="5" max="5"/>
+			<igni_max_dist mult="false" always_random="false" min="3" max="3" />
 		</ability>       
 	#Checked  
 	#Wzmocnienie Glifu	magic_s10	Pulapki Yrden lacza sie ze soba tworzac dodatkowy obszar dzialania.	magic_s10_2	Pulapki Yrden zadają obrażenia przeciwnikom
 		<ability name="magic_s10" oned="" on_ended="" prerequisites="magic_s11">
-			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="critical"/>
+			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="critical" />
 		</ability>       
 		<ability name="magic_s10_2" oned="" on_ended="">
-			<yrden_damage_per_sec mult="false" always_random="false" min="2.0" max="2.0"/>
-			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical"/>
+			<yrden_damage_per_sec mult="false" always_random="false" min="5" max="5" />
+			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.03" max="0.03" type="critical" />
 		</ability>       
 	#Checked  
 	#Ulepszeny Znak Yrden	magic_s11	Yrden poziom 1, gracz moze stawiac 2 pulapki		magic_s11_2	Yrden poziom 2, gracz moze stawiac 3 pulapki
-		<ability name="magic_s11" oned="" on_ended="" prerequisites="magic_s7,magic_s9" >
-			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1"/>
-			<yrden_immobile_time mult="false" always_random="false" min="1.0" max="1.0" type="bonus"/>
+		<ability name="magic_s11" oned="" on_ended="" prerequisites="magic_s7,magic_s9" max_enhancements="1">
+			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1" />
+			<yrden_immobile_time mult="false" always_random="false" min="1.0" max="1.0" type="bonus" />
 		</ability>       
 		<ability name="magic_s11_2" oned="" on_ended="">
-			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1"/>
-			<yrden_immobile_time mult="false" always_random="false" min="1.0" max="1.0" type="bonus"/>
+			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1" />
+			<yrden_immobile_time mult="false" always_random="false" min="1.0" max="1.0" type="bonus" />
 		</ability>       
 	#Checked  
 	#Przepływ Energii	magic_s12	Zwieksza szanse na efekty  krytyczne znakow o 20%		magic_s12_2 zwieksza szanse efektow krytycznych znakow o kolejne 25%
-		<ability name="magic_s12" oned="" on_ended="" prerequisites="magic_s11" >
-			<aard_knockdown_chance mult="false" always_random="false" min="-0.03" max="-0.03" type="bonus"/>
-			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus"/>
-			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1"/>
+		<ability name="magic_s12" oned="" on_ended="" prerequisites="magic_s11">
+			<aard_knockdown_chance mult="false" always_random="false" min="0.05" max="0.05" />
+			<res_fear mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+			<igni_burn_chance mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>       
       
 		<ability name="magic_s12_2" oned="" on_ended="">
-			<aard_knockdown_chance mult="false" always_random="false" min="-0.05" max="-0.05" type="bonus"/>
-			<res_fear mult="false" always_random="false" min="0.05" max="0.05" type="bonus"/>
-			<igni_burn_chance mult="true" always_random="false" min="1.2727272727" max="1.2727272727"/>
+			<aard_knockdown_chance mult="false" always_random="false" min="0.1" max="0.1" />
+			<res_fear mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<igni_burn_chance mult="true" always_random="false" min="1.2727272727" max="1.2727272727" />
 		</ability>       
 
 	#Checked  
 	#Magiczna Witalność	magic_s13	Zwieksza zywotnosc o 10%	magic_s13_2	Zwieksza zywotnosc o 15% Wszystkie odpornosci +5%
 		<ability name="magic_s13" oned="" on_ended="" prerequisites="magic_s11">
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1"/>
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus"/>
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.1" max="1.1" />
+			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus" />
 		</ability>       
       
 		<ability name="magic_s13_2" oned="" on_ended="">
-			<endurance mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus"/>
+			<endurance mult="false" always_random="false" min="1" max="1" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.0909090909" max="1.0909090909" />
+			<stamina_regen_cooldown_time mult="false" always_random="false" min="-0.3" max="-0.3" type="bonus" />
 		</ability>       
 	#Checked  
 	#Zmysł magiczny	magic_s14	Odblokowuje build Magiczny: Ładowanie Endurance znakami oraz Heliotrop.	magic_s14_2	Odblokowuje build Magiczny: Ładowanie Endurance znakami oraz Heliotrop Wszystkie odpornosci +5%
 		<ability name="magic_s14" oned="" on_ended="" prerequisites="magic_s13,magic_s12,magic_s10" max_enhancements="1">
-			<witcher_type_magic mult="false" always_random="false" min="1" max="1"/>
-			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01"/>
+			<witcher_type_magic mult="false" always_random="false" min="1" max="1" />
+			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01" />
 		</ability>       
 
 		<ability name="magic_s14_2" oned="" on_ended="">
-			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1"/>
-			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015"/>
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1"/>
+			<adrenaline_on_hit mult="true" always_random="false" min="1.5" max="1.5" />
+			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
 		</ability>       
 	#Checked  	
 	#Kontrola Mocy	magic_s15	Wszystkie odpornosci +20% Obrazenia od znakow +10% Ladowanie enduracne znakami +20%	magic_s15_2	Wszystkie odpornosci +30% Obrazenia od znakow +30% Ladowanie enduracne znakami +30%
-		<ability name="magic_s15" oned="" on_ended="" prerequisites="magic_s14"  max_enhancements="1">
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1"/>
-			<adrenaline_on_hit mult="flase" always_random="false" min="1" max="1"/>
-			<signs_power mult="false" always_random="false" min="0.7" max="0.7" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01"/>
+		<ability name="magic_s15" oned="" on_ended="" prerequisites="magic_s14" max_enhancements="1">
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<adrenaline_on_hit mult="flase" always_random="false" min="1" max="1" />
+			<signs_power mult="false" always_random="false" min="0.7" max="0.7" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.01" max="0.01" />
 		</ability>       
 	
 		<ability name="magic_s15_2" oned="" on_ended="">
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.2" max="0.2"/>
-			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1"/>
-			<signs_power mult="false" always_random="false" min="1.3" max="1.3" type="bonus"/>
-			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015"/>
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0.2" max="0.2" />
+			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1" />
+			<signs_power mult="false" always_random="false" min="1.3" max="1.3" type="bonus" />
+			<quen_bolt_damage mult="false" always_random="false" min="0.015" max="0.015" />
 		</ability>     
 	
 	# --------------------------------
 	
 	#Checked  
 	#Mocne Plecy	sword_s1	Zmniejsza karę za cios w plecy o 50% sword_s1_2	Zmniejsza karę za cios w plecy o kolejne 50%
-		<ability name="sword_s1" oned="" on_ended="" >
-			<back_damage_mult mult="true" always_random="false" min="0.75" max="0.75"/>
+		<ability name="sword_s1" oned="" on_ended="">
+			<back_damage_mult mult="true" always_random="false" min="0.5" max="0.5" />
 		</ability>       
 
 		<ability name="sword_s1_2" oned="" on_ended="">
-			<back_damage_mult mult="true" always_random="false" min="0.2666666667" max="0.2666666667"/>
+			<back_damage_mult mult="true" always_random="false" min="0.0" max="0.0" />
 		</ability>       
 	#Checked 
 	# Cięte Riposty	sword_s2	Odblokowuje możliwośc kontrowania ciosów przeciwnika.	sword_s2_2	Kontry maja 80% szansy na natychmiastowe zabicie przeciwnika.
@@ -284,259 +284,259 @@
 		</ability>       
       
 		<ability name="sword_s2_2" oned="" on_ended="">
-			<riposte_killchance mult="false" always_random="false" min="0.1" max="0.1"/>
-			<auto_riposte_chance mult="false" always_random="false" min="0.35" max="0.35"/>
+			<riposte_killchance mult="false" always_random="false" min="0.1" max="0.1" />
+			<auto_riposte_chance mult="false" always_random="false" min="0.35" max="0.35" />
 		</ability>       
 	#Checked 
 	#Mistrz Uników	sword_s3	Wydłuża skoki Geralta o 50%.	sword_s3_2	Wydłuża skoki Geralta o 100%
 		<ability name="sword_s3" oned="" on_ended="">
-			<vitality mult="false" always_random="true" min="10" max="10"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.05" max="1.05"/>
+			<vitality mult="false" always_random="true" min="10" max="10" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.05" max="1.05" />
 		</ability>       
       
 		<ability name="sword_s3_2" oned="" on_ended="">
-			<vitality mult="false" always_random="true" min="20" max="20"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.0952380952" max="1.0952380952"/>
+			<vitality mult="false" always_random="true" min="20" max="20" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.0952380952" max="1.0952380952" />
 		</ability>       
 	#Checked 
 	#Ciosy Grupowe	sword_s4	Odblokowuje możliwośc ranienia więcej niż jednego przeciwnika. Wszyscy poza aktualnym celem otrzymują 50% obrażeń.	sword_s4_2	Wszyscy poza aktualnym celem otrzymują 100% obrażeń.
 		<ability name="sword_s4" oned="" on_ended="" prerequisites="sword_s7,sword_s8">
-			<group_hit_mult mult="false" always_random="false" min="0.25" max="0.25" type="bonus"/>
+			<group_hit_mult mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
 		</ability>       
       
 		<ability name="sword_s4_2" oned="" on_ended="">
-			<group_hit_mult mult="false" always_random="false" min="0.25" max="0.25" type="bonus"/>
+			<group_hit_mult mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
 		</ability>       
 	#Checked 
 	#Mocna Garda	sword_s5	Blokowanie zużywa o 25% mniej wytrzymałości.	sword_s5_2	Blokowanie zużywa o 40% mniej wytrzymałości
 		<ability name="sword_s5" oned="" on_ended="" prerequisites="sword_s2,sword_s6">
-			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0"/>
+			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0" />
 		</ability>       
       
 		<ability name="sword_s5_2" oned="" on_ended="">
-			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0"/>		
+			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0" />		
 		</ability>       
 	#Checked 
 	#Twarda Skóra	sword_s6	Zwieksza redukcje obrazen o 10%	sword_s6_2	Zwieksza redukcje obrazen o 20%Zwieksza zywotnosc o 5% 
 		<ability name="sword_s6" oned="" on_ended="" prerequisites="sword_s5,sword_s9,sword_s8">
-			<damage_reduction mult="true" always_random="false" min="1.05" max="1.05"/>
-			<vitality mult="false" always_random="true" min="10" max="10"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
+			<damage_reduction mult="true" always_random="false" min="1.05" max="1.05" />
+			<vitality mult="false" always_random="true" min="10" max="10" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>       
       
 		<ability name="sword_s6_2" oned="" on_ended="">
-			<damage_reduction mult="true" always_random="false" min="1.0952380952" max="1.0952380952"/>
-			<vitality mult="false" always_random="true" min="40" max="40"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3"/>
+			<damage_reduction mult="true" always_random="false" min="1.1" max="1.1" />
+			<vitality mult="false" always_random="true" min="40" max="40" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>       
 	#Checked 
 	#Szał Bojowy	sword_s7	Zwieksza obrazenia zadawane mieczem o 5%	sword_s7_2	Zwieksza obrazenia zadawane mieczem o 10%
 		<ability name="sword_s7" oned="" on_ended="" prerequisites="sword_s1,sword_s4">
-			<damage_min mult="true" always_random="false" min="1.05" max="1.05"/>
-			<damage_max mult="true" always_random="false" min="1.05" max="1.05"/>
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+			<damage_min mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
 		</ability>       
       
 		<ability name="sword_s7_2" oned="" on_ended="">
-			<damage_min mult="true" always_random="false" min="1.1428571429" max="1.1428571429"/>
-			<damage_max mult="true" always_random="false" min="1.1428571429" max="1.1428571429"/>
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
 		</ability>       
 	#Checked 
 	#Witalność	sword_s8	Żywotność +10%	sword_s8_2	Żywotność +10%
 		<ability name="sword_s8" oned="" on_ended="" prerequisites="sword_s4,sword_s6">
-			<vitality mult="false" always_random="true" min="25" max="25"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5"/>
+			<vitality mult="false" always_random="true" min="25" max="25" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>       
       
 		<ability name="sword_s8_2" oned="" on_ended="">
-			<vitality mult="false" always_random="true" min="75" max="75"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5"/>
+			<vitality mult="false" always_random="true" min="75" max="75" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>       
 	#Checked 
 	#Kombinator	sword_s9	Zwieksza generacje staminy w czasie  walki sword_s9_2	Zwieksza generacje staminy w czasie  walki .Zwieksza wytrzymalosc o 1.
-		<ability name="sword_s9" oned="" on_ended=""  prerequisites="sword_s3,sword_s6">
-			<hit_back_bonus mult="false" always_random="false" min="0.25" max="0.25"/>
+		<ability name="sword_s9" oned="" on_ended="" prerequisites="sword_s3,sword_s6">
+			<hit_back_bonus mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
 		<ability name="sword_s9_2" oned="" on_ended="">
-			<hit_back_bonus mult="false" always_random="false" min="0.50" max="0.50"/>
+			<hit_back_bonus mult="false" always_random="false" min="0.50" max="0.50" />
 		</ability>       
 	#Checked 
 	#Mocny Organizm	sword_s10	Wszystkie odpornosci +10%	sword_s10_2	Wszystkie odpornosci +10%
 		<ability name="sword_s10" oned="" on_ended="" prerequisites="sword_s8">
-			<crt_bleed mult="false" always_random="false" min="0.05" max="0.05" type="critical"/>
-			<damage_min mult="true" always_random="false" min="1.03" max="1.03"/>
-			<damage_max mult="true" always_random="false" min="1.03" max="1.03"/>
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<damage_min mult="true" always_random="false" min="1.03" max="1.03" />
+			<damage_max mult="true" always_random="false" min="1.03" max="1.03" />
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
 		</ability>       
       
 		<ability name="sword_s10_2" oned="" on_ended="">
-			<crt_bleed mult="false" always_random="false" min="0.05" max="0.05" type="critical"/>
-			<damage_min mult="true" always_random="false" min="1.0679611650" max="1.0679611650"/>
-			<damage_max mult="true" always_random="false" min="1.0679611650" max="1.0679611650"/>
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+			<crt_bleed mult="false" always_random="false" min="0.1" max="0.1" type="critical" />
+			<damage_min mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_max mult="true" always_random="false" min="1.05" max="1.05" />
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
 		</ability>           
 	#Checked 
 	#Finezja	sword_s11	Szansa na wszystkie efekty krytyczne +5%	sword_s11_2	Szansa na wszystkie efekty krytyczne +10%
 		<ability name="sword_s11" oned="" on_ended="" prerequisites="sword_s8">
-			<crt_poison mult="true" always_random="false" min="1.15" max="1.15"/>
-			<crt_bleed mult="true" always_random="false" min="1.15" max="1.15"/>
-			<crt_knockdown mult="true" always_random="false" min="1.15" max="1.15"/>
-			<crt_stun mult="true" always_random="false" min="1.15" max="1.15"/>
-			<crt_freeze mult="true" always_random="false" min="1.15" max="1.15"/>
-			<crt_burn mult="true" always_random="false" min="1.15" max="1.15"/>
+			<crt_poison mult="true" always_random="false" min="1.05" max="1.05" />
+			<crt_bleed mult="true" always_random="false" min="1.05" max="1.05" />
+			<crt_knockdown mult="true" always_random="false" min="1.05" max="1.05" />
+			<crt_stun mult="true" always_random="false" min="1.05" max="1.05" />
+			<crt_freeze mult="true" always_random="false" min="1.05" max="1.05" />
+			<crt_burn mult="true" always_random="false" min="1.05" max="1.05" />
 		</ability>       
      
 		<ability name="sword_s11_2" oned="" on_ended="">
-			<crt_poison mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
-			<crt_bleed mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
-			<crt_knockdown mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
-			<crt_stun mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
-			<crt_freeze mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
-			<crt_burn mult="true" always_random="false" min="1.1304347826" max="1.1304347826"/>
+			<crt_poison mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_bleed mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_knockdown mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_stun mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_freeze mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_burn mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>       
      
 	#Checked 
 	#Brutalna Siła	sword_s12	Szansa na natychmiastowe zabicie przeciwnika 2%	sword_s12_2	Szansa na natychmiastowe zabicie przeciwnika 5%
 		<ability name="sword_s12" oned="" on_ended="" prerequisites="sword_s8">
-			<instant_kill_chance mult="false" always_random="false" min="0.02" max="0.02"/>
-			<crt_poison mult="false" always_random="false" min="0.02" max="0.02"/>
+			<instant_kill_chance mult="false" always_random="false" min="0.02" max="0.02" />
+			<crt_poison mult="false" always_random="false" min="0.02" max="0.02" />
 		</ability>       
       
 		<ability name="sword_s12_2" oned="" on_ended="">
-			<instant_kill_chance mult="false" always_random="false" min="0.03" max="0.03"/>
-			<crt_poison mult="false" always_random="false" min="0.03" max="0.03"/>
+			<instant_kill_chance mult="false" always_random="false" min="0.03" max="0.03" />
+			<crt_poison mult="false" always_random="false" min="0.03" max="0.03" />
 		</ability>       
 	#Checked 
 	#Wzmocnienie Organizmu	sword_s13	Zywotnosc +25%Redukcja obrazen + 10%Redukcja obrazen bloku +15%	sword_s13_2	Zywotnosc +30%Redukcja obrazen + 15%Redukcja obrazen bloku +25%
-		<ability name="sword_s13" oned="" on_ended="" prerequisites="sword_s11,sword_s10,sword_s12"  max_enhancements="1">
-			<vitality mult="false" always_random="true" min="25" max="25"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5"/>
-			<damage_reduction mult="true" always_random="false" min="1.05" max="1.05"/>
-			<group_hit_mult mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+		<ability name="sword_s13" oned="" on_ended="" prerequisites="sword_s11,sword_s10,sword_s12" max_enhancements="1">
+			<vitality mult="false" always_random="true" min="50" max="50" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction mult="true" always_random="false" min="1.05" max="1.05" />
+			<group_hit_mult mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
 		</ability>       
       
 		<ability name="sword_s13_2" oned="" on_ended="">
-			<vitality mult="false" always_random="false" min="75" max="75"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5"/>
-			<damage_reduction mult="true" always_random="false" min="1.0952380952" max="1.0952380952"/>
-			<group_hit_mult mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction mult="true" always_random="false" min="1.0952380952" max="1.0952380952" />
+			<group_hit_mult mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
 		</ability>       
      
 	#Checked 
 	#Sense of Sword	sword_s14	Odblokowuje build Mieczowy: Ladowanie wytrzymalosci ciosami miecza oraz finishery grupowe.	sword_s14_2	Odblokowuje build Mieczowy: Ladowanie wytrzymalosci ciosami miecza oraz finishery grupowe.Obrazenia +5%Redukcja obrazen +5%
-		<ability name="sword_s14" oned="" on_ended=""  prerequisites="sword_s13"  max_enhancements="1">
-			<witcher_type_sword mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0"/>
-			<riposte_damage_mult mult="false" always_random="false" min="1.0" max="1.0"/>
+		<ability name="sword_s14" oned="" on_ended="" prerequisites="sword_s13" max_enhancements="1">
+			<witcher_type_sword mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="5.0" max="5.0" />
+			<riposte_damage_mult mult="false" always_random="false" min="1.0" max="1.0" />
 		</ability>       
       
 		<ability name="sword_s14_2" oned="" on_ended="">
-			<damage_min mult="true" always_random="false" min="1.2" max="1.2"/>
-			<damage_max mult="true" always_random="false" min="1.2" max="1.2"/>
-			<damage_reduction mult="true" always_random="false" min="1.1" max="1.1"/>	
-			<riposte_killchance mult="false" always_random="false" min="0.05" max="0.05"/>
-			<damage_throw_combo mult="false" always_random="false" min="10" max="10"/>
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_reduction mult="true" always_random="false" min="1.1" max="1.1" />	
+			<riposte_killchance mult="false" always_random="false" min="0.05" max="0.05" />
+			<damage_throw_combo mult="false" always_random="false" min="10" max="10" />
 		</ability>       
       
 	#Checked 
 	#Sword Boost	sword_s15	Szybkosc ladowania wytrzymalosci ciosami miecza +20%Wszystkie odpornosci +5% Żywotność + 10%	sword_s15_2	Szybkosc ladowania wytrzymalosci ciosami miecza +30%Wszystkie odpornosci +10%Szansa na wszystkie efekty krytyczne +10% Żywotność + 10%
-		<ability name="sword_s15" oned="" on_ended=""  prerequisites="sword_s14"  max_enhancements="1">
-			<adrenaline_on_hit mult="false" always_random="false" min="1" max="1"/>
-			<crt_poison mult="true" always_random="false" min="1.1" max="1.1"/>
-			<crt_bleed mult="true" always_random="false" min="1.1" max="1.1"/>
-			<crt_knockdown mult="true" always_random="false" min="1.1" max="1.1"/>
-			<crt_stun mult="true" always_random="false" min="1.1" max="1.1"/>
-			<crt_freeze mult="true" always_random="false" min="1.1" max="1.1"/>
-			<crt_burn mult="true" always_random="false" min="1.1" max="1.1"/>
-			<res_burn mult="true" always_random="false" min="1.1" max="1.1"/>
-			<res_bleed mult="true" always_random="false" min="1.1" max="1.1"/>
-			<res_poison mult="true" always_random="false" min="1.1" max="1.1"/>
-			<instant_kill_chance mult="false" always_random="false" min="0.02" max="0.02"/>
+		<ability name="sword_s15" oned="" on_ended="" prerequisites="sword_s14" max_enhancements="1">
+			<adrenaline_on_hit mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_poison mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_bleed mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_knockdown mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_stun mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_freeze mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_burn mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_burn mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_bleed mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_poison mult="true" always_random="false" min="1.1" max="1.1" />
+			<instant_kill_chance mult="false" always_random="false" min="0.02" max="0.02" />
 		</ability>       
       
 		<ability name="sword_s15_2" oned="" on_ended="">
-			<adrenaline_on_hit mult="flase" always_random="false" min="2" max="2"/>
-			<crt_poison mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<crt_bleed mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<crt_knockdown mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<crt_stun mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<crt_freeze mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<crt_burn mult="true" always_random="false" min="1.0909090909" max="1.0909090909"/>
-			<res_burn mult="true" always_random="false" min="1.1818181818" max="1.1818181818"/>
-			<res_bleed mult="true" always_random="false" min="1.1818181818" max="1.1818181818"/>
-			<res_poison mult="true" always_random="false" min="1.1818181818" max="1.1818181818"/>
-			<instant_kill_chance mult="false" always_random="false" min="0.03" max="0.03"/>
+			<adrenaline_on_hit mult="true" always_random="false" min="1.2" max="1.2" />
+			<crt_poison mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_bleed mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_knockdown mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_stun mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_freeze mult="true" always_random="false" min="1.1" max="1.1" />
+			<crt_burn mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_burn mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_bleed mult="true" always_random="false" min="1.1" max="1.1" />
+			<res_poison mult="true" always_random="false" min="1.1" max="1.1" />
+			<instant_kill_chance mult="false" always_random="false" min="0.03" max="0.03" />
 		</ability>       
       
       # -------------------
 	#Checked 
 	#Alchemik	alchemy_s1	Zwiększenie obrażeń pułapek i bomb o 20%	alchemy_s1_2	Zwiększenie obrażeń bomb i pułapek o 50%
 		<ability name="alchemy_s1" oned="" on_ended="" on_added="skill_add_potions">
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+			<petards_damage_mult mult="false" always_random="false" min="1.0" max="1.0" />
+			<traps_damage_mult mult="false" always_random="false" min="1.0" max="1.0" />
 		</ability>     
       
 		<ability name="alchemy_s1_2" oned="" on_ended="">
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+			<petards_damage_mult mult="false" always_random="false" min="1.5" max="1.5" />
+			<traps_damage_mult mult="false" always_random="false" min="1.5" max="1.5" />
 		</ability>             
 	#Nie wiadomo
 	#Herbalista	alchemy_s2	Uzyskiwana liczba skladnikow alchemicznych +50%	alchemy_s2_2	Uzyskiwana liczba skladnikow alchemicznych +100%
 		<ability name="alchemy_s2" oned="" on_ended="" prerequisites="alchemy_s4,alchemy_s6">
-			<loot_alchemy_bonus mult="false" always_random="false" min="1.0" max="1.0"/>
+			<loot_alchemy_bonus mult="false" always_random="false" min="1.0" max="1.0" />
 		</ability>      
       
 		<ability name="alchemy_s2_2" oned="" on_ended="">
-			<loot_alchemy_bonus mult="false" always_random="false" min="1.0" max="1.0"/>
-			<res_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<poison_damage mult="false" always_random="false" min="5.0" max="5.0"/>
+			<loot_alchemy_bonus mult="false" always_random="false" min="1.0" max="1.0" />
+			<res_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<poison_damage mult="false" always_random="false" min="5.0" max="5.0" />
 		</ability>       
       
 	#Checked 
 	#Narkomania	alchemy_s3	Zywotnosc + X alchemy_s3_2	Zywotnosc + X
-		<ability name="alchemy_s3" oned="" on_ended="" >
-			<vitality mult="false" always_random="false" min="10" max="10"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
+		<ability name="alchemy_s3" oned="" on_ended="">
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>       
       
 		<ability name="alchemy_s3_2" oned="" on_ended="">
-			<vitality mult="false" always_random="false" min="40" max="40"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3"/>
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>           
 	#Nie wiadomo
 	#Efekt Uboczny	alchemy_s4	Szansa na stworzenie mutagenu jako efektu ubocznego alchemii 5%	alchemy_s4_2	Szansa na stworzenie mutagenu jako efektu ubocznego alchemii 10%
 		<ability name="alchemy_s4" oned="" on_ended="" prerequisites="alchemy_s1,alchemy_s2">
-			<mutagen_chance mult="false" always_random="false" min="2" max="2"/>
-			<res_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10"/>
+			<mutagen_chance mult="false" always_random="false" min="2" max="2" />
+			<res_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" />
 		</ability>       
       
 		<ability name="alchemy_s4_2" oned="" on_ended="">
-			<mutagen_chance mult="false" always_random="false" min="8" max="8"/>
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10"/>
+			<mutagen_chance mult="false" always_random="false" min="8" max="8" />
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" />
 		</ability>       
 	#Nie wiadomo
 	#Specjalista: Smarowidła	alchemy_s5	Smary dzialaja o 25% dłużej.	alchemy_s5_2	Smary dzialaja o 20% dłużej.Obrażenia +50%
-		<ability name="alchemy_s5" oned="" on_ended=""  prerequisites="alchemy_s2">
-			<oils_time_bonus mult="false" always_random="false" min="1.1" max="1.1"/>
+		<ability name="alchemy_s5" oned="" on_ended="" prerequisites="alchemy_s2">
+			<oils_time_bonus mult="false" always_random="false" min="1.1" max="1.1" />
 		</ability>       
       
 		<ability name="alchemy_s5_2" oned="" on_ended="">
-			<oils_time_bonus mult="false" always_random="false" min="0.4" max="0.4"/>
+			<oils_time_bonus mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>       
 	#Checked 
 	#Specialista: Mikstury	alchemy_s6	Mikstury działają o 25% dłużej.	alchemy_s6_2	Mikstury działają o 20% dłużej.Żywotność +50%
 		<ability name="alchemy_s6" oned="" on_ended="" prerequisites="alchemy_s3,alchemy_s2">
-			<potions_time_bonus mult="false" always_random="false" min="1.2" max="1.2"/>
+			<potions_time_bonus mult="false" always_random="false" min="1.1" max="1.1" />
 		</ability>       
       
 		<ability name="alchemy_s6_2" oned="" on_ended="">
-			<potions_time_bonus mult="false" always_random="false" min="0.3" max="0.3"/>
+			<potions_time_bonus mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>       
 	#Checked 
 	#Hart Alchemika	alchemy_s7	Efekty eliksirow +x%	alchemy_s7_2	Efekty eliksirow +xx%
-		<ability name="alchemy_s7" oned="" on_ended=""  prerequisites="alchemy_s2">
+		<ability name="alchemy_s7" oned="" on_ended="" prerequisites="alchemy_s2">
 		</ability>       
 		<ability name="alchemy_s7_2" oned="" on_ended="">
 		</ability>             
@@ -550,82 +550,82 @@
       
 	#Checked 
 	#Naturalna Odporność	alchemy_s9	efekty wszystkich	mutagenow +x%	alchemy_s9_2	efekty wszystkich mutagenow +xx%
-		<ability name="alchemy_s9" oned="" on_ended=""  prerequisites="alchemy_s5" max_enhancements="1">
+		<ability name="alchemy_s9" oned="" on_ended="" prerequisites="alchemy_s5">
 		</ability>       
       
 		<ability name="alchemy_s9_2" oned="" on_ended="">
 		</ability>            
       #Nie wiadomo
       #Degustator	alchemy_s10	Odblokowuje mozliwosc wypicia jednego dodatkowego eliksiru.	alchemy_s10_2	Odblokowuje mozliwosc wypicia jednego dodatkowego eliksiru.Zwiekszenie obrazen i redukcji obrazen pod wplywem zatrucia o 10%
-		<ability name="alchemy_s10" oned="" on_ended="" prerequisites="alchemy_s5" >
-			<potion_slots mult="false" always_random="false" min="1.0" max="1.0"/>
+		<ability name="alchemy_s10" oned="" on_ended="" prerequisites="alchemy_s5">
+			<potion_slots mult="false" always_random="false" min="1.0" max="1.0" />
 		</ability>       
       
 		<ability name="alchemy_s10_2" oned="" on_ended="">
 		</ability>       
 	#Checked 
 	#Szybka Regeneracja	alchemy_s11	Regeneracja wytrzymałości pod wpływem zatrucia +25%	alchemy_s11_2	Regeneracja wytrzymałości pod wpływem zatrucia +50%
-		<ability name="alchemy_s11" oned="" on_ended=""  prerequisites="alchemy_s12,alchemy_s14" max_enhancements="1">
-			<endurance_regen_toxbonus mult="false" always_random="false" min="0.2" max="0.2"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
+		<ability name="alchemy_s11" oned="" on_ended="" prerequisites="alchemy_s12,alchemy_s14" max_enhancements="1">
+			<endurance_regen_toxbonus mult="false" always_random="false" min="0.15" max="0.15" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>       
 
 		<ability name="alchemy_s11_2" oned="" on_ended="">
-			<endurance_regen_toxbonus mult="false" always_random="false" min="0.3" max="0.3"/>
-			<vitality mult="false" always_random="false" min="30" max="30"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3"/>
+			<endurance_regen_toxbonus mult="false" always_random="false" min="0.4" max="0.4" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>       
 	#Checked 
 	#Zabójczy Narkoman	alchemy_s12	Zwiekszenie obrazen i redukcji obrazen pod wplywem zatrucia o 15%	alchemy_s12_2	Zwiekszenie obrazen i redukcji obrazen pod wplywem zatrucia o 25%
-		<ability name="alchemy_s12" oned="" on_ended="" prerequisites="alchemy_s8,alchemy_s10"  max_enhancements="1">
-			<damage_toxbonus mult="false" always_random="false" min="0.1" max="0.1"/>
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+		<ability name="alchemy_s12" oned="" on_ended="" prerequisites="alchemy_s8,alchemy_s10" max_enhancements="1">
+			<damage_toxbonus mult="false" always_random="false" min="0.05" max="0.05" />
+			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
+			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
       
 		<ability name="alchemy_s12_2" oned="" on_ended="">
-			<damage_toxbonus mult="false" always_random="false" min="0.2" max="0.2"/>
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+			<damage_toxbonus mult="false" always_random="false" min="0.2" max="0.2" />
+			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
+			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
       
       #Checked 
       #Berserker	alchemy_s13	Wszystkie efekty krytyczne +20%	alchemy_s13_2	Wszystkie efekty krytyczne +25%Żywotności +10%Obrażenia +10%
 		<ability name="alchemy_s13" oned="" on_ended="" prerequisites="alchemy_s12,alchemy_s14" max_enhancements="1">
-			<instant_kill_toxbonus mult="false" always_random="false" min="0.02" max="0.02"/>
-			<crt_poison mult="false" always_random="false" min="0.02" max="0.02"/>
+			<instant_kill_toxbonus mult="false" always_random="false" min="0.01" max="0.01" />
+			<crt_poison mult="false" always_random="false" min="0.02" max="0.02" />
 		</ability>       
       
 		<ability name="alchemy_s13_2" oned="" on_ended="">
-			<instant_kill_toxbonus mult="false" always_random="false" min="0.03" max="0.03"/>
-			<crt_poison mult="false" always_random="false" min="0.03" max="0.03"/>
+			<instant_kill_toxbonus mult="false" always_random="false" min="0.02" max="0.02" />
+			<crt_poison mult="false" always_random="false" min="0.03" max="0.03" />
 		</ability>             
 	#Checked 
 	#Sense of Alchemy	alchemy_s14	Odblokowuje build Alchemiczny: przyspiesza generowanie wytrzymalosci pod wplwem zatrucia oraz odblokowuje tryb berserk.	alchemy_s14_2	Odblokowuje build Alchemiczny: przyspiesza generowanie wytrzymalosci pod wplwem zatrucia oraz odblokowuje tryb berserk.Obrazenia +5%Redukcja obrazen +5%
 		<ability name="alchemy_s14" oned="" on_ended="" prerequisites="alchemy_s11,alchemy_s13" max_enhancements="1">
-			<witcher_type_alchemy mult="false" always_random="false" min="200" max="200"/>
-			<vitality mult="false" always_random="false" min="20" max="20"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
+			<witcher_type_alchemy mult="false" always_random="false" min="200" max="200" />
+			<vitality mult="false" always_random="false" min="20" max="20" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>       
       
 		<ability name="alchemy_s14_2" oned="" on_ended="">
-			<adrenaline_toxgeneration mult="flase" always_random="true" min="1" max="1"/>
-			<vitality mult="false" always_random="false" min="30" max="30"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3"/>
+			<adrenaline_toxgeneration mult="true" always_random="true" min="1.25" max="1.25" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>             
       
      #Alchemical Boost	alchemy_s15	Zwiekszenie obrazen i redukcji obrazen pod wplywem zatrucia o 10%Wszystkie odporności +5%	alchemy_s15_2	Zwiekszenie obrazen i redukcji obrazen pod wplywem zatrucia o 20%Wszystkie odporności +10%Wszystkie efekty krytyczne +15%
 		<ability name="alchemy_s15" oned="" on_ended="" prerequisites="alchemy_s14" max_enhancements="1">
-			<damage_reduction_toxbonus mult="false" always_random="false" display_perc="true" min="0.2" max="0.2"/>
-			<damage_toxbonus mult="false" always_random="false" display_perc="true" min="0.1" max="0.1"/>
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+			<damage_reduction_toxbonus mult="false" always_random="false" min="0.05" max="0.05" />
+			<damage_toxbonus mult="false" always_random="false" min="0.1" max="0.1" />
+			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
+			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
       
 		<ability name="alchemy_s15_2" oned="" on_ended="">
-			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
-			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25"/>
+			<petards_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
+			<traps_damage_mult mult="false" always_random="false" min="0.25" max="0.25" />
 		</ability>       
       
 	</abilities>

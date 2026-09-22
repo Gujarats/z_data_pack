@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="Dragon_breath_stats_a3">
@@ -6,7 +6,7 @@
       <damage_max_add mult="false" always_random="false" min="100" max="100" />
     </ability>
     <ability name="DragonHeadA3">
-      <vitality mult="false" always_random="false" min="3000" max="3000" />
+      <vitality mult="false" always_random="false" min="2000" max="2000" />
       <damage_min mult="false" always_random="false" min="80" max="80" />
       <damage_max mult="false" always_random="false" min="100" max="100" />
       <damage_fire_per_sec mult="false" always_random="false" min="40" max="40" />

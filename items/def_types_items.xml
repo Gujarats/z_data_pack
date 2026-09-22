@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
@@ -6,163 +6,163 @@
 
 		<ability name="type_swordsteel">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="1" max="1"/>
+				<modifier mult="false" always_random="false" min="1" max="1" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_swordsilver">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="2" max="2"/>
+				<modifier mult="false" always_random="false" min="2" max="2" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_potion">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="3" max="3"/>
+				<modifier mult="false" always_random="false" min="3" max="3" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_grease">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="4" max="4"/>
+				<modifier mult="false" always_random="false" min="4" max="4" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_bomb">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="5" max="5"/>
+				<modifier mult="false" always_random="false" min="5" max="5" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_armor">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="6" max="6"/>
+				<modifier mult="false" always_random="false" min="6" max="6" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_trap">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="7" max="7"/>
+				<modifier mult="false" always_random="false" min="7" max="7" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_weapon">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="8" max="8"/>
+				<modifier mult="false" always_random="false" min="8" max="8" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_craftrec">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="9" max="9"/>
+				<modifier mult="false" always_random="false" min="9" max="9" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_alchrec">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="10" max="10"/>
+				<modifier mult="false" always_random="false" min="10" max="10" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_quest">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="11" max="11"/>
+				<modifier mult="false" always_random="false" min="11" max="11" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_craftingr">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="12" max="12"/>
+				<modifier mult="false" always_random="false" min="12" max="12" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_note">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="13" max="13"/>
+				<modifier mult="false" always_random="false" min="13" max="13" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_mutagen">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="14" max="14"/>
+				<modifier mult="false" always_random="false" min="14" max="14" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_alchingr">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="15" max="15"/>
+				<modifier mult="false" always_random="false" min="15" max="15" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_book">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="16" max="16"/>
+				<modifier mult="false" always_random="false" min="16" max="16" />
 			</itemtype>
 		</ability>
 
 		<ability name="type_money">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="17" max="17"/>
+				<modifier mult="false" always_random="false" min="17" max="17" />
 			</itemtype>
 		</ability>
 		<ability name="type_key">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="18" max="18"/>
+				<modifier mult="false" always_random="false" min="18" max="18" />
 			</itemtype>
 		</ability>
 		<ability name="type_armorupgr">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="19" max="19"/>
+				<modifier mult="false" always_random="false" min="19" max="19" />
 			</itemtype>
 		</ability>
 		<ability name="type_weaponupgr">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="20" max="20"/>
+				<modifier mult="false" always_random="false" min="20" max="20" />
 			</itemtype>
 		</ability>
 		<ability name="type_rune">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="21" max="21"/>
+				<modifier mult="false" always_random="false" min="21" max="21" />
 			</itemtype>
 		</ability>
 		<ability name="type_contract">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="22" max="22"/>
+				<modifier mult="false" always_random="false" min="22" max="22" />
 			</itemtype>
 		</ability>
 		<ability name="type_valuable">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="23" max="23"/>
+				<modifier mult="false" always_random="false" min="23" max="23" />
 			</itemtype>
 		</ability>
 		<ability name="type_trash">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="24" max="24"/>
+				<modifier mult="false" always_random="false" min="24" max="24" />
 			</itemtype>
 		</ability>
 		<ability name="type_trophy">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="25" max="25"/>
+				<modifier mult="false" always_random="false" min="25" max="25" />
 			</itemtype>
 		</ability>
 		<ability name="type_gloves">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="26" max="26"/>
+				<modifier mult="false" always_random="false" min="26" max="26" />
 			</itemtype>
 		</ability>
 		<ability name="type_boots">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="27" max="27"/>
+				<modifier mult="false" always_random="false" min="27" max="27" />
 			</itemtype>
 		</ability>
 		<ability name="type_pants">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="28" max="28"/>
+				<modifier mult="false" always_random="false" min="28" max="28" />
 			</itemtype>
 		</ability>
 		<ability name="type_thrown">
 			<itemtype>
-				<modifier mult="false" always_random="false" min="29" max="29"/>
+				<modifier mult="false" always_random="false" min="29" max="29" />
 			</itemtype>
 		</ability>
 

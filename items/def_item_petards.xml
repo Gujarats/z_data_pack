@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -7,7 +7,7 @@
     
     # Petardy
         
-        <item name="Grapeshot" category="petard" stackable = "true" hold_template="grapeshot_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Grapeshot" category="petard" stackable="true" hold_template="grapeshot_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Grapeshot _Stats</a>
@@ -22,7 +22,7 @@
             </base_abilities>
         </item>
 
-	<item name="Devil Puffball" category="petard" stackable = "true" hold_template="devil_puffball_bomb" equip_template="" equip_slot="" hold_slot="">
+	<item name="Devil Puffball" category="petard" stackable="true" hold_template="devil_puffball_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Devil Puffball _Stats</a>
@@ -37,7 +37,7 @@
             </base_abilities>
         </item>
         
-	<item name="Samum" category="petard" stackable = "true" hold_template="samum_bomb" equip_template="" equip_slot="" hold_slot="">
+	<item name="Samum" category="petard" stackable="true" hold_template="samum_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Samum _Stats</a>
@@ -52,7 +52,7 @@
             </base_abilities>
         </item>
         
-        <item name="Dancing Star" category="petard" stackable = "true" hold_template="dancing_star_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Dancing Star" category="petard" stackable="true" hold_template="dancing_star_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Dancing Star _Stats</a>
@@ -67,7 +67,7 @@
             </base_abilities>
         </item>
         
-        <item name="Dragon Slumber" category="petard" stackable = "true" hold_template="dragon_dream_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Dragon Slumber" category="petard" stackable="true" hold_template="dragon_dream_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Dragon Slumber _Stats</a>
@@ -82,7 +82,7 @@
             </base_abilities>
         </item>
         
-        <item name="Firefly" category="petard" stackable = "true" hold_template="firefly_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Firefly" category="petard" stackable="true" hold_template="firefly_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Firefly _Stats</a>
@@ -97,7 +97,7 @@
             </base_abilities>
         </item>
         
-        <item name="Flare" category="petard" stackable = "true" hold_template="flare_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Flare" category="petard" stackable="true" hold_template="flare_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Flare _Stats</a>
@@ -108,7 +108,7 @@
             </base_abilities>
         </item>
         
-        <item name="Stinker" category="petard" stackable = "true" hold_template="stinker_bomb" equip_template="" equip_slot="" hold_slot="">
+        <item name="Stinker" category="petard" stackable="true" hold_template="stinker_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Stinker _Stats</a>
@@ -123,16 +123,16 @@
             </base_abilities>
         </item>
         
-        <item name="Bomb Target Marker" category="petard" stackable = "false" hold_template="bomb_marker">
+        <item name="Bomb Target Marker" category="petard" stackable="false" hold_template="bomb_marker">
 	    <tags>NoShow,NoDrop</tags>
         </item>
 
-	<item name="Mage Fire Melee Spell" category="magic" ability_slots="0" stackable = "true"  equip_template="fire_circle" hold_template="fire_circle" equip_slot="" hold_slot="">
+	<item name="Mage Fire Melee Spell" category="magic" ability_slots="0" stackable="true" equip_template="fire_circle" hold_template="fire_circle" equip_slot="" hold_slot="">
             <tags>SortTypeTrap,Trap,QuickSlot, NoDrop</tags>
         </item>
 	
 # nowe:
-	<item name="Red Haze" category="petard" stackable = "true" hold_template="red_haze_bomb" equip_template="" equip_slot="" hold_slot="">
+	<item name="Red Haze" category="petard" stackable="true" hold_template="red_haze_bomb" equip_template="" equip_slot="" hold_slot="">
             <tags>SortTypePetard,Petard,QuickSlot</tags>
             <base_abilities>
 		<a>Red Haze _Stats</a>

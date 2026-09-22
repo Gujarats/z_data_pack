@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
 		<ability name="Mage Default">
-			<igni_speed mult="false" always_random="false" min="8" max="8"/>
-			<igni_radius mult="false" always_random="false" min="1" max="1"/>
-			<igni_strength mult="false" always_random="false" min="10" max="10"/>
-			<igni_max_dist mult="false" always_random="false" min="10" max="10"/>
+			<igni_speed mult="false" always_random="false" min="8" max="8" />
+			<igni_radius mult="false" always_random="false" min="1" max="1" />
+			<igni_strength mult="false" always_random="false" min="10" max="10" />
+			<igni_max_dist mult="false" always_random="false" min="10" max="10" />
 		</ability>  
 
 	</abilities>

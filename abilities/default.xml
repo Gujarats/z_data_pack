@@ -1,66 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
-		<ability name="mw" > 
-			<max_weight mult="false" always_random="false" min="10000" max="10000"/>
+		<ability name="mw"> 
+			<max_weight mult="false" always_random="false" min="10000" max="10000" />
 		</ability>
 		<ability name="Default NPC Fists _Stats">
-			<damage_min_add mult="false" always_random="false" min="5" max="6"/>
-			<damage_max_add mult="false" always_random="false" min="7" max="8"/>
+			<damage_min_add mult="false" always_random="false" min="5" max="6" />
+			<damage_max_add mult="false" always_random="false" min="7" max="8" />
 		</ability>  
 
 		<ability name="OneShotKill NPC">
-			<vitality mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="1" max="1" />
 		</ability>
 
 		<ability name="Default NPC">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<experience mult="false" always_random="false" min="0" max="0"/>
-			<vitality mult="false" always_random="false" min="30" max="30"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="2" max="2"/>
-			<damage_min mult="false" always_random="false" min="8" max="8"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<experience mult="false" always_random="false" min="0" max="0" />
+			<vitality mult="false" always_random="false" min="30" max="30" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_min mult="false" always_random="false" min="8" max="8" />
 		</ability>   
 
 		<ability name="Default NPC Akt 1">
-			<level mult="false" always_random="false" min="8" max="8"/>
-			<experience mult="false" always_random="false" min="10" max="10"/>
-			<vitality mult="false" always_random="false" min="40" max="40"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="10" max="10"/>
-			<damage_min mult="false" always_random="false" min="8" max="8"/>
-			<damage_min mult="false" always_random="false" min="19" max="19"/>
+			<level mult="false" always_random="false" min="8" max="8" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			<vitality mult="false" always_random="false" min="40" max="40" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_min mult="false" always_random="false" min="19" max="19" />
 		</ability>   
 
 		<ability name="Default NPC Akt 2">
-			<level mult="false" always_random="false" min="18" max="18"/>
-			<experience mult="false" always_random="false" min="10" max="10"/>
-			<vitality mult="false" always_random="false" min="60" max="60"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="20" max="20"/>
-			<damage_min mult="false" always_random="false" min="25" max="25"/>
-			<damage_min mult="false" always_random="false" min="46" max="46"/>
+			<level mult="false" always_random="false" min="18" max="18" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="20" max="20" />
+			<damage_min mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="46" max="46" />
 		</ability>   
 
 		<ability name="Default NPC Akt 3">
-			<level mult="false" always_random="false" min="28" max="28"/>
-			<experience mult="false" always_random="false" min="10" max="10"/>
-			<vitality mult="false" always_random="false" min="80" max="80"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block mult="false" always_random="false" min="30" max="30"/>
-			<damage_min mult="false" always_random="false" min="35" max="35"/>
-			<damage_min mult="false" always_random="false" min="56" max="56"/>
+			<level mult="false" always_random="false" min="28" max="28" />
+			<experience mult="false" always_random="false" min="10" max="10" />
+			<vitality mult="false" always_random="false" min="80" max="80" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block mult="false" always_random="false" min="30" max="30" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_min mult="false" always_random="false" min="56" max="56" />
 		</ability>   
 
 		<ability name="Default NPC Weak">
-			<level mult="false" always_random="false" min="1" max="1"/>
-			<experience mult="false" always_random="false" min="0" max="0"/>
-			<vitality mult="false" always_random="false" min="10" max="10"/>
-			<damage_reduction mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_block mult="false" always_random="false" min="1" max="1"/>
-			<damage_min mult="false" always_random="false" min="2" max="2"/>
-			<damage_min mult="false" always_random="false" min="4" max="4"/>
+			<level mult="false" always_random="false" min="1" max="1" />
+			<experience mult="false" always_random="false" min="0" max="0" />
+			<vitality mult="false" always_random="false" min="10" max="10" />
+			<damage_reduction mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_block mult="false" always_random="false" min="1" max="1" />
+			<damage_min mult="false" always_random="false" min="2" max="2" />
+			<damage_min mult="false" always_random="false" min="4" max="4" />
 		</ability>   
 
 	</abilities>

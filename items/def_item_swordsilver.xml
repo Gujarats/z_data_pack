@@ -1,35 +1,17 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
 
     <items>
 
-        <item name="scabbard_silver"
-              category="silver_scabbard"
-    	      stackable = "true" 
-              equip_template="scabbard_silver"
-              equip_slot="pelvis"
-              appearance=""
-              enhancement_slots="0"
-              attachment_type="animated"
-              attachment_prefix="item_"              
-              ability_mode="OnMount">
+        <item name="scabbard_silver" category="silver_scabbard" stackable="true" equip_template="scabbard_silver" equip_slot="pelvis" appearance="" enhancement_slots="0" attachment_type="animated" attachment_prefix="item_" ability_mode="OnMount">
             <tags>NoShow,NoDrop</tags>
             <base_abilities>
             </base_abilities>
         </item>
 		
-        <item name="scabbard_silver_dark"
-              category="silver_scabbard"
-    	      stackable = "true" 
-              equip_template="scabbard_silver_dark"
-              equip_slot="pelvis"
-              appearance=""
-              enhancement_slots="0"
-              attachment_type="animated"
-              attachment_prefix="item_"              
-              ability_mode="OnMount">
+        <item name="scabbard_silver_dark" category="silver_scabbard" stackable="true" equip_template="scabbard_silver_dark" equip_slot="pelvis" appearance="" enhancement_slots="0" attachment_type="animated" attachment_prefix="item_" ability_mode="OnMount">
             <tags>NoShow,NoDrop</tags>
             <base_abilities>
             </base_abilities>
@@ -41,23 +23,7 @@
     # AKT 1
     
         #Q1
-        <item name="Silvered Sword" 
-              category="silversword" 
-              enhancement_slots="0" 
-	      stackable = "false" 
-              equip_template="silver_35_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true"
-              lethal="true"
-              ability_mode="OnHold"
-			  hand="right"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Silvered Sword" category="silversword" enhancement_slots="0" stackable="false" equip_template="silver_35_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" hand="right" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -67,32 +33,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -102,23 +51,7 @@
         </item>
               
         #Q2
-        <item name="Witcher Silver Sword" 
-              category="silversword" 
-              enhancement_slots="0" 
-	      stackable = "false" 
-              equip_template="silver_35_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true"
-              lethal="true"
-              ability_mode="OnHold"
-			  hand="right"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Witcher Silver Sword" category="silversword" enhancement_slots="0" stackable="false" equip_template="silver_35_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" hand="right" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -128,32 +61,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -163,22 +79,7 @@
         </item>
         
       #Q4
-        <item name="Moonblade" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_73_moonblade" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Moonblade" category="silversword" enhancement_slots="3" equip_template="silver_73_moonblade" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeMagic,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -188,32 +89,15 @@
 	      <a>Weight_9</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -223,22 +107,7 @@
         </item>
         
         #Q4
-        <item name="Aerondight" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_36_quality_witcher" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Aerondight" category="silversword" enhancement_slots="3" equip_template="silver_36_quality_witcher" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeMagic,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -248,32 +117,15 @@
 	      <a>Weight_9</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -283,22 +135,7 @@
         </item>
      
         #Q5
-        <item name="Unique Silver Sword" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_47_unique" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
- 	      stackable = "false" 
-             weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Unique Silver Sword" category="silversword" enhancement_slots="1" equip_template="silver_47_unique" equip_slot="silver_sword_slot" hold_slot="r_weapon" stackable="false" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -308,32 +145,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -347,22 +167,7 @@
         
         
         #Q6
-        <item name="High Quality Witcher Silver Sword" 
-              category="silversword" 
-              enhancement_slots="1" 
-  	      stackable = "false" 
-             equip_template="silver_37_high_quality_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="High Quality Witcher Silver Sword" category="silversword" enhancement_slots="0" stackable="false" equip_template="silver_36_quality_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -372,32 +177,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -407,22 +195,7 @@
         </item>
 
         #Q7
-        <item name="Titans Hand" 
-              category="silversword" 
-              enhancement_slots="1" 
-  	      stackable = "false" 
-             equip_template="silver_37_high_quality_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Titans Hand" category="silversword" enhancement_slots="1" stackable="false" equip_template="silver_37_high_quality_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -432,32 +205,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -467,22 +223,7 @@
         </item>
 
         #Q8
-        <item name="Shadow Sword" 
-              category="silversword" 
-              enhancement_slots="1" 
-  	      stackable = "false" 
-             equip_template="silver_37_high_quality_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Shadow Sword" category="silversword" enhancement_slots="1" stackable="false" equip_template="silver_37_high_quality_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -492,32 +233,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -527,22 +251,7 @@
         </item>
 
         #Q9
-        <item name="Abomination Slayer" 
-              category="silversword" 
-              enhancement_slots="1" 
-  	      stackable = "false" 
-             equip_template="silver_37_high_quality_witcher"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Abomination Slayer" category="silversword" enhancement_slots="1" stackable="false" equip_template="silver_37_high_quality_witcher" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -552,32 +261,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -591,22 +283,7 @@
     # AKT 2
     
         #Q4
-        <item name="Fate" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_49_fate" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Fate" category="silversword" enhancement_slots="1" equip_template="silver_37_high_quality_witcher" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -616,32 +293,15 @@
 	      <a>Weight_9</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -651,22 +311,7 @@
         </item>
         
         #Q4
-        <item name="Negotiator" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_50_negotiator" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Negotiator" category="silversword" enhancement_slots="1" equip_template="silver_49_fate" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeMagic,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -676,32 +321,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -711,22 +339,7 @@
         </item>
         
         #Q5 
-        <item name="Harpy" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_53_harpy" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Harpy" category="silversword" enhancement_slots="2" equip_template="silver_50_negotiator" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeMagic,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -736,32 +349,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -772,22 +368,7 @@
         
     
         #Q5
-        <item name="Naevde Seidhe" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_51_naevde" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Naevde Seidhe" category="silversword" enhancement_slots="3" equip_template="silver_53_harpy" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -797,32 +378,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -832,22 +396,7 @@
         </item>
         
         #Q7
-        <item name="Blood Sword" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_55_blood_sword" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Blood Sword" category="silversword" enhancement_slots="2" equip_template="silver_51_naevde" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeEpic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -857,32 +406,15 @@
 	      <a>Weight_9</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -893,22 +425,7 @@
 
         
         #Q8 
-        <item name="Gvalchca" 
-              category="silversword" 
-              enhancement_slots="1" 
- 	      stackable = "false" 
-             equip_template="silver_56_gvalchca" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Gvalchca" category="silversword" enhancement_slots="3" stackable="false" equip_template="silver_55_blood_sword" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -918,32 +435,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -953,22 +453,7 @@
         </item>
 
         #Q9    
-        <item name="Draug Testimony" 
-              category="silversword" 
-              enhancement_slots="1" 
-	      stackable = "false" 
-              equip_template="silver_59_draug" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Draug Testimony" category="silversword" enhancement_slots="3" stackable="false" equip_template="silver_56_gvalchca" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeEpic,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -978,32 +463,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1013,23 +481,7 @@
         </item>
         
         #Q10 Dark difficulty silversword A1
-        <item name="Dark difficulty silversword A1" 
-              category="silversword" 
-              enhancement_slots="1" 
-	      stackable = "false" 
-              equip_template="silver_61_unique_dark"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true"
-              lethal="true"
-              ability_mode="OnHold"
-			  hand="right"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Dark difficulty silversword A1" category="silversword" enhancement_slots="3" stackable="false" equip_template="silver_59_draug" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,DarkDiffA1,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver_dark</item>
@@ -1039,32 +491,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1077,22 +512,7 @@
     # AKT 2 - CRAFTED
     
             #Q3
-            <item name="Blue Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_38_blue_meteorite" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true"
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+            <item name="Blue Meteorite Silver Sword" category="silversword" enhancement_slots="0" equip_template="silver_61_unique_dark" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact" hand="right">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1102,32 +522,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1137,22 +540,7 @@
         </item>
         
         #Q3
-        <item name="Red Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_39_red_meteorite" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Red Meteorite Silver Sword" category="silversword" enhancement_slots="1" equip_template="silver_38_blue_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,TypeMagic,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1162,32 +550,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1197,22 +568,7 @@
         </item>
         
         #Q3
-        <item name="Yellow Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_40_yellow_meteorite" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Yellow Meteorite Silver Sword" category="silversword" enhancement_slots="1" equip_template="silver_39_red_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1222,32 +578,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1257,22 +596,7 @@
         </item>
         
         #Q6
-        <item name="Quality Blue Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_41_quality_blue_meteorite" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Quality Blue Meteorite Silver Sword" category="silversword" enhancement_slots="1" equip_template="silver_40_yellow_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1282,32 +606,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1317,22 +624,7 @@
         </item>
         
         #Q6
-        <item name="Quality Red Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_42_quality_red_meteorite" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Quality Red Meteorite Silver Sword" category="silversword" enhancement_slots="2" equip_template="silver_41_quality_blue_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1342,32 +634,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1377,22 +652,7 @@
         </item>
         
         #Q6
-        <item name="Quality Yellow Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_43_quality_yellow_meteorite" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Quality Yellow Meteorite Silver Sword" category="silversword" enhancement_slots="2" equip_template="silver_42_quality_red_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1402,32 +662,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1437,22 +680,7 @@
         </item>
         
         #Q7
-        <item name="Demise of the Cursed" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_76_cursed_demise" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Demise of the Cursed" category="silversword" enhancement_slots="2" equip_template="silver_43_quality_yellow_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1462,32 +690,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1497,22 +708,7 @@
         </item>
 
         #Q8
-        <item name="Eclipse" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_75_eclipse" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Eclipse" category="silversword" enhancement_slots="2" equip_template="silver_76_cursed_demise" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1522,32 +718,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1557,22 +736,7 @@
         </item>
 
         #Q9
-        <item name="Hags Bane" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_74_hags_bane" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Hags Bane" category="silversword" enhancement_slots="2" equip_template="silver_75_eclipse" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1582,32 +746,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1619,23 +766,7 @@
 
         
         #Q10 Dark difficulty silversword A2
-        <item name="Dark difficulty silversword A2" 
-              category="silversword" 
-              enhancement_slots="2" 
-	      stackable = "false" 
-              equip_template="silver_62_unique_dark"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true"
-              lethal="true"
-              ability_mode="OnHold"
-			  hand="right"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Dark difficulty silversword A2" category="silversword" enhancement_slots="2" stackable="false" equip_template="silver_74_hags_bane" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,DarkDiffA2,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver_dark</item>
@@ -1645,32 +776,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1684,22 +798,7 @@
     # AKT 3  
     
 	#Q4
-	<item name="Deithwen" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_58_deithwen" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+	<item name="Deithwen" category="silversword" enhancement_slots="0" equip_template="silver_62_unique_dark" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact" hand="right">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1709,32 +808,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1744,22 +826,7 @@
         </item>
 
     #Q6     
-	<item name="Gynvael aedd" 
-              category="silversword" 
-              enhancement_slots="1" 
-	      stackable = "false" 
-              equip_template="silver_57_gynvael" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+	<item name="Gynvael aedd" category="silversword" enhancement_slots="3" stackable="false" equip_template="silver_58_deithwen" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Weapon,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1769,32 +836,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1804,22 +854,7 @@
         </item>
 
 	#Q9
-	<item name="Addan deith" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_60_addan" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+	<item name="Addan deith" category="silversword" enhancement_slots="3" equip_template="silver_57_gynvael" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeEpic,Dismantle,crt_bleed,crt_burn,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1829,32 +864,15 @@
 	      <a>Weight_8</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1864,22 +882,7 @@
         </item>
         
         #Q7
-        <item name="High Quality Blue Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_44_high_quality_blue_meteorite" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="High Quality Blue Meteorite Silver Sword" category="silversword" enhancement_slots="3" equip_template="silver_60_addan" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1889,32 +892,15 @@
 	      <a>Weight_7</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1924,22 +910,7 @@
         </item>
 
         #Q7
-        <item name="High Quality Red Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_45_high_quality_red_meteorite" 
-              equip_slot="silver_sword_slot" 
- 	      stackable = "false" 
-             hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="High Quality Red Meteorite Silver Sword" category="silversword" enhancement_slots="3" equip_template="silver_44_high_quality_blue_meteorite" equip_slot="silver_sword_slot" stackable="false" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -1949,32 +920,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -1984,22 +938,7 @@
         </item>
 
         #Q7
-        <item name="High Quality Yellow Meteorite Silver Sword" 
-              category="silversword" 
-              enhancement_slots="2" 
-              equip_template="silver_46_high_quality_yellow_meteorite" 
-	      stackable = "false" 
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="High Quality Yellow Meteorite Silver Sword" category="silversword" enhancement_slots="3" equip_template="silver_45_high_quality_red_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeMagic,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -2009,32 +948,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -2044,22 +966,7 @@
         </item>
         
         #Q10
-        <item name="Unique Silver Meteorite Sword" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_48_unique_meteorite" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Unique Silver Meteorite Sword" category="silversword" enhancement_slots="3" equip_template="silver_46_high_quality_yellow_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -2069,32 +976,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -2104,22 +994,7 @@
         </item>
 
         #Q11
-        <item name="Marag Bator" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_73_marag_bator" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Marag Bator" category="silversword" enhancement_slots="2" equip_template="silver_48_unique_meteorite" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -2129,32 +1004,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -2164,22 +1022,7 @@
         </item>
 
         #Q12
-        <item name="Ichaer Aardanna" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_72_ichaer_aardanna" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Ichaer Aardanna" category="silversword" enhancement_slots="2" equip_template="silver_73_marag_bator" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -2189,32 +1032,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -2224,22 +1050,7 @@
         </item>
 
         #Q13
-        <item name="Phantom Edge" 
-              category="silversword" 
-              enhancement_slots="1" 
-              equip_template="silver_71_phantom_edge" 
- 	      stackable = "false" 
-             equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon" 
-              weapon="true" 
-              lethal="true" 
-              ability_mode="OnHold"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Phantom Edge" category="silversword" enhancement_slots="2" equip_template="silver_72_ichaer_aardanna" stackable="false" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,TypeRare,Dismantle,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver</item>
@@ -2249,32 +1060,15 @@
 	      <a>Weight_5</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">
@@ -2285,23 +1079,7 @@
 
 
         #Q10 Dark difficulty silversword A3
-        <item name="Dark difficulty silversword A3" 
-              category="silversword" 
-              enhancement_slots="3" 
-	      stackable = "false" 
-              equip_template="silver_63_unique_dark"
-              equip_slot="silver_sword_slot" 
-              hold_slot="r_weapon"
-              weapon="true"
-              lethal="true"
-              ability_mode="OnHold"
-			  hand="right"
-              draw_event="draw_silver_sword_back"
-			  draw_act="draw_silver_sword_back_act"
-			  draw_deact="draw_silver_sword_back_deact"
-              holster_event="holster_silver_sword_back"
-			  holster_act="holster_silver_sword_back_act"
-			  holster_deact="holster_silver_sword_back_deact">
+        <item name="Dark difficulty silversword A3" category="silversword" enhancement_slots="2" stackable="false" equip_template="silver_71_phantom_edge" equip_slot="silver_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" ability_mode="OnHold" draw_event="draw_silver_sword_back" draw_act="draw_silver_sword_back_act" draw_deact="draw_silver_sword_back_deact" holster_event="holster_silver_sword_back" holster_act="holster_silver_sword_back_act" holster_deact="holster_silver_sword_back_deact">
             <tags>SilverSword,SortTypeWeapon,Weapon,Dismantle,DarkDiffA3,crt_bleed,crt_burn,crt_freeze,crt_knockdown,crt_poison,crt_stun</tags>
             <bound_items>
               <item>scabbard_silver_dark</item>
@@ -2311,32 +1089,15 @@
 	      <a>Weight_6</a>
             </base_abilities>
 			<anim_actions>
-				<action 
-					name="draw" 
-					event="draw_silver_sword_back" 
-					act="draw_silver_sword_back_act" 
-					deact="draw_silver_sword_back_deact">
+				<action name="draw" event="draw_silver_sword_back" act="draw_silver_sword_back_act" deact="draw_silver_sword_back_deact">
 				</action>
-				<action 
-					name="holster" 
-					event="holster_silver_sword_back" 
-					act="holster_silver_sword_back_act" 
-					deact="holster_silver_sword_back_deact">
+				<action name="holster" event="holster_silver_sword_back" act="holster_silver_sword_back_act" deact="holster_silver_sword_back_deact">
 				</action>
-				<action 
-					name="attack" 
-					event="attack_silver_sword_back" 
-					act="attack_silver_sword_back_act" 
-					deact="attack_silver_sword_back_deact">
+				<action name="attack" event="attack_silver_sword_back" act="attack_silver_sword_back_act" deact="attack_silver_sword_back_deact">
 				</action>
 			</anim_actions>
 			<anim_switches>
-				<anim_switch 
-					category="steelsword" 
-					equip_slot="steel_sword_back_slot"
-					event="steel_to_silver"
-					switch_act="steel_to_silver_act"
-					switch_deact="steel_to_silver_deact">
+				<anim_switch category="steelsword" equip_slot="steel_sword_back_slot" event="steel_to_silver" switch_act="steel_to_silver_act" switch_deact="steel_to_silver_deact">
 				</anim_switch>
 			</anim_switches>
 	    <ingredients_list crafted_item="">

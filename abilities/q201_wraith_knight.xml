@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
 
 # q201 wraith base ability
-		<ability name="q201 wraith base ability"><vitality mult="false" always_random="false" min="90" max="90" /><damage_min mult="false" always_random="false" min="30" max="30" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_reduction mult="false" always_random="false" min="4" max="4" /><damage_reduction_block mult="false" always_random="false" min="6" max="6" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" /><res_shieldshatter mult="false" always_random="false" min="0.05" max="0.05" /></ability>   
+		<ability name="q201 wraith base ability"><vitality mult="false" always_random="false" min="60" max="60" /><damage_min mult="false" always_random="false" min="30" max="30" /><damage_max mult="false" always_random="false" min="60" max="60" /><damage_reduction mult="false" always_random="false" min="4" max="4" /><damage_reduction_block mult="false" always_random="false" min="6" max="6" /><damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" /><back_damage_mult mult="true" always_random="false" min="0" max="0" type="bonus" /><res_shieldshatter mult="false" always_random="false" min="0.05" max="0.05" /></ability>   
 
 
 #  q201 lethal dmg ability

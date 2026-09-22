@@ -1,216 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
 	<items>
 		# Definicje broni dla NPC charakterystycznych
-		<item name="zoltan_sword" 
-				category="opponent_weapon" 
-				ability_slots="0"
-				equip_template="zoltan_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				hand="right"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="zoltan_sword" category="opponent_weapon" ability_slots="0" equip_template="zoltan_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" hand="right" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="fake_geralt_sword" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="steel_21_hunting" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="fake_geralt_sword" category="opponent_weapon" ability_slots="0" equip_template="steel_21_hunting" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
 		#		Definicja broni dla duchow w A2
-		<item name="sword_ghost_a2" 
-				category="opponent_weapon" 
-				ability_slots="0"
-				equip_template="ghost_sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				hand="right"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_ghost_a2" category="opponent_weapon" ability_slots="0" equip_template="ghost_sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" hand="right" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="shield_ghost_kaedwen_a2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_ghost_kaedwen_02" 
-				equip_slot="shieldsmall_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true"
-				lethal="true">
+		<item name="shield_ghost_kaedwen_a2" category="opponent_shield" ability_slots="0" equip_template="shield_ghost_kaedwen_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
-		<item name="shield_ghost_aedirn_a2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_ghost_aedirn_02" 
-				equip_slot="shieldsmall_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true"
-				lethal="true">
+		<item name="shield_ghost_aedirn_a2" category="opponent_shield" ability_slots="0" equip_template="shield_ghost_aedirn_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 		#		Definicje broni dla przeciwnikow w prologu
 
-		<item name="sword_prologue" 
-				category="opponent_weapon" 
-				ability_slots="0"
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				hand="right"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_prologue" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" hand="right" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="twohander_prologue" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_twohanded_01" 
-				equip_slot="steel_sword_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_prologue" category="opponent_weapon" ability_slots="0" equip_template="sword_twohanded_01" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="dagger_prologue" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dagger_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dagger_prologue" category="opponent_weapon" ability_slots="0" equip_template="dagger_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="bow_prologue" 
-				category="opponent_bow" 
-				anim_state="AAS_Bow" 
-				ability_slots="0" 
-				equip_template="bow" 
-				equip_slot="bow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="bow_prologue" category="opponent_bow" anim_state="AAS_Bow" ability_slots="0" equip_template="bow" equip_slot="bow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -218,14 +93,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="shield_temeria_prologue" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shieldsmall_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true"
-				lethal="true">
+		<item name="shield_temeria_prologue" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -234,17 +102,7 @@
 
 
 
-		<item name="crossbow_prologue"
-				category="opponent_bow" 
-				anim_state="AAS_Crossbow" 
-				ability_slots="0" 
-				equip_template="crossbow_01" 
-				equip_slot="crossbow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="crossbow_prologue" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -252,14 +110,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="shield_lavalette_prologue"
-				category="opponent_shield"
-				ability_slots="0" 
-				equip_template="shield_lavalette_03" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_lavalette_prologue" category="opponent_shield" ability_slots="0" equip_template="shield_lavalette_03" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -268,37 +119,16 @@
 
 		#		Definicje broni dla przeciwnikow w akcie I
 
-		<item name="sword_elven_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="elven_sword_01"
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_elven_act1" category="opponent_weapon" ability_slots="0" equip_template="elven_sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
@@ -306,476 +136,193 @@
 
 
 
-		<item name="sword_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_act1" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="club_prologue" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_03" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="club_prologue" category="opponent_weapon" ability_slots="0" equip_template="club_03" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="club_prologue2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_05" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="club_prologue2" category="opponent_weapon" ability_slots="0" equip_template="club_05" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="club_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="club_act1" category="opponent_weapon" ability_slots="0" equip_template="club_02" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="pale_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_04" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="pale_act1" category="opponent_weapon" ability_slots="0" equip_template="club_04" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="shovel_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="shovel_combat_01" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shovel_act1" category="opponent_weapon" ability_slots="0" equip_template="shovel_combat_01" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>	
 
-		<item name="dagger_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dagger_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dagger_act1" category="opponent_weapon" ability_slots="0" equip_template="dagger_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="twohander_nilfgaard_ghost_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_nilfgaard" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_nilfgaard_ghost_act1" category="opponent_weapon" ability_slots="0" equip_template="sword_nilfgaard" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>	
 
-		<item name="twohander_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_twohanded_01" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_act1" category="opponent_weapon" ability_slots="0" equip_template="sword_twohanded_01" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>	
 
-		<item name="axe_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="axe_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="axe_act1" category="opponent_weapon" ability_slots="0" equip_template="axe_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>	
 
-		<item name="axe_dwarven_act1" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dwarf_axe_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="axe_dwarven_act1" category="opponent_weapon" ability_slots="0" equip_template="dwarf_axe_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_elven_act1_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualsword_elven_act1_l" category="opponent_weapon" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_elven_act1_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualsword_elven_act1_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_roche_act1_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualsword_roche_act1_l" category="opponent_weapon" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_roche_act1_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualsword_roche_act1_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="bow_elven_act1" 
-				category="opponent_bow" 
-				anim_state="AAS_Bow" 
-				ability_slots="0" 
-				equip_template="bow_scoiatael" 
-				equip_slot="bow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="bow_elven_act1" category="opponent_bow" anim_state="AAS_Bow" ability_slots="0" equip_template="bow_scoiatael" equip_slot="bow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -783,17 +330,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="bow_act1"
-				category="opponent_bow"
-				anim_state="AAS_Bow"
-				ability_slots="0"
-				equip_template="bow"
-				equip_slot="bow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="bow_act1" category="opponent_bow" anim_state="AAS_Bow" ability_slots="0" equip_template="bow" equip_slot="bow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -801,17 +338,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="crossbow_act1"
-				category="opponent_bow" 
-				anim_state="AAS_Crossbow" 
-				ability_slots="0" 
-				equip_template="crossbow_01"
-				equip_slot="crossbow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="crossbow_act1" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -819,111 +346,48 @@
 			</anim_actions>
 		</item>
 
-		<item name="shield_temeria_act1" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shield_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_temeria_act1" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_round_neutral_act1" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_04"
-				equip_slot="shield_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_round_neutral_act1" category="opponent_shield" ability_slots="0" equip_template="shield_04" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_act1" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shieldsmall_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_act1" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="sword_wraith_act1" 
-				category="monster_weapon"
-				ability_slots="0" 
-				equip_template="sword_wraith" 
-				equip_slot="steel_sword_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_wraith_act1" category="monster_weapon" ability_slots="0" equip_template="sword_wraith" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act"
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="club_wraith_act1" 
-				category="monster_weapon"
-				ability_slots="0" 
-				equip_template="club_wraith" 
-				equip_slot="steel_sword_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="club_wraith_act1" category="monster_weapon" ability_slots="0" equip_template="club_wraith" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
@@ -934,11 +398,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="lamp_wraith_drop" 
-				category="monster_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="lamp_drop_wraith" 
-				hold_slot="l_weapon" weapon="true">
+		<item name="lamp_wraith_drop" category="monster_weapon_secondary" ability_slots="0" equip_template="lamp_drop_wraith" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -947,30 +407,13 @@
 
 		#		Definicje broni dla przeciwnikow w akcie II
 
-		<item name="shield_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_act2" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="crossbow_dwarven_act2" 
-				category="opponent_bow" 
-				anim_state="AAS_Crossbow" 
-				ability_slots="0" 
-				equip_template="dwarf_crossbow_01" 
-				equip_slot="crossbow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="crossbow_dwarven_act2" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="dwarf_crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -978,379 +421,162 @@
 			</anim_actions>
 		</item>	
 
-		<item name="shield_nosign"
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_nosign" category="opponent_shield" ability_slots="0" equip_template="shield_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_round_neutral_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_04" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_round_neutral_act2" category="opponent_shield" ability_slots="0" equip_template="shield_04" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_detmold" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_detmold_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_detmold" category="opponent_shield" ability_slots="0" equip_template="shield_detmold_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_pavese_detmold" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_1_dethmold_01" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_pavese_detmold" category="opponent_shield" ability_slots="0" equip_template="shield_1_dethmold_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
 
-		<item name="shield_pangratt" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_pangratt_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_pangratt" category="opponent_shield" ability_slots="0" equip_template="shield_pangratt_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_bounty" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_bounty_01" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_bounty" category="opponent_shield" ability_slots="0" equip_template="shield_bounty_01" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_redania" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_redania_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_redania" category="opponent_shield" ability_slots="0" equip_template="shield_redania_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="twohander_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_twohanded_01" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_act2" category="opponent_weapon" ability_slots="0" equip_template="sword_twohanded_01" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="sword_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				hand="right"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_act2" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" hand="right" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="sword_knightwraith_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="wraith_knight_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_knightwraith_act2" category="opponent_weapon" ability_slots="0" equip_template="wraith_knight_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
 
-		<item name="shield_knightwraith_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="wraith_knight_shield_01" 
-				equip_slot="shield_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_knightwraith_act2" category="opponent_shield" ability_slots="0" equip_template="wraith_knight_shield_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_nilfgaard_act2" 
-				category="opponent_shield"
-				ability_slots="0" 
-				equip_template="shield_1_nilfgaard_01" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_nilfgaard_act2" category="opponent_shield" ability_slots="0" equip_template="shield_1_nilfgaard_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_aedrin_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_aedirn_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">              
+		<item name="shield_aedrin_act2" category="opponent_shield" ability_slots="0" equip_template="shield_aedirn_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">              
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
 
-		<item name="sword_nilfgaard_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_nilfgaard_act2" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="twohander_nilfgaard_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_nilfgaard" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_nilfgaard_act2" category="opponent_weapon" ability_slots="0" equip_template="sword_nilfgaard" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_nilfgaard_act2" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="staff_01" 
-				equip_slot="hammer_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="staff_nilfgaard_act2" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_01" equip_slot="hammer_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="axe_dwarven_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dwarf_axe_01" 
-				equip_slot="axe_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="axe_dwarven_act2" category="opponent_weapon" ability_slots="0" equip_template="dwarf_axe_01" equip_slot="axe_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="hammer_dwarven_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dwarf_hammer_01" 
-				equip_slot="hammer_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="hammer_dwarven_act2" category="opponent_weapon" ability_slots="0" equip_template="dwarf_hammer_01" equip_slot="hammer_back_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="axe_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="axe_02" 
-				equip_slot="hammer_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="axe_act2" category="opponent_weapon" ability_slots="0" equip_template="axe_02" equip_slot="hammer_back_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dwarf_crossbow_01" 
-				category="opponent_bow" 
-				anim_state="AAS_Crossbow" 
-				ability_slots="0" 
-				equip_template="dwarf_crossbow_01" 
-				equip_slot="crossbow_back_slot" 
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""              
-				weapon="true" 
-				lethal="true">
+		<item name="dwarf_crossbow_01" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="dwarf_crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -1358,17 +584,7 @@
 			</anim_actions>            
 		</item>
 
-		<item name="bow_act2" 
-				category="opponent_bow" 
-				anim_state="AAS_Bow" 
-				ability_slots="0" 
-				equip_template="bow" 
-				equip_slot="bow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="bow_act2" category="opponent_bow" anim_state="AAS_Bow" ability_slots="0" equip_template="bow" equip_slot="bow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -1376,78 +592,33 @@
 			</anim_actions>
 		</item>
 
-		<item name="sword_kaedwen_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_kaedwen_act2" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw"
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="shield_kaedwen_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_1_kaedwen_01" 
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_kaedwen_act2" category="opponent_shield" ability_slots="0" equip_template="shield_1_kaedwen_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="smallshield_kaedwen_act2" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_kaedwen_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="smallshield_kaedwen_act2" category="opponent_shield" ability_slots="0" equip_template="shield_kaedwen_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="crossbow_act2"
-				category="opponent_bow"
-				anim_state="AAS_Crossbow"
-				ability_slots="0"
-				equip_template="crossbow_01"
-				equip_slot="crossbow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="crossbow_act2" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -1455,17 +626,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="bow_elven_act2" 
-				category="opponent_bow" 
-				anim_state="AAS_Bow" 
-				ability_slots="0" 
-				equip_template="bow_scoiatael" 
-				equip_slot="bow_back_slot" 
-				hold_slot="l_weapon" 
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true" 
-				lethal="true">
+		<item name="bow_elven_act2" category="opponent_bow" anim_state="AAS_Bow" ability_slots="0" equip_template="bow_scoiatael" equip_slot="bow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -1473,212 +634,86 @@
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_elven_act2_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon"
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_r"
-				holster_event="holster_dual_side_r">
+		<item name="dualsword_elven_act2_l" category="opponent_weapon" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_r" holster_event="holster_dual_side_r">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_r" 
-						act="draw_dual_side_r_act" 
-						deact="draw_dual_side_r_deact">
+				<action name="draw" event="draw_dual_side_r" act="draw_dual_side_r_act" deact="draw_dual_side_r_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_r" 
-						act="holster_dual_side_r_act" 
-						deact="holster_dual_side_r_deact">
+				<action name="holster" event="holster_dual_side_r" act="holster_dual_side_r_act" deact="holster_dual_side_r_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_r" 
-						act="attack_dual_side_r_act" 
-						deact="attack_dual_side_r_deact">
+				<action name="attack" event="attack_dual_side_r" act="attack_dual_side_r_act" deact="attack_dual_side_r_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_elven_act2_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true"
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualsword_elven_act2_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="elven_sword_02" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="sword_elven_act2" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="elven_sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side"
-				holster_event="holster_dual_side">
+		<item name="sword_elven_act2" category="opponent_weapon" ability_slots="0" equip_template="elven_sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side" holster_event="holster_dual_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side" 
-						act="draw_dual_side_act" 
-						deact="draw_dual_side_deact">
+				<action name="draw" event="draw_dual_side" act="draw_dual_side_act" deact="draw_dual_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side" 
-						act="holster_dual_side_act" 
-						deact="holster_dual_side_deact">
+				<action name="holster" event="holster_dual_side" act="holster_dual_side_act" deact="holster_dual_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side" 
-						act="attack_dual_side_act" 
-						deact="attack_dual_side_deact">
+				<action name="attack" event="attack_dual_side" act="attack_dual_side_act" deact="attack_dual_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_act2_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualsword_act2_l" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_act2_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualsword_act2_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="sword_wraith_act2" 
-				category="monster_weapon" 
-				ability_slots="0" 
-				equip_template="sword_wraith"
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_wraith_act2" category="monster_weapon" ability_slots="0" equip_template="sword_wraith" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
@@ -1689,460 +724,191 @@
 			</base_abilities>
 		</item>
 
-		<item name="henselt_mace_act2"
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="henselt_mace" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="henselt_mace_act2" category="opponent_weapon" ability_slots="0" equip_template="henselt_mace" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="henselt_sword_act2"
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="henselt_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="henselt_sword_act2" category="opponent_weapon" ability_slots="0" equip_template="henselt_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
 
-		<item name="stennis_sword_act2"
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="stennis_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">              
+		<item name="stennis_sword_act2" category="opponent_weapon" ability_slots="0" equip_template="stennis_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">              
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>             
 		</item>
 
-		<item name="dualaxe_act2_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="axe_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualaxe_act2_l" category="opponent_weapon" ability_slots="0" equip_template="axe_02" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualaxe_act2_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="axe_02" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualaxe_act2_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="axe_02" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
 		#		Definicje broni dla przeciwnikow w akcie III
 
-		<item name="sword_act3" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_act3" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="sword_nilfgaard_act3"
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="sword_nilfgaard_act3" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>	
 
-		<item name="twohander_act3" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_twohanded_01" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_act3" category="opponent_weapon" ability_slots="0" equip_template="sword_twohanded_01" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_kaedwen_act3" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_kaedwen_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="shield_kaedwen_act3" category="opponent_shield" ability_slots="0" equip_template="shield_kaedwen_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_pavese_kaedwen_act3" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_1_kaedwen_01"
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon"
-				weapon="true" 
-				lethal="true">
+		<item name="shield_pavese_kaedwen_act3" category="opponent_shield" ability_slots="0" equip_template="shield_1_kaedwen_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_order_act3"
-				category="opponent_shield"
-				ability_slots="0"
-				equip_template="shield_order_03"
-				equip_slot="shield_back_slot"
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_order_act3" category="opponent_shield" ability_slots="0" equip_template="shield_order_03" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="shield_temeria_act3" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_temeria_02" 
-				equip_slot="shieldsmall_back_slot"
-				hold_slot="l_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="shield_temeria_act3" category="opponent_shield" ability_slots="0" equip_template="shield_temeria_02" equip_slot="shieldsmall_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="dualsword_act3_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualsword_act3_l" category="opponent_weapon" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualsword_act3_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualsword_act3_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="sword_01" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualdagger_act3_l" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="dagger_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="dualdagger_act3_l" category="opponent_weapon" ability_slots="0" equip_template="dagger_01" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="dualdagger_act3_r" 
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="dagger_01" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_dual_side_l"
-				holster_event="holster_dual_side_l">
+		<item name="dualdagger_act3_r" category="opponent_weapon_secondary" ability_slots="0" equip_template="dagger_01" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_dual_side_l" holster_event="holster_dual_side_l">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_dual_side_l" 
-						act="draw_dual_side_l_act" 
-						deact="draw_dual_side_l_deact">
+				<action name="draw" event="draw_dual_side_l" act="draw_dual_side_l_act" deact="draw_dual_side_l_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_dual_side_l" 
-						act="holster_dual_side_l_act" 
-						deact="holster_dual_side_l_deact">
+				<action name="holster" event="holster_dual_side_l" act="holster_dual_side_l_act" deact="holster_dual_side_l_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_dual_side_l" 
-						act="attack_dual_side_l_act" 
-						deact="attack_dual_side_l_deact">
+				<action name="attack" event="attack_dual_side_l" act="attack_dual_side_l_act" deact="attack_dual_side_l_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="twohander_nilfgaard_act3" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="sword_nilfgaard" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="twohander_nilfgaard_act3" category="opponent_weapon" ability_slots="0" equip_template="sword_nilfgaard" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="crossbow_act3"
-				category="opponent_bow"
-				anim_state="AAS_Crossbow"
-				ability_slots="0"
-				equip_template="crossbow_01"
-				equip_slot="crossbow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="crossbow_act3" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="crossbow_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2150,17 +916,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="crossbow_nilfgaard_act3"
-				category="opponent_bow"
-				anim_state="AAS_Crossbow"
-				ability_slots="0"
-				equip_template="crossbow_nilfgaard_01"
-				equip_slot="crossbow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="crossbow_nilfgaard_act3" category="opponent_bow" anim_state="AAS_Crossbow" ability_slots="0" equip_template="crossbow_nilfgaard_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2168,17 +924,7 @@
 			</anim_actions>
 		</item>
 
-		<item name="crossbow_nilfgaard_aiming"
-				category="opponent_bow"
-				anim_state="AAS_CrossbowAim"
-				ability_slots="0"
-				equip_template="crossbow_nilfgaard_01"
-				equip_slot="crossbow_back_slot"
-				hold_slot="l_weapon"
-				attachment_type="hard"
-				attachment_prefix=""
-				weapon="true"
-				lethal="true">
+		<item name="crossbow_nilfgaard_aiming" category="opponent_bow" anim_state="AAS_CrossbowAim" ability_slots="0" equip_template="crossbow_nilfgaard_01" equip_slot="crossbow_back_slot" hold_slot="l_weapon" attachment_type="hard" attachment_prefix="" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop, Crossbow,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2186,56 +932,25 @@
 			</anim_actions>
 		</item>
 
-		<item name="shield_nilfgaard_act3" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="shield_1_nilfgaard_01" 
-				equip_slot="shield_back_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="shield_nilfgaard_act3" category="opponent_shield" ability_slots="0" equip_template="shield_1_nilfgaard_01" equip_slot="shield_back_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_nilfgaard_act3" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="staff_01" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="staff_nilfgaard_act3" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_01" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="operator_staff" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="wran_staff" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="operator_staff" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="wran_staff" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="sc_pirate_staff" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="club_04" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="sc_pirate_staff" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="club_04" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2243,127 +958,55 @@
 
 		#		Definicje specjalnych broni dla przeciwnikow
 
-		<item name="staff_sheala" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="staff_05" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="staff_sheala" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_05" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_priest" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="priest_staff_05" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="staff_priest" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="priest_staff_05" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_filippa" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="staff_04" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="staff_filippa" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_04" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_triss" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="triss_staff" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="staff_triss" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="triss_staff" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_detmold" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="detmold_staff" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="staff_detmold" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="detmold_staff" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_succubus" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="succubus_staff" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="staff_succubus" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="succubus_staff" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="staff_shillard" 
-				category="opponent_weapon" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="shillard_staff_cutscene" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="staff_shillard" category="opponent_weapon" anim_state="AAS_Mage" ability_slots="0" equip_template="shillard_staff_cutscene" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="rotfiend_claws_l" 
-				category="monster_weapon" 
-				ability_slots="0"
-				equip_template="rotfiend_claw_l" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="rotfiend_claws_l" category="monster_weapon" ability_slots="0" equip_template="rotfiend_claw_l" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="rotfiend_claws_r" 
-				category="monster_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="rotfiend_claw_r" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="rotfiend_claws_r" category="monster_weapon_secondary" ability_slots="0" equip_template="rotfiend_claw_r" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2371,74 +1014,35 @@
 
 		# Bronie Rochea 
 
-		<item name="roche_flamberg" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="roche_flamberg" 
-				equip_slot="steel_sword_back_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="roche_flamberg" category="opponent_weapon" ability_slots="0" equip_template="roche_flamberg" equip_slot="steel_sword_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="roche_mace"
-				category="opponent_weapon_secondary" 
-				ability_slots="0" 
-				equip_template="roche_mace" 
-				equip_slot="steel_sword_slot_l" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="roche_mace" category="opponent_weapon_secondary" ability_slots="0" equip_template="roche_mace" equip_slot="steel_sword_slot_l" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="roche_falchion" 
-				category="roche_items" 
-				ability_slots="0" 
-				equip_template="roche_falchion" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">              
+		<item name="roche_falchion" category="roche_items" ability_slots="0" equip_template="roche_falchion" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">              
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
 
 		#--------------------------------------------			   
 
-		<item name="knight_wraith_shield" 
-				category="opponent_shield" 
-				ability_slots="0" 
-				equip_template="wraith_knight_shield_01" 
-				hold_slot="l_weapon" weapon="true">
+		<item name="knight_wraith_shield" category="opponent_shield" ability_slots="0" equip_template="wraith_knight_shield_01" hold_slot="l_weapon" weapon="true">
 			<tags>NoShow,NoDrop,Dismantle,crt_bleed</tags>
 			<base_abilities>
 				<a>type_hweapon</a>
@@ -2451,170 +1055,70 @@
 			</ingredients_list>
 		</item>
 
-		<item name="knight_wraith_sword" 
-				category="opponent_weapon"
-				ability_slots="0" 
-				equip_template="wraith_knight_sword" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="knight_wraith_sword" category="opponent_weapon" ability_slots="0" equip_template="wraith_knight_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="cleave" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="cleaver_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="cleave" category="opponent_weapon" ability_slots="0" equip_template="cleaver_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>
 		</item>
 
-		<item name="halberd" 
-				category="opponent_weapon_polearm" 
-				anim_state="AAS_Halberd" 
-				ability_slots="0" 
-				equip_template="halberd" 
-				equip_slot="halberd_back_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true">
+		<item name="halberd" category="opponent_weapon_polearm" anim_state="AAS_Halberd" ability_slots="0" equip_template="halberd" equip_slot="halberd_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="glaive" 
-				category="opponent_weapon_polearm" 
-				anim_state="AAS_Halberd" 
-				ability_slots="0" 
-				equip_template="halberd_02" 
-				equip_slot="halberd_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="glaive" category="opponent_weapon_polearm" anim_state="AAS_Halberd" ability_slots="0" equip_template="halberd_02" equip_slot="halberd_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="fistfight_club_short" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">              
+		<item name="fistfight_club_short" category="opponent_weapon" ability_slots="0" equip_template="club_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">              
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
 
-		<item name="fistfight_club_long" 
-				category="opponent_weapon" 
-				ability_slots="0" 
-				equip_template="club_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">              
+		<item name="fistfight_club_long" category="opponent_weapon" ability_slots="0" equip_template="club_02" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">              
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 			<anim_actions>
-				<action 
-						name="draw" 
-						event="draw_steel_sword_side" 
-						act="draw_steel_sword_side_act" 
-						deact="draw_steel_sword_side_deact">
+				<action name="draw" event="draw_steel_sword_side" act="draw_steel_sword_side_act" deact="draw_steel_sword_side_deact">
 				</action>
-				<action 
-						name="holster" 
-						event="holster_steel_sword_side" 
-						act="holster_steel_sword_side_act" 
-						deact="holster_steel_sword_side_deact">
+				<action name="holster" event="holster_steel_sword_side" act="holster_steel_sword_side_act" deact="holster_steel_sword_side_deact">
 				</action>
-				<action 
-						name="attack" 
-						event="attack_steel_sword_side" 
-						act="attack_steel_sword_side_act" 
-						deact="attack_steel_sword_side_deact">
+				<action name="attack" event="attack_steel_sword_side" act="attack_steel_sword_side_act" deact="attack_steel_sword_side_deact">
 				</action>
 			</anim_actions>            
 		</item>
@@ -2622,57 +1126,25 @@
 
 		#		Definicje broni dla przeciwnikow
 
-		<item name="Short Club" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="club_01" 
-				equip_slot="" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Short Club" category="steelsword" ability_slots="0" equip_template="club_01" equip_slot="" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Mage Staff" 
-				category="steelsword" 
-				anim_state="AAS_Mage" 
-				ability_slots="0" 
-				equip_template="staff_01" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true"
-				lethal="true">
+		<item name="Mage Staff" category="steelsword" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_01" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Mage Staff 2" 
-				category="steelsword" 
-				anim_state="AAS_Mage"
-				ability_slots="0" 
-				equip_template="staff_02" 
-				equip_slot="staff_back_slot"
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Mage Staff 2" category="steelsword" anim_state="AAS_Mage" ability_slots="0" equip_template="staff_02" equip_slot="staff_back_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Executioner Sword"
-				category="opponent_weapon"
-				ability_slots="0"
-				equip_template="executioner_sword"
-				equip_slot="steel_sword_slot"
-				hold_slot="r_weapon"
-				weapon="true"
-				lethal="true"
-				draw_event="draw_steel_sword_side"
-				holster_event="holster_steel_sword_side">
+		<item name="Executioner Sword" category="opponent_weapon" ability_slots="0" equip_template="executioner_sword" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true" draw_event="draw_steel_sword_side" holster_event="holster_steel_sword_side">
 			<tags>NoShow,NoDrop,SteelSword,SortTypeWeapon,sword_normal,Weapon,Dismantle,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
@@ -2682,94 +1154,43 @@
 			</ingredients_list>
 		</item>
 
-		<item name="Opponent Hammer" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="hammer_02" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Opponent Hammer" category="steelsword" ability_slots="0" equip_template="hammer_02" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Opponent Dagger" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="dagger_wraith" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Opponent Dagger" category="steelsword" ability_slots="0" equip_template="dagger_wraith" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Opponent Falchion" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="roche_falchion" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Opponent Falchion" category="steelsword" ability_slots="0" equip_template="roche_falchion" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Dwarven Axe" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="dwarf_axe_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true"
-				lethal="true">
+		<item name="Dwarven Axe" category="steelsword" ability_slots="0" equip_template="dwarf_axe_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Secondary Elven Sword" 
-				category="steelsword_secondary" 
-				ability_slots="0" 
-				equip_template="elven_sword_02" 
-				appearance="" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="l_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Secondary Elven Sword" category="steelsword_secondary" ability_slots="0" equip_template="elven_sword_02" appearance="" equip_slot="steel_sword_slot" hold_slot="l_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Opponent Sword" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="sword_01" 
-				appearance="steel_sword_04" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Opponent Sword" category="steelsword" ability_slots="0" equip_template="sword_01" appearance="steel_sword_04" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>
 		</item>
 
-		<item name="Opponent Two Handed Sword" 
-				category="steelsword" 
-				ability_slots="0" 
-				equip_template="sword_twohanded_01" 
-				equip_slot="steel_sword_slot" 
-				hold_slot="r_weapon" 
-				weapon="true" 
-				lethal="true">
+		<item name="Opponent Two Handed Sword" category="steelsword" ability_slots="0" equip_template="sword_twohanded_01" equip_slot="steel_sword_slot" hold_slot="r_weapon" weapon="true" lethal="true">
 			<tags>NoShow,NoDrop,crt_bleed</tags>
 			<base_abilities>
 			</base_abilities>

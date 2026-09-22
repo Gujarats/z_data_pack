@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
 		<ability name="Heart of Melitele _Stats">
-			<damage_reduction mult="true" display_perc="true" always_random="false" min="1.1" max="1.1"/>
-            <res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance"/>
+			<damage_reduction mult="true" display_perc="true" always_random="false" min="1.1" max="1.1" />
+            <res_poison display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="resistance" />
 		</ability>
 
 		<ability name="Youngs Talisman _Stats">
-			<damage_reduction mult="true" display_perc="true" always_random="false" min="0.9" max="0.9"/>
-            <res_poison display_perc="true" mult="true" always_random="false" min="0.95" max="0.95" type="resistance"/>
+			<damage_reduction mult="true" display_perc="true" always_random="false" min="0.9" max="0.9" />
+            <res_poison display_perc="true" mult="true" always_random="false" min="0.95" max="0.95" type="resistance" />
 		</ability> 		
     </abilities>
     
     <items>
         #		Definicje przedmiotow roznych
 
-        <item name="Orens" category="other" ability_slots="0" stackable = "true" template="misc_01" equip_slot="" hold_slot="">
+        <item name="Orens" category="other" ability_slots="0" stackable="true" template="misc_01" equip_slot="" hold_slot="">
 	    <tags>NoShow</tags>
             <base_abilities>
             </base_abilities>
 		</item>
 		
-		<item name="Trigger Mechanism" category="other" ability_slots="0" stackable = "true" template="misc_02" equip_slot="" hold_slot="">
+		<item name="Trigger Mechanism" category="other" ability_slots="0" stackable="true" template="misc_02" equip_slot="" hold_slot="">
 	<tags>SortTypeQuest</tags>
 	    <base_abilities>
 			<a>Price_10</a>
             </base_abilities>
 		</item>
 		
-		<item name="Iron Frame" category="craftingingredient" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+		<item name="Iron Frame" category="craftingingredient" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 	<tags>SortTypeIngridient,CraftingIngridient,SortTypeQuest,Dismantle,Quest</tags>
 	    <base_abilities>
 			<a>Price_10</a>
@@ -37,7 +37,7 @@
 		
 	#przedmioty uzytkowe, 'ludnosci'
 	
-	<item name="Spyglass" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Spyglass" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
@@ -49,7 +49,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Wood rope ladder" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Wood rope ladder" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
@@ -61,7 +61,7 @@
 		</ingredients_list>
 	</item>
 
-	<item name="Iron rope ladder" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Iron rope ladder" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
@@ -73,7 +73,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Hatchet" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Hatchet" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_40</a>
@@ -85,7 +85,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Hunting horn" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Hunting horn" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_60</a>
@@ -97,7 +97,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Chandelier" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Chandelier" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_75</a>
@@ -108,7 +108,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Silver chandelier" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Silver chandelier" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
@@ -119,7 +119,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Rags" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Rags" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -130,18 +130,18 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Wire rope" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Wire rope" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
 			<a>Weight_02</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="2">Iron ore</ingredient>
+			<ingredient quantity="1">Iron ore</ingredient>
 		</ingredients_list>
 	</item>
 	
-	<item name="Grapnel" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Grapnel" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -153,7 +153,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Fishing net" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Fishing net" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
@@ -165,7 +165,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Precious ornament" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Precious ornament" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
@@ -176,7 +176,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Stone medallion" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Stone medallion" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
@@ -187,7 +187,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Shackles" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Shackles" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -198,7 +198,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Pear of anguish" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Pear of anguish" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -209,7 +209,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Strange clamp" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Strange clamp" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -220,7 +220,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Iron bangle" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Iron bangle" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -232,7 +232,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Hinges" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Hinges" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -243,29 +243,29 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Tool blades" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Tool blades" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
 			<a>Weight_05</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="3">Iron ore</ingredient>
+			<ingredient quantity="1">Iron ore</ingredient>
 		</ingredients_list>
 	</item>
 	
-	<item name="Precious figurine" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Precious figurine" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
 			<a>Weight_05</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="2">Blue meteorite ore</ingredient>
+			<ingredient quantity="1">Blue meteorite ore</ingredient>
 		</ingredients_list>
 	</item>
 	
-	<item name="Tongs" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Tongs" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -276,7 +276,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Primitive necklace" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Primitive necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -287,7 +287,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Silver necklace" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_110</a>
@@ -298,7 +298,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Enriched silver necklace" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Enriched silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_150</a>
@@ -310,7 +310,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Primitive enriched silver necklace" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Primitive enriched silver necklace" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_80</a>
@@ -322,7 +322,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Silver ring" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Silver ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
@@ -333,7 +333,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Enriched silver ring" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Enriched silver ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
@@ -345,7 +345,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Enriched iron ring" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Enriched iron ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_50</a>
@@ -357,7 +357,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Iron ring" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Iron ring" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_30</a>
@@ -368,18 +368,18 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Wire" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Wire" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
 			<a>Weight_01</a>
 		</base_abilities>
 		<ingredients_list crafted_item="">
-			<ingredient quantity="1">Iron ore</ingredient>
+			<ingredient quantity="2">Iron ore</ingredient>
 		</ingredients_list>
 	</item>	
 	
-	<item name="Chains" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Chains" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -390,7 +390,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Sword blade" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Sword blade" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
@@ -401,7 +401,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Primitive drill" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Primitive drill" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_10</a>
@@ -412,7 +412,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Sword sheath" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_20</a>
@@ -423,7 +423,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Enriched sword sheath" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Enriched sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_40</a>
@@ -434,7 +434,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Silver sword sheath" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Silver sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_70</a>
@@ -445,7 +445,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Enriched silver sword sheath" category="other" ability_slots="0" stackable = "true" template="misc_03" equip_slot="" hold_slot="">
+	<item name="Enriched silver sword sheath" category="other" ability_slots="0" stackable="true" template="misc_03" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other</tags>
 		<base_abilities>
 			<a>Price_100</a>
@@ -457,7 +457,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Kajetan's Talisman" category="other" ability_slots="0" stackable = "true" template="sq001_talisman" equip_slot="" hold_slot="">
+	<item name="Kajetan's Talisman" category="other" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="">
 		<tags>SortTypeOther,Dismantle,Other,Quest</tags>
 		<base_abilities>
 			<a>Price_20</a>
@@ -468,7 +468,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Heart of Melitele" category="quest" ability_slots="0" stackable = "true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
+	<item name="Heart of Melitele" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
 		<tags>SortTypeQuest,Dismantle,Quest</tags>
 		<base_abilities>
 			<a>Heart of Melitele _Stats</a>
@@ -480,7 +480,7 @@
 		</ingredients_list>
 	</item>
 	
-	<item name="Young's Talisman" category="quest" ability_slots="0" stackable = "true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
+	<item name="Young's Talisman" category="quest" ability_slots="0" stackable="true" template="sq001_talisman" equip_slot="" hold_slot="" ability_mode="OnHidden">
 		<tags>SortTypeQuest,Dismantle, Quest</tags>
 		<base_abilities>
 			<a>Youngs Talisman _Stats</a>
@@ -494,7 +494,7 @@
     
 #		Definicje przedmiotow do zbierania
 
-	<item name="Fish" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Fish" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -502,7 +502,7 @@
             </base_abilities>
     </item>
         
-    <item name="Apple" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Apple" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -510,7 +510,7 @@
             </base_abilities>
     </item>
     
-    <item name="Old cheese" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Old cheese" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -518,7 +518,7 @@
             </base_abilities>
     </item>
     
-    <item name="Potato" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Potato" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -526,7 +526,7 @@
             </base_abilities>
     </item>
     
-    <item name="Cucumber" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Cucumber" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -534,7 +534,7 @@
             </base_abilities>
     </item>
     
-    <item name="Plum" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Plum" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -542,7 +542,7 @@
             </base_abilities>
     </item>
     
-    <item name="Bread" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Bread" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -550,7 +550,7 @@
             </base_abilities>
     </item>
     
-    <item name="Rags" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Rags" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -558,7 +558,7 @@
             </base_abilities>
     </item>
 		
-    <item name="Cup" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Cup" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -566,7 +566,7 @@
             </base_abilities>
     </item>
     
-    <item name="Bowl" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Bowl" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -574,7 +574,7 @@
             </base_abilities>
     </item>
     
-    <item name="Spoon" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Spoon" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -582,7 +582,7 @@
             </base_abilities>
     </item>
     
-    <item name="Empty bottle" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Empty bottle" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -590,7 +590,7 @@
             </base_abilities>
     </item>
     
-    <item name="Apple juice" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Apple juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -598,7 +598,7 @@
             </base_abilities>
     </item>
         
-    <item name="Bottled water" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Bottled water" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -606,7 +606,7 @@
             </base_abilities>
     </item>
     
-    <item name="Cows milk" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Cows milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -614,7 +614,7 @@
             </base_abilities>
     </item>
     
-    <item name="Goats milk" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Goats milk" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -622,7 +622,7 @@
             </base_abilities>
     </item>
     
-    <item name="Raspberry juice" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Raspberry juice" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -630,7 +630,7 @@
             </base_abilities>
     </item>
     
-    <item name="Dried fruit" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Dried fruit" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -638,7 +638,7 @@
             </base_abilities>
     </item>
     
-    <item name="Honeycomb" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Honeycomb" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -646,7 +646,7 @@
             </base_abilities>
     </item>
     
-    <item name="Chicken leg" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Chicken leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -654,7 +654,7 @@
             </base_abilities>
     </item>
 		
-    <item name="Mutton leg" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Mutton leg" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -662,7 +662,7 @@
             </base_abilities>
     </item>
     
-    <item name="Blueberries" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Blueberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -670,7 +670,7 @@
             </base_abilities>
     </item>
     
-    <item name="Raspberries" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Raspberries" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -678,7 +678,7 @@
             </base_abilities>
     </item>
     
-    <item name="Pear" category="other" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+    <item name="Pear" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -686,7 +686,7 @@
             </base_abilities>
     </item>
     
-    <item name="Dried fruit and nuts" category="other" ability_slots="0" stackable = "true"  template="" equip_slot="" hold_slot="">
+    <item name="Dried fruit and nuts" category="other" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
             <tags>SortTypeOther</tags>
             <base_abilities>
 			<a>Price_10</a>
@@ -698,21 +698,21 @@
 #################################################################################################################################################
 # Tutorial stuff
     
-    <item name="Tournament Notice" category="quest" ability_slots="0" stackable = "true"  template="gon_a1_patient_charter" equip_slot="" hold_slot="">
+    <item name="Tournament Notice" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
             <tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
             <base_abilities>
                 <a>type_book</a>
             </base_abilities>
     </item>
 
-    <item name="Arena Invitation" category="quest" ability_slots="0" stackable = "true"  template="gon_a1_patient_charter" equip_slot="" hold_slot="">
+    <item name="Arena Invitation" category="quest" ability_slots="0" stackable="true" template="gon_a1_patient_charter" equip_slot="" hold_slot="">
             <tags>SortTypeQuest,SortTypeBook,Usable,Quest</tags>
             <base_abilities>
                 <a>type_book</a>
             </base_abilities>
     </item>
 
-    <item name="Healing Concoction" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_06" equip_slot="" hold_slot="">
+    <item name="Healing Concoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
         <tags>SortTypeQuest,SortTypePotion,TypeMagic,Elixir,Quest</tags>
         <base_abilities>
 		    <a>Healing Concoction _Stats</a>
@@ -721,7 +721,7 @@
         </base_abilities>
     </item>
 
-	<item name="Recipe Healing Concoction" category="schematic" ability_slots="0" stackable = "true" template="" equip_slot="" hold_slot="">
+	<item name="Recipe Healing Concoction" category="schematic" ability_slots="0" stackable="true" template="" equip_slot="" hold_slot="">
 	    <tags>SortTypeQuest,SortTypeRecipe,SortTypeSchematic,Recipe,TypeMagic,Quest</tags>
         <base_abilities>
             <a>Price_50</a>
@@ -741,24 +741,24 @@
 
 	<loot_definitions>
 		<loot name="Tutorial Combat Chest">
-			<loot_entry name="Balanced Dagger" chance="100" quantity_min="10" quantity_max="10"  respawn_time="2"></loot_entry>
-			<loot_entry name="Samum" chance="100" quantity_min="10" quantity_max="10"  respawn_time="2"></loot_entry>
-			<loot_entry name="Freezing Trap" chance="100" quantity_min="10" quantity_max="10"  respawn_time="2"></loot_entry>
+			<loot_entry name="Balanced Dagger" chance="100" quantity_min="10" quantity_max="10" respawn_time="2" />
+			<loot_entry name="Samum" chance="100" quantity_min="10" quantity_max="10" respawn_time="2" />
+			<loot_entry name="Freezing Trap" chance="100" quantity_min="10" quantity_max="10" respawn_time="2" />
 		</loot>
         
         <loot name="Tutorial Skirmish Chest">
-			<loot_entry name="Balanced Dagger" chance="100" quantity_min="10" quantity_max="10"  respawn_time="60"></loot_entry>
-			<loot_entry name="Grapeshot" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
-			<loot_entry name="Samum" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
-			<loot_entry name="Freezing Trap" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
-			<loot_entry name="Explosive Trap" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
-			<loot_entry name="Crinfrid Oil" chance="100" quantity_min="1" quantity_max="1"  respawn_time="60"></loot_entry>
-			<loot_entry name="Hangman Venom" chance="100" quantity_min="1" quantity_max="1"  respawn_time="60"></loot_entry>
-			<loot_entry name="Marten" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
-			<loot_entry name="Wolf" chance="100" quantity_min="5" quantity_max="5"  respawn_time="60"></loot_entry>
+			<loot_entry name="Balanced Dagger" chance="100" quantity_min="10" quantity_max="10" respawn_time="60" />
+			<loot_entry name="Grapeshot" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
+			<loot_entry name="Samum" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
+			<loot_entry name="Freezing Trap" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
+			<loot_entry name="Explosive Trap" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
+			<loot_entry name="Crinfrid Oil" chance="100" quantity_min="1" quantity_max="1" respawn_time="60" />
+			<loot_entry name="Hangman Venom" chance="100" quantity_min="1" quantity_max="1" respawn_time="60" />
+			<loot_entry name="Marten" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
+			<loot_entry name="Wolf" chance="100" quantity_min="5" quantity_max="5" respawn_time="60" />
 		</loot>
         
 	</loot_definitions>
     
 
-</definitions>	
+</definitions>

@@ -17,52 +17,52 @@
 
 
 		<ability name="High Quality Balanced Dagger _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="70" max="70" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.60" max="0.60" type="critical" />
 		</ability>
         
         <ability name="Silver Balanced Dagger _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="70" max="70" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="critical" />
 		</ability>
 
 		<ability name="High Quality Silver Balanced Dagger _Stats">
-			<damage_min mult="false" always_random="false" min="40" max="40" />
-			<damage_max mult="false" always_random="false" min="60" max="60" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.60" max="0.60" type="critical" />
 		</ability>
 
 		<ability name="Sting _Stats">
-			<damage_min mult="false" always_random="false" min="40" max="40" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.40" max="0.40" />
 			<crt_stun display_perc="true" mult="false" always_random="false" min="0.40" max="0.40" />
 		</ability>
 	
 		<ability name="Poisoned flying harphy claws _Stats">
 			<damage_min mult="false" always_random="false" min="40" max="40" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="60" max="60" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.9" max="0.9" />
 		</ability>
 		
 		
 		        
 		<ability name="Crossbow_01 _Stats">
-			<damage_min mult="false" always_random="false" min="17" max="23" />
-			<damage_max mult="false" always_random="false" min="32" max="38" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
 		</ability>
 				
 		<ability name="Basic Bow _Stats">
-			<damage_min mult="false" always_random="false" min="4" max="6" />
-			<damage_max mult="false" always_random="false" min="7" max="10" />
+			<damage_min mult="false" always_random="false" min="40" max="40" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
 			<shoot_period mult="false" always_random="true" min="0" max="1" />
 		</ability>
 
 		<ability name="Scoiatael Bow _Stats">
-			<damage_min mult="false" always_random="false" min="12" max="18" />
-			<damage_max mult="false" always_random="false" min="22" max="28" />
+			<damage_min mult="false" always_random="false" min="17" max="23" />
+			<damage_max mult="false" always_random="false" min="32" max="38" />
 			<shoot_period mult="false" always_random="true" min="0" max="1" />
 		</ability>		
 		

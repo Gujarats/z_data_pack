@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -6,7 +6,7 @@
 	<items>
 
 		# Trofea
-		<item name="Nekkers Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_nekker" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Nekkers Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_nekker" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Nekkers Trophy _Stats</a>
@@ -15,7 +15,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Endriags Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_arachas" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Endriags Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_arachas" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Endriags Trophy _Stats</a>
@@ -24,7 +24,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Harpy Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_harpy" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Harpy Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_harpy" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Harpy Trophy _Stats</a>
@@ -33,7 +33,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Necrophage Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_rotfiend" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Necrophage Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_rotfiend" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Necrophage Trophy _Stats</a>
@@ -42,7 +42,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Bulvore Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_bullvore" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Bulvore Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_bullvore" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Bulvore Trophy _Stats</a>
@@ -51,7 +51,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Troll Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_troll" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Troll Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_troll" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Troll Trophy _Stats</a>
@@ -60,7 +60,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Drowner Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_drowner" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Drowner Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_drowner" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy</tags>
 			<base_abilities>
 				<a>Drowner Trophy _Stats</a>
@@ -69,7 +69,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Tentadrake Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_tentadrake" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Tentadrake Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_tentadrake" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeEpic</tags>
 			<base_abilities>
 				<a>Tentadrake Trophy _Stats</a>
@@ -78,7 +78,7 @@
 			</base_abilities>
 		</item>		
 
-		<item name="Rotfiend Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_rotfiend" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Rotfiend Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_rotfiend" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Rotfiend Trophy _Stats</a>
@@ -87,7 +87,7 @@
 			</base_abilities>
 		</item>		
 
-		<item name="Draug Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_draug" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Draug Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_draug" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeEpic</tags>
 			<base_abilities>
 				<a>Draug Trophy _Stats</a>
@@ -96,7 +96,7 @@
 			</base_abilities>
 		</item>		
 
-		<item name="Wraith Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_wraith" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Wraith Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_wraith" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Wraith Trophy _Stats</a>
@@ -104,7 +104,7 @@
 				<a>Weight_2</a>
 			</base_abilities>
 		</item>
-		<item name="Wraith Knight Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_wraith_knight" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Wraith Knight Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_wraith_knight" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeRare</tags>
 			<base_abilities>
 				<a>Wraith Knight TrophyT _Stats</a>
@@ -112,7 +112,7 @@
 				<a>Weight_3</a>
 			</base_abilities>
 		</item>	
-		<item name="Golem Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_golem" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Golem Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_golem" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Golem Trophy _Stats</a>
@@ -120,7 +120,7 @@
 				<a>Weight_5</a>
 			</base_abilities>
 		</item>
-		<item name="Gargoyle Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_gargoyle" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Gargoyle Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_gargoyle" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>Gargoyle Trophy _Stats</a>
@@ -128,7 +128,7 @@
 				<a>Weight_2</a>
 			</base_abilities>
 		</item>		
-		<item name="Elemental Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_elemental" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Elemental Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_elemental" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeRare</tags>
 			<base_abilities>
 				<a>Elemental Trophy _Stats</a>
@@ -136,7 +136,7 @@
 				<a>Weight_2</a>
 			</base_abilities>
 		</item>
-		<item name="Arachas Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_arachas" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Arachas Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_arachas" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeRare</tags>
 			<base_abilities>
 				<a>Arachas Trophy _Stats</a>
@@ -145,7 +145,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Elthon Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_chicken" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Elthon Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_chicken" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeRare</tags>
 			<base_abilities>
 				<a>Elthon Trophy _Stats</a>
@@ -153,7 +153,7 @@
 				<a>Weight_1</a>
 			</base_abilities>
 		</item>
-		<item name="Werewolf Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_werewolf" attachment_type="skinning" ability_mode="OnMount">
+		<item name="Werewolf Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_werewolf" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeRare</tags>
 			<base_abilities>
 				<a>Werewolf Trophy _Stats</a>
@@ -161,7 +161,7 @@
 				<a>Weight_1</a>
 			</base_abilities>
 		</item>
-		<item name="SQ308 Golem Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_golem" attachment_type="skinning" ability_mode="OnMount">
+		<item name="SQ308 Golem Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_golem" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>SQ308 Golem Trophy _Stats</a>
@@ -170,7 +170,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="SQ307_Natalis_Trophy" category="trophy" stackable = "false" ability_slots="0" equip_template="trophy_natalis" attachment_type="skinning" ability_mode="OnMount">
+		<item name="SQ307_Natalis_Trophy" category="trophy" stackable="false" ability_slots="0" equip_template="trophy_natalis" attachment_type="skinning" ability_mode="OnMount">
 			<tags>SortTypeTrophy,Trophy,TypeMagic</tags>
 			<base_abilities>
 				<a>SQ307_Natalis_Trophy_Stats</a>

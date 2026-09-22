@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -97,7 +97,7 @@
     
 	#################################################################################################################
 	# PROLOG
-    <item name="ImportedRavenArmor" category="armor" stackable = "false" enhancement_slots="1" equip_template="35_ravens_w1_leather" attachment_type="skinning" ability_mode="OnMount">
+    <item name="ImportedRavenArmor" category="armor" stackable="false" enhancement_slots="3" equip_template="35_ravens_w1_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -112,7 +112,7 @@
 	    </ingredients_list>
         </item>	
     
-	<item name="Light Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="14_light_leather" attachment_type="skinning" ability_mode="OnMount">
+	<item name="Light Leather Jacket" category="armor" stackable="false" enhancement_slots="0" equip_template="14_light_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -127,7 +127,7 @@
 	    </ingredients_list>
         </item>
 	
-	<item name="Quilted Leather" category="armor" stackable = "false" enhancement_slots="1" equip_template="02_quilted_jacket" attachment_type="skinning" ability_mode="OnMount">
+	<item name="Quilted Leather" category="armor" stackable="false" enhancement_slots="0" equip_template="02_quilted_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -146,7 +146,7 @@
 	######################################################################################################################
 	#AKT 1	
 	    #Q1
-        <item name="Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="03_leather_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Leather Jacket" category="armor" stackable="false" enhancement_slots="0" equip_template="03_leather_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -162,7 +162,7 @@
         </item>
         
 	    #Q1
-        <item name="Studded Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="04_studded_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Studded Leather Jacket" category="armor" stackable="false" enhancement_slots="0" equip_template="04_studded_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -178,7 +178,7 @@
         </item>	
         
         #Q2
-        <item name="Temerian Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="03_leather_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Temerian Armor" category="armor" stackable="false" enhancement_slots="0" equip_template="03_leather_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -194,7 +194,7 @@
         </item>
         
         #Q2
-        <item name="Heavy Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="05_heavy_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Heavy Leather Jacket" category="armor" stackable="false" enhancement_slots="0" equip_template="05_heavy_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -211,7 +211,7 @@
         
  
         #Q3
-        <item name="Hardened Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="06_hardened_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Hardened Leather Jacket" category="armor" stackable="false" enhancement_slots="1" equip_template="06_hardened_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -228,7 +228,7 @@
 
             
         #Q4
-        <item name="Elven Armor" category="armor" stackable = "false" enhancement_slots="2" equip_template="07_elven_jacket" attachment_type="ragdoll" ability_mode="OnMount">
+        <item name="Elven Armor" category="armor" stackable="false" enhancement_slots="1" equip_template="07_elven_jacket" attachment_type="ragdoll" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -244,7 +244,7 @@
         </item>
         
         #Q4
-        <item name="Astrogarus Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="11_astrogarus_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Astrogarus Armor" category="armor" stackable="false" enhancement_slots="1" equip_template="11_astrogarus_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -262,7 +262,7 @@
         </item>
         
         #Q5
-        <item name="Light Chainmail Shirt" category="armor" stackable = "false" enhancement_slots="1" equip_template="06_hardened_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Light Chainmail Shirt" category="armor" stackable="false" enhancement_slots="2" equip_template="06_hardened_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -278,7 +278,7 @@
         </item>	
         
         #Q6
-        <item name="Shiadhal Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Shiadhal Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -297,7 +297,7 @@
 	# AKT 1 - Crafted	
 	
         #Q3
-        <item name="Quality Leather Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="12_quality_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Quality Leather Jacket" category="armor" stackable="false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -313,7 +313,7 @@
         </item>	
             
 	    #Q3
-        <item name="Light Leather Armor" category="armor" stackable = "false" enhancement_slots="2" equip_template="14_light_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Light Leather Armor" category="armor" stackable="false" enhancement_slots="0" equip_template="12_quality_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -329,7 +329,7 @@
         </item>	
 	
         #Q5
-        <item name="Heavy Elven Armor" category="armor" stackable = "false" enhancement_slots="2" equip_template="15_elven_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Heavy Elven Armor" category="armor" stackable="false" enhancement_slots="0" equip_template="14_light_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -345,7 +345,7 @@
         </item>	
             
 	    #Q7
-        <item name="Ravens Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="16_ravens_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Ravens Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="15_elven_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -361,7 +361,7 @@
         </item>	
         
 	    #Q8
-        <item name="Tentadrake Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="17_tentadrake_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Tentadrake Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="16_ravens_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -380,7 +380,7 @@
 	# AKT 2
         
         #Q1
-        <item name="Quilted Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="18_quilted_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Quilted Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="17_tentadrake_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -391,13 +391,13 @@
             </base_abilities>
 	  <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Iron ore</ingredient>
+		<ingredient quantity="1">Iron ore</ingredient>
 		<ingredient quantity="1">Quality cloth</ingredient>
 	  </ingredients_list>
         </item>	
         
         #Q3
-       <item name="Aedirnian Leather Jacket" category="armor" stackable = "false" enhancement_slots="2" equip_template="09_aedirnian_jacket" attachment_type="skinning" ability_mode="OnMount">
+       <item name="Aedirnian Leather Jacket" category="armor" stackable="false" enhancement_slots="0" equip_template="18_quilted_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -408,12 +408,12 @@
             </base_abilities>
         	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Cloth</ingredient>
 	    </ingredients_list>
         </item>
         
         #Q2
-        <item name="Kaedwenian Leather Jacket" category="armor" stackable = "false" enhancement_slots="2" equip_template="08_kaedwenian_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Kaedwenian Leather Jacket" category="armor" stackable="false" enhancement_slots="1" equip_template="09_aedirnian_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -430,7 +430,7 @@
         
         
        # Q3
-	    <item name="Kaedwenian Leather Armor" stackable = "false" category="armor" enhancement_slots="1" equip_template="23_kaedwenian_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Kaedwenian Leather Armor" stackable="false" category="armor" enhancement_slots="0" equip_template="08_kaedwenian_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_4</item>
@@ -441,13 +441,13 @@
             </base_abilities>
 	  <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Iron ore</ingredient>
+		<ingredient quantity="1">Iron ore</ingredient>
 		<ingredient quantity="1">Hardened leather</ingredient>
 	  </ingredients_list>
         </item>
             
         #Q4
-	    <item name="Thyssen Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="19_thyssen_leather" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Thyssen Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="23_kaedwenian_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -458,13 +458,13 @@
             </base_abilities>
 	  <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Quality cloth</ingredient>
+		<ingredient quantity="2">Quality cloth</ingredient>
 		<ingredient quantity="1">Air essence</ingredient>
 	  </ingredients_list>
         </item>	
 
         #Q6
-	    <item name="Ban Ard Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="22_zirael_armor" attachment_type="ragdoll" ability_mode="OnMount">
+	    <item name="Ban Ard Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="19_thyssen_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeMagic,Dismantle</tags>
 		    <bound_items>
               <item>belt_4</item>
@@ -474,15 +474,15 @@
                 <a>Weight_20</a>
             </base_abilities>
 	  <ingredients_list crafted_item="">
-		<ingredient quantity="2">Leather</ingredient>
-		<ingredient quantity="4">Quality cloth</ingredient>
-		<ingredient quantity="4">Studded leather</ingredient>
+		<ingredient quantity="1">Leather</ingredient>
+		<ingredient quantity="1">Quality cloth</ingredient>
+		<ingredient quantity="1">Studded leather</ingredient>
 		<ingredient quantity="3">Harphy claws</ingredient>
 	  </ingredients_list>
         </item>
         
         #Q6	
-	    <item name="Seltkirk's Chainmail" category="armor" stackable = "false" enhancement_slots="1" equip_template="29_seltkirk_armor" attachment_type="ragdoll" ability_mode="OnMount">
+	    <item name="Seltkirk's Chainmail" category="armor" stackable="false" enhancement_slots="2" equip_template="22_zirael_armor" attachment_type="ragdoll" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,SortTypeQuest,Armor,TypeMagic,Dismantle,Quest</tags>
 		    <bound_items>
               <item>belt_4</item>
@@ -499,7 +499,7 @@
         </item>	
         
         #Q7
-        <item name="Armor of Loc Muinne" category="armor" stackable = "false" enhancement_slots="1" equip_template="20_vergen_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Armor of Loc Muinne" category="armor" stackable="false" enhancement_slots="2" equip_template="29_seltkirk_armor" attachment_type="ragdoll" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic,Dismantle</tags>
 		    <bound_items>
               <item>belt_2</item>
@@ -509,14 +509,14 @@
                 <a>Weight_22</a>
             </base_abilities>
 	  <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="2">Iron ore</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Leather</ingredient>
+		<ingredient quantity="4">Iron ore</ingredient>
+		<ingredient quantity="4">Cloth</ingredient>
 	  </ingredients_list>
         </item>	
         
         #Q7 
-        <item name="Dragonscale Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="21_dragonscale_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Dragonscale Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="20_vergen_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -527,12 +527,12 @@
             </base_abilities>
         	    <ingredients_list crafted_item="">
 		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Cloth</ingredient>
 	    </ingredients_list>
             </item>	
             
         #Q8
-        <item name="Zireael Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="22_zirael_armor" attachment_type="ragdoll" ability_mode="OnMount">
+        <item name="Zireael Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="21_dragonscale_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic,Dismantle</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -552,7 +552,7 @@
 	# Akt 2 - Crafted	
     
         #Q9
-        <item name="Draug Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="24_draug_armor" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Draug Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="22_zirael_armor" attachment_type="ragdoll" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_4</item>
@@ -562,8 +562,8 @@
                 <a>Weight_22</a>
             </base_abilities>
 	  <ingredients_list crafted_item="">
-		<ingredient quantity="2">Leather</ingredient>
-		<ingredient quantity="4">Quality cloth</ingredient>
+		<ingredient quantity="1">Leather</ingredient>
+		<ingredient quantity="1">Quality cloth</ingredient>
 		<ingredient quantity="4">Studded leather</ingredient>
 	  </ingredients_list>
         </item>	
@@ -571,7 +571,7 @@
 	##########################################################################################################################################
 	# Akt 3
         #Q4
-        <item name="Dearg Ruadhri" category="armor" stackable = "false" enhancement_slots="2" equip_template="25_drearg_armor" attachment_type="ragdoll" ability_mode="OnMount">
+        <item name="Dearg Ruadhri" category="armor" stackable="false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_4</item>
@@ -587,7 +587,7 @@
         </item>	
         
         #Q7
-        <item name="Armor of Tir" category="armor" stackable = "false" enhancement_slots="2" equip_template="26_tir_armor" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Armor of Tir" category="armor" stackable="false" enhancement_slots="3" equip_template="24_draug_armor" attachment_type="skinning" ability_mode="OnMount">
         <tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -604,7 +604,7 @@
         </item>	
         
         #Q8
-        <item name="Cahir Armor" category="armor" stackable = "false" enhancement_slots="2" equip_template="13_cathir_leather" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Cahir Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="25_drearg_armor" attachment_type="ragdoll" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_1</item>
@@ -625,7 +625,7 @@
 	# Akt 3 - Crafted	
     
     #Q6
-    <item name="Armor of Ys" category="armor" stackable = "false" enhancement_slots="1" equip_template="28_ys_armor" attachment_type="skinning" ability_mode="OnMount">
+    <item name="Armor of Ys" category="armor" stackable="false" enhancement_slots="3" equip_template="26_tir_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -642,7 +642,7 @@
         </item>	
     
         #Q10
-        <item name="Ysgith Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="27_ysgith_armor" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Ysgith Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="13_cathir_leather" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,SortTypeIngridient,CraftingIngridient,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -652,14 +652,14 @@
                 <a>Weight_20</a>
             </base_abilities>
 	  <ingredients_list crafted_item="">
-		<ingredient quantity="2">Leather</ingredient>
-		<ingredient quantity="4">Quality cloth</ingredient>
-		<ingredient quantity="4">Studded leather</ingredient>
+		<ingredient quantity="1">Leather</ingredient>
+		<ingredient quantity="1">Quality cloth</ingredient>
+		<ingredient quantity="1">Studded leather</ingredient>
 	  </ingredients_list>
         </item>	
         
 	    #Q10
-	    <item name="Vran Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Vran Armor" category="armor" stackable="false" enhancement_slots="3" equip_template="28_ys_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -679,7 +679,7 @@
 ########## 2.0 ##########
 
 	    #Q11
-	    <item name="Armor of Craag Ros" category="armor" stackable = "false" enhancement_slots="1" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Armor of Craag Ros" category="armor" stackable="false" enhancement_slots="3" equip_template="27_ysgith_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -696,7 +696,7 @@
         </item>	
 
 	    #Q12
-	    <item name="Vestement of Devoted One" category="armor" stackable = "false" enhancement_slots="1" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Vestement of Devoted One" category="armor" stackable="false" enhancement_slots="3" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -713,7 +713,7 @@
         </item>	
 
 	    #Q13
-	    <item name="Shroud of Baelor" category="armor" stackable = "false" enhancement_slots="1" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Shroud of Baelor" category="armor" stackable="false" enhancement_slots="3" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -730,7 +730,7 @@
         </item>	
 
 	    #Q14
-	    <item name="Wild Hunt Hauberk" category="armor" stackable = "false" enhancement_slots="1" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Wild Hunt Hauberk" category="armor" stackable="false" enhancement_slots="3" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -747,7 +747,7 @@
         </item>
 
             #Q17
-	    <item name="Armor of Erlenwald" category="armor" stackable = "false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Armor of Erlenwald" category="armor" stackable="false" enhancement_slots="3" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -764,7 +764,7 @@
         </item>
         
             #Q18 
-	    <item name="Cregennan Armor" category="armor" stackable = "false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Cregennan Armor" category="armor" stackable="false" enhancement_slots="2" equip_template="31_vran_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -781,7 +781,7 @@
         </item>
         
         #Q19
-	    <item name="Armor of Drieschot" category="armor" stackable = "false" enhancement_slots="1" equip_template="" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="Armor of Drieschot" category="armor" stackable="false" enhancement_slots="3" equip_template="34_dark_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -802,7 +802,7 @@
 ########## DARK ##########
 
         #Q15 Dark Difficulty Armor A1
-	    <item name="DarkDifficultyArmorA1" category="armor" stackable = "false" enhancement_slots="1" equip_template="34_dark_jacket" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="DarkDifficultyArmorA1" category="armor" stackable="false" enhancement_slots="3" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic,DarkDiffA1</tags>
 		    <bound_items>
               <item>belt_dark_1</item>
@@ -819,7 +819,7 @@
         </item>
         
         #Q20 Dark Difficulty Armor A2
-	    <item name="DarkDifficultyArmorA2" category="armor" stackable = "false" enhancement_slots="1" equip_template="33_dark_leather" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="DarkDifficultyArmorA2" category="armor" stackable="false" enhancement_slots="3" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic,DarkDiffA2</tags>
 		    <bound_items>
               <item>belt_dark_2</item>
@@ -837,7 +837,7 @@
         
 
         #Q21 Dark Difficulty Armor A3
-	    <item name="DarkDifficultyArmorA3" category="armor" stackable = "false" enhancement_slots="1" equip_template="32_dark_armor" attachment_type="skinning" ability_mode="OnMount">
+	    <item name="DarkDifficultyArmorA3" category="armor" stackable="false" enhancement_slots="3" equip_template="" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeEpic,DarkDiffA3</tags>
 		    <bound_items>
               <item>belt_dark_4</item>
@@ -856,7 +856,7 @@
 
 ######### DLC #########
 
-    <item name="Roche Commando Jacket" category="armor" stackable = "false" enhancement_slots="1" equip_template="30_dlc_roche_armor" attachment_type="skinning" ability_mode="OnMount">
+    <item name="Roche Commando Jacket" category="armor" stackable="false" enhancement_slots="3" equip_template="33_dark_leather" attachment_type="skinning" ability_mode="OnMount">
       	<tags>Jacket,SortTypeArmor,Armor,TypeEpic</tags>
 		    <bound_items>
               <item>belt_5</item>
@@ -866,9 +866,9 @@
                 <a>Weight_20</a>
             </base_abilities>
 	  <ingredients_list crafted_item="">
-		<ingredient quantity="4">Leather</ingredient>
-		<ingredient quantity="6">Quality cloth</ingredient>
-		<ingredient quantity="6">Studded leather</ingredient>
+		<ingredient quantity="2">Leather</ingredient>
+		<ingredient quantity="4">Quality cloth</ingredient>
+		<ingredient quantity="4">Studded leather</ingredient>
 	  </ingredients_list>
     </item>	
 
@@ -877,7 +877,7 @@
 ########## TESTING? ##########
 
         #Q9
-        <item name="Unique Jacket 1" category="armor" stackable = "false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Jacket 1" category="armor" stackable="false" enhancement_slots="3" equip_template="32_dark_armor" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -887,13 +887,13 @@
                 <a>Weight_19</a>
             </base_abilities>
         	    <ingredients_list crafted_item="">
-		<ingredient quantity="1">Leather</ingredient>
-		<ingredient quantity="1">Cloth</ingredient>
+		<ingredient quantity="2">Leather</ingredient>
+		<ingredient quantity="4">Cloth</ingredient>
 	    </ingredients_list>
         </item>
 
         #Q9
-        <item name="Unique Jacket 2" category="armor" stackable = "false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Jacket 2" category="armor" stackable="false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>
@@ -909,7 +909,7 @@
         </item>
         
         #Q9
-        <item name="Unique Jacket 3" category="armor" stackable = "false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
+        <item name="Unique Jacket 3" category="armor" stackable="false" enhancement_slots="2" equip_template="10_shiadhal_jacket" attachment_type="skinning" ability_mode="OnMount">
 	<tags>Jacket,SortTypeArmor,Armor,TypeRare,Dismantle</tags>
 		    <bound_items>
               <item>belt_3</item>

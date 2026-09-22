@@ -10,8 +10,8 @@
 ########## IMPORTED ##########
 
 		<ability name="Aerondight _Stats">
-			<damage_min mult="false" always_random="false" min="11" max="11" />
-			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<damage_min mult="false" always_random="false" min="8" max="8" />
+			<damage_max mult="false" always_random="false" min="16" max="16" />
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
             <crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
 			<damage_reduction_block mult="false" always_random="false" min="6" max="6" />
@@ -19,36 +19,36 @@
 		</ability>
 		
 		<ability name="Moonblade _Stats">
-			<damage_min mult="false" always_random="false" min="14" max="14" />
-			<damage_max mult="false" always_random="false" min="22" max="22" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" />
+			<damage_min mult="false" always_random="false" min="10" max="10" />
+			<damage_max mult="false" always_random="false" min="17" max="17" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
             <crt_freeze display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="5" max="5" />
+			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="4" max="4" />
             <damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="bonus" />
 		</ability>
 
 
 		#Q1
 		<ability name="Silvered Sword _Stats">
-			<damage_min mult="false" always_random="false" min="8" max="8" />
-			<damage_max mult="false" always_random="false" min="16" max="16" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="critical" />
+			<damage_min mult="false" always_random="false" min="11" max="11" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" />
 		</ability>
 
                 #Q2
 		<ability name="Witcher Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="10" max="10" />
-			<damage_max mult="false" always_random="false" min="17" max="17" />
+			<damage_min mult="false" always_random="false" min="12" max="12" />
+			<damage_max mult="false" always_random="false" min="18" max="18" />
 			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
 		</ability>
 
 		#Q6
 		<ability name="High Quality Witcher Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="17" max="17" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="14" max="14" />
+			<damage_max mult="false" always_random="false" min="22" max="22" />
 			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />			
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
             <crt_poison display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
 			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.06" max="0.06" type="bonus" />   
@@ -59,7 +59,7 @@
 			<damage_min mult="false" always_random="false" min="15" max="15" />
 			<damage_max mult="false" always_random="false" min="24" max="24" />
 			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.13" type="critical" />
 			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" />
 			<damage_signsbonus display_perc="false" mult="false" always_random="false" min="4" max="4" />
 		</ability>
@@ -75,8 +75,8 @@
 		
 		#Q3
 		<ability name="Red Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="18" max="18" />
-			<damage_max mult="false" always_random="false" min="24" max="24" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="28" max="28" />
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.06" max="0.06" type="critical" />
 			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
             <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.06" max="0.06" type="bonus" />
@@ -84,8 +84,8 @@
 
 		#Q3
 		<ability name="Yellow Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="17" max="17" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="21" max="21" />
+			<damage_max mult="false" always_random="false" min="26" max="26" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
             <crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
 			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
@@ -98,7 +98,7 @@
 		#Q4
 		<ability name="Fate _Stats">
 			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="26" max="26" />
+			<damage_max mult="false" always_random="false" min="27" max="27" />
             <instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" />			
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.10" max="0.14" type="critical" />
             <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.04" max="0.06" type="bonus" /> 
@@ -106,33 +106,33 @@
 
 		#Q4
 		<ability name="Negotiator _Stats">
-			<damage_min mult="false" always_random="false" min="19" max="19" />
+			<damage_min mult="false" always_random="false" min="17" max="17" />
 			<damage_max mult="false" always_random="false" min="25" max="25" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
-			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="critical" />
+			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="critical" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.12" type="critical" />
 		</ability>
 		
 		  #Q5 
 		<ability name="Harpy _Stats">
-			<damage_min mult="false" always_random="false" min="16" max="16" />
-			<damage_max mult="false" always_random="false" min="29" max="29" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
-			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
+			<damage_min mult="false" always_random="false" min="18" max="18" />
+			<damage_max mult="false" always_random="false" min="24" max="24" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.14" max="0.17" type="critical" />
+			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.09" max="0.12" type="critical" />
 		</ability>
 		
 		#Q5 
 		<ability name="Naevde Seidhe _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="34" max="34" />
+			<damage_min mult="false" always_random="false" min="17" max="17" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.08" max="0.11" type="critical" />
-			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<damage_bonus_wraith display_perc="true" mult="false" always_random="false" min="0.08" max="0.11" type="critical" />
 		</ability>
 
 		#Q6
 		<ability name="Quality Blue Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="29" max="29" />
-			<damage_max mult="false" always_random="false" min="33" max="33" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="26" max="26" />
             <crt_freeze display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
             <damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
 			<damage_signsbonus mult="false" always_random="false" min="7" max="7" />
@@ -140,18 +140,18 @@
 		
 		#Q6
 		<ability name="Quality Red Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="30" max="30" />
-			<damage_max mult="false" always_random="false" min="32" max="32" />
+			<damage_min mult="false" always_random="false" min="19" max="19" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
             <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.08" max="0.08" type="bonus" />
 		</ability>
 
 		#Q6
 		<ability name="Quality Yellow Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="29" max="29" />
-			<damage_max mult="false" always_random="false" min="33" max="33" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<damage_min mult="false" always_random="false" min="16" max="16" />
+			<damage_max mult="false" always_random="false" min="29" max="29" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
             <crt_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
 			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="2" max="2" />
             <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.08" max="0.08" type="bonus" />
@@ -159,106 +159,106 @@
 
 		#Q7
 		<ability name="Blood Sword _Stats">
-			<damage_min mult="false" always_random="false" min="32" max="32" />
-			<damage_max mult="false" always_random="false" min="36" max="36" />
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="34" max="34" />
             <vitality_combat_regen mult="false" always_random="false" min="1" max="1" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="critical" />	
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.16" max="0.20" type="critical" />	
 		</ability>
 		
 		#Q8
 		<ability name="Gvalchca _Stats">
-			<damage_min mult="false" always_random="false" min="35" max="35" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
+			<damage_min mult="false" always_random="false" min="29" max="29" />
+			<damage_max mult="false" always_random="false" min="33" max="33" />
 			<damage_reduction_block mult="false" always_random="false" min="4" max="4" />
 			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.16" max="0.20" type="critical" />
 		</ability>
 
 		#Q9
 		<ability name="Draug Testimony _Stats">
-			<damage_min mult="false" always_random="false" min="37" max="37" />
-			<damage_max mult="false" always_random="false" min="42" max="42" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="critical" />			
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="2" max="2" />			
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.5" max="0.5" type="bonus" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.01" max="0.01" type="bonus" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />		
+			<damage_min mult="false" always_random="false" min="30" max="30" />
+			<damage_max mult="false" always_random="false" min="32" max="32" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.16" max="0.22" type="critical" />			
+			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />			
+			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" type="bonus" />
+			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" type="bonus" />
+			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" type="bonus" />
+			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.05" max="0.07" type="bonus" />
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.07" type="bonus" />		
 		</ability>
 
 # AKT 3 -------------------------------------------------
 		#Q6  
 		<ability name="Gynvael aedd _Stats">
-			<damage_min mult="false" always_random="false" min="43" max="43" />
-			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<damage_min mult="false" always_random="false" min="29" max="29" />
+			<damage_max mult="false" always_random="false" min="33" max="33" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="bonus" />		
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />		
 			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
 			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />			
 		</ability>
 
 		#Q7
 		<ability name="Deithwen _Stats">
-			<damage_min mult="false" always_random="false" min="44" max="44" />
-			<damage_max mult="false" always_random="false" min="48" max="48" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" />
+			<damage_min mult="false" always_random="false" min="32" max="32" />
+			<damage_max mult="false" always_random="false" min="36" max="36" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.5" max="0.5" type="critical" />
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="critical" />	
-			<damage_bonus_gargoil display_perc="true" mult="false" always_random="false" min="0.25" max="0.25" type="bonus" />		
+			<damage_bonus_gargoil display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="bonus" />		
 			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
 			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
 		</ability>
 		
 		#Q7
 		<ability name="High Quality Blue Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="38" max="38" />
-			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<damage_reduction_block mult="false" always_random="false" min="3" max="3" />
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
-            <damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<damage_signsbonus mult="false" always_random="false" min="10" max="10" />		
+            <damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" type="bonus" />
+			<damage_signsbonus mult="false" always_random="false" min="9" max="9" />		
 		</ability>
 		
 		#Q7
 		<ability name="High Quality Red Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="38" max="38" />
-			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<damage_min mult="false" always_random="false" min="37" max="37" />
+			<damage_max mult="false" always_random="false" min="42" max="42" />
 			<damage_reduction_block mult="false" always_random="false" min="7" max="7" />
 			<crt_burn display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
-            <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />		
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+            <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.10" max="0.10" type="bonus" />		
 		</ability>
 
 		#Q7
 		<ability name="High Quality Yellow Meteorite Silver Sword _Stats">
-			<damage_min mult="false" always_random="false" min="38" max="38" />
-			<damage_max mult="false" always_random="false" min="44" max="44" />
-			<damage_reduction_block mult="false" always_random="false" min="5" max="5" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="42" max="42" />
+			<damage_reduction_block mult="false" always_random="false" min="33" max="33" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="critical" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="2" max="2" />
-            <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />			
+			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="3" max="3" />
+            <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="bonus" />			
 		</ability>
 
 		#Q8
 		<ability name="Unique Silver Meteorite Sword _Stats">
-			<damage_min mult="false" always_random="false" min="44" max="44" />
-			<damage_max mult="false" always_random="false" min="49" max="49" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.35" max="0.35" />
+			<damage_min mult="false" always_random="false" min="33" max="33" />
+			<damage_max mult="false" always_random="false" min="43" max="43" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
             <crt_burn display_perc="true" mult="false" always_random="false" min="0.16" max="0.16" type="critical" />
-            <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.04" max="0.04" type="bonus" />
-			<damage_signsbonus mult="false" always_random="false" min="10" max="10" />		
+            <damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.09" max="0.09" type="bonus" />
+			<damage_signsbonus mult="false" always_random="false" min="6" max="6" />		
 		</ability>
 		
 		#Q9
 		<ability name="Addan deith _Stats">
-			<damage_min mult="false" always_random="false" min="45" max="45" />
-			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="40" max="40" />
 			<crt_freeze display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
             <instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
             <damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.04" max="0.04" type="bonus" />
+			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.07" max="0.07" type="bonus" />
 		</ability>
 
 
@@ -267,86 +267,86 @@
 
 		#A1
 		<ability name="Titans Hand _Stats">
-			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="28" max="28" />
-			<vitality mult="false" always_random="false" min="20" max="20" type="critical" />
+			<damage_min mult="false" always_random="false" min="43" max="43" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<vitality mult="false" always_random="false" min="30" max="30" type="critical" />
 			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>
 
 		#A1
 		<ability name="Shadow Sword _Stats">
-			<damage_min mult="false" always_random="false" min="21" max="21" />
-			<damage_max mult="false" always_random="false" min="26" max="26" />
-			<damage_signsbonus mult="false" always_random="false" min="7" max="7" />
+			<damage_min mult="false" always_random="false" min="44" max="44" />
+			<damage_max mult="false" always_random="false" min="48" max="48" />
+			<damage_signsbonus mult="false" always_random="false" min="6" max="6" />
 			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
 		</ability>
 
 		#A1
 		<ability name="Abomination Slayer _Stats">
-			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="27" max="27" />
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />	
+			<damage_min mult="false" always_random="false" min="38" max="38" />
+			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.05" max="0.05" type="bonus" />
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0.05" max="0.05" type="bonus" />	
 		</ability>
 
 
 		#A2
 		<ability name="Cursed Demise _Stats">
-			<damage_min mult="false" always_random="false" min="35" max="35" />
-			<damage_max mult="false" always_random="false" min="42" max="42" />
-			<damage_reduction_block mult="false" always_random="false" min="33" max="33" />
-			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="2" max="2" />
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.3" max="0.3" type="bonus" />
+			<damage_min mult="false" always_random="false" min="38" max="38" />
+			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
+			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
+			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0.02" max="0.02" type="bonus" />
 		</ability>
 
 		#A2
 		<ability name="Eclipse _Stats">
-			<damage_min mult="false" always_random="false" min="33" max="33" />
-			<damage_max mult="false" always_random="false" min="43" max="43" />
-			<crt_stun display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
-			<damage_signsbonus mult="false" always_random="false" min="12" max="12" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" />
+			<damage_min mult="false" always_random="false" min="38" max="38" />
+			<damage_max mult="false" always_random="false" min="44" max="44" />
+			<crt_stun display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
+			<damage_signsbonus mult="false" always_random="false" min="4" max="4" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />
 		</ability>
 
 		#A2
 		<ability name="Hags Bane _Stats">
-			<damage_min mult="false" always_random="false" min="35" max="35" />
-			<damage_max mult="false" always_random="false" min="40" max="40" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />
-			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="critical" />
+			<damage_min mult="false" always_random="false" min="44" max="44" />
+			<damage_max mult="false" always_random="false" min="49" max="49" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.35" max="0.35" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
+			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
 		</ability>
 
 
 		#A3
 		<ability name="Marag Bator _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="58" max="58" />
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />	
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" type="bonus" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.4" max="0.4" type="critical" />		
+			<damage_min mult="false" always_random="false" min="45" max="45" />
+			<damage_max mult="false" always_random="false" min="50" max="50" />
+			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />	
+			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="critical" />		
 			<vitality mult="false" always_random="false" min="50" max="50" />
 			<vitality_regen mult="false" always_random="false" min="0.35" max="0.35" />
 		</ability>
 
 		#A3
 		<ability name="Ichaer Aardanna _Stats">
-			<damage_min mult="false" always_random="false" min="51" max="51" />
-			<damage_max mult="false" always_random="false" min="55" max="55" />
-			<damage_signsbonus mult="false" always_random="false" min="15" max="15" />
-			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.6" max="0.6" />		
-			<damage_reduction_block mult="false" always_random="false" min="30" max="30" />
+			<damage_min mult="false" always_random="false" min="50" max="50" />
+			<damage_max mult="false" always_random="false" min="58" max="58" />
+			<damage_signsbonus mult="false" always_random="false" min="5" max="5" />
+			<endurance_combat_regen display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" />		
+			<damage_reduction_block mult="false" always_random="false" min="10" max="10" />
 			<damage_bonus_insectoid mult="false" display_perc="true" always_random="false" min="0.15" max="0.15" type="bonus" />
-			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.12" max="0.12" type="critical" />
+			<damage_bonus_harpy display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" type="critical" />
 		</ability>
 
 		#A3
 		<ability name="Phantom Edge _Stats">
-			<damage_min mult="false" always_random="false" min="52" max="52" />
-			<damage_max mult="false" always_random="false" min="57" max="57" />
+			<damage_min mult="false" always_random="false" min="51" max="51" />
+			<damage_max mult="false" always_random="false" min="55" max="55" />
 			<adrenaline_on_hit display_perc="false" mult="false" always_random="false" min="1" max="1" />
-			<damage_reduction_block mult="false" always_random="false" min="20" max="20" />
+			<damage_reduction_block mult="false" always_random="false" min="8" max="8" />
 			<crt_stun display_perc="true" mult="false" always_random="false" min="0.07" max="0.07" type="critical" />
 			<oils_time_bonus mult="false" always_random="false" min="5.0" max="5.0" type="bonus" />
 		</ability>
@@ -354,29 +354,29 @@
 
 		#Q13 Dark difficulty silversword A1
 		<ability name="Dark difficulty silversword A1 _Stats">
-			<damage_min mult="false" always_random="false" min="20" max="20" />
-			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<damage_min mult="false" always_random="false" min="52" max="52" />
+			<damage_max mult="false" always_random="false" min="57" max="57" />
 			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" />
 			<crt_poison display_perc="true" mult="false" always_random="false" min="0.10" max="0.10" type="critical" />
 		</ability>
 		
 		#Q14 Dark difficulty silversword A2
 		<ability name="Dark difficulty silversword A2 _Stats">
-			<damage_min mult="false" always_random="false" min="35" max="35" />
-			<damage_max mult="false" always_random="false" min="45" max="45" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
-			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.2" max="0.2" type="critical" />
+			<damage_min mult="false" always_random="false" min="20" max="20" />
+			<damage_max mult="false" always_random="false" min="25" max="25" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.01" max="0.01" type="bonus" />
+			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.15" max="0.15" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.20" max="0.20" type="critical" />
 		</ability>
 		
 		#Q15 Dark difficulty silversword A3
 		<ability name="Dark difficulty silversword A3 _Stats">
-			<damage_min mult="false" always_random="false" min="50" max="50" />
-			<damage_max mult="false" always_random="false" min="55" max="55" />
-			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.03" max="0.03" type="bonus" />
+			<damage_min mult="false" always_random="false" min="35" max="35" />
+			<damage_max mult="false" always_random="false" min="45" max="45" />
+			<instant_kill_chance display_perc="true" mult="false" always_random="false" min="0.02" max="0.02" type="bonus" />
 			<crt_bleed display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" />
-			<crt_poison display_perc="true" mult="false" always_random="false" min="0.3" max="0.3" type="critical" />
+			<crt_poison display_perc="true" mult="false" always_random="false" min="0.30" max="0.30" type="critical" />
 		</ability>
 				
 	</abilities>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 		<ability name="MageTypeLightning">
@@ -8,268 +8,268 @@
 		<ability name="MageTypeDethmold">
 		</ability>
 		<ability name="SP_OneHitPoint">
-			<vitality mult="false" always_random="false" min="1" max="1"/>
+			<vitality mult="false" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="SP_NoNPCDamage">
-			<damage_npc_min mult="true" always_random="false" min="0" max="0"/>
-			<damage_npc_max mult="true" always_random="false" min="0" max="0"/>
+			<damage_npc_min mult="true" always_random="false" min="0" max="0" />
+			<damage_npc_max mult="true" always_random="false" min="0" max="0" />
 		</ability>
 		<ability name="OppE_ArenaTierMult1">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult2">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult3">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult4">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult5">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult6">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult7">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult8">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult9">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_ArenaTierMult10">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_Wounded">
-			<res_aard mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_igni mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_yrden mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_quen mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_axii mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_stun mult="true" always_random="false" min="0.25" max="0.25"/>
-			<res_knockdown mult="true" always_random="false" min="0.25" max="0.25"/>
+			<res_aard mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_igni mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_yrden mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_quen mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_axii mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_stun mult="true" always_random="false" min="0.25" max="0.25" />
+			<res_knockdown mult="true" always_random="false" min="0.25" max="0.25" />
 		</ability>
 
 		<ability name="OppE_ArenaWingmanTier1">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier2">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier3">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier4">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier5">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier6">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier7">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier8">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier9">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 		<ability name="OppE_ArenaWingmanTier10">
-			<vitality mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15"/>
-			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1"/>
-			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15"/>
+			<vitality mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<damage_npc_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<damage_npc_max mult="true" always_random="false" min="1.15" max="1.15" />
+			<ranged_damage_min mult="true" always_random="false" min="1.1" max="1.1" />
+			<ranged_damage_max mult="true" always_random="false" min="1.15" max="1.15" />
 		</ability>
 
 
 		<ability name="OppE_HeavyArmored">
-			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2"/>
+			<damage_reduction mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>
 		<ability name="OppE_NoArmor">
-			<damage_reduction mult="true" always_random="false" min="0" max="0"/>
+			<damage_reduction mult="true" always_random="false" min="0" max="0" />
 		</ability>
 		<ability name="OppE_LowArmor">
-			<damage_reduction mult="true" always_random="false" min="0.5" max="0.5"/>
+			<damage_reduction mult="true" always_random="false" min="0.5" max="0.5" />
 		</ability>
 		<ability name="OppE_NPCDamagePlus100">
-			<damage_npc_min mult="true" always_random="false" min="2" max="2"/>
-			<damage_npc_max mult="true" always_random="false" min="2" max="2"/>
+			<damage_npc_min mult="true" always_random="false" min="2" max="2" />
+			<damage_npc_max mult="true" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="OppE_NoFallingDown">
-			<res_falldown mult="false" always_random="false" min="100.0" max="100.0"/>
+			<res_falldown mult="false" always_random="false" min="100.0" max="100.0" />
 		</ability>
 		<ability name="OppE_FallDownResPlus20">
-			<res_falldown mult="false" always_random="false" min="0.2" max="0.2"/>
+			<res_falldown mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>
 		<ability name="OppE_FallDownResPlus50">
-			<res_falldown mult="false" always_random="false" min="0.5" max="0.5"/>
+			<res_falldown mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>
 		<ability name="OppE_DamageX2">
-			<damage_min mult="true" always_random="false" min="2" max="2"/>
-			<damage_max mult="true" always_random="false" min="2" max="2"/>
-			<damage_npc_min mult="true" always_random="false" min="2" max="2"/>
-			<damage_npc_max mult="true" always_random="false" min="2" max="2"/>
-			<ranged_damage_min mult="true" always_random="false" min="2" max="2"/>
-			<ranged_damage_max mult="true" always_random="false" min="2" max="2"/>
+			<damage_min mult="true" always_random="false" min="2" max="2" />
+			<damage_max mult="true" always_random="false" min="2" max="2" />
+			<damage_npc_min mult="true" always_random="false" min="2" max="2" />
+			<damage_npc_max mult="true" always_random="false" min="2" max="2" />
+			<ranged_damage_min mult="true" always_random="false" min="2" max="2" />
+			<ranged_damage_max mult="true" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="OppE_VitalityX2">
-			<vitality mult="true" always_random="false" min="2" max="2"/>
+			<vitality mult="true" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="OppE_DamageX5">
-			<damage_min mult="true" always_random="false" min="5" max="5"/>
-			<damage_max mult="true" always_random="false" min="5" max="5"/>
-			<damage_npc_min mult="true" always_random="false" min="5" max="5"/>
-			<damage_npc_max mult="true" always_random="false" min="5" max="5"/>
-			<ranged_damage_min mult="true" always_random="false" min="5" max="5"/>
-			<ranged_damage_max mult="true" always_random="false" min="5" max="5"/>
+			<damage_min mult="true" always_random="false" min="5" max="5" />
+			<damage_max mult="true" always_random="false" min="5" max="5" />
+			<damage_npc_min mult="true" always_random="false" min="5" max="5" />
+			<damage_npc_max mult="true" always_random="false" min="5" max="5" />
+			<ranged_damage_min mult="true" always_random="false" min="5" max="5" />
+			<ranged_damage_max mult="true" always_random="false" min="5" max="5" />
 		</ability>
 		<ability name="OppE_VitalityX5">
-			<vitality mult="true" always_random="false" min="5" max="5"/>
+			<vitality mult="true" always_random="false" min="5" max="5" />
 		</ability>
 		<ability name="OppE_DamageX3">
-			<damage_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_max mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_min mult="true" always_random="false" min="3" max="3"/>
-			<damage_npc_max mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_min mult="true" always_random="false" min="3" max="3"/>
-			<ranged_damage_max mult="true" always_random="false" min="3" max="3"/>
+			<damage_min mult="true" always_random="false" min="3" max="3" />
+			<damage_max mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_min mult="true" always_random="false" min="3" max="3" />
+			<damage_npc_max mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_min mult="true" always_random="false" min="3" max="3" />
+			<ranged_damage_max mult="true" always_random="false" min="3" max="3" />
 		</ability>
 		<ability name="OppE_VitalityX3">
-			<vitality mult="true" always_random="false" min="3" max="3"/>
+			<vitality mult="true" always_random="false" min="3" max="3" />
 		</ability>
 	</abilities>
 

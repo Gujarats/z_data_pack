@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,7 +7,7 @@
 
 		# Przynety
 
-		<item name="Rotting Meat" category="lure" ability_slots="0" stackable = "true" hold_template="lure_meat" equip_slot="" hold_slot="">
+		<item name="Rotting Meat" category="lure" ability_slots="0" stackable="true" hold_template="lure_meat" equip_slot="" hold_slot="">
 			<tags>SortTypeLure,Lure,QuickSlot</tags>
 			<base_abilities>
 				<a>type_lure</a>
@@ -17,7 +17,7 @@
 			</base_abilities>
 		</item> 
 
-		<item name="Shiny Trinket" category="lure" ability_slots="0" stackable = "true" hold_template="lure_trinket" equip_slot="" hold_slot="">
+		<item name="Shiny Trinket" category="lure" ability_slots="0" stackable="true" hold_template="lure_trinket" equip_slot="" hold_slot="">
 			<tags>SortTypeLure,Lure,QuickSlot</tags>
 			<base_abilities>
 				<a>type_lure</a>
@@ -27,7 +27,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Endriag Gland Extract" category="lure" ability_slots="0" stackable = "true" hold_template="lure_gland_juice" equip_slot="" hold_slot="">
+		<item name="Endriag Gland Extract" category="lure" ability_slots="0" stackable="true" hold_template="lure_gland_juice" equip_slot="" hold_slot="">
 			<tags>SortTypeLure,Lure,QuickSlot</tags>
 			<base_abilities>
 				<a>type_lure</a>
@@ -37,7 +37,7 @@
 			</base_abilities>
 		</item>
 
-		<item name="Phosphorescent Crystal" category="lure" ability_slots="0" stackable = "true" hold_template="lure_crystal" equip_slot="" hold_slot="">
+		<item name="Phosphorescent Crystal" category="lure" ability_slots="0" stackable="true" hold_template="lure_crystal" equip_slot="" hold_slot="">
 			<tags>SortTypeLure,Lure,QuickSlot</tags>
 			<base_abilities>
 				<a>type_lure</a>
@@ -47,7 +47,7 @@
 			</base_abilities>
 		</item> 
 
-		<item name="Thumper" category="lure" ability_slots="0" stackable = "true" hold_template="lure_rumbling" equip_slot="" hold_slot="">
+		<item name="Thumper" category="lure" ability_slots="0" stackable="true" hold_template="lure_rumbling" equip_slot="" hold_slot="">
 			<tags>SortTypeLure,Lure,QuickSlot</tags>
 			<base_abilities>
 				<a>type_lure</a>

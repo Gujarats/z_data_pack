@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -55,23 +55,11 @@
 			<tags>NoShow,NoDrop, Fireball</tags>
 		</item>
 
-		<item name="fake_arrow"
-				category="projectile"
-				ability_slots="0"
-				equip_template="fake_arrow"
-				hold_template="None"
-				equip_slot="r_weapon"
-				hold_slot="None">
+		<item name="fake_arrow" category="projectile" ability_slots="0" equip_template="fake_arrow" hold_template="None" equip_slot="r_weapon" hold_slot="None">
 			<tags>NoShow,NoDrop</tags>
 		</item>
 
-		<item name="fake_bolt"
-				category="projectile"
-				ability_slots="0"
-				equip_template="fake_bolt"
-				hold_template="None"
-				equip_slot="r_weapon"
-				hold_slot="None">
+		<item name="fake_bolt" category="projectile" ability_slots="0" equip_template="fake_bolt" hold_template="None" equip_slot="r_weapon" hold_slot="None">
 			<tags>NoShow,NoDrop</tags>
 		</item>
 

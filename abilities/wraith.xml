@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="Wraith Claws _Stats">
@@ -16,8 +16,8 @@
       <experience>
         <modifier mult="false" always_random="false" min="15" max="15" />
       </experience>
-      <vitality min="0" max="0">
-        <modifier mult="false" always_random="false" min="130" max="130" />
+      <vitality>
+        <modifier mult="false" always_random="false" min="65" max="65" />
       </vitality>
       <damage_reduction>
         <modifier mult="false" always_random="false" min="7" max="7" />
@@ -45,8 +45,8 @@
       <experience>
         <modifier mult="false" always_random="false" min="20" max="20" />
       </experience>
-      <vitality min="0" max="0">
-        <modifier mult="false" always_random="false" min="320" max="320" />
+      <vitality>
+        <modifier mult="false" always_random="false" min="160" max="160" />
       </vitality>
       <damage_reduction>
         <modifier mult="false" always_random="false" min="20" max="20" />

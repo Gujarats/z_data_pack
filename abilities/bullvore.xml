@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="Bullvore Fists _Stats">
@@ -8,8 +8,8 @@
     <ability name="Bullvore Default">
       <level mult="false" always_random="false" min="9" max="9" />
       <experience mult="false" always_random="false" min="200" max="200" />
-      <vitality mult="false" always_random="false" min="600" max="600" />
-      <vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+      <vitality mult="false" always_random="false" min="400" max="400" />
+      <vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
       <vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
       <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
       <damage_reduction mult="false" always_random="false" min="20" max="20" />
@@ -19,8 +19,8 @@
     <ability name="Greater Bullvore">
       <level mult="false" always_random="false" min="10" max="10" />
       <experience mult="false" always_random="false" min="300" max="300" />
-      <vitality mult="false" always_random="false" min="675" max="675" />
-      <vitality_regen mult="false" always_random="false" min="3.0" max="3.0" />
+      <vitality mult="false" always_random="false" min="450" max="450" />
+      <vitality_regen mult="false" always_random="false" min="0.15" max="0.15" />
       <vitality_combat_regen mult="false" always_random="false" min="3.0" max="3.0" />
       <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
       <damage_reduction mult="false" always_random="false" min="30" max="30" />

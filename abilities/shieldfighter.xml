@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
@@ -6,8 +6,8 @@
 		<ability name="Shieldfighter Default">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="8" max="8" />
-			<vitality mult="false" always_random="false" min="90" max="90" />
-			<vitality_regen mult="false" always_random="false" min="1.2" max="1.2" />
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
@@ -24,8 +24,8 @@
 		<ability name="Shieldfighter Weak Prolog">
 			<level mult="false" always_random="false" min="1" max="1" />
 			<experience mult="false" always_random="false" min="8" max="8" />
-			<vitality mult="false" always_random="false" min="90" max="90" />
-			<vitality_regen mult="false" always_random="false" min="1.2" max="1.2" />
+			<vitality mult="false" always_random="false" min="60" max="60" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.2" max="1.2" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<endurance mult="false" always_random="false" min="0" max="0" />
@@ -40,8 +40,8 @@
 		<ability name="Shieldfighter Prolog">
 			<level mult="false" always_random="false" min="2" max="2" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="105" max="105" />
-			<vitality_regen mult="false" always_random="false" min="1.4" max="1.4" />
+			<vitality mult="false" always_random="false" min="70" max="70" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.4" max="1.4" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
@@ -58,8 +58,8 @@
 		<ability name="Shieldfighter Strong Prolog">
 			<level mult="false" always_random="false" min="4" max="4" />
 			<experience mult="false" always_random="false" min="12" max="12" />
-			<vitality mult="false" always_random="false" min="150" max="150" />
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="0.5" max="0.5" />
 			<vitality_combat_regen mult="false" always_random="false" min="2.0" max="2.0" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="2" max="2" />
@@ -76,8 +76,8 @@
 		<ability name="Shieldfighter - DeadlyWright">
 			<level mult="false" always_random="false" min="20" max="20" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="720" max="720" />
-			<vitality_regen mult="false" always_random="false" min="8.0" max="8.0" />
+			<vitality mult="false" always_random="false" min="480" max="480" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="8.0" max="8.0" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="130" max="130" />
@@ -95,8 +95,8 @@
 		<ability name="q002 executioner prolog">
 			<level mult="false" always_random="false" min="5" max="5" />
 			<experience mult="false" always_random="false" min="20" max="20" />
-			<vitality mult="false" always_random="false" min="210" max="210" />
-			<vitality_regen mult="false" always_random="false" min="2.8" max="2.8" />
+			<vitality mult="false" always_random="false" min="140" max="140" />
+			<vitality_regen mult="false" always_random="false" min="0" max="0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
 			<damage_min mult="false" always_random="false" min="35" max="35" />

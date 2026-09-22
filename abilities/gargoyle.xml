@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
   <abilities>
     <ability name="Gargoyle Claws _Stats">
@@ -8,7 +8,7 @@
     <ability name="Gargoyle Default">
       <level mult="false" always_random="false" min="4" max="4" />
       <experience mult="false" always_random="false" min="15" max="15" />
-      <vitality mult="false" always_random="false" min="120" max="120" />
+      <vitality mult="false" always_random="false" min="80" max="80" />
       <vitality_regen mult="false" always_random="false" min="0.0" max="0.0" />
       <vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
       <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
@@ -22,7 +22,7 @@
     <ability name="Gargoyle Akt 2">
       <level mult="false" always_random="false" min="8" max="8" />
       <experience mult="false" always_random="false" min="20" max="20" />
-      <vitality mult="false" always_random="false" min="150" max="150" />
+      <vitality mult="false" always_random="false" min="100" max="100" />
       <vitality_regen mult="false" always_random="false" min="0.0" max="0.0" />
       <vitality_combat_regen mult="false" always_random="false" min="0.0" max="0.0" />
       <damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />

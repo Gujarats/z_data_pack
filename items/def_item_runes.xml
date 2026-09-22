@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -7,7 +7,7 @@
     
     # Smarowidla i oselki
 
-        <item name="Rune of Sun" category="rune" ability_slots="0" stackable = "true" template="enh_grs_01" equip_slot="" hold_slot="">
+        <item name="Rune of Sun" category="rune" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
 	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,SortTypeIngridient,CraftingIngridient,TypeRare,Rune1,Rune</tags>
             <base_abilities>
 		<a>Rune of Sun _Stats</a>
@@ -16,7 +16,7 @@
             </base_abilities>
         </item>
 	
-	<item name="Rune of Ysgith" category="rune" ability_slots="0" stackable = "true" template="enh_grs_01" equip_slot="" hold_slot="">
+	<item name="Rune of Ysgith" category="rune" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
 	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,SortTypeIngridient,CraftingIngridient,TypeRare,Rune1,Rune</tags>
             <base_abilities>
 		<a>Rune of Ysgith _Stats</a>
@@ -25,7 +25,7 @@
             </base_abilities>
         </item>
 	
-        <item name="Rune of Earth" category="rune" ability_slots="0" stackable = "true" template="enh_grs_01" equip_slot="" hold_slot="">
+        <item name="Rune of Earth" category="rune" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
 	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,SortTypeIngridient,CraftingIngridient,TypeRare,Rune2,Rune</tags>
             <base_abilities>
 		<a>Rune of Earth _Stats</a>
@@ -34,7 +34,7 @@
             </base_abilities>
         </item>
 
-        <item name="Rune of Moon" category="rune" ability_slots="0" stackable = "true" template="enh_grs_01" equip_slot="" hold_slot="">
+        <item name="Rune of Moon" category="rune" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
 	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,SortTypeIngridient,CraftingIngridient,TypeRare,Rune3,Rune</tags>
             <base_abilities>
 		<a>Rune of Moon _Stats</a>
@@ -43,7 +43,7 @@
             </base_abilities>
         </item>
 
-        <item name="Rune of Fire" category="rune" ability_slots="0" stackable = "true" template="enh_grs_01" equip_slot="" hold_slot="">
+        <item name="Rune of Fire" category="rune" ability_slots="0" stackable="true" template="enh_grs_01" equip_slot="" hold_slot="">
 	<tags>SortTypeWeaponUpgrade,WeaponUpgrade,SortTypeIngridient,CraftingIngridient,TypeRare,Rune4,Rune</tags>
             <base_abilities>
 		<a>Rune of Fire _Stats</a>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 	</abilities>
@@ -7,28 +7,28 @@
 
 		# Specjale potworów
 
-		<item name="Wraith Bomb" category="petard" stackable = "true" hold_template="wraith_bomb" equip_template="" equip_slot="" hold_slot="">
+		<item name="Wraith Bomb" category="petard" stackable="true" hold_template="wraith_bomb" equip_template="" equip_slot="" hold_slot="">
 			<tags>SortTypePetard,Petard,NoDrop</tags>
 			<base_abilities>
 				<a>Dancing Star _Stats</a>
 			</base_abilities>
 		</item>
 
-		<item name="Troll Bomb" category="petard" stackable = "true" hold_template="troll_bomb" equip_template="" equip_slot="" hold_slot="">
+		<item name="Troll Bomb" category="petard" stackable="true" hold_template="troll_bomb" equip_template="" equip_slot="" hold_slot="">
 			<tags>SortTypePetard,Petard,NoDrop</tags>
 			<base_abilities>
 				<a>Dancing Star _Stats</a>
 			</base_abilities>
 		</item>
 
-		<item name="Rotfiend Guts" category="petard" stackable = "true" hold_template="rotfiend_guts" equip_template="" equip_slot="" hold_slot="">
+		<item name="Rotfiend Guts" category="petard" stackable="true" hold_template="rotfiend_guts" equip_template="" equip_slot="" hold_slot="">
 			<tags>SortTypePetard,Petard,NoDrop</tags>
 			<base_abilities>
 				<a>Dancing Star _Stats</a>
 			</base_abilities>
 		</item>
 
-		<item name="Gargoyle Teleport" category="petard" stackable = "true" hold_template="gargoyle_teleport" equip_template="" equip_slot="" hold_slot="">
+		<item name="Gargoyle Teleport" category="petard" stackable="true" hold_template="gargoyle_teleport" equip_template="" equip_slot="" hold_slot="">
 			<tags>SortTypePetard,Petard,NoDrop</tags>
 			<base_abilities>
 				<a>Dancing Star _Stats</a>

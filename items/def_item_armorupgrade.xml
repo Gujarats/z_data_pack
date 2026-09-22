@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -7,7 +7,7 @@
     
     #Armor upgrades
         
-        <item name="Hardened Leather Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_03" equip_slot="" hold_slot="">
+        <item name="Hardened Leather Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_01" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade</tags>
             <base_abilities>
                 <a>Hardened Leather Enhancement _Stats</a>
@@ -16,7 +16,7 @@
             </base_abilities>
         </item>  
         
-        <item name="Studded Leather Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_06" equip_slot="" hold_slot="">
+        <item name="Studded Leather Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_02" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade</tags>
             <base_abilities>
                 <a>Studded Leather Enhancement _Stats</a>
@@ -25,7 +25,7 @@
             </base_abilities>
         </item>
 
-        <item name="Mail Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_02" equip_slot="" hold_slot="">
+        <item name="Mail Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_02" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade</tags>
             <base_abilities>
                 <a>Mail Armor Enhancement _Stats</a>
@@ -34,7 +34,7 @@
             </base_abilities>
         </item>
         
-        <item name="Steel Plate Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_07" equip_slot="" hold_slot="">
+        <item name="Steel Plate Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_02" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade</tags>
             <base_abilities>
                 <a>Steel Plate Enhancement _Stats</a>
@@ -43,7 +43,7 @@
             </base_abilities>
         </item>
         
-        <item name="Diamond Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_09" equip_slot="" hold_slot="">
+        <item name="Diamond Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_02" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeMagic</tags>
             <base_abilities>
                 <a>Diamond Armor Enhancement _Stats</a>
@@ -52,7 +52,7 @@
             </base_abilities>
         </item>
         
-        <item name="Elanie Bleidd" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_10" equip_slot="" hold_slot="">
+        <item name="Elanie Bleidd" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_03" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeRare</tags>
             <base_abilities>
                 <a>Elanie Bleidd _Stats</a>
@@ -61,7 +61,7 @@
             </base_abilities>
         </item>
         
-        <item name="Dhu Bleidd" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_11" equip_slot="" hold_slot="">
+        <item name="Dhu Bleidd" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_04" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeRare</tags>
             <base_abilities>
                 <a>Dhu Bleidd _Stats</a>
@@ -70,7 +70,7 @@
             </base_abilities>
         </item>
         
-        <item name="Vrans Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_13" equip_slot="" hold_slot="">
+        <item name="Vrans Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_05" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeEpic,CraftingIngridient</tags>
             <base_abilities>
                 <a>Vrans Armor Enhancement _Stats</a>
@@ -79,7 +79,7 @@
             </base_abilities>
         </item>
         
-        <item name="Tentadrake Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_14" equip_slot="" hold_slot="">
+        <item name="Tentadrake Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_06" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeEpic</tags>
             <base_abilities>
                 <a>Tentadrake Armor Enhancement _Stats</a>
@@ -88,7 +88,7 @@
             </base_abilities>
         </item>
         
-        <item name="Endriag Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="Endriag Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_07" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeMagic</tags>
             <base_abilities>
                 <a>Endriag Armor Enhancement _Stats</a>
@@ -97,7 +97,7 @@
             </base_abilities>
         </item>
 	
-        <item name="Dwarven Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="Dwarven Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_08" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeMagic</tags>
             <base_abilities>
                 <a>Dwarven Armor Enhancement _Stats</a>
@@ -106,7 +106,7 @@
             </base_abilities>
         </item>	
 	
-        <item name="Elven Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="Elven Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_09" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeMagic</tags>
             <base_abilities>
                 <a>Elven Armor Enhancement _Stats</a>
@@ -115,7 +115,7 @@
             </base_abilities>
         </item>
 		
-        <item name="Mystic Armor Enhancement" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="Mystic Armor Enhancement" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_10" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeEpic</tags>
             <base_abilities>
                 <a>Mystic Armor Enhancement _Stats</a>
@@ -124,7 +124,7 @@
             </base_abilities>
         </item>
 	
-        <item name="kokarda wojsk specjalnych temerii" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="kokarda wojsk specjalnych temerii" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_11" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeEpic</tags>
             <base_abilities>
                 <a>kokarda wojsk specjalnych temerii _Stats</a>
@@ -133,7 +133,7 @@
             </base_abilities>
         </item>
 	
-        <item name="kokarda wojsk specjalnych aedirn" category="armorupgrade" ability_slots="0" stackable = "true"  template="ar_upgrade_15" equip_slot="" hold_slot="">
+        <item name="kokarda wojsk specjalnych aedirn" category="armorupgrade" ability_slots="0" stackable="true" template="ar_upgrade_13" equip_slot="" hold_slot="">
 	<tags>SortTypeArmorUpgrade,ArmorUpgrade,TypeEpic</tags>
             <base_abilities>
                 <a>kokarda wojsk specjalnych aedirn _Stats</a>

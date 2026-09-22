@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
     <abilities>
     </abilities>
@@ -6,7 +6,7 @@
     <items>
     #	Definicje eliksirow
 
-		<item name="Candlemakers Potion Real" category="elixir" ability_slots="0" stackable = "true" template="q213r_candlemakers_potion_real" equip_slot="" hold_slot="">
+		<item name="Candlemakers Potion Real" category="elixir" ability_slots="0" stackable="true" template="q213r_candlemakers_potion_real" equip_slot="" hold_slot="">
             <tags>SortTypePotion,SortTypeQuest,Elixir</tags>
             <base_abilities>
 				<a>Candlemakers Potion Real _Stats</a>
@@ -16,7 +16,7 @@
 		</item>
 
 		###CAT###
-        <item name="Cat" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_01" equip_slot="" hold_slot="">
+        <item name="Cat" category="elixir" ability_slots="0" stackable="true" template="alch_pot_01" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Cat _Stats</a>
@@ -31,7 +31,7 @@
         </item>
         
 		###GADWALL###
-        <item name="Swallow" category="elixir"  ability_slots="0" stackable = "true" template="alch_pot_02" equip_slot="" hold_slot="">
+        <item name="Swallow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_02" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Swallow _Stats</a>
@@ -46,7 +46,7 @@
         </item>
         
 		###TAWNY OWL###
-        <item name="Tawny Owl" category="elixir"  ability_slots="0" stackable = "true"  template="alch_pot_03" equip_slot="" hold_slot="">
+        <item name="Tawny Owl" category="elixir" ability_slots="0" stackable="true" template="alch_pot_03" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Tawny Owl _Stats</a>
@@ -61,7 +61,7 @@
         </item>
         
 		###WOLF###
-        <item name="Blizzard" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_04" equip_slot="" hold_slot="">
+        <item name="Blizzard" category="elixir" ability_slots="0" stackable="true" template="alch_pot_04" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Blizzard _Stats</a>
@@ -76,7 +76,7 @@
         </item>
         
 		###ROOK###
-        <item name="Kiss" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_05" equip_slot="" hold_slot="">
+        <item name="Kiss" category="elixir" ability_slots="0" stackable="true" template="alch_pot_05" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Kiss _Stats</a>
@@ -91,7 +91,7 @@
         </item>
         
 		###SWALLOW###
-        <item name="Marten" category="elixir"  ability_slots="0" stackable = "true"  template="alch_pot_06" equip_slot="" hold_slot="">
+        <item name="Marten" category="elixir" ability_slots="0" stackable="true" template="alch_pot_06" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Marten _Stats</a>
@@ -106,7 +106,7 @@
         </item>
         
         ###GOLDEN ORIOLE###			
-        <item name="Maribor Forest" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_07" equip_slot="" hold_slot="">
+        <item name="Maribor Forest" category="elixir" ability_slots="0" stackable="true" template="alch_pot_07" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Maribor Forest _Stats</a>
@@ -121,7 +121,7 @@
         </item>
         
 		###TIARA###
-        <item name="Shrike" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_08" equip_slot="" hold_slot="">
+        <item name="Shrike" category="elixir" ability_slots="0" stackable="true" template="alch_pot_08" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Shrike _Stats</a>
@@ -136,7 +136,7 @@
         </item>
         
 		###STAMMELFORD'S PHILTRE###
-        <item name="Golden Oriole" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_09" equip_slot="" hold_slot="">
+        <item name="Golden Oriole" category="elixir" ability_slots="0" stackable="true" template="alch_pot_09" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Golden Oriole _Stats</a>
@@ -151,7 +151,7 @@
         </item>
         
 		###MARIBOR'S FOREST###
-        <item name="Wolf" category="elixir"  ability_slots="0" stackable = "true"  template="alch_pot_10" equip_slot="" hold_slot="">
+        <item name="Wolf" category="elixir" ability_slots="0" stackable="true" template="alch_pot_10" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Wolf _Stats</a>
@@ -166,7 +166,7 @@
         </item>
         
 		###LAPWING###
-	    <item name="Wolverine" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="Wolverine" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Wolverine _Stats</a>
@@ -181,7 +181,7 @@
         </item>
 	
 	    ###VIRGA###
-	    <item name="De Vries Extract" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="De Vries Extract" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>De Vries Extract _Stats</a>
@@ -196,7 +196,7 @@
         </item>
 
 		###WHITE RAFFARD'S DECOCTION###
-	    <item name="White Raffards Decoction" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="White Raffards Decoction" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>White Raffard Decoction _Stats</a>
@@ -211,7 +211,7 @@
         </item>
 	    
 		###PETRI'S PHILTRE###
-	    <item name="Petri Philter" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="Petri Philter" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Petri Philter _Stats</a>
@@ -226,7 +226,7 @@
         </item>
 	
 	    ###BROCK###
-	    <item name="Concretion" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="Concretion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Concretion _Stats</a>
@@ -241,7 +241,7 @@
         </item>
 	
 	    ###THUNDERBOLT###
-	    <item name="Thunderbolt" category="elixir" ability_slots="0" stackable = "true"  template="alch_pot_11" equip_slot="" hold_slot="">
+	    <item name="Thunderbolt" category="elixir" ability_slots="0" stackable="true" template="alch_pot_11" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
                 <a>Thunderbolt _Stats</a>
@@ -255,7 +255,7 @@
             </base_abilities>
         </item>
 
-	<item name="Anabolic" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	<item name="Anabolic" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir,SortTypeQuest,Quest,Special</tags>
             <base_abilities>
 		<a>Anabolic_Stats</a>
@@ -265,7 +265,7 @@
         </item>
 	
 	    ###MONGOOSE###
-	    <item name="Shadow" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	    <item name="Shadow" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>Shadow_Stats</a>
@@ -279,7 +279,7 @@
             </base_abilities>
         </item>	
 	
-	<item name="Unknown Red Potion" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	<item name="Unknown Red Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>UnknownPotion_Stats</a>
@@ -287,7 +287,7 @@
 		<a>Weight_02</a>
             </base_abilities>
         </item>	
-	<item name="Unknown Green Potion" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	<item name="Unknown Green Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>UnknownPotion_Stats</a>
@@ -295,7 +295,7 @@
 		<a>Weight_02</a>
             </base_abilities>
         </item>	
-	<item name="Unknown Yellow Potion" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	<item name="Unknown Yellow Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>UnknownPotion_Stats</a>
@@ -303,7 +303,7 @@
 		<a>Weight_02</a>
             </base_abilities>
         </item>	
-	<item name="Unknown Black Potion" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_12" equip_slot="" hold_slot="">
+	<item name="Unknown Black Potion" category="elixir" ability_slots="0" stackable="true" template="alch_pot_12" equip_slot="" hold_slot="">
             <tags>SortTypePotion,TypeMagic,Elixir</tags>
             <base_abilities>
 		<a>UnknownPotion_Stats</a>
@@ -313,7 +313,7 @@
         </item>	
         		
 		# Custom potions
-		<item name="Respec" category="elixir" ability_slots="0" stackable = "true" template="alch_pot_01" equip_slot="" hold_slot="">
+		<item name="Respec" category="elixir" ability_slots="0" stackable="true" template="alch_pot_01" equip_slot="" hold_slot="">
 			<tags>SortTypePotion,TypeMagic,Elixir</tags>
 			<base_abilities>
 				<a>Respec _Stats</a>

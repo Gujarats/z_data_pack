@@ -1,352 +1,352 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
     
     #		Definicje abilities piesci
 
-		<ability name="Witcher fists _Stats" >
-			<damage_min mult="false" always_random="false" min="1" max="1"/>
-			<damage_max mult="false" always_random="false" min="2" max="2"/>
+		<ability name="Witcher fists _Stats">
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
 		</ability>   
-		<ability name="GeraltBonus" >
-			<max_weight mult="true" always_random="false" min="0.1" max="0.1"/>
+		<ability name="GeraltBonus">
+			<max_weight mult="true" always_random="false" min="0.1" max="0.1" />
 		</ability>   
-		<ability name="knowledge_alchemy" >
-			<mutagen_chance mult="false" always_random="false" min="5" max="5"/>
+		<ability name="knowledge_alchemy">
+			<mutagen_chance mult="false" always_random="false" min="5" max="5" />
 		</ability>   
 		
-		<ability name="knowledge_herbalism" >
+		<ability name="knowledge_herbalism">
 		</ability> 
 		
-		<ability name="AlchemyAdrenaline_Stats"  on_added="buff_adrenaline_start" on_ended="buff_adrenaline_end" >
-			<vitality_regen mult="false" always_random="false" min="3" max="3"/>
-			<vitality_combat_regen mult="false" always_random="false" min="1" max="1"/>
-			<endurance_combat_regen mult="true" always_random="false" min="1.5" max="1.5"/>
-			<damage_min mult="true" always_random="false" min="1.6" max="1.6"/>
-			<damage_max mult="true" always_random="false" min="1.5" max="1.5"/>
-			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0.1" max="0.1"/>
-			<adrenaline_toxgeneration mult="true" always_random="false" min="0" max="0" type="bonus"/>
-			<durration mult="false" always_random="false" min="10.0" max="10.0"/>
+		<ability name="AlchemyAdrenaline_Stats" on_added="buff_adrenaline_start" on_ended="buff_adrenaline_end">
+			<vitality_regen mult="false" always_random="false" min="3" max="3" />
+			<vitality_combat_regen mult="false" always_random="false" min="2" max="2" />
+			<endurance_combat_regen mult="true" always_random="false" min="1.5" max="1.5" />
+			<damage_min mult="true" always_random="false" min="1.6" max="1.6" />
+			<damage_max mult="true" always_random="false" min="1.5" max="1.5" />
+			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0.1" max="0.1" />
+			<adrenaline_toxgeneration mult="true" always_random="false" min="0" max="0" type="bonus" />
+			<durration mult="false" always_random="false" min="10.0" max="10.0" />
 		</ability>
 		
-		<ability name="QuenEffect_Stats" on_added="" on_ended="" >
-			<durration mult="true" always_random="false" min="5.0" max="5.0"/>
+		<ability name="QuenEffect_Stats" on_added="" on_ended="">
+			<durration mult="true" always_random="false" min="30.0" max="30.0" />
 		</ability>
         
-		<ability name="Witcher Default" on_added="" on_ended="" >
+		<ability name="Witcher Default" on_added="" on_ended="">
 			
 			#Vitality group
-			<vitality mult="false" always_random="false" min="100" max="100"/>
-			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0"/>
-			<vitality_combat_regen mult="false" always_random="false" min="0.01" max="0.01"/>
-			<vitality_toxbonus mult="false" always_random="false" min="0" max="0" type="bonus"/>
-			<vitality_regen_combat_easy mult="false" always_random="false" min="1" max="1"/>
-			<vitality_regen_easy mult="false" always_random="false" min="3" max="3"/>
-			<dark_add_vitality mult="false" always_random="false" min="0.25" max="0.25"/>
-			<dark_rem_vitality mult="false" always_random="false" min="2" max="2"/>			
+			<vitality mult="false" always_random="false" min="100" max="100" />
+			<vitality_regen mult="false" always_random="false" min="2.0" max="2.0" />
+			<vitality_combat_regen mult="false" always_random="false" min="0.01" max="0.01" />
+			<vitality_toxbonus mult="false" always_random="false" min="0" max="0" type="bonus" />
+			<vitality_regen_combat_easy mult="false" always_random="false" min="1" max="1" />
+			<vitality_regen_easy mult="false" always_random="false" min="3" max="3" />
+			<dark_add_vitality mult="false" always_random="false" min="0.25" max="0.25" />
+			<dark_rem_vitality mult="false" always_random="false" min="2" max="2" />			
 			
 
 			#Arena group
-			<arena_fin1_bonus mult="false" always_random="false" min="10" max="10"/>
-			<arena_fin2_bonus mult="false" always_random="false" min="25" max="25"/>
-			<arena_fin3_bonus mult="false" always_random="false" min="50" max="50"/>
-			<arena_fall_bonus mult="false" always_random="false" min="10" max="10"/>
-			<arena_riposte_bonus mult="false" always_random="false" min="10" max="10"/>
-			<arena_instant_bonus mult="false" always_random="false" min="25" max="25"/>
-			<arena_reflect_bonus mult="false" always_random="false" min="10" max="10"/>
+			<arena_fin1_bonus mult="false" always_random="false" min="10" max="10" />
+			<arena_fin2_bonus mult="false" always_random="false" min="25" max="25" />
+			<arena_fin3_bonus mult="false" always_random="false" min="50" max="50" />
+			<arena_fall_bonus mult="false" always_random="false" min="10" max="10" />
+			<arena_riposte_bonus mult="false" always_random="false" min="10" max="10" />
+			<arena_instant_bonus mult="false" always_random="false" min="25" max="25" />
+			<arena_reflect_bonus mult="false" always_random="false" min="10" max="10" />
 
 			
 			#Endurance group
-			<endurance mult="false" always_random="false" min="2.0" max="2.0"/>
-			<endurance_combat_regen mult="false" always_random="false" min="0.2" max="0.2"/>
-			<endurance_noncombat_regen mult="false" always_random="false" min="0.4" max="0.4"/>
-			<endurance_regen_toxbonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus"/>
-			<endurance_on_block_mult mult="false" always_random="false" min="0.125" max="0.125" type="bonus"/>
-			<stamina_regen_cooldown_time mult="false" always_random="false" min="3.0" max="3.0" type="bonus"/>
+			<endurance mult="false" always_random="false" min="2.0" max="2.0" />
+			<endurance_combat_regen mult="false" always_random="false" min="0.1" max="0.1" />
+			<endurance_noncombat_regen mult="false" always_random="false" min="0.3" max="0.3" />
+			<endurance_regen_toxbonus mult="false" always_random="false" min="0" max="0" type="bonus" />
+			<endurance_on_block_mult mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
+			<stamina_regen_cooldown_time mult="false" always_random="false" min="3.0" max="3.0" type="bonus" />
 			
 			#Damage group
-			<ff_damage_min mult="false" always_random="false" min="1" max="1"/>
-			<ff_damage_max mult="false" always_random="false" min="2" max="2"/>
-			<damage_min mult="false" always_random="false" min="1" max="1"/>
-			<damage_max mult="false" always_random="false" min="2" max="2"/>
-			<damage_reduction mult="false" always_random="false" min="1" max="1"/>
-			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5"/>
-			<damage_reduction_block mult="false" always_random="false" min="0" max="0"/>
-			<damage_reduction_toxbonus mult="false" display_perc="true" always_random="false" min="0" max="0"/>
-			<damage_bonus_human mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_toxbonus mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<group_hit_mult mult="false" display_perc="true" always_random="false" min="0.25" max="0.25" type="bonus"/>
-			<back_damage_mult mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus"/>
-			<hit_back_bonus mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus"/>
-			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus"/>
-			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0" max="0"/>
-			<riposte_damage_mult mult="false" display_perc="true" always_random="false" min="3.0" max="3.0"/>
-			<riposte_killchance mult="false" always_random="false" min="0.0" max="0.0"/>
-			<damage_throw_combo mult="false" always_random="false" min="0" max="0"/>
-			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0" max="0"/>
-			<instant_kill_toxbonus mult="true" always_random="false" min="0.0" max="0.0"/>
-			<petards_damage_mult mult="false" display_perc="true" always_random="false" min="0" max="0"/>
-			<traps_damage_mult mult="false" display_perc="true" always_random="false" min="0" max="0"/>
+			<ff_damage_min mult="false" always_random="false" min="1" max="1" />
+			<ff_damage_max mult="false" always_random="false" min="2" max="2" />
+			<damage_min mult="false" always_random="false" min="1" max="1" />
+			<damage_max mult="false" always_random="false" min="2" max="2" />
+			<damage_reduction mult="false" always_random="false" min="1" max="1" />
+			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
+			<damage_reduction_block mult="false" always_random="false" min="0" max="0" />
+			<damage_reduction_toxbonus mult="false" display_perc="true" always_random="false" min="0" max="0" />
+			<damage_bonus_human mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_bonus_gargoil mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_bonus_wraith mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_bonus_huge mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_bonus_undead mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_bonus_insectoid display_perc="true" mult="false" always_random="false" min="0" max="0" type="bonus" />
+			<damage_toxbonus mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<group_hit_mult mult="false" display_perc="true" always_random="false" min="0.25" max="0.25" type="bonus" />
+			<back_damage_mult mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus" />
+			<hit_back_bonus mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus" />
+			<damage_bonus_harpy mult="false" display_perc="true" always_random="false" min="0" max="0" type="bonus" />
+			<damage_reduction_magicbonus mult="false" display_perc="true" always_random="false" min="0" max="0" />
+			<riposte_damage_mult mult="false" display_perc="true" always_random="false" min="3.0" max="3.0" />
+			<riposte_killchance mult="false" always_random="false" min="0.0" max="0.0" />
+			<damage_throw_combo mult="false" always_random="false" min="0" max="0" />
+			<instant_kill_chance mult="false" display_perc="true" always_random="false" min="0" max="0" />
+			<instant_kill_toxbonus mult="true" always_random="false" min="0.0" max="0.0" />
+			<petards_damage_mult mult="false" display_perc="true" always_random="false" min="0" max="0" />
+			<traps_damage_mult mult="false" display_perc="true" always_random="false" min="0" max="0" />
 			
 			#Critical group
-			<crt_poison mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<crt_stun mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<crt_burn mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical"/>
-			<res_poison mult="false" display_perc="true" always_random="false" min="0.00" max="0.00"  type="resistance"/>
-			<res_bleed mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="resistance"/>
-			<res_burn mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="resistance"/>
-			<res_fear mult="false" display_perc="true" always_random="false" min="0.0" max="0.0"/>
+			<crt_poison mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<crt_bleed mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<crt_knockdown mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<crt_stun mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<crt_burn mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<crt_freeze mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="critical" />
+			<res_poison mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="resistance" />
+			<res_bleed mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="resistance" />
+			<res_burn mult="false" display_perc="true" always_random="false" min="0.00" max="0.00" type="resistance" />
+			<res_fear mult="false" display_perc="true" always_random="false" min="0.0" max="0.0" />
 	
 			#Alchemy group
-			<potions_duration mult="false" always_random="false" min="0" max="0"/>
-			<potion_slots mult="false" always_random="false" min="3" max="3" type="bonus"/>
-			<oils_time_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus"/>
-			<potions_time_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus"/>
-			<loot_alchemy_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus"/>
-			<toxicity mult="false" always_random="false" min="0" max="0"/>
-			<toxicity_light mult="false" always_random="false" min="30" max="30" type="bonus"/>
-			<toxicity_medium mult="false" always_random="false" min="60" max="60" type="bonus"/>
-			<toxicity_high mult="false" always_random="false" min="60" max="60" type="bonus"/>
-			<toxicity_degeneration mult="false" always_random="false" min="0" max="0" type="bonus"/>
-			<mutagen_chance mult="false" always_random="false" min="0" max="0"/>
+			<potions_duration mult="false" always_random="false" min="0" max="0" />
+			<potion_slots mult="false" always_random="false" min="3" max="3" type="bonus" />
+			<oils_time_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus" />
+			<potions_time_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus" />
+			<loot_alchemy_bonus mult="false" always_random="false" min="0.0" max="0.0" type="bonus" />
+			<toxicity mult="false" always_random="false" min="0" max="0" />
+			<toxicity_light mult="false" always_random="false" min="30" max="30" type="bonus" />
+			<toxicity_medium mult="false" always_random="false" min="60" max="60" type="bonus" />
+			<toxicity_high mult="false" always_random="false" min="60" max="60" type="bonus" />
+			<toxicity_degeneration mult="false" always_random="false" min="0" max="0" type="bonus" />
+			<mutagen_chance mult="false" always_random="false" min="0" max="0" />
 			
 			#Adrenaline group
-			<adrenaline_on_hit mult="false" always_random="false" min="2" max="2" type="bonus"/>
-			<adrenaline_degeneration mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
-			<adrenaline_toxgeneration mult="false" always_random="false" min="2" max="2" type="bonus"/>
+			<adrenaline_on_hit mult="false" always_random="false" min="2" max="2" type="bonus" />
+			<adrenaline_degeneration mult="false" always_random="false" min="0.1" max="0.1" type="bonus" />
+			<adrenaline_toxgeneration mult="false" always_random="false" min="2" max="2" type="bonus" />
 			
 			#Signs group
-			<damage_signsbonus mult="false" always_random="false" min="0" max="0" type="bonus"/>
-			<signs_power mult="false" always_random="false" min="1.0" max="1.0" type="bonus"/>
-			<quen_damage_absorption mult="false" always_random="false" min="25.0" max="25.0"/>
-			<quen_duration mult="false" always_random="false" min="4.3" max="4.3"/>
-			<igni_burn_duration mult="false" always_random="false" min="0.0" max="0.0"/>
-			<igni_burn_damage mult="false" always_random="false" min="0.0" max="0.0"/>
-			<igni_burn_chance mult="false" display_perc="true" always_random="false" min="0.0" max="0.0"/>
-			<igni_speed mult="false" always_random="false" min="8" max="8"/>
-			<igni_radius mult="false" always_random="false" min="1.0" max="1.0"/>
-			<igni_damage mult="false" always_random="false" min="8.0" max="8.0"/>
-			<igni_max_dist mult="false" always_random="false" min="10" max="10"/>
-			<signs_cooldown mult="false" always_random="false" min="1.5" max="1.5" type="bonus"/>
-			<aard_knockdown_chance mult="false" display_perc="true" always_random="false" min="0.4" max="0.4"/>
-			<aard_speed mult="false" always_random="false" min="15" max="15"/>
-			<aard_radius mult="false" always_random="false" min="1.0" max="1.0"/>
-			<aard_damage mult="false" always_random="false" min="0" max="0"/>
-			<aard_max_dist mult="false" always_random="false" min="5" max="5"/>
-			<aard_dispersion_angle mult="false" always_random="false" min="1.0" max="1.0"/>
-			<yrden_immobile_time mult="false" always_random="false" min="4.0" max="4.0" type="bonus"/>
-			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1"/>
-			<yrden_trap_duration mult="false" always_random="false" min="20" max="20"/>
-			<yrden_damage_per_sec mult="false" always_random="false" min="0" max="0"/>
-			<axii_speed mult="false" always_random="false" min="5" max="5"/>
-			<axii_max_dist mult="false" always_random="false" min="5" max="5"/>
-			<heliotrop_duration mult="false" always_random="false" min="3" max="3"/>
-			<quen_burn_chance mult="false" always_random="false" min="0.1" max="0.1"/>
-			<aard_freeze_chance mult="false" always_random="false" min="0.2" max="0.2"/>
+			<damage_signsbonus mult="false" always_random="false" min="0" max="0" type="bonus" />
+			<signs_power mult="false" always_random="false" min="1.0" max="1.0" type="bonus" />
+			<quen_damage_absorption mult="false" always_random="false" min="25.0" max="25.0" />
+			<quen_duration mult="false" always_random="false" min="4.3" max="4.3" />
+			<igni_burn_duration mult="false" always_random="false" min="0.0" max="0.0" />
+			<igni_burn_damage mult="false" always_random="false" min="0.0" max="0.0" />
+			<igni_burn_chance mult="false" display_perc="true" always_random="false" min="0.0" max="0.0" />
+			<igni_speed mult="false" always_random="false" min="8" max="8" />
+			<igni_radius mult="false" always_random="false" min="1.0" max="1.0" />
+			<igni_damage mult="false" always_random="false" min="8.0" max="8.0" />
+			<igni_max_dist mult="false" always_random="false" min="10" max="10" />
+			<signs_cooldown mult="false" always_random="false" min="1.5" max="1.5" type="bonus" />
+			<aard_knockdown_chance mult="false" display_perc="true" always_random="false" min="0.4" max="0.4" />
+			<aard_speed mult="false" always_random="false" min="15" max="15" />
+			<aard_radius mult="false" always_random="false" min="1.0" max="1.0" />
+			<aard_damage mult="false" always_random="false" min="0" max="0" />
+			<aard_max_dist mult="false" always_random="false" min="5" max="5" />
+			<aard_dispersion_angle mult="false" always_random="false" min="1.0" max="1.0" />
+			<yrden_immobile_time mult="false" always_random="false" min="4.0" max="4.0" type="bonus" />
+			<yrden_max_concurrent_traps mult="false" always_random="false" min="1" max="1" />
+			<yrden_trap_duration mult="false" always_random="false" min="20" max="20" />
+			<yrden_damage_per_sec mult="false" always_random="false" min="0" max="0" />
+			<axii_speed mult="false" always_random="false" min="5" max="5" />
+			<axii_max_dist mult="false" always_random="false" min="5" max="5" />
+			<heliotrop_duration mult="false" always_random="false" min="3" max="3" />
+			<quen_burn_chance mult="false" always_random="false" min="0.1" max="0.1" />
+			<aard_freeze_chance mult="false" always_random="false" min="0.2" max="0.2" />
 			
 			# Various group
-			<experience_bonus mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus"/>
-			<inebriation mult="false" always_random="false" min="1" max="1"/>
-			<inebriation_degeneration mult="false" always_random="false" min="2" max="2"/>
-			<max_weight mult="false" always_random="false" min="250" max="250"/>
-			<auto_riposte_chance mult="false" always_random="false" min="0" max="0"/>
+			<experience_bonus mult="false" display_perc="true" always_random="false" min="1" max="1" type="bonus" />
+			<inebriation mult="false" always_random="false" min="1" max="1" />
+			<inebriation_degeneration mult="false" always_random="false" min="2" max="2" />
+			<max_weight mult="false" always_random="false" min="250" max="250" />
+			<auto_riposte_chance mult="false" always_random="false" min="0" max="0" />
 			
 			# Definicje zmiennych globalnych dla gry
-			<poison_damage mult="false" always_random="false" min="5.0" max="5.0"/>
-			<burn_damage mult="false" always_random="false" min="6.0" max="6.0"/>
-			<bleed_damage mult="false" always_random="false" min="4.0" max="4.0"/>
-			<poison_time mult="false" always_random="false" min="6.0" max="6.0"/>
-			<burn_time mult="false" always_random="false" min="5.0" max="5.0"/>
-			<bleed_time mult="false" always_random="false" min="5.0" max="5.0"/>
-			<stun_time mult="false" always_random="false" min="5.0" max="5.0"/>
-			<knockdown_time mult="false" always_random="false" min="4.0" max="4.0"/>
-			<immobile_time mult="false" always_random="false" min="5.0" max="5.0"/>
-			<freeze_time mult="false" always_random="false" min="5.0" max="5.0"/>
-			<toxicity_threshold mult="false" always_random="false" min="60.0" max="60.0"/>
-			<damage_nightmult mult="false" always_random="false" min="1.0" max="1.0"/>
+			<poison_damage mult="false" always_random="false" min="5.0" max="5.0" />
+			<burn_damage mult="false" always_random="false" min="6.0" max="6.0" />
+			<bleed_damage mult="false" always_random="false" min="4.0" max="4.0" />
+			<poison_time mult="false" always_random="false" min="6.0" max="6.0" />
+			<burn_time mult="false" always_random="false" min="5.0" max="5.0" />
+			<bleed_time mult="false" always_random="false" min="5.0" max="5.0" />
+			<stun_time mult="false" always_random="false" min="5.0" max="5.0" />
+			<knockdown_time mult="false" always_random="false" min="4.0" max="4.0" />
+			<immobile_time mult="false" always_random="false" min="5.0" max="5.0" />
+			<freeze_time mult="false" always_random="false" min="5.0" max="5.0" />
+			<toxicity_threshold mult="false" always_random="false" min="60.0" max="60.0" />
+			<damage_nightmult mult="false" always_random="false" min="1.0" max="1.0" />
 			
 		</ability>   
     
   
 	# aksjacja lvl 1
-		<ability name="story_s1_1" > 
+		<ability name="story_s1_1"> 
 		</ability>   
       
 	# aksjacja lvl 2
-		<ability name="story_s1_2" > 
+		<ability name="story_s1_2"> 
 		</ability>   
 
 	# aksjacja lvl 3
-		<ability name="story_s1_3" > 
+		<ability name="story_s1_3"> 
 		</ability>   
 	
 	# zastraszanie lvl 1
-		<ability name="story_s2_1" > 
+		<ability name="story_s2_1"> 
 		</ability>   
 	
 	# zastraszanie lvl 2
-		<ability name="story_s2_2" > 
+		<ability name="story_s2_2"> 
 		</ability>   
 	
 	# zastraszanie lvl 3
-		<ability name="story_s2_3" > 
+		<ability name="story_s2_3"> 
 		</ability>   
 	
 	# perswazja lvl 1
-		<ability name="story_s3_1" > 
+		<ability name="story_s3_1"> 
 		</ability>   	
 
 	# perswazja lvl 2
-		<ability name="story_s3_2" > 
+		<ability name="story_s3_2"> 
 		</ability>   	
 
 	# perswazja lvl 3
-		<ability name="story_s3_3" > 
+		<ability name="story_s3_3"> 
 		</ability>
 	# story s4 - Wytrzymały - żywotność + X
-		<ability name="story_s4_1" > 
-			<vitality mult="false" always_random="false" min="20" max="20"/>
+		<ability name="story_s4_1"> 
+			<vitality mult="false" always_random="false" min="20" max="20" />
 		</ability> 
 	# story s5 - Zasłona - redukcja obrażeń +x%
-		<ability name="story_s5_1" > 
-			<damage_reduction mult="true" always_random="false" min="1.1" max="1.1"/>
+		<ability name="story_s5_1"> 
+			<damage_reduction mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>   
 	# story s6 - Zaprawiony w boju - regeneracja wigoru w walce +x%.
-		<ability name="story_s6_1" > 
-			<endurance_combat_regen mult="false" always_random="false" min="1.05" max="1.05"/>
+		<ability name="story_s6_1"> 
+			<endurance_combat_regen mult="true" always_random="false" min="1.05" max="1.05" />
 	# story s7 - Fechmistrz - obrazenia w walce mieczem +x
 	</ability>   	
-		<ability name="story_s7_1" > 
-			<damage_min mult="false" always_random="false" min="4.0" max="4.0"/>
-			<damage_max mult="false" always_random="false" min="4.0" max="4.0"/>
+		<ability name="story_s7_1"> 
+			<damage_min mult="false" always_random="false" min="4.0" max="4.0" />
+			<damage_max mult="false" always_random="false" min="4.0" max="4.0" />
 		</ability>   	
 	# story s8 - Targowanie sie - zmniejsza ceny w sklepach
-		<ability name="story_s8_1" > 
-			<price_mult mult="false" always_random="false" min="0.5" max="0.5"/>
+		<ability name="story_s8_1"> 
+			<price_mult mult="false" always_random="false" min="0.8" max="0.8" />
 		</ability>   	
 	# story s9 - Wiedza tajemna - moc wszystkich znakow +x
-		<ability name="story_s9_1" > 
-			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus"/>
+		<ability name="story_s9_1"> 
+			<signs_power mult="false" always_random="false" min="0.5" max="0.5" type="bonus" />
 		</ability>
 	#Checked
 	# story s10 - Mocne plecy +X wagi przemdiotow w INV
-		<ability name="story_s10_1" > 
-			<max_weight mult="false" always_random="false" min="50" max="50"/>
+		<ability name="story_s10_1"> 
+			<max_weight mult="false" always_random="false" min="50" max="50" />
 		</ability>
 	#Checked
 	# story s11 - Piroman +x% do efektu krytycznego podpalenie
-		<ability name="story_s11_1" > 
-			<crt_burn mult="true" always_random="false" min="1.2" max="1.2"/>
+		<ability name="story_s11_1"> 
+			<crt_burn mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>  
 	#Checked
 	# story s12 - Egzorcysta +x% do damage przeciw duchom i upiorom
-		<ability name="story_s12_1" > 
-			<damage_bonus_wraith mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+		<ability name="story_s12_1"> 
+			<damage_bonus_wraith mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>  
 	#Checked
 	# story s13 - Lekcja anatomii +x% damage przeciw ludziom
-		<ability name="story_s13_1" > 
-			<damage_bonus_human mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+		<ability name="story_s13_1"> 
+			<damage_bonus_human mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>  
 	#Checked
 	# story s14 - Doświadczony +x% experience
-		<ability name="story_s14_1" > 
-			<experience_bonus mult="true" always_random="false" min="1.1" max="1.1" type="bonus"/>
+		<ability name="story_s14_1"> 
+			<experience_bonus mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>  
 	#Checked
 	# story s15 - Mocny żołądek - +x% odporności na trucizny
-		<ability name="story_s15_1" > 
-			<res_poison mult="true" always_random="false" min="1.1" max="1.1"  type="resistance"/>
+		<ability name="story_s15_1"> 
+			<res_poison mult="true" always_random="false" min="1.1" max="1.1" type="resistance" />
 		</ability>  
 	#Checked
 	# story s16 - Iluzjonista - +x damage znaków
-		<ability name="story_s16_1" > 
-			<damage_signsbonus mult="false" always_random="false" min="3" max="3"/>
+		<ability name="story_s16_1"> 
+			<damage_signsbonus mult="false" always_random="false" min="3" max="3" />
 		</ability>  
 	#Checked
 	# story s17 - Zdrowe odżywianie +x% regeneracji vitality poza walką
-		<ability name="story_s17_1" > 
-			<vitality_regen mult="true" always_random="false" min="1.2" max="1.2"/>
+		<ability name="story_s17_1"> 
+			<vitality_regen mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>  
 	#Checked	
 	# story s18 - Toksyczna krew - przeciwnik który uderzył Geralta może zostać zatruty
-		<ability name="story_s18_1" > 
-			<hit_poison_chance mult="false" always_random="false" min="0.3" max="0.3"/>
+		<ability name="story_s18_1"> 
+			<hit_poison_chance mult="false" always_random="false" min="0.3" max="0.3" />
 		</ability>  
 	#Checked	
 	# story s19 - Saper - pozwala uniknąć obrażeń od pułapek i petard
-		<ability name="story_s19_1" > 
-			<trap_avoid_chance mult="false" always_random="false" min="0.5" max="0.5"/>
+		<ability name="story_s19_1"> 
+			<trap_avoid_chance mult="false" always_random="false" min="0.5" max="0.5" />
 		</ability>  
 	#Checked	
 	# story s20 - Skrytobójca - +x% obrażeń przy ataku w plecy przeciwnika
-		<ability name="story_s20_1" > 
-			<hit_back_bonus mult="false" always_random="false" min="0.25" max="0.25"/>
+		<ability name="story_s20_1"> 
+			<hit_back_bonus mult="true" always_random="false" min="1.25" max="1.25" />
 		</ability>  
 	#Checked	
 	# story s21 - Miotacz - +x damage przy rzucaniu nożem
-		<ability name="story_s21_1" > 
-			<damage_throw_combo mult="false" always_random="false" min="5" max="5"/>
+		<ability name="story_s21_1"> 
+			<damage_throw_combo mult="false" always_random="false" min="5" max="5" />
 		</ability>  
 	#Checked		
 	# story s22 - Dziecko nocy - +x vitality regen w nocy
-		<ability name="story_s22_1" > 
-			<night_vitality_regen mult="false" always_random="false" min="2" max="2"/>
+		<ability name="story_s22_1"> 
+			<night_vitality_regen mult="false" always_random="false" min="2" max="2" />
 		</ability>  
 	#Checked		
 	# story s23 - Precyzja +x% do wszystkich efektow krytycznych
-		<ability name="story_s23_1" > 
-			<crt_poison mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
-			<crt_bleed mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
-			<crt_knockdown mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
-			<crt_stun mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
-			<crt_burn mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
-			<crt_freeze mult="true" always_random="false" min="1.05" max="1.05" type="critical"/>
+		<ability name="story_s23_1"> 
+			<crt_poison mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
+			<crt_bleed mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
+			<crt_knockdown mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
+			<crt_stun mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
+			<crt_burn mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
+			<crt_freeze mult="true" always_random="false" min="1.05" max="1.05" type="critical" />
 		</ability>  
 	#Checked
 	# story s24 - Ornitolog - +x% damage przeciw Harpiom
-		<ability name="story_s24_1" > 
-			<damage_bonus_harpy mult="false" always_random="false" min="0.1" max="0.1" type="bonus"/>
+		<ability name="story_s24_1"> 
+			<damage_bonus_harpy mult="true" always_random="false" min="1.1" max="1.1" type="bonus" />
 		</ability>  
 	#Checked
 	# story s25 - Półpiruet - +x% odporności na efekty krytyczne
-		<ability name="story_s25_1" > 
-			<res_poison mult="true" always_random="false" min="1.1" max="1.1"  type="resistance"/>
-			<res_bleed mult="true" always_random="false" min="1.1" max="1.1" type="resistance"/>
-			<res_burn mult="true" always_random="false" min="1.1" max="1.1" type="resistance"/>
+		<ability name="story_s25_1"> 
+			<res_poison mult="true" always_random="false" min="1.1" max="1.1" type="resistance" />
+			<res_bleed mult="true" always_random="false" min="1.1" max="1.1" type="resistance" />
+			<res_burn mult="true" always_random="false" min="1.1" max="1.1" type="resistance" />
 		</ability>  
 	#Checked
 	# story s26 - Kat - +x% szansy na natychmiastowe zabicie
-		<ability name="story_s26_1" > 
-			<instant_kill_chance mult="false" always_random="false" min="0.01" max="0.01"/>
+		<ability name="story_s26_1"> 
+			<instant_kill_chance mult="false" always_random="false" min="0.01" max="0.01" />
 		</ability>  
 	#Checked
 	# story s27 - Pałkarz - x% szans na zabicie przeciwnika odbitą strzałą
-		<ability name="story_s27_1" > 
-			<instant_arrow_kill_chance mult="false" always_random="false" min="0.2" max="0.2"/>
+		<ability name="story_s27_1"> 
+			<instant_arrow_kill_chance mult="false" always_random="false" min="0.2" max="0.2" />
 		</ability>  
 	#Checked
 	# story s28 - Odporność na magię - +x% redukcji obrażeń przeciw atakom magicznym (powodowanym przez magów)
-		<ability name="story_s28_1" > 
-			<damage_reduction_magicbonus mult="true" always_random="false" min="1.2" max="1.2"/>
+		<ability name="story_s28_1"> 
+			<damage_reduction_magicbonus mult="true" always_random="false" min="1.2" max="1.2" />
 		</ability>  
 	#Checked
 	# story s29 - Dawid - zwiększa obrażenia przeciw wielkim przeciwnikom
-		<ability name="story_s29_1" > 
-			<damage_bonus_huge mult="false" always_random="false" min="0.1" max="0.1"/>
+		<ability name="story_s29_1"> 
+			<damage_bonus_huge mult="true" always_random="false" min="1.1" max="1.1" />
 		</ability>
 	#Checked
 	# story s30 - Parada - szansa na automatyczne wykonanie riposty
-		<ability name="story_s30_1" > 
-			<auto_riposte_chance mult="false" always_random="false" min="0.1" max="0.1"/>
+		<ability name="story_s30_1"> 
+			<auto_riposte_chance mult="false" always_random="false" min="0.1" max="0.1" />
 		</ability>
 	# story s31 - Summer achievement
 		<ability name="story_s31_1"> 
@@ -358,21 +358,21 @@
 
   	  		
 	# Quen Buff - ability zakladane, gdy dziala quen
-		<ability name="QuenBuff" > 
-			<res_poison mult="false" always_random="false" min="2" max="2"/>
-			<res_bleed mult="false" always_random="false" min="2" max="2"/>
-			<res_knockdown mult="false" always_random="false" min="0" max="0"/>
-			<res_stun mult="false" always_random="false" min="0" max="0"/>
-			<res_burn mult="false" always_random="false" min="2" max="2"/>
-			<res_blind mult="false" always_random="false" min="0" max="0"/>
-			<res_falter mult="false" always_random="false" min="0" max="0"/>
-			<res_laming mult="false" always_random="false" min="0" max="0"/>
-			<res_disorientation mult="false" always_random="false" min="0" max="0"/>
-			<endurance_combat_regen mult="true" always_random="false" min="0" max="0"/>
-			<endurance_noncombat_regen mult="true" always_random="false" min="0" max="0"/>
-			<vitality_regen mult="true" always_random="false" min="0.3" max="0.3"/>
-			<vitality_combat_regen mult="true" always_random="false" min="0.3" max="0.3"/>
-			<damage_signsbonus mult="true" always_random="false" min="0.8" max="0.8" type="bonus"/>
+		<ability name="QuenBuff"> 
+			<res_poison mult="false" always_random="false" min="2" max="2" />
+			<res_bleed mult="false" always_random="false" min="2" max="2" />
+			<res_knockdown mult="false" always_random="false" min="0" max="0" />
+			<res_stun mult="false" always_random="false" min="0" max="0" />
+			<res_burn mult="false" always_random="false" min="2" max="2" />
+			<res_blind mult="false" always_random="false" min="0" max="0" />
+			<res_falter mult="false" always_random="false" min="0" max="0" />
+			<res_laming mult="false" always_random="false" min="0" max="0" />
+			<res_disorientation mult="false" always_random="false" min="0" max="0" />
+			<endurance_combat_regen mult="true" always_random="false" min="0" max="0" />
+			<endurance_noncombat_regen mult="true" always_random="false" min="0" max="0" />
+			<vitality_regen mult="true" always_random="false" min="0.3" max="0.3" />
+			<vitality_combat_regen mult="true" always_random="false" min="0.3" max="0.3" />
+			<damage_signsbonus mult="true" always_random="false" min="0.8" max="0.8" type="bonus" />
 		</ability> 
 	</abilities>
 	

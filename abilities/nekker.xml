@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 		<ability name="Nekker Claws _Stats">
@@ -8,7 +8,7 @@
 		<ability name="Nekker Default">
 			<level mult="false" always_random="false" min="8" max="8" />
 			<experience mult="false" always_random="false" min="10" max="10" />
-			<vitality mult="false" always_random="false" min="60" max="60" />
+			<vitality mult="false" always_random="false" min="40" max="40" />
 			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />
@@ -22,7 +22,7 @@
 		<ability name="Nekker Warrior">
 			<level mult="false" always_random="false" min="10" max="10" />
 			<experience mult="false" always_random="false" min="15" max="15" />
-			<vitality mult="false" always_random="false" min="75" max="75" />
+			<vitality mult="false" always_random="false" min="50" max="50" />
 			<vitality_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<vitality_combat_regen mult="false" always_random="false" min="1.0" max="1.0" />
 			<damage_reduction_block_perc mult="false" always_random="false" min="0.5" max="0.5" />

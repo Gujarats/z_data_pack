@@ -1,261 +1,261 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-16'?>
 <definitions>
 	<abilities>
 
 		<ability name="CraftPrice_5">
-			<item_craft_price mult="false" always_random="false" min="5" max="5"/>
+			<item_craft_price mult="false" always_random="false" min="5" max="5" />
 		</ability>
 
 		<ability name="CraftPrice_6">
-			<item_craft_price mult="false" always_random="false" min="8" max="8"/>
+			<item_craft_price mult="false" always_random="false" min="8" max="8" />
 		</ability>   
 
 		<ability name="CraftPrice_8">
-			<item_craft_price mult="false" always_random="false" min="8" max="8"/>
+			<item_craft_price mult="false" always_random="false" min="8" max="8" />
 		</ability>
 
 		<ability name="CraftPrice_10">
-			<item_craft_price mult="false" always_random="false" min="10" max="10"/>
+			<item_craft_price mult="false" always_random="false" min="10" max="10" />
 		</ability>
 
 		<ability name="CraftPrice_15">
-			<item_craft_price mult="false" always_random="false" min="15" max="15"/>
+			<item_craft_price mult="false" always_random="false" min="15" max="15" />
 		</ability>
 
 		<ability name="CraftPrice_20">
-			<item_craft_price mult="false" always_random="false" min="20" max="20"/>
+			<item_craft_price mult="false" always_random="false" min="20" max="20" />
 		</ability>
 
 		<ability name="CraftPrice_25">
-			<item_craft_price mult="false" always_random="false" min="25" max="25"/>
+			<item_craft_price mult="false" always_random="false" min="25" max="25" />
 		</ability>
 
 		<ability name="CraftPrice_30">
-			<item_craft_price mult="false" always_random="false" min="30" max="30"/>
+			<item_craft_price mult="false" always_random="false" min="30" max="30" />
 		</ability>
 
 		<ability name="CraftPrice_35">
-			<item_craft_price mult="false" always_random="false" min="35" max="35"/>
+			<item_craft_price mult="false" always_random="false" min="35" max="35" />
 		</ability> 
 
 		<ability name="CraftPrice_40">
-			<item_craft_price mult="false" always_random="false" min="40" max="40"/>
+			<item_craft_price mult="false" always_random="false" min="40" max="40" />
 		</ability>
 
 		<ability name="CraftPrice_45">
-			<item_craft_price mult="false" always_random="false" min="45" max="45"/>
+			<item_craft_price mult="false" always_random="false" min="45" max="45" />
 		</ability>
 
 		<ability name="CraftPrice_50">
-			<item_craft_price mult="false" always_random="false" min="50" max="50"/>
+			<item_craft_price mult="false" always_random="false" min="50" max="50" />
 		</ability>
 
 		<ability name="CraftPrice_55">
-			<item_craft_price mult="false" always_random="false" min="55" max="55"/>
+			<item_craft_price mult="false" always_random="false" min="55" max="55" />
 		</ability> 
 
 		<ability name="CraftPrice_60">
-			<item_craft_price mult="false" always_random="false" min="60" max="60"/>
+			<item_craft_price mult="false" always_random="false" min="60" max="60" />
 		</ability> 
 
 		<ability name="CraftPrice_65">
-			<item_craft_price mult="false" always_random="false" min="65" max="65"/>
+			<item_craft_price mult="false" always_random="false" min="65" max="65" />
 		</ability> 
 
 		<ability name="CraftPrice_70">
-			<item_craft_price mult="false" always_random="false" min="70" max="70"/>
+			<item_craft_price mult="false" always_random="false" min="70" max="70" />
 		</ability>  
 
 		<ability name="CraftPrice_75">
-			<item_craft_price mult="false" always_random="false" min="75" max="75"/>
+			<item_craft_price mult="false" always_random="false" min="75" max="75" />
 		</ability>
 
 		<ability name="CraftPrice_80">
-			<item_craft_price mult="false" always_random="false" min="80" max="80"/>
+			<item_craft_price mult="false" always_random="false" min="80" max="80" />
 		</ability>
 
 		<ability name="CraftPrice_90">
-			<item_craft_price mult="false" always_random="false" min="90" max="90"/>
+			<item_craft_price mult="false" always_random="false" min="90" max="90" />
 		</ability>
 
 		<ability name="CraftPrice_100">
-			<item_craft_price mult="false" always_random="false" min="100" max="100"/>
+			<item_craft_price mult="false" always_random="false" min="100" max="100" />
 		</ability>
 
 		<ability name="CraftPrice_105">
-			<item_craft_price mult="false" always_random="false" min="105" max="105"/>
+			<item_craft_price mult="false" always_random="false" min="105" max="105" />
 		</ability>  
 
 		<ability name="CraftPrice_110">
-			<item_craft_price mult="false" always_random="false" min="110" max="110"/>
+			<item_craft_price mult="false" always_random="false" min="110" max="110" />
 		</ability>
 
 		<ability name="CraftPrice_120">
-			<item_craft_price mult="false" always_random="false" min="120" max="120"/>
+			<item_craft_price mult="false" always_random="false" min="120" max="120" />
 		</ability>
 
 		<ability name="CraftPrice_125">
-			<item_craft_price mult="false" always_random="false" min="125" max="125"/>
+			<item_craft_price mult="false" always_random="false" min="125" max="125" />
 		</ability>   
 
 		<ability name="CraftPrice_130">
-			<item_craft_price mult="false" always_random="false" min="130" max="130"/>
+			<item_craft_price mult="false" always_random="false" min="130" max="130" />
 		</ability>
 
 		<ability name="CraftPrice_135">
-			<item_craft_price mult="false" always_random="false" min="135" max="135"/>
+			<item_craft_price mult="false" always_random="false" min="135" max="135" />
 		</ability>  
 
 		<ability name="CraftPrice_140">
-			<item_craft_price mult="false" always_random="false" min="140" max="140"/>
+			<item_craft_price mult="false" always_random="false" min="140" max="140" />
 		</ability>
 
 		<ability name="CraftPrice_150">
-			<item_craft_price mult="false" always_random="false" min="150" max="150"/>
+			<item_craft_price mult="false" always_random="false" min="150" max="150" />
 		</ability>
 
 		<ability name="CraftPrice_160">
-			<item_craft_price mult="false" always_random="false" min="160" max="160"/>
+			<item_craft_price mult="false" always_random="false" min="160" max="160" />
 		</ability>  
 
 		<ability name="CraftPrice_175">
-			<item_craft_price mult="false" always_random="false" min="175" max="175"/>
+			<item_craft_price mult="false" always_random="false" min="175" max="175" />
 		</ability>
 
 		<ability name="CraftPrice_180">
-			<item_craft_price mult="false" always_random="false" min="180" max="180"/>
+			<item_craft_price mult="false" always_random="false" min="180" max="180" />
 		</ability>
 
 		<ability name="CraftPrice_200">
-			<item_craft_price mult="false" always_random="false" min="200" max="200"/>
+			<item_craft_price mult="false" always_random="false" min="200" max="200" />
 		</ability>
 
 		<ability name="CraftPrice_210">
-			<item_craft_price mult="false" always_random="false" min="210" max="210"/>
+			<item_craft_price mult="false" always_random="false" min="210" max="210" />
 		</ability>
 
 		<ability name="CraftPrice_220">
-			<item_craft_price mult="false" always_random="false" min="220" max="220"/>
+			<item_craft_price mult="false" always_random="false" min="220" max="220" />
 		</ability>        
 
 		<ability name="CraftPrice_225">
-			<item_craft_price mult="false" always_random="false" min="225" max="225"/>
+			<item_craft_price mult="false" always_random="false" min="225" max="225" />
 		</ability>
 
 		<ability name="CraftPrice_250">
-			<item_craft_price mult="false" always_random="false" min="250" max="250"/>
+			<item_craft_price mult="false" always_random="false" min="250" max="250" />
 		</ability>
 
 		<ability name="CraftPrice_260">
-			<item_craft_price mult="false" always_random="false" min="260" max="260"/>
+			<item_craft_price mult="false" always_random="false" min="260" max="260" />
 		</ability>   
 
 		<ability name="CraftPrice_270">
-			<item_craft_price mult="false" always_random="false" min="270" max="270"/>
+			<item_craft_price mult="false" always_random="false" min="270" max="270" />
 		</ability>  
 
 		<ability name="CraftPrice_275">
-			<item_craft_price mult="false" always_random="false" min="275" max="275"/>
+			<item_craft_price mult="false" always_random="false" min="275" max="275" />
 		</ability>  
 
 		<ability name="CraftPrice_300">
-			<item_craft_price mult="false" always_random="false" min="300" max="300"/>
+			<item_craft_price mult="false" always_random="false" min="300" max="300" />
 		</ability>
 
 		<ability name="CraftPrice_325">
-			<item_craft_price mult="false" always_random="false" min="325" max="325"/>
+			<item_craft_price mult="false" always_random="false" min="325" max="325" />
 		</ability>     
 
 		<ability name="CraftPrice_350">
-			<item_craft_price mult="false" always_random="false" min="350" max="350"/>
+			<item_craft_price mult="false" always_random="false" min="350" max="350" />
 		</ability>
 
 		<ability name="CraftPrice_375">
-			<item_craft_price mult="false" always_random="false" min="375" max="375"/>
+			<item_craft_price mult="false" always_random="false" min="375" max="375" />
 		</ability>  
 
 		<ability name="CraftPrice_380">
-			<item_craft_price mult="false" always_random="false" min="380" max="380"/>
+			<item_craft_price mult="false" always_random="false" min="380" max="380" />
 		</ability>
 
 		<ability name="CraftPrice_400">
-			<item_craft_price mult="false" always_random="false" min="400" max="400"/>
+			<item_craft_price mult="false" always_random="false" min="400" max="400" />
 		</ability>
 
 		<ability name="CraftPrice_450">
-			<item_craft_price mult="false" always_random="false" min="450" max="450"/>
+			<item_craft_price mult="false" always_random="false" min="450" max="450" />
 		</ability>
 
 		<ability name="CraftPrice_500">
-			<item_craft_price mult="false" always_random="false" min="500" max="500"/>
+			<item_craft_price mult="false" always_random="false" min="500" max="500" />
 		</ability>
 
 		<ability name="CraftPrice_550">
-			<item_craft_price mult="false" always_random="false" min="550" max="550"/>
+			<item_craft_price mult="false" always_random="false" min="550" max="550" />
 		</ability>	
 
 		<ability name="CraftPrice_600">
-			<item_craft_price mult="false" always_random="false" min="600" max="600"/>
+			<item_craft_price mult="false" always_random="false" min="600" max="600" />
 		</ability>
 
 		<ability name="CraftPrice_625">
-			<item_craft_price mult="false" always_random="false" min="625" max="625"/>
+			<item_craft_price mult="false" always_random="false" min="625" max="625" />
 		</ability>
 
 		<ability name="CraftPrice_650">
-			<item_craft_price mult="false" always_random="false" min="650" max="650"/>
+			<item_craft_price mult="false" always_random="false" min="650" max="650" />
 		</ability>   
 
 		<ability name="CraftPrice_700">
-			<item_craft_price mult="false" always_random="false" min="700" max="700"/>
+			<item_craft_price mult="false" always_random="false" min="700" max="700" />
 		</ability>
 
 		<ability name="CraftPrice_750">
-			<item_craft_price mult="false" always_random="false" min="750" max="750"/>
+			<item_craft_price mult="false" always_random="false" min="750" max="750" />
 		</ability>	
 
 		<ability name="CraftPrice_800">
-			<item_craft_price mult="false" always_random="false" min="800" max="800"/>
+			<item_craft_price mult="false" always_random="false" min="800" max="800" />
 		</ability>
 
 		<ability name="CraftPrice_825">
-			<item_craft_price mult="false" always_random="false" min="825" max="825"/>
+			<item_craft_price mult="false" always_random="false" min="825" max="825" />
 		</ability>	
 
 		<ability name="CraftPrice_900">
-			<item_craft_price mult="false" always_random="false" min="900" max="900"/>
+			<item_craft_price mult="false" always_random="false" min="900" max="900" />
 		</ability>
 
 		<ability name="CraftPrice_1000">
-			<item_craft_price mult="false" always_random="false" min="1000" max="1000"/>
+			<item_craft_price mult="false" always_random="false" min="1000" max="1000" />
 		</ability>
 
 		<ability name="CraftPrice_1250">
-			<item_craft_price mult="false" always_random="false" min="1250" max="1250"/>
+			<item_craft_price mult="false" always_random="false" min="1250" max="1250" />
 		</ability>
 
 		<ability name="CraftPrice_1500">
-			<item_craft_price mult="false" always_random="false" min="1500" max="1500"/>
+			<item_craft_price mult="false" always_random="false" min="1500" max="1500" />
 		</ability>
 
 		<ability name="CraftPrice_1750">
-			<item_craft_price mult="false" always_random="false" min="1750" max="1750"/>
+			<item_craft_price mult="false" always_random="false" min="1750" max="1750" />
 		</ability>
 
 		<ability name="CraftPrice_2000">
-			<item_craft_price mult="false" always_random="false" min="2000" max="2000"/>
+			<item_craft_price mult="false" always_random="false" min="2000" max="2000" />
 		</ability>
 
 		<ability name="CraftPrice_3000">
-			<item_craft_price mult="false" always_random="false" min="3000" max="3000"/>
+			<item_craft_price mult="false" always_random="false" min="3000" max="3000" />
 		</ability>		
 
 		<ability name="CraftPrice_4000">
-			<item_craft_price mult="false" always_random="false" min="4000" max="4000"/>
+			<item_craft_price mult="false" always_random="false" min="4000" max="4000" />
 		</ability>
 
 		<ability name="CraftPrice_5000">
-			<item_craft_price mult="false" always_random="false" min="5000" max="5000"/>
+			<item_craft_price mult="false" always_random="false" min="5000" max="5000" />
 		</ability>
 
 	</abilities>
